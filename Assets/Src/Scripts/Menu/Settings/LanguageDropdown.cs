@@ -15,7 +15,11 @@ public class LanguageDropdown : MonoBehaviour
         // Wait for the localization system to initialize, loading Locales, preloading etc.
         yield return LocalizationSettings.InitializationOperation;
 
-        dropdown.onValueChanged.AddListener(settingsManager.ChangeLanguage);
+        dropdown.onValueChanged.AddListener(i =>
+        {
+            print(i);
+            settingsManager.ChangeLanguage(i);
+        });
     }
     
 }

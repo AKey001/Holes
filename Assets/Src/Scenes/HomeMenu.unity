@@ -244,6 +244,50 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!1 &47118266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 47118268}
+  - component: {fileID: 47118267}
+  m_Layer: 0
+  m_Name: SettingsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &47118267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47118266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e9906c65b15d3fb94a110fe46a9f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &47118268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47118266}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 550, y: 299, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &57947838
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +997,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 218142105}
-  - component: {fileID: 218142106}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -983,20 +1026,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 913.7412, y: 942.9822}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &218142106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218142104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2e9906c65b15d3fb94a110fe46a9f1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicMixer: {fileID: 0}
-  sfxMixer: {fileID: 0}
 --- !u!1 &244274538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,7 +3645,6 @@ GameObject:
   - component: {fileID: 1113769256}
   - component: {fileID: 1113769255}
   - component: {fileID: 1113769254}
-  - component: {fileID: 1113769258}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3752,18 +3780,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113769252}
   m_CullTransparentMesh: 0
---- !u!114 &1113769258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113769252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55feb439caefea188888b51bfa363581, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1141427162
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,7 +4309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropdown: {fileID: 1292667804}
-  settingsManager: {fileID: 218142106}
+  settingsManager: {fileID: 47118267}
 --- !u!114 &1292667804
 MonoBehaviour:
   m_ObjectHideFlags: 0

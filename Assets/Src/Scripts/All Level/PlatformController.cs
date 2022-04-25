@@ -22,9 +22,15 @@ public class PlatformController : MonoBehaviour
 
     void Update()
     {
-        if (gyroEnabled) transform.Rotate(gyro.rotationRate.x, 0, gyro.rotationRate.y);
+        if (gyroEnabled)
+        {
+            transform.Rotate(gyro.rotationRate.x, 0, gyro.rotationRate.y);
+        }
+        else
+        {
+            transform.Rotate(-joystick.Vertical, 0, joystick.Horizontal);    
+        }
         
-        transform.Rotate(-joystick.Vertical, 0, joystick.Horizontal);
     }
     
 }

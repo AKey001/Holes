@@ -4615,6 +4615,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Resolution_get_width_mC55423852D453EE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Resolution_get_height_mD46754FA3634CA816BE91D1610D1FEBDECCEBE5B (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.Resolution::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Resolution_ToString_m058CE120CC83F314D0C8D4A706F9AA068BC9CF34 (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.QualitySettings::SetQualityLevel(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E (int32_t ___index0, bool ___applyExpensiveChanges1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MaterialPropertyBlock::SetVectorImpl_Injected(System.Int32,UnityEngine.Vector4&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlock_SetVectorImpl_Injected_m3F860A6FF7908C66A89B280CE69E57D1CFB64875 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* __this, int32_t ___name0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___value1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MaterialPropertyBlock::Clear(System.Boolean)
@@ -16176,6 +16178,15 @@ IL2CPP_EXTERN_C  String_t* Resolution_ToString_m058CE120CC83F314D0C8D4A706F9AA06
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.QualitySettings::SetQualityLevel(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_SetQualityLevel_m2DC8A7D94A43FAC8581C70B3F01288D60022C64F (int32_t ___index0, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___index0;
+		QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E(L_0, (bool)1, NULL);
+		return;
+	}
+}
 // System.Single UnityEngine.QualitySettings::get_lodBias()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QualitySettings_get_lodBias_m0DB63DEEF86BE1C091409BFAE8539F187886DA7B (const RuntimeMethod* method) 
 {
@@ -16204,6 +16215,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QualitySettings_get_vSyncCount_m623B9
 	_il2cpp_icall_func = (QualitySettings_get_vSyncCount_m623B92EE9CBB51A7A96CA88022319CC46CC02F24_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.QualitySettings::get_vSyncCount()");
 	int32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
+}
+// System.Void UnityEngine.QualitySettings::SetQualityLevel(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E (int32_t ___index0, bool ___applyExpensiveChanges1, const RuntimeMethod* method) 
+{
+	typedef void (*QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E_ftn) (int32_t, bool);
+	static QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (QualitySettings_SetQualityLevel_m5338AFD7126C3575F7E37A529008F8929B02EA2E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.QualitySettings::SetQualityLevel(System.Int32,System.Boolean)");
+	_il2cpp_icall_func(___index0, ___applyExpensiveChanges1);
 }
 // UnityEngine.ColorSpace UnityEngine.QualitySettings::get_activeColorSpace()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QualitySettings_get_activeColorSpace_m7BD95E037EC83AD498617F7906B41932CE33288B (const RuntimeMethod* method) 
