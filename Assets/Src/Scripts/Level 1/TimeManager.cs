@@ -11,11 +11,12 @@ public class TimeManager : MonoBehaviour
     private float time;
     private bool watchIsRunning;
     private bool timerIsRunning;
-    private float timeRemaining = 4;
+    private float timeRemaining;
     private float overallMillis;
     private int starsCount;
     private int attemptsCount;
     private string watchTime;
+    private bool paused;
     
     // Finish Panel
     public Text timeText;
@@ -28,7 +29,7 @@ public class TimeManager : MonoBehaviour
     public TextMeshProUGUI attempts;
     public TextMeshProUGUI stars;
     
-    
+    // Gameobjects
     public GameObject ball;
     public GameObject platform;
     public GameObject countdownPanel;
@@ -37,9 +38,11 @@ public class TimeManager : MonoBehaviour
     
     public void Start()
     {
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_play_time, (uint) overallMillis);
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_attempts, 1);
-        
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_attempts, 1);   
+        }
+
         time = 0;
         overallMillis = 0;
         timeRemaining = 4;
@@ -48,60 +51,82 @@ public class TimeManager : MonoBehaviour
         watchIsRunning = false;
         watch.text = "00:00:00";
         attempts.text = "0";
+        paused = false;
 
-        FinishPanel.SetActive(false);
+        ball.GetComponent<Rigidbody>().useGravity = false;
+        // FinishPanel.SetActive(false);
         // ball.SetActive(false);
-        platform.GetComponent<PlatformController>().enabled = false;
-        countdownPanel.SetActive(true);
-        ball.SetActive(true);
-        ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        // platform.GetComponent<PlatformController>().enabled = false;
+        // countdownPanel.SetActive(true);
+        // ball.SetActive(true);
+        // ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 
     void Update()
     {
-        // timer
-        if (timerIsRunning)
+        if (!paused)
         {
-            timeRemaining -= Time.deltaTime;
-            float seconds = Mathf.FloorToInt(timeRemaining % 60);
-            
-            string remaining = string.Format("{0:0}", seconds);
 
-            if (remaining == "0")
+            // timer
+            if (timerIsRunning)
             {
-                ball.SetActive(true);
-                platform.GetComponent<PlatformController>().enabled = true;
-                countdownPanel.SetActive(false);
+                float secondsBefore = Mathf.FloorToInt(timeRemaining % 60);
+                string remainingBefore = string.Format("{0:0}", secondsBefore);
                 
-                timeRemaining = 0;
-                timerIsRunning = false;
-                watchIsRunning = true;
-            }
-            else
-            {
-                countdown.text = remaining;
-            }
-        }
-        
-        // watch
-        if (watchIsRunning)
-        {
-            time += Time.deltaTime;
-            float minutes = Mathf.FloorToInt(time / 60); 
-            float seconds = Mathf.FloorToInt(time % 60);
-            float milliSeconds = (time % 1) * 100;
-            if (milliSeconds < 101 && milliSeconds > 99)
-            {
-                milliSeconds = 0;
-            }
-            
-            watchTime = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
-            
-            watch.text = watchTime;
+                timeRemaining -= Time.deltaTime;
+                
+                float seconds = Mathf.FloorToInt(timeRemaining % 60);
+                string remainingNew = string.Format("{0:0}", seconds);
 
-            overallMillis = time * 1000;
-            
-            // print(string.Format("{0:000}", overallMillis ) + " | " + string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds));
+                
+                if (!remainingNew.Equals(remainingBefore))
+                {
+                    if (remainingNew == "0")
+                    {
+                        FindObjectOfType<AudioManager>().Play("Countdown Start");  
+                    }
+                    else
+                    {
+                        FindObjectOfType<AudioManager>().Play("Countdown");
+                    }
+                }
+                
+                if (remainingNew == "0")
+                {
+                    platform.GetComponent<PlatformController>().enabled = true;
+                    countdownPanel.SetActive(false);
+                    ball.GetComponent<Rigidbody>().useGravity = true;
+
+                    timeRemaining = 0;
+                    timerIsRunning = false;
+                    watchIsRunning = true;
+                }
+                else
+                {
+                    countdown.text = remainingNew;
+                }
+            }
+
+            // watch
+            if (watchIsRunning)
+            {
+                time += Time.deltaTime;
+                float minutes = Mathf.FloorToInt(time / 60);
+                float seconds = Mathf.FloorToInt(time % 60);
+                float milliSeconds = (time % 1) * 100;
+                if (milliSeconds < 101 && milliSeconds > 99)
+                {
+                    milliSeconds = 0;
+                }
+
+                watchTime = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
+
+                watch.text = watchTime;
+
+                overallMillis = time * 1000;
+
+                // print(string.Format("{0:000}", overallMillis ) + " | " + string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds));
+            }
         }
     }
 
@@ -109,59 +134,93 @@ public class TimeManager : MonoBehaviour
     {
         attemptsCount++;
         attempts.text = attemptsCount.ToString();
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_attempts, 1);
+
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_attempts, 1);   
+        }
     }
     
     public void AddStar()
     {
         starsCount++;
         stars.text = starsCount.ToString();
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_collected_stars, 1);
+        
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_collected_stars, 1);   
+        }
     }
 
     public void AddFall()
     {
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_falls, 1);
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_falls, 1);
+        }
     }
     
     public void Pause()
     {
-        watchIsRunning = false;
+        print(Time.timeScale);
+        Time.timeScale = 0;
+        paused = true;
         
-        // TODO   ball
-        // TODO   platform
+        // ball.GetComponent<Rigidbody>().useGravity = false;
+        platform.GetComponent<PlatformController>().enabled = false;
 
         PausePanel.SetActive(true);
     }
 
+    public void Continue()
+    {
+        Time.timeScale = 1;
+        paused = false;
+        
+        // ball.GetComponent<Rigidbody>().useGravity = true;
+        platform.GetComponent<PlatformController>().enabled = true;
+
+        PausePanel.SetActive(false);
+    }
+    
     public void Finish()
     {
         watchIsRunning = false;
         
+        // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
-        
-        
-        
+        bestTimeText.text = "00:00:00";  // TODO best level time
         FinishPanel.SetActive(true);
         
         
+        // ball
         ball.SetActive(false);
         ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
 
-        platform.GetComponent<PlatformController>().enabled = false;
         
-        // TODO reset platform to position not zero
-        platform.transform.rotation = Quaternion.Euler(Vector3.zero);
+        // platform
+        platform.GetComponent<PlatformController>().enabled = false;
+        platform.transform.rotation = Quaternion.Euler(Vector3.zero); // TODO reset platform to position not zero
         countdownPanel.SetActive(false);
         
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
-        // save time to leaderboard
-        PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b => {});
+        
+        // leaderbord + events
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
+            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b => { });
+        }
     }
 
     private void OnDestroy()
     {
-        PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_play_time, (uint) overallMillis);
+        print("time counted, time manager destroyed");
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_play_time, (uint) overallMillis);
+        }
+
+        Time.timeScale = 1;
     }
 }

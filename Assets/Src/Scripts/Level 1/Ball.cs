@@ -61,7 +61,7 @@ public class Ball : MonoBehaviour
     private void TriggeredStar(Collider other)
     {
         print("Star");
-        starSound.Play();
+        FindObjectOfType<AudioManager>().Play("Star");
         timeManager.AddStar();
         other.gameObject.SetActive(false);
     }

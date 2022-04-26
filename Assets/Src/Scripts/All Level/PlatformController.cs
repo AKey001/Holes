@@ -9,8 +9,13 @@ public class PlatformController : MonoBehaviour
 
     void Start()
     {
+        joystick.enabled = false;
         gyroEnabled = EnableGyroscope();
         print("Gyro enabled=" + gyroEnabled);
+        if (!gyroEnabled)
+        {
+            joystick.enabled = true;
+        }
     }
 
     private bool EnableGyroscope()
