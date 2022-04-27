@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 [Serializable]
 public class Sound
@@ -20,5 +21,6 @@ public class Sound
     [HideInInspector]
     public AudioSource source;
     
+    public AudioMixerGroup mixer;
 
 }

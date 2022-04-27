@@ -17,7 +17,6 @@ public class LanguageDropdown : MonoBehaviour
 
         dropdown.onValueChanged.AddListener(i =>
         {
-            print(i);
             settingsManager.ChangeLanguage(i);
         });
     }

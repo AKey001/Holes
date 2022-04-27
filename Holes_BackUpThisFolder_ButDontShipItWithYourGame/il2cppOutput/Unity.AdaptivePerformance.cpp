@@ -4554,54 +4554,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TemperatureTrend_PushNewValue_m323953E98
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TemperatureTrend_UpdateTrend_m9184F6D3002E46E0B972B245FE7BD76320964BAF (TemperatureTrend_tC254F71FC2E21E8809C1CA23A9503A5E67332894* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.TemperatureTrend::PopOldestValue()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TemperatureTrend_PopOldestValue_m4B6229634F78C1FD4F694B2C251ACAC397F3ECB1 (TemperatureTrend_tC254F71FC2E21E8809C1CA23A9503A5E67332894* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_CpuBoost()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_GpuBoost()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevel()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevelDelta()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevel()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevelDelta()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_PerformanceControlMode()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_ManualOverride()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentCpuLevel()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentGpuLevel()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CpuPerformanceBoost()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_GpuPerformanceBoost()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
-// UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.PerformanceMetrics::get_ClusterInfo()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentFrameTime()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentGpuFrameTime()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentCpuFrameTime()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_BigCore()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_BigCore(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_MediumCore()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_MediumCore(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_LittleCore()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_LittleCore(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) ;
 // UnityEngine.AdaptivePerformance.IAdaptivePerformance UnityEngine.AdaptivePerformance.Holder::get_Instance()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Holder_get_Instance_m96D2BD883991FC1FF18DDB6AABD72023796A5FF3_inline (const RuntimeMethod* method) ;
+// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<System.Single>::.ctor(System.Int32)
 inline void Queue_1__ctor_mBA54E63FD043CDF50C61B6BAC72D6C1FC596E8FC (Queue_1_tBB15A96A0BD226BCEDC19339C7F969E4B3A42153* __this, int32_t ___capacity0, const RuntimeMethod* method)
 {
@@ -4836,6 +4792,50 @@ inline void EventBus_Trigger_TisAdaptivePerformanceScalerEvent_t4FB8CAC39F9A8788
 }
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceScalerSettingsBase__ctor_mCDC77CC950C15F9E0F3843A23EA212695BCFD2EC (AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_CpuBoost()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_GpuBoost()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevel()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevelDelta()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevel()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevelDelta()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_PerformanceControlMode()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_ManualOverride()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentCpuLevel()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentGpuLevel()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CpuPerformanceBoost()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_GpuPerformanceBoost()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
+// UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.PerformanceMetrics::get_ClusterInfo()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentFrameTime()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentGpuFrameTime()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentCpuFrameTime()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_BigCore()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_BigCore(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_MediumCore()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_MediumCore(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_LittleCore()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_LittleCore(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void System.Attribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceConfigurationDataAttribute::set_displayName(System.String)
@@ -5023,10 +5023,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceScaler_OnLevelIncreas
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceIndexer_get_PerformanceAction_mA6F70560C6A740B6216168E7718184111657E3BA_inline (AdaptivePerformanceIndexer_tE43B4A07AF7944322BA939E2D4F8AE90AD42EF73* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::OnLevelDecrease()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceScaler_OnLevelDecrease_m0CF0F677788404B2515698BF1EB29615DFC512CC (AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.QualitySettings::set_lodBias(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119 (float ___value0, const RuntimeMethod* method) ;
-// System.Single UnityEngine.QualitySettings::get_lodBias()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QualitySettings_get_lodBias_m0DB63DEEF86BE1C091409BFAE8539F187886DA7B (const RuntimeMethod* method) ;
 // UnityEngine.Camera UnityEngine.Camera::get_main()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_mF222B707D3BF8CC9C7544609EFC71CFB62E81D43 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_layerCullDistances(System.Single[])
@@ -5035,6 +5031,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_layerCullDistances_m4D2749319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayerCulling_AsignDefaultValues_m9079BC6D1139EF30F58205FE28723D8CDBF5D179 (AdaptiveLayerCulling_t3F39BED1B652723D64174B5CF0E4C555657B046E* __this, const RuntimeMethod* method) ;
 // System.Single[] UnityEngine.Camera::get_layerCullDistances()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* Camera_get_layerCullDistances_m4D86AC0001E2A5697803433A168A3AA1D794CBCB (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.QualitySettings::set_lodBias(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119 (float ___value0, const RuntimeMethod* method) ;
+// System.Single UnityEngine.QualitySettings::get_lodBias()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float QualitySettings_get_lodBias_m0DB63DEEF86BE1C091409BFAE8539F187886DA7B (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::set_LutBias(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_LutBias_m551FAC3DAF5D29F9B55BD7179F96B9803B33ACA5_inline (float ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_LutBias()
@@ -5082,14 +5082,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRender
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_MaxShadowDistanceMultiplier_m53BC55B124AC4F4ACF90CAD1ED5A8E1919FD2664 (float ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MaxShadowDistanceMultiplier_m1D40197FD7FA281A2ADA2644D022B394FEC967C4_inline (const RuntimeMethod* method) ;
-// System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::set_ShadowQualityBias(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_ShadowQualityBias_mFC3CCCD25B8CD32BE6AA8463ECF68AE343E03BC7_inline (int32_t ___value0, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_ShadowQualityBias()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8998B887AE4738E45999DD11F853B1FDCA1DB2B3_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::set_MainLightShadowmapResolutionMultiplier(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_MainLightShadowmapResolutionMultiplier_m034CDD8D2ACE6037AEF22BF654ABA59B447A65B4 (float ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m7A8327FF698C5356BBBF5BBB4676B6B55EDFFBF9_inline (const RuntimeMethod* method) ;
+// System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::set_ShadowQualityBias(System.Int32)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_ShadowQualityBias_mFC3CCCD25B8CD32BE6AA8463ECF68AE343E03BC7_inline (int32_t ___value0, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_ShadowQualityBias()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8998B887AE4738E45999DD11F853B1FDCA1DB2B3_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::set_SkipFrontToBackSorting(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_SkipFrontToBackSorting_m1753EF306B3D175FBE55A346114924E896061FBE_inline (bool ___value0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting()
@@ -12387,1593 +12387,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Holder_set_Instance_mE9736E355507E77390D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::get_PerformanceBottleneck()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2 (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* __this, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
-		int32_t L_0 = __this->___U3CPerformanceBottleneckU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CPerformanceBottleneckU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821*>(__this + _offset);
-	PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Multicast(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates_13->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* currentDelegate = reinterpret_cast<PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___bottleneckEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
-	}
-}
-void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Open(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___bottleneckEventArgs0, method);
-}
-void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_OpenStaticInvoker(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker1< PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 >::Invoke(__this->___method_ptr_0, method, NULL, ___bottleneckEventArgs0);
-}
-void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_ClosedStaticInvoker(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker2< RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___bottleneckEventArgs0);
-}
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Native function invocation
-	il2cppPInvokeFunc(___bottleneckEventArgs0);
-
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler__ctor_m3A5E803EF4F1B326E5792A4CE5DC88FB1876305D (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
-{
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
-	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_OpenStaticInvoker;
-			else
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_ClosedStaticInvoker;
-		else
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Open;
-			else
-				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-				}
-	}
-	else
-	{
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-	}
-	__this->___extra_arg_5 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Multicast;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___bottleneckEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceBottleneckChangeHandler_BeginInvoke_mB72C19AD5CA40D3093AED23672F1735A0DA6C378 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821_il2cpp_TypeInfo_var, &___bottleneckEventArgs0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler_EndInvoke_m116BEE2E18CE1363FF0F074C0B8077E53B1A4B98 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled)
-{
-	marshaled.___U3CCpuBoostU3Ek__BackingField_0 = static_cast<int32_t>(unmarshaled.___U3CCpuBoostU3Ek__BackingField_0);
-	marshaled.___U3CGpuBoostU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CGpuBoostU3Ek__BackingField_1);
-}
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_back(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled)
-{
-	bool unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = false;
-	unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = static_cast<bool>(marshaled.___U3CCpuBoostU3Ek__BackingField_0);
-	unmarshaled.___U3CCpuBoostU3Ek__BackingField_0 = unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0;
-	bool unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = false;
-	unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CGpuBoostU3Ek__BackingField_1);
-	unmarshaled.___U3CGpuBoostU3Ek__BackingField_1 = unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_cleanup(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled)
-{
-	marshaled.___U3CCpuBoostU3Ek__BackingField_0 = static_cast<int32_t>(unmarshaled.___U3CCpuBoostU3Ek__BackingField_0);
-	marshaled.___U3CGpuBoostU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CGpuBoostU3Ek__BackingField_1);
-}
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com_back(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled)
-{
-	bool unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = false;
-	unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = static_cast<bool>(marshaled.___U3CCpuBoostU3Ek__BackingField_0);
-	unmarshaled.___U3CCpuBoostU3Ek__BackingField_0 = unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0;
-	bool unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = false;
-	unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CGpuBoostU3Ek__BackingField_1);
-	unmarshaled.___U3CGpuBoostU3Ek__BackingField_1 = unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com_cleanup(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled)
-{
-}
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_CpuBoost()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuBoost { get; set; }
-		bool L_0 = __this->___U3CCpuBoostU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_CpuBoost(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuBoost { get; set; }
-		bool L_0 = ___value0;
-		__this->___U3CCpuBoostU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
-{
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
-	PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0_inline(_thisAdjusted, ___value0, method);
-}
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_GpuBoost()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuBoost { get; set; }
-		bool L_0 = __this->___U3CGpuBoostU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_GpuBoost(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuBoost { get; set; }
-		bool L_0 = ___value0;
-		__this->___U3CGpuBoostU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
-{
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
-	PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Multicast(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates_13->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* currentDelegate = reinterpret_cast<PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___boostEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
-	}
-}
-void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Open(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___boostEventArgs0, method);
-}
-void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_OpenStaticInvoker(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker1< PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 >::Invoke(__this->___method_ptr_0, method, NULL, ___boostEventArgs0);
-}
-void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_ClosedStaticInvoker(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker2< RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___boostEventArgs0);
-}
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68 (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
-{
-
-
-	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___boostEventArgs0' to native representation
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke ____boostEventArgs0_marshaled = {};
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke(___boostEventArgs0, ____boostEventArgs0_marshaled);
-
-	// Native function invocation
-	il2cppPInvokeFunc(____boostEventArgs0_marshaled);
-
-	// Marshaling cleanup of parameter '___boostEventArgs0' native representation
-	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_cleanup(____boostEventArgs0_marshaled);
-
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler__ctor_mC68B1563B584520F2CC441AF57E80E31A43C5C23 (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
-{
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
-	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_OpenStaticInvoker;
-			else
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_ClosedStaticInvoker;
-		else
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Open;
-			else
-				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-				}
-	}
-	else
-	{
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-	}
-	__this->___extra_arg_5 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Multicast;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___boostEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceBoostChangeHandler_BeginInvoke_m1F85033750A9E6452EBCB54F19828B1875ADCFEE (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_il2cpp_TypeInfo_var, &___boostEventArgs0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler_EndInvoke_mC100EC9F96FEB55442ABF358FD890273C0A406AE (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled)
-{
-	marshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCpuLevelU3Ek__BackingField_0;
-	marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
-	marshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaled.___U3CGpuLevelU3Ek__BackingField_2;
-	marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
-	marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
-	marshaled.___U3CManualOverrideU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CManualOverrideU3Ek__BackingField_5);
-}
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_back(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled)
-{
-	int32_t unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = 0;
-	unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCpuLevelU3Ek__BackingField_0;
-	unmarshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0;
-	int32_t unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = 0;
-	unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
-	unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1;
-	int32_t unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = 0;
-	unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = marshaled.___U3CGpuLevelU3Ek__BackingField_2;
-	unmarshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2;
-	int32_t unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = 0;
-	unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
-	unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3;
-	int32_t unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = 0;
-	unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
-	unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4;
-	bool unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = false;
-	unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = static_cast<bool>(marshaled.___U3CManualOverrideU3Ek__BackingField_5);
-	unmarshaled.___U3CManualOverrideU3Ek__BackingField_5 = unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_cleanup(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled)
-{
-	marshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCpuLevelU3Ek__BackingField_0;
-	marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
-	marshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaled.___U3CGpuLevelU3Ek__BackingField_2;
-	marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
-	marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
-	marshaled.___U3CManualOverrideU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CManualOverrideU3Ek__BackingField_5);
-}
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com_back(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled)
-{
-	int32_t unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = 0;
-	unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCpuLevelU3Ek__BackingField_0;
-	unmarshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0;
-	int32_t unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = 0;
-	unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
-	unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1;
-	int32_t unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = 0;
-	unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = marshaled.___U3CGpuLevelU3Ek__BackingField_2;
-	unmarshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2;
-	int32_t unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = 0;
-	unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
-	unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3;
-	int32_t unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = 0;
-	unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
-	unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4;
-	bool unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = false;
-	unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = static_cast<bool>(marshaled.___U3CManualOverrideU3Ek__BackingField_5);
-	unmarshaled.___U3CManualOverrideU3Ek__BackingField_5 = unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
-IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com_cleanup(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled)
-{
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCpuLevelU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevel(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevel { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CCpuLevelU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevelDelta()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevelDelta { get; set; }
-		int32_t L_0 = __this->___U3CCpuLevelDeltaU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevelDelta(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevelDelta { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CCpuLevelDeltaU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CGpuLevelU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevel(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevel { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CGpuLevelU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevelDelta()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevelDelta { get; set; }
-		int32_t L_0 = __this->___U3CGpuLevelDeltaU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevelDelta(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevelDelta { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CGpuLevelDeltaU3Ek__BackingField_3 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B_inline(_thisAdjusted, ___value0, method);
-}
-// UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_PerformanceControlMode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceControlMode PerformanceControlMode { get; set; }
-		int32_t L_0 = __this->___U3CPerformanceControlModeU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceControlMode PerformanceControlMode { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CPerformanceControlModeU3Ek__BackingField_4 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F_inline(_thisAdjusted, ___value0, method);
-}
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_ManualOverride()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool ManualOverride { get; set; }
-		bool L_0 = __this->___U3CManualOverrideU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_ManualOverride(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public bool ManualOverride { get; set; }
-		bool L_0 = ___value0;
-		__this->___U3CManualOverrideU3Ek__BackingField_5 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
-{
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
-	PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Multicast(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates_13->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* currentDelegate = reinterpret_cast<PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___levelChangeEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
-	}
-}
-void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Open(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___levelChangeEventArgs0, method);
-}
-void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_OpenStaticInvoker(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker1< PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 >::Invoke(__this->___method_ptr_0, method, NULL, ___levelChangeEventArgs0);
-}
-void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_ClosedStaticInvoker(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker2< RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___levelChangeEventArgs0);
-}
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
-{
-
-
-	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___levelChangeEventArgs0' to native representation
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke ____levelChangeEventArgs0_marshaled = {};
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke(___levelChangeEventArgs0, ____levelChangeEventArgs0_marshaled);
-
-	// Native function invocation
-	il2cppPInvokeFunc(____levelChangeEventArgs0_marshaled);
-
-	// Marshaling cleanup of parameter '___levelChangeEventArgs0' native representation
-	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_cleanup(____levelChangeEventArgs0_marshaled);
-
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler__ctor_m5DD61E1980937C4A69EF65CF9F06615441C92536 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
-{
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
-	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_OpenStaticInvoker;
-			else
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_ClosedStaticInvoker;
-		else
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Open;
-			else
-				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-				}
-	}
-	else
-	{
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-	}
-	__this->___extra_arg_5 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Multicast;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___levelChangeEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceLevelChangeHandler_BeginInvoke_m01CF74ACF600B482B26E0B202F38B52C7175E8E6 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_il2cpp_TypeInfo_var, &___levelChangeEventArgs0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler_EndInvoke_m7C0A0F0ED20EEDE512D17ABCB7E93F9D3BDDDFA8 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled)
-{
-	marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
-	marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
-	marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
-	marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = static_cast<int32_t>(unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
-	marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = static_cast<int32_t>(unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
-	marshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaled.___U3CClusterInfoU3Ek__BackingField_5;
-}
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke_back(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled)
-{
-	int32_t unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = 0;
-	unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
-	unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0;
-	int32_t unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = 0;
-	unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
-	unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1;
-	int32_t unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = 0;
-	unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
-	unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2;
-	bool unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = false;
-	unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = static_cast<bool>(marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
-	unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3;
-	bool unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = false;
-	unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = static_cast<bool>(marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
-	unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4;
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
-	memset((&unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5), 0, sizeof(unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5));
-	unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5 = marshaled.___U3CClusterInfoU3Ek__BackingField_5;
-	unmarshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke_cleanup(PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled)
-{
-	marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
-	marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
-	marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
-	marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = static_cast<int32_t>(unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
-	marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = static_cast<int32_t>(unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
-	marshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaled.___U3CClusterInfoU3Ek__BackingField_5;
-}
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com_back(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled)
-{
-	int32_t unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = 0;
-	unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
-	unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0;
-	int32_t unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = 0;
-	unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
-	unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1;
-	int32_t unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = 0;
-	unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
-	unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2;
-	bool unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = false;
-	unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = static_cast<bool>(marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
-	unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3;
-	bool unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = false;
-	unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = static_cast<bool>(marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
-	unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4;
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
-	memset((&unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5), 0, sizeof(unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5));
-	unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5 = marshaled.___U3CClusterInfoU3Ek__BackingField_5;
-	unmarshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
-}
-// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
-IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com_cleanup(PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled)
-{
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentCpuLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentCpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCurrentCpuLevelU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentCpuLevel(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentCpuLevel { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CCurrentCpuLevelU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentGpuLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentGpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCurrentGpuLevelU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentGpuLevel(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentGpuLevel { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CCurrentGpuLevelU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916_inline(_thisAdjusted, ___value0, method);
-}
-// UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceMetrics::get_PerformanceBottleneck()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
-		int32_t L_0 = __this->___U3CPerformanceBottleneckU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CPerformanceBottleneckU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0_inline(_thisAdjusted, ___value0, method);
-}
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CpuPerformanceBoost()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuPerformanceBoost { get; set; }
-		bool L_0 = __this->___U3CCpuPerformanceBoostU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CpuPerformanceBoost(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuPerformanceBoost { get; set; }
-		bool L_0 = ___value0;
-		__this->___U3CCpuPerformanceBoostU3Ek__BackingField_3 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD_inline(_thisAdjusted, ___value0, method);
-}
-// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_GpuPerformanceBoost()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuPerformanceBoost { get; set; }
-		bool L_0 = __this->___U3CGpuPerformanceBoostU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	bool _returnValue;
-	_returnValue = PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_GpuPerformanceBoost(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, bool ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuPerformanceBoost { get; set; }
-		bool L_0 = ___value0;
-		__this->___U3CGpuPerformanceBoostU3Ek__BackingField_4 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C_inline(_thisAdjusted, ___value0, method);
-}
-// UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.PerformanceMetrics::get_ClusterInfo()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public ClusterInfo ClusterInfo { get; set; }
-		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = __this->___U3CClusterInfoU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 _returnValue;
-	_returnValue = PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_ClusterInfo(UnityEngine.AdaptivePerformance.ClusterInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public ClusterInfo ClusterInfo { get; set; }
-		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = ___value0;
-		__this->___U3CClusterInfoU3Ek__BackingField_5 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63_AdjustorThunk (RuntimeObject* __this, ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 ___value0, const RuntimeMethod* method)
-{
-	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
-	PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentFrameTimeU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CCurrentFrameTimeU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageFrameTime { get; set; }
-		float L_0 = __this->___U3CAverageFrameTimeU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CAverageFrameTimeU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentGpuFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentGpuFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentGpuFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentGpuFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageGpuFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageGpuFrameTime { get; set; }
-		float L_0 = __this->___U3CAverageGpuFrameTimeU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageGpuFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageGpuFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CAverageGpuFrameTimeU3Ek__BackingField_3 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentCpuFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentCpuFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentCpuFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentCpuFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageCpuFrameTime()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageCpuFrameTime { get; set; }
-		float L_0 = __this->___U3CAverageCpuFrameTimeU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	float _returnValue;
-	_returnValue = FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageCpuFrameTime(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float AverageCpuFrameTime { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CAverageCpuFrameTimeU3Ek__BackingField_5 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
-	FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_BigCore()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int BigCore { get; set; }
-		int32_t L_0 = __this->___U3CBigCoreU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_BigCore(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int BigCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CBigCoreU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_MediumCore()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int MediumCore { get; set; }
-		int32_t L_0 = __this->___U3CMediumCoreU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_MediumCore(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int MediumCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CMediumCoreU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline(_thisAdjusted, ___value0, method);
-}
-// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_LittleCore()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int LittleCore { get; set; }
-		int32_t L_0 = __this->___U3CLittleCoreU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_LittleCore(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int LittleCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CLittleCoreU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
-	ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Multicast(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
-{
-	il2cpp_array_size_t length = __this->___delegates_13->max_length;
-	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* currentDelegate = reinterpret_cast<ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___thermalMetrics0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
-	}
-}
-void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Open(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
-{
-	typedef void (*FunctionPointerType) (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___thermalMetrics0, method);
-}
-void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_OpenStaticInvoker(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker1< ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 >::Invoke(__this->___method_ptr_0, method, NULL, ___thermalMetrics0);
-}
-void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_ClosedStaticInvoker(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
-{
-	InvokerActionInvoker2< RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___thermalMetrics0);
-}
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc)(ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Native function invocation
-	il2cppPInvokeFunc(___thermalMetrics0);
-
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler__ctor_m27CFED2A329B29C895A99E14BBD22E76ABDA80D6 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
-{
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
-	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
-	{
-		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_OpenStaticInvoker;
-			else
-				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_ClosedStaticInvoker;
-		else
-			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Open;
-			else
-				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-				}
-	}
-	else
-	{
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
-		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
-	}
-	__this->___extra_arg_5 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Multicast;
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::Invoke(UnityEngine.AdaptivePerformance.ThermalMetrics)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method) 
-{
-	typedef void (*FunctionPointerType) (RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___thermalMetrics0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
-}
-// System.IAsyncResult UnityEngine.AdaptivePerformance.ThermalEventHandler::BeginInvoke(UnityEngine.AdaptivePerformance.ThermalMetrics,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ThermalEventHandler_BeginInvoke_m8B8AEFDC1C3255EF352088BC5A60908B1A51452B (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[2] = {0};
-	__d_args[0] = Box(ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723_il2cpp_TypeInfo_var, &___thermalMetrics0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler_EndInvoke_m377D947993A5BE5A1F71F434EB514EDB154600E9 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
-{
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.ThermalMetrics::get_WarningLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
-{
-	{
-		// public WarningLevel WarningLevel { get; set; }
-		int32_t L_0 = __this->___U3CWarningLevelU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_WarningLevel(UnityEngine.AdaptivePerformance.WarningLevel)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public WarningLevel WarningLevel { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CWarningLevelU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float TemperatureLevel { get; set; }
-		float L_0 = __this->___U3CTemperatureLevelU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	float _returnValue;
-	_returnValue = ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureLevel(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float TemperatureLevel { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CTemperatureLevelU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037_inline(_thisAdjusted, ___value0, method);
-}
-// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float TemperatureTrend { get; set; }
-		float L_0 = __this->___U3CTemperatureTrendU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	float _returnValue;
-	_returnValue = ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureTrend(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, float ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public float TemperatureTrend { get; set; }
-		float L_0 = ___value0;
-		__this->___U3CTemperatureTrendU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
-{
-	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
-	ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7_inline(_thisAdjusted, ___value0, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void UnityEngine.AdaptivePerformance.ThermalStateTracker::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalStateTracker__ctor_mEC56D797379A29D191CF52E507B5EEAA3737A027 (ThermalStateTracker_t300C79D40805906CB2E288552F7093472311A904* __this, const RuntimeMethod* method) 
 {
@@ -17676,6 +16089,1593 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptivePerformanceScaler__ctor_m1DAA256
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::get_PerformanceBottleneck()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2 (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* __this, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
+		int32_t L_0 = __this->___U3CPerformanceBottleneckU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceBottleneckChangeEventArgs_get_PerformanceBottleneck_m0395024C7943AACD22607D5265939B1C88DBABA2_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CPerformanceBottleneckU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821*>(__this + _offset);
+	PerformanceBottleneckChangeEventArgs_set_PerformanceBottleneck_m6E3F0F2D2A0A64914359EB02B306B010F4B4AA4D_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Multicast(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* currentDelegate = reinterpret_cast<PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___bottleneckEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Open(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___bottleneckEventArgs0, method);
+}
+void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_OpenStaticInvoker(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 >::Invoke(__this->___method_ptr_0, method, NULL, ___bottleneckEventArgs0);
+}
+void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_ClosedStaticInvoker(PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___bottleneckEventArgs0);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Native function invocation
+	il2cppPInvokeFunc(___bottleneckEventArgs0);
+
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler__ctor_m3A5E803EF4F1B326E5792A4CE5DC88FB1876305D (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Open;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1_Multicast;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler_Invoke_m9A78E791943F6FC1CE4BC5F8D5E5FEB8F5C0B8F1 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___bottleneckEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeEventArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceBottleneckChangeHandler_BeginInvoke_mB72C19AD5CA40D3093AED23672F1735A0DA6C378 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821 ___bottleneckEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(PerformanceBottleneckChangeEventArgs_t25E65A05A194DC5E37E60BD0133D6EB68DAF9821_il2cpp_TypeInfo_var, &___bottleneckEventArgs0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBottleneckChangeHandler::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBottleneckChangeHandler_EndInvoke_m116BEE2E18CE1363FF0F074C0B8077E53B1A4B98 (PerformanceBottleneckChangeHandler_t518F882C3C63B33DDD6EA909F410EC02322E7F61* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CCpuBoostU3Ek__BackingField_0 = static_cast<int32_t>(unmarshaled.___U3CCpuBoostU3Ek__BackingField_0);
+	marshaled.___U3CGpuBoostU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CGpuBoostU3Ek__BackingField_1);
+}
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_back(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled)
+{
+	bool unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = false;
+	unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = static_cast<bool>(marshaled.___U3CCpuBoostU3Ek__BackingField_0);
+	unmarshaled.___U3CCpuBoostU3Ek__BackingField_0 = unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0;
+	bool unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = false;
+	unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CGpuBoostU3Ek__BackingField_1);
+	unmarshaled.___U3CGpuBoostU3Ek__BackingField_1 = unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_cleanup(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled)
+{
+	marshaled.___U3CCpuBoostU3Ek__BackingField_0 = static_cast<int32_t>(unmarshaled.___U3CCpuBoostU3Ek__BackingField_0);
+	marshaled.___U3CGpuBoostU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CGpuBoostU3Ek__BackingField_1);
+}
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com_back(const PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6& unmarshaled)
+{
+	bool unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = false;
+	unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0 = static_cast<bool>(marshaled.___U3CCpuBoostU3Ek__BackingField_0);
+	unmarshaled.___U3CCpuBoostU3Ek__BackingField_0 = unmarshaledU3CCpuBoostU3Ek__BackingField_temp_0;
+	bool unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = false;
+	unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CGpuBoostU3Ek__BackingField_1);
+	unmarshaled.___U3CGpuBoostU3Ek__BackingField_1 = unmarshaledU3CGpuBoostU3Ek__BackingField_temp_1;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_com_cleanup(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_com& marshaled)
+{
+}
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_CpuBoost()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuBoost { get; set; }
+		bool L_0 = __this->___U3CCpuBoostU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_CpuBoost(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuBoost { get; set; }
+		bool L_0 = ___value0;
+		__this->___U3CCpuBoostU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
+{
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
+	PerformanceBoostChangeEventArgs_set_CpuBoost_m5CBD7C703CC9425735CC381BF5255AFB771276E0_inline(_thisAdjusted, ___value0, method);
+}
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::get_GpuBoost()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuBoost { get; set; }
+		bool L_0 = __this->___U3CGpuBoostU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs::set_GpuBoost(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5 (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuBoost { get; set; }
+		bool L_0 = ___value0;
+		__this->___U3CGpuBoostU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
+{
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6*>(__this + _offset);
+	PerformanceBoostChangeEventArgs_set_GpuBoost_mDB42C244A0DF199B69265D01476230654B5743F5_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Multicast(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* currentDelegate = reinterpret_cast<PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___boostEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Open(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___boostEventArgs0, method);
+}
+void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_OpenStaticInvoker(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 >::Invoke(__this->___method_ptr_0, method, NULL, ___boostEventArgs0);
+}
+void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_ClosedStaticInvoker(PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___boostEventArgs0);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68 (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Marshaling of parameter '___boostEventArgs0' to native representation
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshaled_pinvoke ____boostEventArgs0_marshaled = {};
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke(___boostEventArgs0, ____boostEventArgs0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____boostEventArgs0_marshaled);
+
+	// Marshaling cleanup of parameter '___boostEventArgs0' native representation
+	PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_marshal_pinvoke_cleanup(____boostEventArgs0_marshaled);
+
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler__ctor_mC68B1563B584520F2CC441AF57E80E31A43C5C23 (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Open;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E_Multicast;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler_Invoke_mA7FE1E392A09B1C23126CAEFB3CDB37B22699D6E (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___boostEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceBoostChangeEventArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceBoostChangeHandler_BeginInvoke_m1F85033750A9E6452EBCB54F19828B1875ADCFEE (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6 ___boostEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6_il2cpp_TypeInfo_var, &___boostEventArgs0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceBoostChangeHandler::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceBoostChangeHandler_EndInvoke_mC100EC9F96FEB55442ABF358FD890273C0A406AE (PerformanceBoostChangeHandler_t2878325EFEEE20AE35ADD54DEE76A30C369F4F68* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCpuLevelU3Ek__BackingField_0;
+	marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
+	marshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaled.___U3CGpuLevelU3Ek__BackingField_2;
+	marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
+	marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
+	marshaled.___U3CManualOverrideU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CManualOverrideU3Ek__BackingField_5);
+}
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_back(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled)
+{
+	int32_t unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCpuLevelU3Ek__BackingField_0;
+	unmarshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
+	unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1;
+	int32_t unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = 0;
+	unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = marshaled.___U3CGpuLevelU3Ek__BackingField_2;
+	unmarshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2;
+	int32_t unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
+	unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3;
+	int32_t unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
+	unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4;
+	bool unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = false;
+	unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = static_cast<bool>(marshaled.___U3CManualOverrideU3Ek__BackingField_5);
+	unmarshaled.___U3CManualOverrideU3Ek__BackingField_5 = unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_cleanup(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled)
+{
+	marshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCpuLevelU3Ek__BackingField_0;
+	marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
+	marshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaled.___U3CGpuLevelU3Ek__BackingField_2;
+	marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
+	marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
+	marshaled.___U3CManualOverrideU3Ek__BackingField_5 = static_cast<int32_t>(unmarshaled.___U3CManualOverrideU3Ek__BackingField_5);
+}
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com_back(const PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838& unmarshaled)
+{
+	int32_t unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCpuLevelU3Ek__BackingField_0;
+	unmarshaled.___U3CCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCpuLevelU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1 = marshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1;
+	unmarshaled.___U3CCpuLevelDeltaU3Ek__BackingField_1 = unmarshaledU3CCpuLevelDeltaU3Ek__BackingField_temp_1;
+	int32_t unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = 0;
+	unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2 = marshaled.___U3CGpuLevelU3Ek__BackingField_2;
+	unmarshaled.___U3CGpuLevelU3Ek__BackingField_2 = unmarshaledU3CGpuLevelU3Ek__BackingField_temp_2;
+	int32_t unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3 = marshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3;
+	unmarshaled.___U3CGpuLevelDeltaU3Ek__BackingField_3 = unmarshaledU3CGpuLevelDeltaU3Ek__BackingField_temp_3;
+	int32_t unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4 = marshaled.___U3CPerformanceControlModeU3Ek__BackingField_4;
+	unmarshaled.___U3CPerformanceControlModeU3Ek__BackingField_4 = unmarshaledU3CPerformanceControlModeU3Ek__BackingField_temp_4;
+	bool unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = false;
+	unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5 = static_cast<bool>(marshaled.___U3CManualOverrideU3Ek__BackingField_5);
+	unmarshaled.___U3CManualOverrideU3Ek__BackingField_5 = unmarshaledU3CManualOverrideU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs
+IL2CPP_EXTERN_C void PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_com_cleanup(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_com& marshaled)
+{
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCpuLevelU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevel(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevel { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CCpuLevelU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_CpuLevel_mD58480B2447A008C7BF599703303A5328422E955_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_CpuLevelDelta()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevelDelta { get; set; }
+		int32_t L_0 = __this->___U3CCpuLevelDeltaU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_CpuLevelDelta(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevelDelta { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CCpuLevelDeltaU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_CpuLevelDelta_m00EE4AE98A0474906E1823F5E5BC659AF230EA3E_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CGpuLevelU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevel(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevel { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CGpuLevelU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_GpuLevel_mE563A90E537994BA33EB9FE37930984665B5A563_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_GpuLevelDelta()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevelDelta { get; set; }
+		int32_t L_0 = __this->___U3CGpuLevelDeltaU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_GpuLevelDelta(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevelDelta { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CGpuLevelDeltaU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_GpuLevelDelta_mCB323667DF1FB52B0F4AF73C96BAC37FDDD4093B_inline(_thisAdjusted, ___value0, method);
+}
+// UnityEngine.AdaptivePerformance.PerformanceControlMode UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_PerformanceControlMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceControlMode PerformanceControlMode { get; set; }
+		int32_t L_0 = __this->___U3CPerformanceControlModeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_PerformanceControlMode(UnityEngine.AdaptivePerformance.PerformanceControlMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceControlMode PerformanceControlMode { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CPerformanceControlModeU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_PerformanceControlMode_mC9DF077BF69B89D1B5A47CC8C506913B34C7531F_inline(_thisAdjusted, ___value0, method);
+}
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::get_ManualOverride()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87 (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool ManualOverride { get; set; }
+		bool L_0 = __this->___U3CManualOverrideU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs::set_ManualOverride(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool ManualOverride { get; set; }
+		bool L_0 = ___value0;
+		__this->___U3CManualOverrideU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
+{
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838*>(__this + _offset);
+	PerformanceLevelChangeEventArgs_set_ManualOverride_mB89018FD5AC92C2322074FBED7A5693ED4450CDB_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Multicast(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* currentDelegate = reinterpret_cast<PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___levelChangeEventArgs0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Open(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___levelChangeEventArgs0, method);
+}
+void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_OpenStaticInvoker(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 >::Invoke(__this->___method_ptr_0, method, NULL, ___levelChangeEventArgs0);
+}
+void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_ClosedStaticInvoker(PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___levelChangeEventArgs0);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method)
+{
+
+
+	typedef void (DEFAULT_CALL *PInvokeFunc)(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Marshaling of parameter '___levelChangeEventArgs0' to native representation
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshaled_pinvoke ____levelChangeEventArgs0_marshaled = {};
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke(___levelChangeEventArgs0, ____levelChangeEventArgs0_marshaled);
+
+	// Native function invocation
+	il2cppPInvokeFunc(____levelChangeEventArgs0_marshaled);
+
+	// Marshaling cleanup of parameter '___levelChangeEventArgs0' native representation
+	PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_marshal_pinvoke_cleanup(____levelChangeEventArgs0_marshaled);
+
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler__ctor_m5DD61E1980937C4A69EF65CF9F06615441C92536 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Open;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E_Multicast;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::Invoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler_Invoke_m8A6F67F1883E9C762F42DD4882EA681F95DE7E8E (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___levelChangeEventArgs0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::BeginInvoke(UnityEngine.AdaptivePerformance.PerformanceLevelChangeEventArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PerformanceLevelChangeHandler_BeginInvoke_m01CF74ACF600B482B26E0B202F38B52C7175E8E6 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838 ___levelChangeEventArgs0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838_il2cpp_TypeInfo_var, &___levelChangeEventArgs0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceLevelChangeHandler::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceLevelChangeHandler_EndInvoke_m7C0A0F0ED20EEDE512D17ABCB7E93F9D3BDDDFA8 (PerformanceLevelChangeHandler_t5EAB4599B89899249588C08442DED430FB8ACF8B* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
+	marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
+	marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
+	marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = static_cast<int32_t>(unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
+	marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = static_cast<int32_t>(unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
+	marshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaled.___U3CClusterInfoU3Ek__BackingField_5;
+}
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke_back(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled)
+{
+	int32_t unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
+	unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
+	unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1;
+	int32_t unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = 0;
+	unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
+	unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2;
+	bool unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = false;
+	unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = static_cast<bool>(marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
+	unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3;
+	bool unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = false;
+	unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = static_cast<bool>(marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
+	unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4;
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
+	memset((&unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5), 0, sizeof(unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5));
+	unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5 = marshaled.___U3CClusterInfoU3Ek__BackingField_5;
+	unmarshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_pinvoke_cleanup(PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled)
+{
+	marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
+	marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
+	marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
+	marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = static_cast<int32_t>(unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
+	marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = static_cast<int32_t>(unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
+	marshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaled.___U3CClusterInfoU3Ek__BackingField_5;
+}
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com_back(const PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled, PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6& unmarshaled)
+{
+	int32_t unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0 = marshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0;
+	unmarshaled.___U3CCurrentCpuLevelU3Ek__BackingField_0 = unmarshaledU3CCurrentCpuLevelU3Ek__BackingField_temp_0;
+	int32_t unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = 0;
+	unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1 = marshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1;
+	unmarshaled.___U3CCurrentGpuLevelU3Ek__BackingField_1 = unmarshaledU3CCurrentGpuLevelU3Ek__BackingField_temp_1;
+	int32_t unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = 0;
+	unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2 = marshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2;
+	unmarshaled.___U3CPerformanceBottleneckU3Ek__BackingField_2 = unmarshaledU3CPerformanceBottleneckU3Ek__BackingField_temp_2;
+	bool unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = false;
+	unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3 = static_cast<bool>(marshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3);
+	unmarshaled.___U3CCpuPerformanceBoostU3Ek__BackingField_3 = unmarshaledU3CCpuPerformanceBoostU3Ek__BackingField_temp_3;
+	bool unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = false;
+	unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4 = static_cast<bool>(marshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4);
+	unmarshaled.___U3CGpuPerformanceBoostU3Ek__BackingField_4 = unmarshaledU3CGpuPerformanceBoostU3Ek__BackingField_temp_4;
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
+	memset((&unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5), 0, sizeof(unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5));
+	unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5 = marshaled.___U3CClusterInfoU3Ek__BackingField_5;
+	unmarshaled.___U3CClusterInfoU3Ek__BackingField_5 = unmarshaledU3CClusterInfoU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.AdaptivePerformance.PerformanceMetrics
+IL2CPP_EXTERN_C void PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshal_com_cleanup(PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6_marshaled_com& marshaled)
+{
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentCpuLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentCpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCurrentCpuLevelU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentCpuLevel(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentCpuLevel { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CCurrentCpuLevelU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_CurrentCpuLevel_mF5FDB1302D30412674B077F2296C965C0372F585_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CurrentGpuLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentGpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCurrentGpuLevelU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CurrentGpuLevel(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentGpuLevel { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CCurrentGpuLevelU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_CurrentGpuLevel_m5EED681EBBCB6432D34AAAB7761DAA979D42A916_inline(_thisAdjusted, ___value0, method);
+}
+// UnityEngine.AdaptivePerformance.PerformanceBottleneck UnityEngine.AdaptivePerformance.PerformanceMetrics::get_PerformanceBottleneck()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
+		int32_t L_0 = __this->___U3CPerformanceBottleneckU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = PerformanceMetrics_get_PerformanceBottleneck_m071F1E070907F6F1301DB81AF8C9F4387537A9BD_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_PerformanceBottleneck(UnityEngine.AdaptivePerformance.PerformanceBottleneck)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceBottleneck PerformanceBottleneck { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CPerformanceBottleneckU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_PerformanceBottleneck_m435C419AA5CAA34D14B25B6B7BA5680D9B76C6D0_inline(_thisAdjusted, ___value0, method);
+}
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_CpuPerformanceBoost()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuPerformanceBoost { get; set; }
+		bool L_0 = __this->___U3CCpuPerformanceBoostU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_CpuPerformanceBoost(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuPerformanceBoost { get; set; }
+		bool L_0 = ___value0;
+		__this->___U3CCpuPerformanceBoostU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_CpuPerformanceBoost_m7439D7EA9FAB8291D849A337FCB162D55069D3AD_inline(_thisAdjusted, ___value0, method);
+}
+// System.Boolean UnityEngine.AdaptivePerformance.PerformanceMetrics::get_GpuPerformanceBoost()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuPerformanceBoost { get; set; }
+		bool L_0 = __this->___U3CGpuPerformanceBoostU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_GpuPerformanceBoost(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, bool ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuPerformanceBoost { get; set; }
+		bool L_0 = ___value0;
+		__this->___U3CGpuPerformanceBoostU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C_AdjustorThunk (RuntimeObject* __this, bool ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_GpuPerformanceBoost_mB0C54D250BEFDF68F163E5525BE5A02EDC76766C_inline(_thisAdjusted, ___value0, method);
+}
+// UnityEngine.AdaptivePerformance.ClusterInfo UnityEngine.AdaptivePerformance.PerformanceMetrics::get_ClusterInfo()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ClusterInfo ClusterInfo { get; set; }
+		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = __this->___U3CClusterInfoU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 _returnValue;
+	_returnValue = PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.PerformanceMetrics::set_ClusterInfo(UnityEngine.AdaptivePerformance.ClusterInfo)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63 (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public ClusterInfo ClusterInfo { get; set; }
+		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = ___value0;
+		__this->___U3CClusterInfoU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63_AdjustorThunk (RuntimeObject* __this, ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 ___value0, const RuntimeMethod* method)
+{
+	PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6*>(__this + _offset);
+	PerformanceMetrics_set_ClusterInfo_mA699E5EB646425EFC09BC769F88028F54DC0AD63_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentFrameTimeU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CCurrentFrameTimeU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_CurrentFrameTime_mF8943CE68C11843FA5320F63CB124E8825C287AD_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageFrameTime { get; set; }
+		float L_0 = __this->___U3CAverageFrameTimeU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_AverageFrameTime_m74195198DBAE79F981C42C97F01F44479A5BC77A_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CAverageFrameTimeU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_AverageFrameTime_mE6D87D99901A84A428BC7EF054D0742D4765B952_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentGpuFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentGpuFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentGpuFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentGpuFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_CurrentGpuFrameTime_m27403B1423B1A9E1B98ED12A97920D6A55CE28AB_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageGpuFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageGpuFrameTime { get; set; }
+		float L_0 = __this->___U3CAverageGpuFrameTimeU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_AverageGpuFrameTime_m4953868704CCDBF526AE44C08D38EE07F7CA100C_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageGpuFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageGpuFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CAverageGpuFrameTimeU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_AverageGpuFrameTime_mC5A1232311C2804A5FC137DA0F89AB29536054F2_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_CurrentCpuFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentCpuFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_CurrentCpuFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentCpuFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_CurrentCpuFrameTime_m2C3673BE2888306184DD6DF977FC884D0B84D972_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.FrameTiming::get_AverageCpuFrameTime()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514 (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageCpuFrameTime { get; set; }
+		float L_0 = __this->___U3CAverageCpuFrameTimeU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	float _returnValue;
+	_returnValue = FrameTiming_get_AverageCpuFrameTime_m705848AAE9D6D07C83601369A5363D4307365514_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.FrameTiming::set_AverageCpuFrameTime(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float AverageCpuFrameTime { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CAverageCpuFrameTimeU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908*>(__this + _offset);
+	FrameTiming_set_AverageCpuFrameTime_m709771E7D96C7FF28F58F6E713B3DEEE1FF9350B_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_BigCore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int BigCore { get; set; }
+		int32_t L_0 = __this->___U3CBigCoreU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_BigCore(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int BigCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CBigCoreU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_MediumCore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int MediumCore { get; set; }
+		int32_t L_0 = __this->___U3CMediumCoreU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_MediumCore(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int MediumCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CMediumCoreU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline(_thisAdjusted, ___value0, method);
+}
+// System.Int32 UnityEngine.AdaptivePerformance.ClusterInfo::get_LittleCore()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808 (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int LittleCore { get; set; }
+		int32_t L_0 = __this->___U3CLittleCoreU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ClusterInfo::set_LittleCore(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int LittleCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CLittleCoreU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15*>(__this + _offset);
+	ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline(_thisAdjusted, ___value0, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Multicast(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* currentDelegate = reinterpret_cast<ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___thermalMetrics0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Open(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___thermalMetrics0, method);
+}
+void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_OpenStaticInvoker(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 >::Invoke(__this->___method_ptr_0, method, NULL, ___thermalMetrics0);
+}
+void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_ClosedStaticInvoker(ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___thermalMetrics0);
+}
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	// Native function invocation
+	il2cppPInvokeFunc(___thermalMetrics0);
+
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler__ctor_m27CFED2A329B29C895A99E14BBD22E76ABDA80D6 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Open;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597_Multicast;
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::Invoke(UnityEngine.AdaptivePerformance.ThermalMetrics)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler_Invoke_m7A6989AC43E129751BD74BFC7AE45D061C7E0597 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___thermalMetrics0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult UnityEngine.AdaptivePerformance.ThermalEventHandler::BeginInvoke(UnityEngine.AdaptivePerformance.ThermalMetrics,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ThermalEventHandler_BeginInvoke_m8B8AEFDC1C3255EF352088BC5A60908B1A51452B (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723 ___thermalMetrics0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723_il2cpp_TypeInfo_var, &___thermalMetrics0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalEventHandler::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalEventHandler_EndInvoke_m377D947993A5BE5A1F71F434EB514EDB154600E9 (ThermalEventHandler_t87CF1D35B5172D245FBC64DDBE3DA65B2971DA27* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.AdaptivePerformance.WarningLevel UnityEngine.AdaptivePerformance.ThermalMetrics::get_WarningLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
+{
+	{
+		// public WarningLevel WarningLevel { get; set; }
+		int32_t L_0 = __this->___U3CWarningLevelU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ThermalMetrics_get_WarningLevel_mC6070E7B4C2BF9C39198BF64168D8A036B9C6A75_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_WarningLevel(UnityEngine.AdaptivePerformance.WarningLevel)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public WarningLevel WarningLevel { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CWarningLevelU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF_AdjustorThunk (RuntimeObject* __this, int32_t ___value0, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	ThermalMetrics_set_WarningLevel_mCF778CD7B517A47526632A2F40E5EB296DACA9EF_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float TemperatureLevel { get; set; }
+		float L_0 = __this->___U3CTemperatureLevelU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	float _returnValue;
+	_returnValue = ThermalMetrics_get_TemperatureLevel_mA209EA1E3F16E8E1C2384126CE2D710A7510D0DB_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureLevel(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float TemperatureLevel { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CTemperatureLevelU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	ThermalMetrics_set_TemperatureLevel_m8715ECBCFEE9B5331F84EEF35486B4DD579A5037_inline(_thisAdjusted, ___value0, method);
+}
+// System.Single UnityEngine.AdaptivePerformance.ThermalMetrics::get_TemperatureTrend()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float TemperatureTrend { get; set; }
+		float L_0 = __this->___U3CTemperatureTrendU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	float _returnValue;
+	_returnValue = ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void UnityEngine.AdaptivePerformance.ThermalMetrics::set_TemperatureTrend(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7 (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, float ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public float TemperatureTrend { get; set; }
+		float L_0 = ___value0;
+		__this->___U3CTemperatureTrendU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7_AdjustorThunk (RuntimeObject* __this, float ___value0, const RuntimeMethod* method)
+{
+	ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723*>(__this + _offset);
+	ThermalMetrics_set_TemperatureTrend_m007B5F0CAF923A9BA54BE4D6B07A9896D75323E7_inline(_thisAdjusted, ___value0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -21985,113 +21985,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveFramerate__ctor_m4DDA4198D524465
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_Awake_mA0EFFA27274AF6D09A7DD92DBD30C8902998502E (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// base.Awake();
-		AdaptivePerformanceScaler_Awake_m9AFB587F718F1FB523F3F7EC1A5CE083E8AFE576(__this, NULL);
-		// if (m_Settings == null)
-		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_0 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0015:
-	{
-		// ApplyDefaultSetting(m_Settings.scalerSettings.AdaptiveLOD);
-		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_2 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
-		NullCheck(L_2);
-		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_3;
-		L_3 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_2, NULL);
-		NullCheck(L_3);
-		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_4;
-		L_4 = AdaptivePerformanceScalerSettings_get_AdaptiveLOD_m6A255C8B118A1769FE4DB9B8431F019FC556DA4C_inline(L_3, NULL);
-		AdaptivePerformanceScaler_ApplyDefaultSetting_m55A6880662648019B4AABE1E644B8B3C1B1D7D19_inline(__this, L_4, NULL);
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnDisabled()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnDisabled_mA6B84A786CB3F6EC23C96809BF32C7C6C0FF61C1 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
-{
-	{
-		// QualitySettings.lodBias = m_DefaultLodBias;
-		float L_0 = __this->___m_DefaultLodBias_12;
-		QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnEnabled()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnEnabled_m0A9E15DBEAB077C3233FCD1703F287A3B057186D (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
-{
-	{
-		// m_DefaultLodBias = QualitySettings.lodBias;
-		float L_0;
-		L_0 = QualitySettings_get_lodBias_m0DB63DEEF86BE1C091409BFAE8539F187886DA7B(NULL);
-		__this->___m_DefaultLodBias_12 = L_0;
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnLevel_mC9BEB3DCD63DC5180CA3E0E88C08C126AB228BA0 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
-{
-	{
-		// if (ScaleChanged())
-		bool L_0;
-		L_0 = AdaptivePerformanceScaler_ScaleChanged_m8CA4C17F6CFFEE7ECBFF95720EB205A2DA01A6BE(__this, NULL);
-		if (!L_0)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		// QualitySettings.lodBias = m_DefaultLodBias * Scale;
-		float L_1 = __this->___m_DefaultLodBias_12;
-		float L_2;
-		L_2 = VirtualFuncInvoker0< float >::Invoke(8 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale() */, __this);
-		QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119(((float)il2cpp_codegen_multiply(L_1, L_2)), NULL);
-	}
-
-IL_001a:
-	{
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD__ctor_mFC0D8EC2D40332B0BF5F9EE859FE3EB5EFF18959 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
-{
-	{
-		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void UnityEngine.AdaptivePerformance.AdaptiveLayerCulling::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayerCulling_Awake_mEAE690C5935E1AC6B26B0F1F2BA924EEC7EB850C (AdaptiveLayerCulling_t3F39BED1B652723D64174B5CF0E4C555657B046E* __this, const RuntimeMethod* method) 
 {
@@ -22402,6 +22295,113 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayerCulling__ctor_mF4039F8AD400
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)32));
 		__this->___m_scaledDistances_13 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_scaledDistances_13), (void*)L_1);
+		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_Awake_mA0EFFA27274AF6D09A7DD92DBD30C8902998502E (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// base.Awake();
+		AdaptivePerformanceScaler_Awake_m9AFB587F718F1FB523F3F7EC1A5CE083E8AFE576(__this, NULL);
+		// if (m_Settings == null)
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_0 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0015:
+	{
+		// ApplyDefaultSetting(m_Settings.scalerSettings.AdaptiveLOD);
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_2 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
+		NullCheck(L_2);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_3;
+		L_3 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_2, NULL);
+		NullCheck(L_3);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_4;
+		L_4 = AdaptivePerformanceScalerSettings_get_AdaptiveLOD_m6A255C8B118A1769FE4DB9B8431F019FC556DA4C_inline(L_3, NULL);
+		AdaptivePerformanceScaler_ApplyDefaultSetting_m55A6880662648019B4AABE1E644B8B3C1B1D7D19_inline(__this, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnDisabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnDisabled_mA6B84A786CB3F6EC23C96809BF32C7C6C0FF61C1 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
+{
+	{
+		// QualitySettings.lodBias = m_DefaultLodBias;
+		float L_0 = __this->___m_DefaultLodBias_12;
+		QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnEnabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnEnabled_m0A9E15DBEAB077C3233FCD1703F287A3B057186D (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
+{
+	{
+		// m_DefaultLodBias = QualitySettings.lodBias;
+		float L_0;
+		L_0 = QualitySettings_get_lodBias_m0DB63DEEF86BE1C091409BFAE8539F187886DA7B(NULL);
+		__this->___m_DefaultLodBias_12 = L_0;
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::OnLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD_OnLevel_mC9BEB3DCD63DC5180CA3E0E88C08C126AB228BA0 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (ScaleChanged())
+		bool L_0;
+		L_0 = AdaptivePerformanceScaler_ScaleChanged_m8CA4C17F6CFFEE7ECBFF95720EB205A2DA01A6BE(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		// QualitySettings.lodBias = m_DefaultLodBias * Scale;
+		float L_1 = __this->___m_DefaultLodBias_12;
+		float L_2;
+		L_2 = VirtualFuncInvoker0< float >::Invoke(8 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale() */, __this);
+		QualitySettings_set_lodBias_mE3BDC7C587785C9A1A3B33521209A0AE9BDAD119(((float)il2cpp_codegen_multiply(L_1, L_2)), NULL);
+	}
+
+IL_001a:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveLOD::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLOD__ctor_mFC0D8EC2D40332B0BF5F9EE859FE3EB5EFF18959 (AdaptiveLOD_t431D7DB4C0E76F630B4FB64D9D3EB84357E0A049* __this, const RuntimeMethod* method) 
+{
+	{
 		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
 		return;
 	}
@@ -23338,133 +23338,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowDistance__ctor_m90B3A72F22
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_Awake_m1AA444CE730DD9286B5A100407B886404D65CFA2 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// base.Awake();
-		AdaptivePerformanceScaler_Awake_m9AFB587F718F1FB523F3F7EC1A5CE083E8AFE576(__this, NULL);
-		// if (m_Settings == null)
-		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_0 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0015:
-	{
-		// ApplyDefaultSetting(m_Settings.scalerSettings.AdaptiveShadowQuality);
-		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_2 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
-		NullCheck(L_2);
-		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_3;
-		L_3 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_2, NULL);
-		NullCheck(L_3);
-		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_4;
-		L_4 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m21DCF0D2F165C7336B14E21BD7884AF8BD693E2C_inline(L_3, NULL);
-		AdaptivePerformanceScaler_ApplyDefaultSetting_m55A6880662648019B4AABE1E644B8B3C1B1D7D19_inline(__this, L_4, NULL);
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnDisabled()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnDisabled_mE2D4E668B56A7BE8AF61B6DB1AFB95BF2E696673 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// AdaptivePerformanceRenderSettings.ShadowQualityBias = m_DefaultShadowQualityBias;
-		int32_t L_0 = __this->___m_DefaultShadowQualityBias_12;
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		AdaptivePerformanceRenderSettings_set_ShadowQualityBias_mFC3CCCD25B8CD32BE6AA8463ECF68AE343E03BC7_inline(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnEnabled()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnEnabled_m5A09A1DFE59456370D52E24BA94824ED8AC596C3 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// m_DefaultShadowQualityBias = AdaptivePerformanceRenderSettings.ShadowQualityBias;
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		int32_t L_0;
-		L_0 = AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8998B887AE4738E45999DD11F853B1FDCA1DB2B3_inline(NULL);
-		__this->___m_DefaultShadowQualityBias_12 = L_0;
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnLevel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnLevel_m1275F587161A3A29922F0D917FEE54315585CF09 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (ScaleChanged())
-		bool L_0;
-		L_0 = AdaptivePerformanceScaler_ScaleChanged_m8CA4C17F6CFFEE7ECBFF95720EB205A2DA01A6BE(__this, NULL);
-		if (!L_0)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		// AdaptivePerformanceRenderSettings.MainLightShadowCascadesCountBias = (int)(3 - 3 * Scale);
-		float L_1;
-		L_1 = VirtualFuncInvoker0< float >::Invoke(8 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale() */, __this);
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		AdaptivePerformanceRenderSettings_set_MainLightShadowCascadesCountBias_m189E6806019B178FFAF9182E0BE2FD49D71359E0_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract((3.0f), ((float)il2cpp_codegen_multiply((3.0f), L_1))))), NULL);
-	}
-
-IL_0020:
-	{
-		// }
-		return;
-	}
-}
-// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality__ctor_mD812DCCDE7C96D53A65593C40400E91C0A883FC9 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
-{
-	{
-		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowmapResolution::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowmapResolution_Awake_m926BCCAD686E36C9A5198BDBB0D6363A3801B038 (AdaptiveShadowmapResolution_t83B2348D9E39A649B9795047F9B696FC9C09D3DE* __this, const RuntimeMethod* method) 
 {
@@ -23578,6 +23451,133 @@ IL_0019:
 }
 // System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowmapResolution::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowmapResolution__ctor_m9AF41A4F0D0CFC4DCB28853481B2B7CE3B788CCD (AdaptiveShadowmapResolution_t83B2348D9E39A649B9795047F9B696FC9C09D3DE* __this, const RuntimeMethod* method) 
+{
+	{
+		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_Awake_m1AA444CE730DD9286B5A100407B886404D65CFA2 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// base.Awake();
+		AdaptivePerformanceScaler_Awake_m9AFB587F718F1FB523F3F7EC1A5CE083E8AFE576(__this, NULL);
+		// if (m_Settings == null)
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_0 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0015:
+	{
+		// ApplyDefaultSetting(m_Settings.scalerSettings.AdaptiveShadowQuality);
+		IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* L_2 = ((AdaptivePerformanceScaler_tB9F76E7E942E332BEF5DC363BE906AD4FD1700BC*)__this)->___m_Settings_11;
+		NullCheck(L_2);
+		AdaptivePerformanceScalerSettings_tAF8002CE95F36DE71E945DA73AADB6783EB2FFD8* L_3;
+		L_3 = IAdaptivePerformanceSettings_get_scalerSettings_mB33C0AAA3A6CA0B05E9B1E205853D1698A088575_inline(L_2, NULL);
+		NullCheck(L_3);
+		AdaptivePerformanceScalerSettingsBase_tDF99867134986926CE22505B0B9EE99AD74501AA* L_4;
+		L_4 = AdaptivePerformanceScalerSettings_get_AdaptiveShadowQuality_m21DCF0D2F165C7336B14E21BD7884AF8BD693E2C_inline(L_3, NULL);
+		AdaptivePerformanceScaler_ApplyDefaultSetting_m55A6880662648019B4AABE1E644B8B3C1B1D7D19_inline(__this, L_4, NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnDisabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnDisabled_mE2D4E668B56A7BE8AF61B6DB1AFB95BF2E696673 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// AdaptivePerformanceRenderSettings.ShadowQualityBias = m_DefaultShadowQualityBias;
+		int32_t L_0 = __this->___m_DefaultShadowQualityBias_12;
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		AdaptivePerformanceRenderSettings_set_ShadowQualityBias_mFC3CCCD25B8CD32BE6AA8463ECF68AE343E03BC7_inline(L_0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnEnabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnEnabled_m5A09A1DFE59456370D52E24BA94824ED8AC596C3 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// m_DefaultShadowQualityBias = AdaptivePerformanceRenderSettings.ShadowQualityBias;
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		int32_t L_0;
+		L_0 = AdaptivePerformanceRenderSettings_get_ShadowQualityBias_m8998B887AE4738E45999DD11F853B1FDCA1DB2B3_inline(NULL);
+		__this->___m_DefaultShadowQualityBias_12 = L_0;
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::OnLevel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality_OnLevel_m1275F587161A3A29922F0D917FEE54315585CF09 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (ScaleChanged())
+		bool L_0;
+		L_0 = AdaptivePerformanceScaler_ScaleChanged_m8CA4C17F6CFFEE7ECBFF95720EB205A2DA01A6BE(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// AdaptivePerformanceRenderSettings.MainLightShadowCascadesCountBias = (int)(3 - 3 * Scale);
+		float L_1;
+		L_1 = VirtualFuncInvoker0< float >::Invoke(8 /* System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceScaler::get_Scale() */, __this);
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		AdaptivePerformanceRenderSettings_set_MainLightShadowCascadesCountBias_m189E6806019B178FFAF9182E0BE2FD49D71359E0_inline(il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_subtract((3.0f), ((float)il2cpp_codegen_multiply((3.0f), L_1))))), NULL);
+	}
+
+IL_0020:
+	{
+		// }
+		return;
+	}
+}
+// System.Void UnityEngine.AdaptivePerformance.AdaptiveShadowQuality::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveShadowQuality__ctor_mD812DCCDE7C96D53A65593C40400E91C0A883FC9 (AdaptiveShadowQuality_t850800F7BE5A8F82FC82D35C11FC4EE70B309EBB* __this, const RuntimeMethod* method) 
 {
 	{
 		AdaptivePerformanceScaler__ctor_m1DAA2566D0A20850A60AB246C8578D69BB93A5D5(__this, NULL);
@@ -28894,193 +28894,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TemperatureTrend_set_Thermal
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuBoost { get; set; }
-		bool L_0 = __this->___U3CCpuBoostU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuBoost { get; set; }
-		bool L_0 = __this->___U3CGpuBoostU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCpuLevelU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CpuLevelDelta { get; set; }
-		int32_t L_0 = __this->___U3CCpuLevelDeltaU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CGpuLevelU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int GpuLevelDelta { get; set; }
-		int32_t L_0 = __this->___U3CGpuLevelDeltaU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public PerformanceControlMode PerformanceControlMode { get; set; }
-		int32_t L_0 = __this->___U3CPerformanceControlModeU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool ManualOverride { get; set; }
-		bool L_0 = __this->___U3CManualOverrideU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentCpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCurrentCpuLevelU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int CurrentGpuLevel { get; set; }
-		int32_t L_0 = __this->___U3CCurrentGpuLevelU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool CpuPerformanceBoost { get; set; }
-		bool L_0 = __this->___U3CCpuPerformanceBoostU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public bool GpuPerformanceBoost { get; set; }
-		bool L_0 = __this->___U3CGpuPerformanceBoostU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
-{
-	{
-		// public ClusterInfo ClusterInfo { get; set; }
-		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = __this->___U3CClusterInfoU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentFrameTimeU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentGpuFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float CurrentCpuFrameTime { get; set; }
-		float L_0 = __this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int BigCore { get; set; }
-		int32_t L_0 = __this->___U3CBigCoreU3Ek__BackingField_0;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int BigCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CBigCoreU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int MediumCore { get; set; }
-		int32_t L_0 = __this->___U3CMediumCoreU3Ek__BackingField_1;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int MediumCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CMediumCoreU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
-{
-	{
-		// public int LittleCore { get; set; }
-		int32_t L_0 = __this->___U3CLittleCoreU3Ek__BackingField_2;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
-{
-	{
-		// public int LittleCore { get; set; }
-		int32_t L_0 = ___value0;
-		__this->___U3CLittleCoreU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
-{
-	{
-		// public float TemperatureTrend { get; set; }
-		float L_0 = __this->___U3CTemperatureTrendU3Ek__BackingField_2;
-		return L_0;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Holder_get_Instance_m96D2BD883991FC1FF18DDB6AABD72023796A5FF3_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29092,6 +28905,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Holder_get_Instanc
 	{
 		// static public IAdaptivePerformance Instance { get; internal set; }
 		RuntimeObject* L_0 = ((Holder_t2C8DCF470AAEE0B4CA76215B8E5A7E3BAFF76CDC_StaticFields*)il2cpp_codegen_static_fields_for(Holder_t2C8DCF470AAEE0B4CA76215B8E5A7E3BAFF76CDC_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ThermalMetrics_get_TemperatureTrend_mE4FD543C209A2446C88F99A94FF873A8A3CC96A8_inline (ThermalMetrics_t6FA6DDFC4E4C73A2EE63FDDB85CFDB9EE08CA723* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float TemperatureTrend { get; set; }
+		float L_0 = __this->___U3CTemperatureTrendU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -29411,6 +29232,185 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceScaler_se
 		// public int CurrentLevel { get; private set; }
 		int32_t L_0 = ___value0;
 		__this->___U3CCurrentLevelU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_CpuBoost_m8A4E9ADBE730B5736D35C2F1B69D990075FDA8F1_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuBoost { get; set; }
+		bool L_0 = __this->___U3CCpuBoostU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceBoostChangeEventArgs_get_GpuBoost_m39C7AF59354957CE76736EB95D795638198D2D56_inline (PerformanceBoostChangeEventArgs_t766C305C3E16383AFABAD0F319D8BF79432315E6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuBoost { get; set; }
+		bool L_0 = __this->___U3CGpuBoostU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevel_m0B6F576BD2CEE0978E0BD908E09163F80AF9A6DA_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCpuLevelU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_CpuLevelDelta_m3F981FFE7CF9C5C7DE0E032DB4629DCAA83CB556_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CpuLevelDelta { get; set; }
+		int32_t L_0 = __this->___U3CCpuLevelDeltaU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevel_m648A122EA96E4EBD3B2F9845B918F785DB52AA1B_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CGpuLevelU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_GpuLevelDelta_m6D495A1FEC5830C0A8A6603FEE65C983CA475C85_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int GpuLevelDelta { get; set; }
+		int32_t L_0 = __this->___U3CGpuLevelDeltaU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceLevelChangeEventArgs_get_PerformanceControlMode_m91748B29F26EF57B474CC8E1D50F2C39B16EC1E1_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public PerformanceControlMode PerformanceControlMode { get; set; }
+		int32_t L_0 = __this->___U3CPerformanceControlModeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceLevelChangeEventArgs_get_ManualOverride_mADEEB746E519206BAA5FDE37F800842799281E87_inline (PerformanceLevelChangeEventArgs_t2CDED2F277ED6C533AA0BA6F11B790ECBB4B2838* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool ManualOverride { get; set; }
+		bool L_0 = __this->___U3CManualOverrideU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentCpuLevel_m42A271D1A5C04AAAAD68579A49966134E6AF7F3B_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentCpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCurrentCpuLevelU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceMetrics_get_CurrentGpuLevel_m25F770270C60AC1AE919AAFAB0339AAB847265B5_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int CurrentGpuLevel { get; set; }
+		int32_t L_0 = __this->___U3CCurrentGpuLevelU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_CpuPerformanceBoost_m54AC3712FE7F51BD212012AB467F4E57F0490069_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool CpuPerformanceBoost { get; set; }
+		bool L_0 = __this->___U3CCpuPerformanceBoostU3Ek__BackingField_3;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PerformanceMetrics_get_GpuPerformanceBoost_mFA438BA2A89EE34241A6F7A00A7B18DBCA6AF9F3_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool GpuPerformanceBoost { get; set; }
+		bool L_0 = __this->___U3CGpuPerformanceBoostU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 PerformanceMetrics_get_ClusterInfo_mE06334A4896BC33C0AF26B472DD8F4D2169C80B7_inline (PerformanceMetrics_t253967A51B97AF7B1BE1BD660908991513CEFEC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ClusterInfo ClusterInfo { get; set; }
+		ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15 L_0 = __this->___U3CClusterInfoU3Ek__BackingField_5;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentFrameTime_mA7929199CEBE3A69FB3677893E60690F66815811_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentFrameTimeU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentGpuFrameTime_m4170E235B898060DC937D46F88D6582BEBE31B91_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentGpuFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentGpuFrameTimeU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float FrameTiming_get_CurrentCpuFrameTime_mFAEB817260C455798A50C5B3C653A28E0FB184B7_inline (FrameTiming_t51A697C2455B0C75C345FE7D230103AA2F57B908* __this, const RuntimeMethod* method) 
+{
+	{
+		// public float CurrentCpuFrameTime { get; set; }
+		float L_0 = __this->___U3CCurrentCpuFrameTimeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_BigCore_m7D5461E626AE8A34559D50ACE0B71DF88A90E2F6_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int BigCore { get; set; }
+		int32_t L_0 = __this->___U3CBigCoreU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_BigCore_m6773CE3416C5DDE25B397D398D60253CA4A913A0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int BigCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CBigCoreU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_MediumCore_mC26A79BF3E09ADD0595D3E212A66BDF4E11000F0_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int MediumCore { get; set; }
+		int32_t L_0 = __this->___U3CMediumCoreU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_MediumCore_mC984A40803648B368E8E998F82E7C89D9E24E126_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int MediumCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CMediumCoreU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ClusterInfo_get_LittleCore_m49B36EE3EF01F929BCAB97391DCB3C10C54E7808_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int LittleCore { get; set; }
+		int32_t L_0 = __this->___U3CLittleCoreU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ClusterInfo_set_LittleCore_m2B02B46BBEA719EFBDD955DF419EAAC81E69C7AB_inline (ClusterInfo_tE84F530B1972D0F8712CD136B14D4C4136B0BA15* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public int LittleCore { get; set; }
+		int32_t L_0 = ___value0;
+		__this->___U3CLittleCoreU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
@@ -29876,6 +29876,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSe
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m7A8327FF698C5356BBBF5BBB4676B6B55EDFFBF9_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// get { return s_ShadowResolutionMultiplier; }
+		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
+		float L_0 = ((AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var))->___s_ShadowResolutionMultiplier_1;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdaptivePerformanceRenderSettings_set_ShadowQualityBias_mFC3CCCD25B8CD32BE6AA8463ECF68AE343E03BC7_inline (int32_t ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29904,21 +29919,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t AdaptivePerformanceRender
 		// get;
 		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var))->___U3CShadowQualityBiasU3Ek__BackingField_5;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_MainLightShadowmapResolutionMultiplier_m7A8327FF698C5356BBBF5BBB4676B6B55EDFFBF9_inline (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// get { return s_ShadowResolutionMultiplier; }
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		float L_0 = ((AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_StaticFields*)il2cpp_codegen_static_fields_for(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var))->___s_ShadowResolutionMultiplier_1;
 		return L_0;
 	}
 }

@@ -22,6 +22,26 @@ MonoBehaviour:
     m_Localized: Einstellungen
     m_Metadata:
       m_Items: []
+  - m_Id: 2281608955785216
+    m_Localized: Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281664932966400
+    m_Localized: Musik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281702874640384
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281788279058432
+    m_Localized: "Qualit\xE4t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281924518440960
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -999,7 +999,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral0A7A63B9C62BB3C9F95456E2AD9CAF0475D68EAD
 IL2CPP_EXTERN_C String_t* _stringLiteral0FD8656D3AB2889F2E9A9BB4871AF1832E06C628;
 IL2CPP_EXTERN_C String_t* _stringLiteral176C0E7F3CF7D810B51A890C09CBB53B836BBFFD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2F944A70E1FA8C1798D32C5157D50E0ACEE3BDA2;
-IL2CPP_EXTERN_C String_t* _stringLiteral30DC9D0CEBA341F7969DFA2738E40446A9916EC8;
 IL2CPP_EXTERN_C String_t* _stringLiteral32E295455108A3581149745BCD901D55CB51BB67;
 IL2CPP_EXTERN_C String_t* _stringLiteral35D5A8D578C641673C2EE6070551CEA0D88116A1;
 IL2CPP_EXTERN_C String_t* _stringLiteral36773FD703C888D504C196B886D568671BBE3365;
@@ -1190,7 +1189,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* TransitionEventBase_1__ctor_m0173536041AC6A
 IL2CPP_EXTERN_C const RuntimeMethod* TransitionEventBase_1__ctor_m59E5F6EDA095C329E3E009740FEB92327180BE70_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TransitionEventBase_1__ctor_mA89133B8A086738FD951A3B725B6756C8D00F741_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TransitionEventBase_1__ctor_mB38ABE9778812A782CD46CB5F6DEAD73C0551951_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UIRLayoutUpdater_OnVersionChanged_m866C78EC0825C2EB456C5437F1539B13F2F48FB8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIRRepaintUpdater_OnGraphicsResourcesRecreate_m438F978E81851476DA62F795ED074A4F7DD2B02E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIRRepaintUpdater_OnPanelAtlasChanged_mDAB15DA4CD8FD5478140F2D3F6B2FACFC4E35716_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* UIRRepaintUpdater_OnPanelChanged_m8D3AD7BCE37157C6189B8F267E830AB4CFB190F7_RuntimeMethod_var;
@@ -3050,17 +3048,17 @@ struct DrawStatistics_t4AF06C67CEC7B97509EBAD48E3EE908301598E6F
 struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677 
 {
 	// UnityEngine.UIElements.VisualElement UnityEngine.UIElements.VisualElement/Hierarchy::m_Owner
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_0;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.UIElements.VisualElement/Hierarchy
 struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_pinvoke
 {
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_0;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_1;
 };
 // Native definition for COM marshalling of UnityEngine.UIElements.VisualElement/Hierarchy
 struct Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_com
 {
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_0;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_Owner_1;
 };
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UIElements.StylePropertyName>
@@ -9116,16 +9114,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicAtlasPage_get_filterMode_m28AE47F92FA090A14F0CF51A81A5E3DE1AA4799B_inline (DynamicAtlasPage_t11FF826FFD13D59816B4F99A0C21CF8205A68F6E* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture::set_filterMode(UnityEngine.FilterMode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture_set_filterMode_mE423E58C0C16D059EA62BA87AD70F44AEA50CCC9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, int32_t ___value0, const RuntimeMethod* method) ;
-// UnityEngine.UIElements.BaseVisualElementPanel UnityEngine.UIElements.BaseVisualTreeUpdater::get_panel()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* BaseVisualTreeUpdater_get_panel_mF6239BD11A1C6EDD79F9B012ABADCAFB1408FB22 (BaseVisualTreeUpdater_t234B0DC7D28731E61BA8215154765170E5D0AB41* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.UIElements.BaseVisualElementPanel::get_duringLayoutPhase()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BaseVisualElementPanel_get_duringLayoutPhase_m2EEED4B0599F0FD8A4B61DDF5328ACCE8425A652_inline (BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* __this, const RuntimeMethod* method) ;
-// System.Void System.InvalidOperationException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaNode UnityEngine.UIElements.VisualElement::get_yogaNode()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* VisualElement_get_yogaNode_m1D80145AA8652A871E1538B1C5A2E540CE2DEC45_inline (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.YogaNode::get_IsMeasureDefined()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaNode_get_IsMeasureDefined_m14B27C81AD102F307669F55E3FDFEE7E7E61B7EC (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, const RuntimeMethod* method) ;
+// UnityEngine.UIElements.BaseVisualElementPanel UnityEngine.UIElements.BaseVisualTreeUpdater::get_panel()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* BaseVisualTreeUpdater_get_panel_mF6239BD11A1C6EDD79F9B012ABADCAFB1408FB22 (BaseVisualTreeUpdater_t234B0DC7D28731E61BA8215154765170E5D0AB41* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.BaseVisualElementPanel::set_duringLayoutPhase(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BaseVisualElementPanel_set_duringLayoutPhase_m92B988C1605071034FEB52BA683719FFCC200AE8_inline (BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* __this, bool ___value0, const RuntimeMethod* method) ;
 // UnityEngine.UIElements.VisualElement UnityEngine.UIElements.BaseVisualTreeUpdater::get_visualTree()
@@ -9205,6 +9199,8 @@ inline void NativeSlice_1_CopyFrom_m4BEADF1159114893A97FDDBD74AAD2A1F49F61D8 (Na
 {
 	((  void (*) (NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2*, VertexU5BU5D_t2C3F4FF6AFD6D7E9DD7E1D69446FD8E8FC033185*, const RuntimeMethod*))NativeSlice_1_CopyFrom_m4BEADF1159114893A97FDDBD74AAD2A1F49F61D8_gshared)(__this, ___array0, method);
 }
+// System.Void System.InvalidOperationException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.Void Unity.Collections.NativeSlice`1<System.UInt16>::CopyFrom(T[])
 inline void NativeSlice_1_CopyFrom_m83B52FFB92E381C498E159C1E41DB11E828A159E (NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A* __this, UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___array0, const RuntimeMethod* method)
 {
@@ -25256,9 +25252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRLayoutUpdater_OnVersionChanged_m866C7
 	YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* V_0 = NULL;
 	bool V_1 = false;
 	bool V_2 = false;
-	bool V_3 = false;
 	int32_t G_B5_0 = 0;
-	int32_t G_B10_0 = 0;
 	{
 		int32_t L_0 = ___versionChangeType1;
 		V_1 = (bool)((((int32_t)((int32_t)((int32_t)L_0&((int32_t)12)))) == ((int32_t)0))? 1 : 0);
@@ -25269,24 +25263,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRLayoutUpdater_OnVersionChanged_m866C7
 		}
 	}
 	{
-		goto IL_0051;
+		goto IL_002e;
 	}
 
 IL_000e:
 	{
-		int32_t L_2 = ___versionChangeType1;
-		if (!((int32_t)((int32_t)L_2&4)))
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_2 = ___ve0;
+		NullCheck(L_2);
+		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_3;
+		L_3 = VisualElement_get_yogaNode_m1D80145AA8652A871E1538B1C5A2E540CE2DEC45_inline(L_2, NULL);
+		V_0 = L_3;
+		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_4 = V_0;
+		if (!L_4)
 		{
 			goto IL_0020;
 		}
 	}
 	{
-		BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* L_3;
-		L_3 = BaseVisualTreeUpdater_get_panel_mF6239BD11A1C6EDD79F9B012ABADCAFB1408FB22(__this, NULL);
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = BaseVisualElementPanel_get_duringLayoutPhase_m2EEED4B0599F0FD8A4B61DDF5328ACCE8425A652_inline(L_3, NULL);
-		G_B5_0 = ((int32_t)(L_4));
+		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_5 = V_0;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = YogaNode_get_IsMeasureDefined_m14B27C81AD102F307669F55E3FDFEE7E7E61B7EC(L_5, NULL);
+		G_B5_0 = ((int32_t)(L_6));
 		goto IL_0021;
 	}
 
@@ -25298,62 +25296,19 @@ IL_0020:
 IL_0021:
 	{
 		V_2 = (bool)G_B5_0;
-		bool L_5 = V_2;
-		if (!L_5)
+		bool L_7 = V_2;
+		if (!L_7)
 		{
-			goto IL_0031;
+			goto IL_002e;
 		}
 	}
 	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_6);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral30DC9D0CEBA341F7969DFA2738E40446A9916EC8)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UIRLayoutUpdater_OnVersionChanged_m866C78EC0825C2EB456C5437F1539B13F2F48FB8_RuntimeMethod_var)));
+		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_8 = V_0;
+		NullCheck(L_8);
+		VirtualActionInvoker0::Invoke(6 /* System.Void UnityEngine.Yoga.YogaNode::MarkDirty() */, L_8);
 	}
 
-IL_0031:
-	{
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_7 = ___ve0;
-		NullCheck(L_7);
-		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_8;
-		L_8 = VisualElement_get_yogaNode_m1D80145AA8652A871E1538B1C5A2E540CE2DEC45_inline(L_7, NULL);
-		V_0 = L_8;
-		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_9 = V_0;
-		if (!L_9)
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_10 = V_0;
-		NullCheck(L_10);
-		bool L_11;
-		L_11 = YogaNode_get_IsMeasureDefined_m14B27C81AD102F307669F55E3FDFEE7E7E61B7EC(L_10, NULL);
-		G_B10_0 = ((int32_t)(L_11));
-		goto IL_0044;
-	}
-
-IL_0043:
-	{
-		G_B10_0 = 0;
-	}
-
-IL_0044:
-	{
-		V_3 = (bool)G_B10_0;
-		bool L_12 = V_3;
-		if (!L_12)
-		{
-			goto IL_0051;
-		}
-	}
-	{
-		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_13 = V_0;
-		NullCheck(L_13);
-		VirtualActionInvoker0::Invoke(6 /* System.Void UnityEngine.Yoga.YogaNode::MarkDirty() */, L_13);
-	}
-
-IL_0051:
+IL_002e:
 	{
 		return;
 	}
@@ -34401,13 +34356,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicAtlasPage_get_filt
 {
 	{
 		int32_t L_0 = __this->___U3CfilterModeU3Ek__BackingField_3;
-		return L_0;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BaseVisualElementPanel_get_duringLayoutPhase_m2EEED4B0599F0FD8A4B61DDF5328ACCE8425A652_inline (BaseVisualElementPanel_tE3811F3D1474B72CB6CD5BCEECFF5B5CBEC1E303* __this, const RuntimeMethod* method) 
-{
-	{
-		bool L_0 = __this->___U3CduringLayoutPhaseU3Ek__BackingField_5;
 		return L_0;
 	}
 }

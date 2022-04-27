@@ -430,31 +430,31 @@ extern void GetLocalizedStringOperation__ctor_mBB8AEB9BD75626E9A1E26001646B07301
 // 0x000000F0 System.Void UnityEngine.Localization.GetTableEntryOperation`2::Destroy()
 // 0x000000F1 System.String UnityEngine.Localization.GetTableEntryOperation`2::ToString()
 // 0x000000F2 System.Void UnityEngine.Localization.GetTableEntryOperation`2::.ctor()
-// 0x000000F3 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle UnityEngine.Localization.IPreloadRequired::get_PreloadOperation()
-// 0x000000F4 System.Single UnityEngine.Localization.InitializationOperation::get_Progress()
+// 0x000000F3 System.Single UnityEngine.Localization.InitializationOperation::get_Progress()
 extern void InitializationOperation_get_Progress_m92423CA08818896525A7D57C65681FA5084221F3 (void);
-// 0x000000F5 System.String UnityEngine.Localization.InitializationOperation::get_DebugName()
+// 0x000000F4 System.String UnityEngine.Localization.InitializationOperation::get_DebugName()
 extern void InitializationOperation_get_DebugName_m35CF45350E7AF62606EF85C0204D774B439BD670 (void);
-// 0x000000F6 System.Void UnityEngine.Localization.InitializationOperation::Init(UnityEngine.Localization.Settings.LocalizationSettings)
+// 0x000000F5 System.Void UnityEngine.Localization.InitializationOperation::Init(UnityEngine.Localization.Settings.LocalizationSettings)
 extern void InitializationOperation_Init_m75149A3CB7829D874189244037450A05B3660071 (void);
-// 0x000000F7 System.Void UnityEngine.Localization.InitializationOperation::Execute()
+// 0x000000F6 System.Void UnityEngine.Localization.InitializationOperation::Execute()
 extern void InitializationOperation_Execute_m34A5EAD3618F9ED31E07456A100F50731807AF7E (void);
-// 0x000000F8 System.Void UnityEngine.Localization.InitializationOperation::LoadLocales()
+// 0x000000F7 System.Void UnityEngine.Localization.InitializationOperation::LoadLocales()
 extern void InitializationOperation_LoadLocales_m387E94627FC86B40A5FADA95EF92CFA4C3175319 (void);
-// 0x000000F9 System.Void UnityEngine.Localization.InitializationOperation::PreloadTables()
+// 0x000000F8 System.Void UnityEngine.Localization.InitializationOperation::PreloadTables()
 extern void InitializationOperation_PreloadTables_mF71DF183E895B097AC262C0E21E1EB9780C79F19 (void);
-// 0x000000FA System.Void UnityEngine.Localization.InitializationOperation::PostInitializeExtensions()
+// 0x000000F9 System.Void UnityEngine.Localization.InitializationOperation::PostInitializeExtensions()
 extern void InitializationOperation_PostInitializeExtensions_m8948FA38731B8DEC2DCA9CFB0ACE9503DFF35DC1 (void);
-// 0x000000FB System.Void UnityEngine.Localization.InitializationOperation::FinishInitializing(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
+// 0x000000FA System.Void UnityEngine.Localization.InitializationOperation::FinishInitializing(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle)
 extern void InitializationOperation_FinishInitializing_m4AD047C882AE01BD15ACBAF87A891969992ACFDE (void);
-// 0x000000FC System.Void UnityEngine.Localization.InitializationOperation::FinishInitializing(System.Boolean,System.String)
+// 0x000000FB System.Void UnityEngine.Localization.InitializationOperation::FinishInitializing(System.Boolean,System.String)
 extern void InitializationOperation_FinishInitializing_mD107DA526D0A27A3A6816D6E13A6B349644AEA25 (void);
-// 0x000000FD System.Void UnityEngine.Localization.InitializationOperation::Destroy()
+// 0x000000FC System.Void UnityEngine.Localization.InitializationOperation::Destroy()
 extern void InitializationOperation_Destroy_m10E82EAB2B41CECE5D6A1289E47D8D5A23F76DB6 (void);
-// 0x000000FE System.Void UnityEngine.Localization.InitializationOperation::.ctor()
+// 0x000000FD System.Void UnityEngine.Localization.InitializationOperation::.ctor()
 extern void InitializationOperation__ctor_mD3ABC37E96FF6C7265A6BC327B1ABB3546A269FE (void);
-// 0x000000FF System.Void UnityEngine.Localization.InitializationOperation::<LoadLocales>b__10_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Localization.Locale>)
+// 0x000000FE System.Void UnityEngine.Localization.InitializationOperation::<LoadLocales>b__10_0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Localization.Locale>)
 extern void InitializationOperation_U3CLoadLocalesU3Eb__10_0_m88805CF9081DC885B938CF4D13848B5583E965F8 (void);
+// 0x000000FF UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle UnityEngine.Localization.IPreloadRequired::get_PreloadOperation()
 // 0x00000100 System.Void UnityEngine.Localization.LoadAssetOperation`1::Init(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.Localization.Settings.LocalizedDatabase`2/TableEntryResult<UnityEngine.Localization.Tables.AssetTable,UnityEngine.Localization.Tables.AssetTableEntry>>)
 // 0x00000101 System.Void UnityEngine.Localization.LoadAssetOperation`1::Execute()
 // 0x00000102 System.Void UnityEngine.Localization.LoadAssetOperation`1::AssetLoaded(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>)
@@ -2891,56 +2891,56 @@ extern void UnityEventString__ctor_mCF0298A8F6521CEDDE33F755F82BBC7789248D9C (vo
 extern void UnityEventTexture__ctor_mEFBD2DFFBD2CC9C77D388D91860A94793C874BDC (void);
 // 0x0000061E System.Void UnityEngine.Localization.Components.LocalizeAudioClipEvent::.ctor()
 extern void LocalizeAudioClipEvent__ctor_m4864F1E7559C08611F49E15E4BAC3804C2518D77 (void);
-// 0x0000061F System.Void UnityEngine.Localization.Components.LocalizeSpriteEvent::.ctor()
-extern void LocalizeSpriteEvent__ctor_mF8B60EB4A73542AC26AAC5B5863B2D0ADC2BB469 (void);
-// 0x00000620 UnityEngine.Localization.LocalizedString UnityEngine.Localization.Components.LocalizeStringEvent::get_StringReference()
-extern void LocalizeStringEvent_get_StringReference_mDF17827D777DA11537E6DAD7AAF0DA6640E41466 (void);
-// 0x00000621 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::set_StringReference(UnityEngine.Localization.LocalizedString)
-extern void LocalizeStringEvent_set_StringReference_mA2F5D77D4713F437EB293BF26DDC9F4149E48249 (void);
-// 0x00000622 UnityEngine.Localization.Events.UnityEventString UnityEngine.Localization.Components.LocalizeStringEvent::get_OnUpdateString()
-extern void LocalizeStringEvent_get_OnUpdateString_m2BC1AA8517420A6FA21E2F4D623F127DF4DEEAC1 (void);
-// 0x00000623 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::set_OnUpdateString(UnityEngine.Localization.Events.UnityEventString)
-extern void LocalizeStringEvent_set_OnUpdateString_m16CA254D6834F3F62D589579E22235244CD29D89 (void);
-// 0x00000624 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::RefreshString()
-extern void LocalizeStringEvent_RefreshString_mC0097A2F090C20CC6A33E0CF6D634783C9FAB4DE (void);
-// 0x00000625 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnEnable()
-extern void LocalizeStringEvent_OnEnable_mACBB0E7F2A4D29E567D266D0F4A7FF8DF4961A02 (void);
-// 0x00000626 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnDisable()
-extern void LocalizeStringEvent_OnDisable_mF0B16CCF850435884F56081CA7AF1DBB3D6CA511 (void);
-// 0x00000627 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnDestroy()
-extern void LocalizeStringEvent_OnDestroy_mC8AE0AE5F15B23E067A8200328691514709FF108 (void);
-// 0x00000628 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::UpdateString(System.String)
-extern void LocalizeStringEvent_UpdateString_m9A10CA6D767CE4B29634B5388B82F15AECC43CF6 (void);
-// 0x00000629 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnValidate()
-extern void LocalizeStringEvent_OnValidate_mCE8E6ED0936B94BD63A90E49685181A24C483A4A (void);
-// 0x0000062A System.Void UnityEngine.Localization.Components.LocalizeStringEvent::RegisterChangeHandler()
-extern void LocalizeStringEvent_RegisterChangeHandler_m2688FCBFB173A2EA3453A451B00A00F7DECA6075 (void);
-// 0x0000062B System.Void UnityEngine.Localization.Components.LocalizeStringEvent::ClearChangeHandler()
-extern void LocalizeStringEvent_ClearChangeHandler_mFF22F3A2BFC3C4ED7E9F305BB39AEDB05B1721B5 (void);
-// 0x0000062C System.Void UnityEngine.Localization.Components.LocalizeStringEvent::.ctor()
-extern void LocalizeStringEvent__ctor_mC371518BE325B546AB09BF12370038DACFBA33A2 (void);
-// 0x0000062D System.Void UnityEngine.Localization.Components.LocalizeTextureEvent::.ctor()
-extern void LocalizeTextureEvent__ctor_mB732A6E1CFE10571B9DB3D292BF5204ECEFA927E (void);
-// 0x0000062E TReference UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::get_AssetReference()
-// 0x0000062F System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::set_AssetReference(TReference)
-// 0x00000630 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnEnable()
-// 0x00000631 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnDisable()
-// 0x00000632 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnDestroy()
-// 0x00000633 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnValidate()
-// 0x00000634 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::RegisterChangeHandler()
-// 0x00000635 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::ClearChangeHandler()
-// 0x00000636 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::UpdateAsset(TObject)
-// 0x00000637 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::.ctor()
-// 0x00000638 TEvent UnityEngine.Localization.Components.LocalizedAssetEvent`3::get_OnUpdateAsset()
-// 0x00000639 System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::set_OnUpdateAsset(TEvent)
-// 0x0000063A System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::UpdateAsset(TObject)
-// 0x0000063B System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::.ctor()
-// 0x0000063C System.Void UnityEngine.Localization.Components.LocalizedGameObjectEvent::UpdateAsset(UnityEngine.GameObject)
+// 0x0000061F TReference UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::get_AssetReference()
+// 0x00000620 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::set_AssetReference(TReference)
+// 0x00000621 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnEnable()
+// 0x00000622 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnDisable()
+// 0x00000623 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnDestroy()
+// 0x00000624 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::OnValidate()
+// 0x00000625 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::RegisterChangeHandler()
+// 0x00000626 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::ClearChangeHandler()
+// 0x00000627 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::UpdateAsset(TObject)
+// 0x00000628 System.Void UnityEngine.Localization.Components.LocalizedAssetBehaviour`2::.ctor()
+// 0x00000629 TEvent UnityEngine.Localization.Components.LocalizedAssetEvent`3::get_OnUpdateAsset()
+// 0x0000062A System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::set_OnUpdateAsset(TEvent)
+// 0x0000062B System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::UpdateAsset(TObject)
+// 0x0000062C System.Void UnityEngine.Localization.Components.LocalizedAssetEvent`3::.ctor()
+// 0x0000062D System.Void UnityEngine.Localization.Components.LocalizedGameObjectEvent::UpdateAsset(UnityEngine.GameObject)
 extern void LocalizedGameObjectEvent_UpdateAsset_m5830F5ACBBB67A595D22644A6F2D611F179E30F5 (void);
-// 0x0000063D System.Void UnityEngine.Localization.Components.LocalizedGameObjectEvent::.ctor()
+// 0x0000062E System.Void UnityEngine.Localization.Components.LocalizedGameObjectEvent::.ctor()
 extern void LocalizedGameObjectEvent__ctor_mF3647D51A310E44757E4C08A7AE1883034644D35 (void);
-// 0x0000063E System.Void UnityEngine.Localization.Components.LocalizedMonoBehaviour::.ctor()
+// 0x0000062F System.Void UnityEngine.Localization.Components.LocalizedMonoBehaviour::.ctor()
 extern void LocalizedMonoBehaviour__ctor_m453433F3888CA88762E975308567A0E05EC2BF1B (void);
+// 0x00000630 System.Void UnityEngine.Localization.Components.LocalizeSpriteEvent::.ctor()
+extern void LocalizeSpriteEvent__ctor_mF8B60EB4A73542AC26AAC5B5863B2D0ADC2BB469 (void);
+// 0x00000631 UnityEngine.Localization.LocalizedString UnityEngine.Localization.Components.LocalizeStringEvent::get_StringReference()
+extern void LocalizeStringEvent_get_StringReference_mDF17827D777DA11537E6DAD7AAF0DA6640E41466 (void);
+// 0x00000632 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::set_StringReference(UnityEngine.Localization.LocalizedString)
+extern void LocalizeStringEvent_set_StringReference_mA2F5D77D4713F437EB293BF26DDC9F4149E48249 (void);
+// 0x00000633 UnityEngine.Localization.Events.UnityEventString UnityEngine.Localization.Components.LocalizeStringEvent::get_OnUpdateString()
+extern void LocalizeStringEvent_get_OnUpdateString_m2BC1AA8517420A6FA21E2F4D623F127DF4DEEAC1 (void);
+// 0x00000634 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::set_OnUpdateString(UnityEngine.Localization.Events.UnityEventString)
+extern void LocalizeStringEvent_set_OnUpdateString_m16CA254D6834F3F62D589579E22235244CD29D89 (void);
+// 0x00000635 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::RefreshString()
+extern void LocalizeStringEvent_RefreshString_mC0097A2F090C20CC6A33E0CF6D634783C9FAB4DE (void);
+// 0x00000636 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnEnable()
+extern void LocalizeStringEvent_OnEnable_mACBB0E7F2A4D29E567D266D0F4A7FF8DF4961A02 (void);
+// 0x00000637 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnDisable()
+extern void LocalizeStringEvent_OnDisable_mF0B16CCF850435884F56081CA7AF1DBB3D6CA511 (void);
+// 0x00000638 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnDestroy()
+extern void LocalizeStringEvent_OnDestroy_mC8AE0AE5F15B23E067A8200328691514709FF108 (void);
+// 0x00000639 System.Void UnityEngine.Localization.Components.LocalizeStringEvent::UpdateString(System.String)
+extern void LocalizeStringEvent_UpdateString_m9A10CA6D767CE4B29634B5388B82F15AECC43CF6 (void);
+// 0x0000063A System.Void UnityEngine.Localization.Components.LocalizeStringEvent::OnValidate()
+extern void LocalizeStringEvent_OnValidate_mCE8E6ED0936B94BD63A90E49685181A24C483A4A (void);
+// 0x0000063B System.Void UnityEngine.Localization.Components.LocalizeStringEvent::RegisterChangeHandler()
+extern void LocalizeStringEvent_RegisterChangeHandler_m2688FCBFB173A2EA3453A451B00A00F7DECA6075 (void);
+// 0x0000063C System.Void UnityEngine.Localization.Components.LocalizeStringEvent::ClearChangeHandler()
+extern void LocalizeStringEvent_ClearChangeHandler_mFF22F3A2BFC3C4ED7E9F305BB39AEDB05B1721B5 (void);
+// 0x0000063D System.Void UnityEngine.Localization.Components.LocalizeStringEvent::.ctor()
+extern void LocalizeStringEvent__ctor_mC371518BE325B546AB09BF12370038DACFBA33A2 (void);
+// 0x0000063E System.Void UnityEngine.Localization.Components.LocalizeTextureEvent::.ctor()
+extern void LocalizeTextureEvent__ctor_mB732A6E1CFE10571B9DB3D292BF5204ECEFA927E (void);
 // 0x0000063F UnityEngine.Localization.Metadata.MetadataType UnityEngine.Localization.Metadata.MetadataTypeAttribute::get_Type()
 extern void MetadataTypeAttribute_get_Type_m1292629D91767E1D0226F6987E0288A3CC7A029D (void);
 // 0x00000640 System.Void UnityEngine.Localization.Metadata.MetadataTypeAttribute::set_Type(UnityEngine.Localization.Metadata.MetadataType)
@@ -3632,7 +3632,6 @@ static Il2CppMethodPointer s_methodPointers[1844] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
 	InitializationOperation_get_Progress_m92423CA08818896525A7D57C65681FA5084221F3,
 	InitializationOperation_get_DebugName_m35CF45350E7AF62606EF85C0204D774B439BD670,
 	InitializationOperation_Init_m75149A3CB7829D874189244037450A05B3660071,
@@ -3645,6 +3644,7 @@ static Il2CppMethodPointer s_methodPointers[1844] =
 	InitializationOperation_Destroy_m10E82EAB2B41CECE5D6A1289E47D8D5A23F76DB6,
 	InitializationOperation__ctor_mD3ABC37E96FF6C7265A6BC327B1ABB3546A269FE,
 	InitializationOperation_U3CLoadLocalesU3Eb__10_0_m88805CF9081DC885B938CF4D13848B5583E965F8,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -4956,21 +4956,6 @@ static Il2CppMethodPointer s_methodPointers[1844] =
 	UnityEventString__ctor_mCF0298A8F6521CEDDE33F755F82BBC7789248D9C,
 	UnityEventTexture__ctor_mEFBD2DFFBD2CC9C77D388D91860A94793C874BDC,
 	LocalizeAudioClipEvent__ctor_m4864F1E7559C08611F49E15E4BAC3804C2518D77,
-	LocalizeSpriteEvent__ctor_mF8B60EB4A73542AC26AAC5B5863B2D0ADC2BB469,
-	LocalizeStringEvent_get_StringReference_mDF17827D777DA11537E6DAD7AAF0DA6640E41466,
-	LocalizeStringEvent_set_StringReference_mA2F5D77D4713F437EB293BF26DDC9F4149E48249,
-	LocalizeStringEvent_get_OnUpdateString_m2BC1AA8517420A6FA21E2F4D623F127DF4DEEAC1,
-	LocalizeStringEvent_set_OnUpdateString_m16CA254D6834F3F62D589579E22235244CD29D89,
-	LocalizeStringEvent_RefreshString_mC0097A2F090C20CC6A33E0CF6D634783C9FAB4DE,
-	LocalizeStringEvent_OnEnable_mACBB0E7F2A4D29E567D266D0F4A7FF8DF4961A02,
-	LocalizeStringEvent_OnDisable_mF0B16CCF850435884F56081CA7AF1DBB3D6CA511,
-	LocalizeStringEvent_OnDestroy_mC8AE0AE5F15B23E067A8200328691514709FF108,
-	LocalizeStringEvent_UpdateString_m9A10CA6D767CE4B29634B5388B82F15AECC43CF6,
-	LocalizeStringEvent_OnValidate_mCE8E6ED0936B94BD63A90E49685181A24C483A4A,
-	LocalizeStringEvent_RegisterChangeHandler_m2688FCBFB173A2EA3453A451B00A00F7DECA6075,
-	LocalizeStringEvent_ClearChangeHandler_mFF22F3A2BFC3C4ED7E9F305BB39AEDB05B1721B5,
-	LocalizeStringEvent__ctor_mC371518BE325B546AB09BF12370038DACFBA33A2,
-	LocalizeTextureEvent__ctor_mB732A6E1CFE10571B9DB3D292BF5204ECEFA927E,
 	NULL,
 	NULL,
 	NULL,
@@ -4988,6 +4973,21 @@ static Il2CppMethodPointer s_methodPointers[1844] =
 	LocalizedGameObjectEvent_UpdateAsset_m5830F5ACBBB67A595D22644A6F2D611F179E30F5,
 	LocalizedGameObjectEvent__ctor_mF3647D51A310E44757E4C08A7AE1883034644D35,
 	LocalizedMonoBehaviour__ctor_m453433F3888CA88762E975308567A0E05EC2BF1B,
+	LocalizeSpriteEvent__ctor_mF8B60EB4A73542AC26AAC5B5863B2D0ADC2BB469,
+	LocalizeStringEvent_get_StringReference_mDF17827D777DA11537E6DAD7AAF0DA6640E41466,
+	LocalizeStringEvent_set_StringReference_mA2F5D77D4713F437EB293BF26DDC9F4149E48249,
+	LocalizeStringEvent_get_OnUpdateString_m2BC1AA8517420A6FA21E2F4D623F127DF4DEEAC1,
+	LocalizeStringEvent_set_OnUpdateString_m16CA254D6834F3F62D589579E22235244CD29D89,
+	LocalizeStringEvent_RefreshString_mC0097A2F090C20CC6A33E0CF6D634783C9FAB4DE,
+	LocalizeStringEvent_OnEnable_mACBB0E7F2A4D29E567D266D0F4A7FF8DF4961A02,
+	LocalizeStringEvent_OnDisable_mF0B16CCF850435884F56081CA7AF1DBB3D6CA511,
+	LocalizeStringEvent_OnDestroy_mC8AE0AE5F15B23E067A8200328691514709FF108,
+	LocalizeStringEvent_UpdateString_m9A10CA6D767CE4B29634B5388B82F15AECC43CF6,
+	LocalizeStringEvent_OnValidate_mCE8E6ED0936B94BD63A90E49685181A24C483A4A,
+	LocalizeStringEvent_RegisterChangeHandler_m2688FCBFB173A2EA3453A451B00A00F7DECA6075,
+	LocalizeStringEvent_ClearChangeHandler_mFF22F3A2BFC3C4ED7E9F305BB39AEDB05B1721B5,
+	LocalizeStringEvent__ctor_mC371518BE325B546AB09BF12370038DACFBA33A2,
+	LocalizeTextureEvent__ctor_mB732A6E1CFE10571B9DB3D292BF5204ECEFA927E,
 	MetadataTypeAttribute_get_Type_m1292629D91767E1D0226F6987E0288A3CC7A029D,
 	MetadataTypeAttribute_set_Type_m7E12D7854B26696977F687EFFBDF5F98D4E5A534,
 	MetadataTypeAttribute__ctor_mD0FCCA6E46EDA7F29A88F4D63F804CE9A77BD623,
@@ -5614,7 +5614,6 @@ static const int32_t s_InvokerIndices[1844] =
 	0,
 	0,
 	0,
-	0,
 	5943,
 	5895,
 	4886,
@@ -5627,6 +5626,7 @@ static const int32_t s_InvokerIndices[1844] =
 	6018,
 	6018,
 	4542,
+	0,
 	0,
 	0,
 	0,
@@ -6938,6 +6938,23 @@ static const int32_t s_InvokerIndices[1844] =
 	6018,
 	6018,
 	6018,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4886,
+	6018,
+	6018,
 	6018,
 	5895,
 	4886,
@@ -6951,23 +6968,6 @@ static const int32_t s_InvokerIndices[1844] =
 	6018,
 	6018,
 	6018,
-	6018,
-	6018,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4886,
 	6018,
 	6018,
 	5870,
@@ -7234,8 +7234,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[54] =
 	{ 0x0200006C, { 326, 5 } },
 	{ 0x02000081, { 331, 2 } },
 	{ 0x020000C7, { 347, 85 } },
-	{ 0x020000F6, { 432, 12 } },
-	{ 0x020000F7, { 444, 7 } },
+	{ 0x020000F3, { 432, 12 } },
+	{ 0x020000F4, { 444, 7 } },
 	{ 0x02000117, { 463, 33 } },
 	{ 0x06000009, { 0, 1 } },
 	{ 0x0600000A, { 1, 1 } },

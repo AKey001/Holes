@@ -600,74 +600,74 @@ extern void InspectableIfAttribute_get_order_mAF8EA9532F24CB30B22AF96132010090D1
 extern void InspectableIfAttribute_set_order_m43F6F4BE806CA85D92F62C41D100BCF90CD859AE (void);
 // 0x000001E2 System.String Unity.VisualScripting.InspectableIfAttribute::get_conditionMember()
 extern void InspectableIfAttribute_get_conditionMember_mE57CFBBD3D38775B6A6178A870D4A2F60F1D705A (void);
-// 0x000001E3 System.Void Unity.VisualScripting.InspectViaImplementationsAttribute::.ctor()
-extern void InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0 (void);
-// 0x000001E4 System.Void Unity.VisualScripting.InspectorActionDirectionAttribute::.ctor(Unity.VisualScripting.ActionDirection)
+// 0x000001E3 System.Void Unity.VisualScripting.InspectorActionDirectionAttribute::.ctor(Unity.VisualScripting.ActionDirection)
 extern void InspectorActionDirectionAttribute__ctor_m9B3607AF556284E14C97F346E270D15D078F862C (void);
-// 0x000001E5 Unity.VisualScripting.ActionDirection Unity.VisualScripting.InspectorActionDirectionAttribute::get_direction()
+// 0x000001E4 Unity.VisualScripting.ActionDirection Unity.VisualScripting.InspectorActionDirectionAttribute::get_direction()
 extern void InspectorActionDirectionAttribute_get_direction_mB732F0695805428CECC78C389416CEBF995388F8 (void);
-// 0x000001E6 System.Void Unity.VisualScripting.InspectorActionDirectionAttribute::set_direction(Unity.VisualScripting.ActionDirection)
+// 0x000001E5 System.Void Unity.VisualScripting.InspectorActionDirectionAttribute::set_direction(Unity.VisualScripting.ActionDirection)
 extern void InspectorActionDirectionAttribute_set_direction_m44F88DA21431124243265E2995E8685C9A9337C5 (void);
-// 0x000001E7 System.Void Unity.VisualScripting.InspectorAdaptiveWidthAttribute::.ctor(System.Single)
+// 0x000001E6 System.Void Unity.VisualScripting.InspectorAdaptiveWidthAttribute::.ctor(System.Single)
 extern void InspectorAdaptiveWidthAttribute__ctor_m447DA73F07F357A106A98F5B64ACAD26853B3974 (void);
-// 0x000001E8 System.Single Unity.VisualScripting.InspectorAdaptiveWidthAttribute::get_width()
+// 0x000001E7 System.Single Unity.VisualScripting.InspectorAdaptiveWidthAttribute::get_width()
 extern void InspectorAdaptiveWidthAttribute_get_width_m0406E1B84B82627651AF5A981896AF5500BF89AF (void);
-// 0x000001E9 System.Void Unity.VisualScripting.InspectorAdaptiveWidthAttribute::set_width(System.Single)
+// 0x000001E8 System.Void Unity.VisualScripting.InspectorAdaptiveWidthAttribute::set_width(System.Single)
 extern void InspectorAdaptiveWidthAttribute_set_width_mF36372D2F5FEF7AB83E4ED5F62701F472D12E8A9 (void);
-// 0x000001EA System.Void Unity.VisualScripting.InspectorDelayedAttribute::.ctor()
+// 0x000001E9 System.Void Unity.VisualScripting.InspectorDelayedAttribute::.ctor()
 extern void InspectorDelayedAttribute__ctor_m50EB597E0D280FED7E3184C6C9D83D38C575A6C4 (void);
-// 0x000001EB System.Void Unity.VisualScripting.InspectorExpandTooltipAttribute::.ctor()
+// 0x000001EA System.Void Unity.VisualScripting.InspectorExpandTooltipAttribute::.ctor()
 extern void InspectorExpandTooltipAttribute__ctor_mB6C8559D3D54BF5CEB4517FAE48909B93180CD4D (void);
-// 0x000001EC System.Void Unity.VisualScripting.InspectorLabelAttribute::.ctor(System.String)
+// 0x000001EB System.Void Unity.VisualScripting.InspectorLabelAttribute::.ctor(System.String)
 extern void InspectorLabelAttribute__ctor_m5B0B510AF83DB1A34D03F8C442CEF6AA5AB4BCD1 (void);
-// 0x000001ED System.Void Unity.VisualScripting.InspectorLabelAttribute::.ctor(System.String,System.String)
+// 0x000001EC System.Void Unity.VisualScripting.InspectorLabelAttribute::.ctor(System.String,System.String)
 extern void InspectorLabelAttribute__ctor_mEBC5608ADB3AE7F306C8AF879FAEBAC69E31FF8D (void);
-// 0x000001EE System.String Unity.VisualScripting.InspectorLabelAttribute::get_text()
+// 0x000001ED System.String Unity.VisualScripting.InspectorLabelAttribute::get_text()
 extern void InspectorLabelAttribute_get_text_m917B132721D778D361613F4550F4E339263B3DBB (void);
-// 0x000001EF System.Void Unity.VisualScripting.InspectorLabelAttribute::set_text(System.String)
+// 0x000001EE System.Void Unity.VisualScripting.InspectorLabelAttribute::set_text(System.String)
 extern void InspectorLabelAttribute_set_text_mD0C27F26A7E9BE4C7240621ECB984CD3B953656F (void);
-// 0x000001F0 System.String Unity.VisualScripting.InspectorLabelAttribute::get_tooltip()
+// 0x000001EF System.String Unity.VisualScripting.InspectorLabelAttribute::get_tooltip()
 extern void InspectorLabelAttribute_get_tooltip_m4652EC23EF6E336101B542F7422CFB3973CB6D60 (void);
-// 0x000001F1 System.Void Unity.VisualScripting.InspectorLabelAttribute::set_tooltip(System.String)
+// 0x000001F0 System.Void Unity.VisualScripting.InspectorLabelAttribute::set_tooltip(System.String)
 extern void InspectorLabelAttribute_set_tooltip_m73981EB8F8CA9D951E3FEE8C8BD87F5C2367C8D7 (void);
-// 0x000001F2 UnityEngine.Texture Unity.VisualScripting.InspectorLabelAttribute::get_image()
+// 0x000001F1 UnityEngine.Texture Unity.VisualScripting.InspectorLabelAttribute::get_image()
 extern void InspectorLabelAttribute_get_image_mFEBCB19C52FE580426C5335A90D00B7BB8A96259 (void);
-// 0x000001F3 System.Void Unity.VisualScripting.InspectorLabelAttribute::set_image(UnityEngine.Texture)
+// 0x000001F2 System.Void Unity.VisualScripting.InspectorLabelAttribute::set_image(UnityEngine.Texture)
 extern void InspectorLabelAttribute_set_image_m786066579B9150345E0B1D32D6154E4B07B0A4A2 (void);
-// 0x000001F4 System.Void Unity.VisualScripting.InspectorRangeAttribute::.ctor(System.Single,System.Single)
+// 0x000001F3 System.Void Unity.VisualScripting.InspectorRangeAttribute::.ctor(System.Single,System.Single)
 extern void InspectorRangeAttribute__ctor_mEEB5D161582F6E1AE553FC51EB9C0D2D98671006 (void);
-// 0x000001F5 System.Single Unity.VisualScripting.InspectorRangeAttribute::get_min()
+// 0x000001F4 System.Single Unity.VisualScripting.InspectorRangeAttribute::get_min()
 extern void InspectorRangeAttribute_get_min_mB483F1A779771570D49F950772CFA8C080EC5699 (void);
-// 0x000001F6 System.Void Unity.VisualScripting.InspectorRangeAttribute::set_min(System.Single)
+// 0x000001F5 System.Void Unity.VisualScripting.InspectorRangeAttribute::set_min(System.Single)
 extern void InspectorRangeAttribute_set_min_mB11964C93F8390A1B54E2AD947756150E1AD1F38 (void);
-// 0x000001F7 System.Single Unity.VisualScripting.InspectorRangeAttribute::get_max()
+// 0x000001F6 System.Single Unity.VisualScripting.InspectorRangeAttribute::get_max()
 extern void InspectorRangeAttribute_get_max_m3F1BD71100ECAD3A7467C80A638F2A9392305EE9 (void);
-// 0x000001F8 System.Void Unity.VisualScripting.InspectorRangeAttribute::set_max(System.Single)
+// 0x000001F7 System.Void Unity.VisualScripting.InspectorRangeAttribute::set_max(System.Single)
 extern void InspectorRangeAttribute_set_max_m055136FD3D11D5029463BAF9D7C7FD251CB5F920 (void);
-// 0x000001F9 System.Single Unity.VisualScripting.InspectorTextAreaAttribute::get_minLines()
+// 0x000001F8 System.Single Unity.VisualScripting.InspectorTextAreaAttribute::get_minLines()
 extern void InspectorTextAreaAttribute_get_minLines_mFBCDAD38CDC6D949DA7614C788BA2903D8754CD6 (void);
-// 0x000001FA System.Void Unity.VisualScripting.InspectorTextAreaAttribute::set_minLines(System.Single)
+// 0x000001F9 System.Void Unity.VisualScripting.InspectorTextAreaAttribute::set_minLines(System.Single)
 extern void InspectorTextAreaAttribute_set_minLines_m7988D3BA0D8A57D79C496C1BDF9B7FB9ABEA3735 (void);
-// 0x000001FB System.Boolean Unity.VisualScripting.InspectorTextAreaAttribute::get_hasMinLines()
+// 0x000001FA System.Boolean Unity.VisualScripting.InspectorTextAreaAttribute::get_hasMinLines()
 extern void InspectorTextAreaAttribute_get_hasMinLines_m3B12DF34D931D251982BEA0B3F9FC5697F5CBB8C (void);
-// 0x000001FC System.Single Unity.VisualScripting.InspectorTextAreaAttribute::get_maxLines()
+// 0x000001FB System.Single Unity.VisualScripting.InspectorTextAreaAttribute::get_maxLines()
 extern void InspectorTextAreaAttribute_get_maxLines_m0BB867D6DED1E1F87EC9E7B49E03DCCEF1451F1C (void);
-// 0x000001FD System.Void Unity.VisualScripting.InspectorTextAreaAttribute::set_maxLines(System.Single)
+// 0x000001FC System.Void Unity.VisualScripting.InspectorTextAreaAttribute::set_maxLines(System.Single)
 extern void InspectorTextAreaAttribute_set_maxLines_m775860CA75ED213960A73DFBF896BAE9F08DA16F (void);
-// 0x000001FE System.Boolean Unity.VisualScripting.InspectorTextAreaAttribute::get_hasMaxLines()
+// 0x000001FD System.Boolean Unity.VisualScripting.InspectorTextAreaAttribute::get_hasMaxLines()
 extern void InspectorTextAreaAttribute_get_hasMaxLines_m242B4FBD1E77F30B0976108C74F47BFDDF25020C (void);
-// 0x000001FF System.Void Unity.VisualScripting.InspectorTextAreaAttribute::.ctor()
+// 0x000001FE System.Void Unity.VisualScripting.InspectorTextAreaAttribute::.ctor()
 extern void InspectorTextAreaAttribute__ctor_m5591B8A111D8A2E5FCD5D28541FE05457B48E178 (void);
-// 0x00000200 System.Void Unity.VisualScripting.InspectorToggleLeftAttribute::.ctor()
+// 0x000001FF System.Void Unity.VisualScripting.InspectorToggleLeftAttribute::.ctor()
 extern void InspectorToggleLeftAttribute__ctor_m534972A0156B49A32786ADD2B43965D051E27D3B (void);
-// 0x00000201 System.Void Unity.VisualScripting.InspectorWideAttribute::.ctor()
+// 0x00000200 System.Void Unity.VisualScripting.InspectorWideAttribute::.ctor()
 extern void InspectorWideAttribute__ctor_m3DE8E71FA058D95F259F7B95DF654421F3872F54 (void);
-// 0x00000202 System.Void Unity.VisualScripting.InspectorWideAttribute::.ctor(System.Boolean)
+// 0x00000201 System.Void Unity.VisualScripting.InspectorWideAttribute::.ctor(System.Boolean)
 extern void InspectorWideAttribute__ctor_m552B28D4B7600A6F6D6EA70A7FA982BE83D81177 (void);
-// 0x00000203 System.Boolean Unity.VisualScripting.InspectorWideAttribute::get_toEdge()
+// 0x00000202 System.Boolean Unity.VisualScripting.InspectorWideAttribute::get_toEdge()
 extern void InspectorWideAttribute_get_toEdge_m70A60EAC659618A389E54BEF7BA977342830DEFD (void);
-// 0x00000204 System.Void Unity.VisualScripting.InspectorWideAttribute::set_toEdge(System.Boolean)
+// 0x00000203 System.Void Unity.VisualScripting.InspectorWideAttribute::set_toEdge(System.Boolean)
 extern void InspectorWideAttribute_set_toEdge_m9E239E2E48DCDC88ECE51309AB059176AABD21D4 (void);
+// 0x00000204 System.Void Unity.VisualScripting.InspectViaImplementationsAttribute::.ctor()
+extern void InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0 (void);
 // 0x00000205 System.Void Unity.VisualScripting.NullMeansSelfAttribute::.ctor()
 extern void NullMeansSelfAttribute__ctor_mFCECA20DF6BBEFE3E67C8581AA9A43A807DAFF09 (void);
 // 0x00000206 System.Void Unity.VisualScripting.PredictableAttribute::.ctor()
@@ -1175,18 +1175,18 @@ extern void UnityOnInputFieldValueChangedMessageListener_Start_mFE519147C0EC2E77
 extern void UnityOnInputFieldValueChangedMessageListener__ctor_m31BDBF3EC67178840751F00D665B8ABC86356929 (void);
 // 0x00000328 System.Void Unity.VisualScripting.UnityOnInputFieldValueChangedMessageListener::<Start>b__0_0(System.String)
 extern void UnityOnInputFieldValueChangedMessageListener_U3CStartU3Eb__0_0_m853E3A2CE87138C235BC6C9C5F70C32F0772C3F9 (void);
-// 0x00000329 System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::Start()
-extern void UnityOnScrollRectValueChangedMessageListener_Start_m983AD1FAFE9F7A9C5539C93D00C57731FD1AD555 (void);
-// 0x0000032A System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::.ctor()
-extern void UnityOnScrollRectValueChangedMessageListener__ctor_m25B624F4E10451CC4A6E0074D01325E29A93D61F (void);
-// 0x0000032B System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::<Start>b__0_0(UnityEngine.Vector2)
-extern void UnityOnScrollRectValueChangedMessageListener_U3CStartU3Eb__0_0_m42DF3A89D079CA8CAA57EADDC9C302DC36961646 (void);
-// 0x0000032C System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::Start()
+// 0x00000329 System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::Start()
 extern void UnityOnScrollbarValueChangedMessageListener_Start_m2465A8B83C1C687695D88BC40DAD1FFB970E1998 (void);
-// 0x0000032D System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::.ctor()
+// 0x0000032A System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::.ctor()
 extern void UnityOnScrollbarValueChangedMessageListener__ctor_mF03993821630E71BA1FEB6E4A89C5B6385EA197F (void);
-// 0x0000032E System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::<Start>b__0_0(System.Single)
+// 0x0000032B System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::<Start>b__0_0(System.Single)
 extern void UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9 (void);
+// 0x0000032C System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::Start()
+extern void UnityOnScrollRectValueChangedMessageListener_Start_m983AD1FAFE9F7A9C5539C93D00C57731FD1AD555 (void);
+// 0x0000032D System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::.ctor()
+extern void UnityOnScrollRectValueChangedMessageListener__ctor_m25B624F4E10451CC4A6E0074D01325E29A93D61F (void);
+// 0x0000032E System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::<Start>b__0_0(UnityEngine.Vector2)
+extern void UnityOnScrollRectValueChangedMessageListener_U3CStartU3Eb__0_0_m42DF3A89D079CA8CAA57EADDC9C302DC36961646 (void);
 // 0x0000032F System.Void Unity.VisualScripting.UnityOnSliderValueChangedMessageListener::Start()
 extern void UnityOnSliderValueChangedMessageListener_Start_m8C96BA43A07EAF7B6FAC3C4A6EA063EA6116CB25 (void);
 // 0x00000330 System.Void Unity.VisualScripting.UnityOnSliderValueChangedMessageListener::.ctor()
@@ -1689,50 +1689,50 @@ extern void U3CGetBreadcrumbsU3Ed__21_System_Collections_IEnumerator_get_Current
 extern void U3CGetBreadcrumbsU3Ed__21_System_Collections_Generic_IEnumerableU3CUnity_VisualScripting_GraphReferenceU3E_GetEnumerator_mD0E42ADF3FC30F077AC3234E7B8A048715A4A611 (void);
 // 0x00000460 System.Collections.IEnumerator Unity.VisualScripting.GraphReference/<GetBreadcrumbs>d__21::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CGetBreadcrumbsU3Ed__21_System_Collections_IEnumerable_GetEnumerator_m6BC9921BAA819D320189A23DB1101150629C0796 (void);
-// 0x00000461 System.Void Unity.VisualScripting.GraphStack::.ctor()
-extern void GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B (void);
-// 0x00000462 System.Void Unity.VisualScripting.GraphStack::InitializeNoAlloc(Unity.VisualScripting.IGraphRoot,System.Collections.Generic.List`1<Unity.VisualScripting.IGraphParentElement>,System.Boolean)
-extern void GraphStack_InitializeNoAlloc_m49B8D8812CC5B233991295AEBDA44751469588DA (void);
-// 0x00000463 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::New(Unity.VisualScripting.IGraphRoot,System.Collections.Generic.List`1<Unity.VisualScripting.IGraphParentElement>)
-extern void GraphStack_New_m4E56158E8427A35113217D0207D037A728C03F22 (void);
-// 0x00000464 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::New(Unity.VisualScripting.GraphPointer)
-extern void GraphStack_New_mEBB3332F7707E14E372953345860C5053742FECC (void);
-// 0x00000465 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::Clone()
-extern void GraphStack_Clone_m62957C5A0A88E0F14E2794C4D91236AB7A5F05E6 (void);
-// 0x00000466 System.Void Unity.VisualScripting.GraphStack::Dispose()
-extern void GraphStack_Dispose_m29922213E8C6C813F05EB7E612B8E8D28B1C4997 (void);
-// 0x00000467 System.Void Unity.VisualScripting.GraphStack::Unity.VisualScripting.IPoolable.New()
-extern void GraphStack_Unity_VisualScripting_IPoolable_New_mB4B027F8CE20C2A9AF214EBB9F5AAE3DAF976984 (void);
-// 0x00000468 System.Void Unity.VisualScripting.GraphStack::Unity.VisualScripting.IPoolable.Free()
-extern void GraphStack_Unity_VisualScripting_IPoolable_Free_m4A502BC5AFE4588EDD0BF5F9C92BFFAE17A4A0C6 (void);
-// 0x00000469 Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphStack::AsReference()
-extern void GraphStack_AsReference_m23F3CF3A12BDE9CA9F7DFE7A022F677695495251 (void);
-// 0x0000046A Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphStack::ToReference()
-extern void GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B (void);
-// 0x0000046B System.Void Unity.VisualScripting.GraphStack::EnterParentElement(Unity.VisualScripting.IGraphParentElement)
-extern void GraphStack_EnterParentElement_mFDB479B4C0146EE0CD7D3AB11585799981F455FD (void);
-// 0x0000046C System.Boolean Unity.VisualScripting.GraphStack::TryEnterParentElement(Unity.VisualScripting.IGraphParentElement)
-extern void GraphStack_TryEnterParentElement_mB1BF77A7F1FF07C7EF6A043843F31A1FD41B3895 (void);
-// 0x0000046D System.Boolean Unity.VisualScripting.GraphStack::TryEnterParentElementUnsafe(Unity.VisualScripting.IGraphParentElement)
-extern void GraphStack_TryEnterParentElementUnsafe_mB1907722A1C39EF129BAA2829D029EE2838D9865 (void);
-// 0x0000046E System.Void Unity.VisualScripting.GraphStack::ExitParentElement()
-extern void GraphStack_ExitParentElement_mB4379BEC03B4DF2D6A7674C01B9970CB98290568 (void);
-// 0x0000046F System.Void Unity.VisualScripting.GraphStack/<>c::.cctor()
-extern void U3CU3Ec__cctor_m4B80C412BD2DAFC8D74744AA9CA4CDA481B85040 (void);
-// 0x00000470 System.Void Unity.VisualScripting.GraphStack/<>c::.ctor()
-extern void U3CU3Ec__ctor_mF317AA7A6BB9E4083147F241AC062F3C03C7CC73 (void);
-// 0x00000471 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack/<>c::<New>b__2_0()
-extern void U3CU3Ec_U3CNewU3Eb__2_0_mFFD10DAE5D99717A36D33059B8B8CD0C8F63A5BF (void);
-// 0x00000472 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack/<>c::<New>b__3_0()
-extern void U3CU3Ec_U3CNewU3Eb__3_0_mCFE0FC47F88C7FF32475ADC0746FA59AF4CA44E8 (void);
-// 0x00000473 System.Exception Unity.VisualScripting.GraphsExceptionUtility::GetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer)
+// 0x00000461 System.Exception Unity.VisualScripting.GraphsExceptionUtility::GetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer)
 extern void GraphsExceptionUtility_GetException_m2717C39A8CB9C11BE19E7F12A6A9E0BDDEDD783F (void);
-// 0x00000474 System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
+// 0x00000462 System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
 extern void GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943 (void);
-// 0x00000475 System.Void Unity.VisualScripting.GraphsExceptionUtility::HandleException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
+// 0x00000463 System.Void Unity.VisualScripting.GraphsExceptionUtility::HandleException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
 extern void GraphsExceptionUtility_HandleException_m9C2D5951B5112230CC1531954519BF6753F7E9B5 (void);
-// 0x00000476 System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
+// 0x00000464 System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
 extern void GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C (void);
+// 0x00000465 System.Void Unity.VisualScripting.GraphStack::.ctor()
+extern void GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B (void);
+// 0x00000466 System.Void Unity.VisualScripting.GraphStack::InitializeNoAlloc(Unity.VisualScripting.IGraphRoot,System.Collections.Generic.List`1<Unity.VisualScripting.IGraphParentElement>,System.Boolean)
+extern void GraphStack_InitializeNoAlloc_m49B8D8812CC5B233991295AEBDA44751469588DA (void);
+// 0x00000467 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::New(Unity.VisualScripting.IGraphRoot,System.Collections.Generic.List`1<Unity.VisualScripting.IGraphParentElement>)
+extern void GraphStack_New_m4E56158E8427A35113217D0207D037A728C03F22 (void);
+// 0x00000468 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::New(Unity.VisualScripting.GraphPointer)
+extern void GraphStack_New_mEBB3332F7707E14E372953345860C5053742FECC (void);
+// 0x00000469 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack::Clone()
+extern void GraphStack_Clone_m62957C5A0A88E0F14E2794C4D91236AB7A5F05E6 (void);
+// 0x0000046A System.Void Unity.VisualScripting.GraphStack::Dispose()
+extern void GraphStack_Dispose_m29922213E8C6C813F05EB7E612B8E8D28B1C4997 (void);
+// 0x0000046B System.Void Unity.VisualScripting.GraphStack::Unity.VisualScripting.IPoolable.New()
+extern void GraphStack_Unity_VisualScripting_IPoolable_New_mB4B027F8CE20C2A9AF214EBB9F5AAE3DAF976984 (void);
+// 0x0000046C System.Void Unity.VisualScripting.GraphStack::Unity.VisualScripting.IPoolable.Free()
+extern void GraphStack_Unity_VisualScripting_IPoolable_Free_m4A502BC5AFE4588EDD0BF5F9C92BFFAE17A4A0C6 (void);
+// 0x0000046D Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphStack::AsReference()
+extern void GraphStack_AsReference_m23F3CF3A12BDE9CA9F7DFE7A022F677695495251 (void);
+// 0x0000046E Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphStack::ToReference()
+extern void GraphStack_ToReference_m0793568212CA2965C7D185AED3AD8D90BE34E69B (void);
+// 0x0000046F System.Void Unity.VisualScripting.GraphStack::EnterParentElement(Unity.VisualScripting.IGraphParentElement)
+extern void GraphStack_EnterParentElement_mFDB479B4C0146EE0CD7D3AB11585799981F455FD (void);
+// 0x00000470 System.Boolean Unity.VisualScripting.GraphStack::TryEnterParentElement(Unity.VisualScripting.IGraphParentElement)
+extern void GraphStack_TryEnterParentElement_mB1BF77A7F1FF07C7EF6A043843F31A1FD41B3895 (void);
+// 0x00000471 System.Boolean Unity.VisualScripting.GraphStack::TryEnterParentElementUnsafe(Unity.VisualScripting.IGraphParentElement)
+extern void GraphStack_TryEnterParentElementUnsafe_mB1907722A1C39EF129BAA2829D029EE2838D9865 (void);
+// 0x00000472 System.Void Unity.VisualScripting.GraphStack::ExitParentElement()
+extern void GraphStack_ExitParentElement_mB4379BEC03B4DF2D6A7674C01B9970CB98290568 (void);
+// 0x00000473 System.Void Unity.VisualScripting.GraphStack/<>c::.cctor()
+extern void U3CU3Ec__cctor_m4B80C412BD2DAFC8D74744AA9CA4CDA481B85040 (void);
+// 0x00000474 System.Void Unity.VisualScripting.GraphStack/<>c::.ctor()
+extern void U3CU3Ec__ctor_mF317AA7A6BB9E4083147F241AC062F3C03C7CC73 (void);
+// 0x00000475 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack/<>c::<New>b__2_0()
+extern void U3CU3Ec_U3CNewU3Eb__2_0_mFFD10DAE5D99717A36D33059B8B8CD0C8F63A5BF (void);
+// 0x00000476 Unity.VisualScripting.GraphStack Unity.VisualScripting.GraphStack/<>c::<New>b__3_0()
+extern void U3CU3Ec_U3CNewU3Eb__3_0_mCFE0FC47F88C7FF32475ADC0746FA59AF4CA44E8 (void);
 // 0x00000477 UnityEngine.Vector2 Unity.VisualScripting.IGraph::get_pan()
 // 0x00000478 System.Void Unity.VisualScripting.IGraph::set_pan(UnityEngine.Vector2)
 // 0x00000479 System.Single Unity.VisualScripting.IGraph::get_zoom()
@@ -6046,145 +6046,145 @@ extern void UnaryOperatorHandler_ResolveUserDefinedOperandType_m0AB94BE433C696C3
 // 0x00000D41 TResult Unity.VisualScripting.Func`7::Invoke(T1,T2,T3,T4,T5,T6)
 // 0x00000D42 System.IAsyncResult Unity.VisualScripting.Func`7::BeginInvoke(T1,T2,T3,T4,T5,T6,System.AsyncCallback,System.Object)
 // 0x00000D43 TResult Unity.VisualScripting.Func`7::EndInvoke(System.IAsyncResult)
-// 0x00000D44 System.Void Unity.VisualScripting.IOptimizedAccessor::Compile()
-// 0x00000D45 System.Object Unity.VisualScripting.IOptimizedAccessor::GetValue(System.Object)
-// 0x00000D46 System.Void Unity.VisualScripting.IOptimizedAccessor::SetValue(System.Object,System.Object)
-// 0x00000D47 System.Void Unity.VisualScripting.IOptimizedInvoker::Compile()
-// 0x00000D48 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object)
-// 0x00000D49 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object)
-// 0x00000D4A System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object)
-// 0x00000D4B System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object)
-// 0x00000D4C System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D4D System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D4E System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object[])
-// 0x00000D4F System.Void Unity.VisualScripting.InstanceActionInvokerBase`1::.ctor(System.Reflection.MethodInfo)
-// 0x00000D50 System.Void Unity.VisualScripting.InstanceActionInvoker`1::.ctor(System.Reflection.MethodInfo)
-// 0x00000D51 System.Object Unity.VisualScripting.InstanceActionInvoker`1::Invoke(System.Object,System.Object[])
-// 0x00000D52 System.Object Unity.VisualScripting.InstanceActionInvoker`1::Invoke(System.Object)
-// 0x00000D53 System.Object Unity.VisualScripting.InstanceActionInvoker`1::InvokeUnsafe(System.Object)
-// 0x00000D54 System.Type[] Unity.VisualScripting.InstanceActionInvoker`1::GetParameterTypes()
-// 0x00000D55 System.Void Unity.VisualScripting.InstanceActionInvoker`1::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D56 System.Void Unity.VisualScripting.InstanceActionInvoker`1::CreateDelegate()
-// 0x00000D57 System.Void Unity.VisualScripting.InstanceActionInvoker`2::.ctor(System.Reflection.MethodInfo)
-// 0x00000D58 System.Object Unity.VisualScripting.InstanceActionInvoker`2::Invoke(System.Object,System.Object[])
-// 0x00000D59 System.Object Unity.VisualScripting.InstanceActionInvoker`2::Invoke(System.Object,System.Object)
-// 0x00000D5A System.Object Unity.VisualScripting.InstanceActionInvoker`2::InvokeUnsafe(System.Object,System.Object)
-// 0x00000D5B System.Type[] Unity.VisualScripting.InstanceActionInvoker`2::GetParameterTypes()
-// 0x00000D5C System.Void Unity.VisualScripting.InstanceActionInvoker`2::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D5D System.Void Unity.VisualScripting.InstanceActionInvoker`2::CreateDelegate()
-// 0x00000D5E System.Void Unity.VisualScripting.InstanceActionInvoker`3::.ctor(System.Reflection.MethodInfo)
-// 0x00000D5F System.Object Unity.VisualScripting.InstanceActionInvoker`3::Invoke(System.Object,System.Object[])
-// 0x00000D60 System.Object Unity.VisualScripting.InstanceActionInvoker`3::Invoke(System.Object,System.Object,System.Object)
-// 0x00000D61 System.Object Unity.VisualScripting.InstanceActionInvoker`3::InvokeUnsafe(System.Object,System.Object,System.Object)
-// 0x00000D62 System.Type[] Unity.VisualScripting.InstanceActionInvoker`3::GetParameterTypes()
-// 0x00000D63 System.Void Unity.VisualScripting.InstanceActionInvoker`3::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D64 System.Void Unity.VisualScripting.InstanceActionInvoker`3::CreateDelegate()
-// 0x00000D65 System.Void Unity.VisualScripting.InstanceActionInvoker`4::.ctor(System.Reflection.MethodInfo)
-// 0x00000D66 System.Object Unity.VisualScripting.InstanceActionInvoker`4::Invoke(System.Object,System.Object[])
-// 0x00000D67 System.Object Unity.VisualScripting.InstanceActionInvoker`4::Invoke(System.Object,System.Object,System.Object,System.Object)
-// 0x00000D68 System.Object Unity.VisualScripting.InstanceActionInvoker`4::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object)
-// 0x00000D69 System.Type[] Unity.VisualScripting.InstanceActionInvoker`4::GetParameterTypes()
-// 0x00000D6A System.Void Unity.VisualScripting.InstanceActionInvoker`4::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D6B System.Void Unity.VisualScripting.InstanceActionInvoker`4::CreateDelegate()
-// 0x00000D6C System.Void Unity.VisualScripting.InstanceActionInvoker`5::.ctor(System.Reflection.MethodInfo)
-// 0x00000D6D System.Object Unity.VisualScripting.InstanceActionInvoker`5::Invoke(System.Object,System.Object[])
-// 0x00000D6E System.Object Unity.VisualScripting.InstanceActionInvoker`5::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D6F System.Object Unity.VisualScripting.InstanceActionInvoker`5::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D70 System.Type[] Unity.VisualScripting.InstanceActionInvoker`5::GetParameterTypes()
-// 0x00000D71 System.Void Unity.VisualScripting.InstanceActionInvoker`5::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D72 System.Void Unity.VisualScripting.InstanceActionInvoker`5::CreateDelegate()
-// 0x00000D73 System.Void Unity.VisualScripting.InstanceActionInvoker`6::.ctor(System.Reflection.MethodInfo)
-// 0x00000D74 System.Object Unity.VisualScripting.InstanceActionInvoker`6::Invoke(System.Object,System.Object[])
-// 0x00000D75 System.Object Unity.VisualScripting.InstanceActionInvoker`6::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D76 System.Object Unity.VisualScripting.InstanceActionInvoker`6::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000D77 System.Type[] Unity.VisualScripting.InstanceActionInvoker`6::GetParameterTypes()
-// 0x00000D78 System.Void Unity.VisualScripting.InstanceActionInvoker`6::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D79 System.Void Unity.VisualScripting.InstanceActionInvoker`6::CreateDelegate()
-// 0x00000D7A System.Void Unity.VisualScripting.InstanceFieldAccessor`2::.ctor(System.Reflection.FieldInfo)
-// 0x00000D7B System.Void Unity.VisualScripting.InstanceFieldAccessor`2::Compile()
-// 0x00000D7C System.Object Unity.VisualScripting.InstanceFieldAccessor`2::GetValue(System.Object)
-// 0x00000D7D System.Object Unity.VisualScripting.InstanceFieldAccessor`2::GetValueUnsafe(System.Object)
-// 0x00000D7E System.Void Unity.VisualScripting.InstanceFieldAccessor`2::SetValue(System.Object,System.Object)
-// 0x00000D7F System.Void Unity.VisualScripting.InstanceFieldAccessor`2::SetValueUnsafe(System.Object,System.Object)
-// 0x00000D80 TField Unity.VisualScripting.InstanceFieldAccessor`2::<Compile>b__4_0(TTarget)
-// 0x00000D81 System.Void Unity.VisualScripting.InstanceFieldAccessor`2::<Compile>b__4_1(TTarget,TField)
-// 0x00000D82 System.Void Unity.VisualScripting.InstanceFunctionInvokerBase`2::.ctor(System.Reflection.MethodInfo)
-// 0x00000D83 System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::.ctor(System.Reflection.MethodInfo)
-// 0x00000D84 System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::Invoke(System.Object,System.Object[])
-// 0x00000D85 System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::Invoke(System.Object)
-// 0x00000D86 System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::InvokeUnsafe(System.Object)
-// 0x00000D87 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`2::GetParameterTypes()
-// 0x00000D88 System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D89 System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::CreateDelegate()
-// 0x00000D8A System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::.ctor(System.Reflection.MethodInfo)
-// 0x00000D8B System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::Invoke(System.Object,System.Object[])
-// 0x00000D8C System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::Invoke(System.Object,System.Object)
-// 0x00000D8D System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::InvokeUnsafe(System.Object,System.Object)
-// 0x00000D8E System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`3::GetParameterTypes()
-// 0x00000D8F System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D90 System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::CreateDelegate()
-// 0x00000D91 System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::.ctor(System.Reflection.MethodInfo)
-// 0x00000D92 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::Invoke(System.Object,System.Object[])
-// 0x00000D93 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::Invoke(System.Object,System.Object,System.Object)
-// 0x00000D94 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::InvokeUnsafe(System.Object,System.Object,System.Object)
-// 0x00000D95 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`4::GetParameterTypes()
-// 0x00000D96 System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D97 System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::CreateDelegate()
-// 0x00000D98 System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::.ctor(System.Reflection.MethodInfo)
-// 0x00000D99 System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::Invoke(System.Object,System.Object[])
-// 0x00000D9A System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::Invoke(System.Object,System.Object,System.Object,System.Object)
-// 0x00000D9B System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object)
-// 0x00000D9C System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`5::GetParameterTypes()
-// 0x00000D9D System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000D9E System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::CreateDelegate()
-// 0x00000D9F System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::.ctor(System.Reflection.MethodInfo)
-// 0x00000DA0 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::Invoke(System.Object,System.Object[])
-// 0x00000DA1 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000DA2 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000DA3 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`6::GetParameterTypes()
-// 0x00000DA4 System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000DA5 System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::CreateDelegate()
-// 0x00000DA6 System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::.ctor(System.Reflection.MethodInfo)
-// 0x00000DA7 System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::Invoke(System.Object,System.Object[])
-// 0x00000DA8 System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000DA9 System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
-// 0x00000DAA System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`7::GetParameterTypes()
-// 0x00000DAB System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000DAC System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::CreateDelegate()
-// 0x00000DAD System.Void Unity.VisualScripting.InstanceInvokerBase`1::.ctor(System.Reflection.MethodInfo)
-// 0x00000DAE System.Void Unity.VisualScripting.InstanceInvokerBase`1::CompileExpression()
-// 0x00000DAF System.Void Unity.VisualScripting.InstanceInvokerBase`1::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
-// 0x00000DB0 System.Void Unity.VisualScripting.InstanceInvokerBase`1::VerifyTarget(System.Object)
-// 0x00000DB1 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::.ctor(System.Reflection.PropertyInfo)
-// 0x00000DB2 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::Compile()
-// 0x00000DB3 System.Object Unity.VisualScripting.InstancePropertyAccessor`2::GetValue(System.Object)
-// 0x00000DB4 System.Object Unity.VisualScripting.InstancePropertyAccessor`2::GetValueUnsafe(System.Object)
-// 0x00000DB5 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::SetValue(System.Object,System.Object)
-// 0x00000DB6 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::SetValueUnsafe(System.Object,System.Object)
-// 0x00000DB7 System.Void Unity.VisualScripting.InvokerBase::.ctor(System.Reflection.MethodInfo)
+// 0x00000D44 System.Void Unity.VisualScripting.InstanceActionInvokerBase`1::.ctor(System.Reflection.MethodInfo)
+// 0x00000D45 System.Void Unity.VisualScripting.InstanceActionInvoker`1::.ctor(System.Reflection.MethodInfo)
+// 0x00000D46 System.Object Unity.VisualScripting.InstanceActionInvoker`1::Invoke(System.Object,System.Object[])
+// 0x00000D47 System.Object Unity.VisualScripting.InstanceActionInvoker`1::Invoke(System.Object)
+// 0x00000D48 System.Object Unity.VisualScripting.InstanceActionInvoker`1::InvokeUnsafe(System.Object)
+// 0x00000D49 System.Type[] Unity.VisualScripting.InstanceActionInvoker`1::GetParameterTypes()
+// 0x00000D4A System.Void Unity.VisualScripting.InstanceActionInvoker`1::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D4B System.Void Unity.VisualScripting.InstanceActionInvoker`1::CreateDelegate()
+// 0x00000D4C System.Void Unity.VisualScripting.InstanceActionInvoker`2::.ctor(System.Reflection.MethodInfo)
+// 0x00000D4D System.Object Unity.VisualScripting.InstanceActionInvoker`2::Invoke(System.Object,System.Object[])
+// 0x00000D4E System.Object Unity.VisualScripting.InstanceActionInvoker`2::Invoke(System.Object,System.Object)
+// 0x00000D4F System.Object Unity.VisualScripting.InstanceActionInvoker`2::InvokeUnsafe(System.Object,System.Object)
+// 0x00000D50 System.Type[] Unity.VisualScripting.InstanceActionInvoker`2::GetParameterTypes()
+// 0x00000D51 System.Void Unity.VisualScripting.InstanceActionInvoker`2::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D52 System.Void Unity.VisualScripting.InstanceActionInvoker`2::CreateDelegate()
+// 0x00000D53 System.Void Unity.VisualScripting.InstanceActionInvoker`3::.ctor(System.Reflection.MethodInfo)
+// 0x00000D54 System.Object Unity.VisualScripting.InstanceActionInvoker`3::Invoke(System.Object,System.Object[])
+// 0x00000D55 System.Object Unity.VisualScripting.InstanceActionInvoker`3::Invoke(System.Object,System.Object,System.Object)
+// 0x00000D56 System.Object Unity.VisualScripting.InstanceActionInvoker`3::InvokeUnsafe(System.Object,System.Object,System.Object)
+// 0x00000D57 System.Type[] Unity.VisualScripting.InstanceActionInvoker`3::GetParameterTypes()
+// 0x00000D58 System.Void Unity.VisualScripting.InstanceActionInvoker`3::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D59 System.Void Unity.VisualScripting.InstanceActionInvoker`3::CreateDelegate()
+// 0x00000D5A System.Void Unity.VisualScripting.InstanceActionInvoker`4::.ctor(System.Reflection.MethodInfo)
+// 0x00000D5B System.Object Unity.VisualScripting.InstanceActionInvoker`4::Invoke(System.Object,System.Object[])
+// 0x00000D5C System.Object Unity.VisualScripting.InstanceActionInvoker`4::Invoke(System.Object,System.Object,System.Object,System.Object)
+// 0x00000D5D System.Object Unity.VisualScripting.InstanceActionInvoker`4::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object)
+// 0x00000D5E System.Type[] Unity.VisualScripting.InstanceActionInvoker`4::GetParameterTypes()
+// 0x00000D5F System.Void Unity.VisualScripting.InstanceActionInvoker`4::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D60 System.Void Unity.VisualScripting.InstanceActionInvoker`4::CreateDelegate()
+// 0x00000D61 System.Void Unity.VisualScripting.InstanceActionInvoker`5::.ctor(System.Reflection.MethodInfo)
+// 0x00000D62 System.Object Unity.VisualScripting.InstanceActionInvoker`5::Invoke(System.Object,System.Object[])
+// 0x00000D63 System.Object Unity.VisualScripting.InstanceActionInvoker`5::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D64 System.Object Unity.VisualScripting.InstanceActionInvoker`5::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D65 System.Type[] Unity.VisualScripting.InstanceActionInvoker`5::GetParameterTypes()
+// 0x00000D66 System.Void Unity.VisualScripting.InstanceActionInvoker`5::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D67 System.Void Unity.VisualScripting.InstanceActionInvoker`5::CreateDelegate()
+// 0x00000D68 System.Void Unity.VisualScripting.InstanceActionInvoker`6::.ctor(System.Reflection.MethodInfo)
+// 0x00000D69 System.Object Unity.VisualScripting.InstanceActionInvoker`6::Invoke(System.Object,System.Object[])
+// 0x00000D6A System.Object Unity.VisualScripting.InstanceActionInvoker`6::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D6B System.Object Unity.VisualScripting.InstanceActionInvoker`6::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D6C System.Type[] Unity.VisualScripting.InstanceActionInvoker`6::GetParameterTypes()
+// 0x00000D6D System.Void Unity.VisualScripting.InstanceActionInvoker`6::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D6E System.Void Unity.VisualScripting.InstanceActionInvoker`6::CreateDelegate()
+// 0x00000D6F System.Void Unity.VisualScripting.InstanceFieldAccessor`2::.ctor(System.Reflection.FieldInfo)
+// 0x00000D70 System.Void Unity.VisualScripting.InstanceFieldAccessor`2::Compile()
+// 0x00000D71 System.Object Unity.VisualScripting.InstanceFieldAccessor`2::GetValue(System.Object)
+// 0x00000D72 System.Object Unity.VisualScripting.InstanceFieldAccessor`2::GetValueUnsafe(System.Object)
+// 0x00000D73 System.Void Unity.VisualScripting.InstanceFieldAccessor`2::SetValue(System.Object,System.Object)
+// 0x00000D74 System.Void Unity.VisualScripting.InstanceFieldAccessor`2::SetValueUnsafe(System.Object,System.Object)
+// 0x00000D75 TField Unity.VisualScripting.InstanceFieldAccessor`2::<Compile>b__4_0(TTarget)
+// 0x00000D76 System.Void Unity.VisualScripting.InstanceFieldAccessor`2::<Compile>b__4_1(TTarget,TField)
+// 0x00000D77 System.Void Unity.VisualScripting.InstanceFunctionInvokerBase`2::.ctor(System.Reflection.MethodInfo)
+// 0x00000D78 System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::.ctor(System.Reflection.MethodInfo)
+// 0x00000D79 System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::Invoke(System.Object,System.Object[])
+// 0x00000D7A System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::Invoke(System.Object)
+// 0x00000D7B System.Object Unity.VisualScripting.InstanceFunctionInvoker`2::InvokeUnsafe(System.Object)
+// 0x00000D7C System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`2::GetParameterTypes()
+// 0x00000D7D System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D7E System.Void Unity.VisualScripting.InstanceFunctionInvoker`2::CreateDelegate()
+// 0x00000D7F System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::.ctor(System.Reflection.MethodInfo)
+// 0x00000D80 System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::Invoke(System.Object,System.Object[])
+// 0x00000D81 System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::Invoke(System.Object,System.Object)
+// 0x00000D82 System.Object Unity.VisualScripting.InstanceFunctionInvoker`3::InvokeUnsafe(System.Object,System.Object)
+// 0x00000D83 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`3::GetParameterTypes()
+// 0x00000D84 System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D85 System.Void Unity.VisualScripting.InstanceFunctionInvoker`3::CreateDelegate()
+// 0x00000D86 System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::.ctor(System.Reflection.MethodInfo)
+// 0x00000D87 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::Invoke(System.Object,System.Object[])
+// 0x00000D88 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::Invoke(System.Object,System.Object,System.Object)
+// 0x00000D89 System.Object Unity.VisualScripting.InstanceFunctionInvoker`4::InvokeUnsafe(System.Object,System.Object,System.Object)
+// 0x00000D8A System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`4::GetParameterTypes()
+// 0x00000D8B System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D8C System.Void Unity.VisualScripting.InstanceFunctionInvoker`4::CreateDelegate()
+// 0x00000D8D System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::.ctor(System.Reflection.MethodInfo)
+// 0x00000D8E System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::Invoke(System.Object,System.Object[])
+// 0x00000D8F System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::Invoke(System.Object,System.Object,System.Object,System.Object)
+// 0x00000D90 System.Object Unity.VisualScripting.InstanceFunctionInvoker`5::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object)
+// 0x00000D91 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`5::GetParameterTypes()
+// 0x00000D92 System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D93 System.Void Unity.VisualScripting.InstanceFunctionInvoker`5::CreateDelegate()
+// 0x00000D94 System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::.ctor(System.Reflection.MethodInfo)
+// 0x00000D95 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::Invoke(System.Object,System.Object[])
+// 0x00000D96 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D97 System.Object Unity.VisualScripting.InstanceFunctionInvoker`6::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D98 System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`6::GetParameterTypes()
+// 0x00000D99 System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000D9A System.Void Unity.VisualScripting.InstanceFunctionInvoker`6::CreateDelegate()
+// 0x00000D9B System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::.ctor(System.Reflection.MethodInfo)
+// 0x00000D9C System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::Invoke(System.Object,System.Object[])
+// 0x00000D9D System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D9E System.Object Unity.VisualScripting.InstanceFunctionInvoker`7::InvokeUnsafe(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000D9F System.Type[] Unity.VisualScripting.InstanceFunctionInvoker`7::GetParameterTypes()
+// 0x00000DA0 System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000DA1 System.Void Unity.VisualScripting.InstanceFunctionInvoker`7::CreateDelegate()
+// 0x00000DA2 System.Void Unity.VisualScripting.InstanceInvokerBase`1::.ctor(System.Reflection.MethodInfo)
+// 0x00000DA3 System.Void Unity.VisualScripting.InstanceInvokerBase`1::CompileExpression()
+// 0x00000DA4 System.Void Unity.VisualScripting.InstanceInvokerBase`1::CompileExpression(System.Linq.Expressions.MethodCallExpression,System.Linq.Expressions.ParameterExpression[])
+// 0x00000DA5 System.Void Unity.VisualScripting.InstanceInvokerBase`1::VerifyTarget(System.Object)
+// 0x00000DA6 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::.ctor(System.Reflection.PropertyInfo)
+// 0x00000DA7 System.Void Unity.VisualScripting.InstancePropertyAccessor`2::Compile()
+// 0x00000DA8 System.Object Unity.VisualScripting.InstancePropertyAccessor`2::GetValue(System.Object)
+// 0x00000DA9 System.Object Unity.VisualScripting.InstancePropertyAccessor`2::GetValueUnsafe(System.Object)
+// 0x00000DAA System.Void Unity.VisualScripting.InstancePropertyAccessor`2::SetValue(System.Object,System.Object)
+// 0x00000DAB System.Void Unity.VisualScripting.InstancePropertyAccessor`2::SetValueUnsafe(System.Object,System.Object)
+// 0x00000DAC System.Void Unity.VisualScripting.InvokerBase::.ctor(System.Reflection.MethodInfo)
 extern void InvokerBase__ctor_mF8778193D06F6C818A249562C7962709730CC5C3 (void);
-// 0x00000DB8 System.Void Unity.VisualScripting.InvokerBase::VerifyArgument(System.Reflection.MethodInfo,System.Int32,System.Object)
-// 0x00000DB9 System.Void Unity.VisualScripting.InvokerBase::Compile()
+// 0x00000DAD System.Void Unity.VisualScripting.InvokerBase::VerifyArgument(System.Reflection.MethodInfo,System.Int32,System.Object)
+// 0x00000DAE System.Void Unity.VisualScripting.InvokerBase::Compile()
 extern void InvokerBase_Compile_m473742347F42A36C28E38FD5EA23B24A0E2FCF5E (void);
-// 0x00000DBA System.Linq.Expressions.ParameterExpression[] Unity.VisualScripting.InvokerBase::GetParameterExpressions()
+// 0x00000DAF System.Linq.Expressions.ParameterExpression[] Unity.VisualScripting.InvokerBase::GetParameterExpressions()
 extern void InvokerBase_GetParameterExpressions_m4000146B3859FA03C9411B13994B29A6B791E94B (void);
-// 0x00000DBB System.Type[] Unity.VisualScripting.InvokerBase::GetParameterTypes()
-// 0x00000DBC System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object[])
-// 0x00000DBD System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object)
+// 0x00000DB0 System.Type[] Unity.VisualScripting.InvokerBase::GetParameterTypes()
+// 0x00000DB1 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object[])
+// 0x00000DB2 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object)
 extern void InvokerBase_Invoke_m93111F3DD1F30BA4418A68D6AC2B7FB2C46F73D5 (void);
-// 0x00000DBE System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object)
+// 0x00000DB3 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object)
 extern void InvokerBase_Invoke_mE5B3475184E0816DD1D8C7BCBB0888BE48DB02A4 (void);
-// 0x00000DBF System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object)
+// 0x00000DB4 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object)
 extern void InvokerBase_Invoke_mC59539A8FA0DA72DC83F43BA96AAAF3042BF4EC2 (void);
-// 0x00000DC0 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object)
+// 0x00000DB5 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object)
 extern void InvokerBase_Invoke_m1A895777376BE2D347E3A13A111767DF1453A972 (void);
-// 0x00000DC1 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000DB6 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
 extern void InvokerBase_Invoke_m6A842FA819A581F3442E52A918E7DCC8100A2B2F (void);
-// 0x00000DC2 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000DB7 System.Object Unity.VisualScripting.InvokerBase::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
 extern void InvokerBase_Invoke_m00613A6C7F7DA8673663E92A74D552EB9FD452EB (void);
-// 0x00000DC3 System.Void Unity.VisualScripting.InvokerBase::CompileExpression()
-// 0x00000DC4 System.Void Unity.VisualScripting.InvokerBase::CreateDelegate()
-// 0x00000DC5 System.Void Unity.VisualScripting.InvokerBase::VerifyTarget(System.Object)
+// 0x00000DB8 System.Void Unity.VisualScripting.InvokerBase::CompileExpression()
+// 0x00000DB9 System.Void Unity.VisualScripting.InvokerBase::CreateDelegate()
+// 0x00000DBA System.Void Unity.VisualScripting.InvokerBase::VerifyTarget(System.Object)
+// 0x00000DBB System.Void Unity.VisualScripting.IOptimizedAccessor::Compile()
+// 0x00000DBC System.Object Unity.VisualScripting.IOptimizedAccessor::GetValue(System.Object)
+// 0x00000DBD System.Void Unity.VisualScripting.IOptimizedAccessor::SetValue(System.Object,System.Object)
+// 0x00000DBE System.Void Unity.VisualScripting.IOptimizedInvoker::Compile()
+// 0x00000DBF System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object)
+// 0x00000DC0 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object)
+// 0x00000DC1 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object)
+// 0x00000DC2 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object)
+// 0x00000DC3 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000DC4 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)
+// 0x00000DC5 System.Object Unity.VisualScripting.IOptimizedInvoker::Invoke(System.Object,System.Object[])
 // 0x00000DC6 System.Void Unity.VisualScripting.OptimizedReflection::.cctor()
 extern void OptimizedReflection__cctor_m54EE21340849A7DE9226AA6E797F34535609A618 (void);
 // 0x00000DC7 System.Boolean Unity.VisualScripting.OptimizedReflection::get_useJit()
@@ -7126,58 +7126,58 @@ extern void UnityThread_RuntimeInitialize_mCA67339161F19558CD211935652781F632111
 extern void UnityThread_EditorAsync_mAFD8F3FC95EC0A42A42B77361B21F8A89C8A4341 (void);
 // 0x00000FE5 System.Void Unity.VisualScripting.UnityThread::.cctor()
 extern void UnityThread__cctor_m5264F6698C80AE00F2A0F3CCF625C1DA2CA4145B (void);
-// 0x00000FE6 System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Reflection.MemberInfo,Unity.VisualScripting.ActionDirection)
-extern void CSharpNameUtility_CSharpName_m59FDF63A3C4DC9B0F340A5C02A5C631FB9E11A40 (void);
-// 0x00000FE7 System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Type,System.Boolean)
-extern void CSharpNameUtility_CSharpName_m8E73469776C7DC36AE8A115D6D594574D16383A6 (void);
-// 0x00000FE8 System.String Unity.VisualScripting.CSharpNameUtility::CSharpFullName(System.Type,System.Boolean)
-extern void CSharpNameUtility_CSharpFullName_m87B7544159A69EA6CE7EB5C3F8A476ACD464CEDD (void);
-// 0x00000FE9 System.String Unity.VisualScripting.CSharpNameUtility::CSharpUniqueName(System.Type,System.Boolean)
-extern void CSharpNameUtility_CSharpUniqueName_m05AA47C9386A5F5DA848C7C639F3499A5EF4412B (void);
-// 0x00000FEA System.String Unity.VisualScripting.CSharpNameUtility::CSharpFileName(System.Type,System.Boolean,System.Boolean)
-extern void CSharpNameUtility_CSharpFileName_mB1F719DBD6D006E4DCD1BFC0E90FB97172F9EC19 (void);
-// 0x00000FEB System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Type,Unity.VisualScripting.TypeQualifier,System.Boolean)
-extern void CSharpNameUtility_CSharpName_mDCF2F7EC343F5EE798420E82C4D925AF382555C1 (void);
-// 0x00000FEC System.Void Unity.VisualScripting.CSharpNameUtility::.cctor()
-extern void CSharpNameUtility__cctor_mFC8CECB0D8F6714B6A352C5888DA4F8CC0036C45 (void);
-// 0x00000FED System.Void Unity.VisualScripting.CSharpNameUtility/<>c__DisplayClass8_0::.ctor()
-extern void U3CU3Ec__DisplayClass8_0__ctor_m111642B8BAAE9F39B6D18C7E0D4B79CA4443F215 (void);
-// 0x00000FEE System.String Unity.VisualScripting.CSharpNameUtility/<>c__DisplayClass8_0::<CSharpName>b__0(System.Type)
-extern void U3CU3Ec__DisplayClass8_0_U3CCSharpNameU3Eb__0_mCB16B68B0D9A9C96363171B1D5F86E9AF209E93C (void);
-// 0x00000FEF System.Boolean Unity.VisualScripting.ComponentHolderProtocol::IsComponentHolderType(System.Type)
+// 0x00000FE6 System.Boolean Unity.VisualScripting.ComponentHolderProtocol::IsComponentHolderType(System.Type)
 extern void ComponentHolderProtocol_IsComponentHolderType_m29A9518E3773E1B094B108EA9EE9B528A3338037 (void);
-// 0x00000FF0 System.Boolean Unity.VisualScripting.ComponentHolderProtocol::IsComponentHolder(UnityEngine.Object)
+// 0x00000FE7 System.Boolean Unity.VisualScripting.ComponentHolderProtocol::IsComponentHolder(UnityEngine.Object)
 extern void ComponentHolderProtocol_IsComponentHolder_mF98EC4F8B835A0D8174D6B448D90E6006B13B7A0 (void);
-// 0x00000FF1 UnityEngine.GameObject Unity.VisualScripting.ComponentHolderProtocol::GameObject(UnityEngine.Object)
+// 0x00000FE8 UnityEngine.GameObject Unity.VisualScripting.ComponentHolderProtocol::GameObject(UnityEngine.Object)
 extern void ComponentHolderProtocol_GameObject_m2CC80CD9F7B92544C51D1E25B0C2F692B56D4E4E (void);
-// 0x00000FF2 T Unity.VisualScripting.ComponentHolderProtocol::AddComponent(UnityEngine.Object)
-// 0x00000FF3 T Unity.VisualScripting.ComponentHolderProtocol::GetOrAddComponent(UnityEngine.Object)
-// 0x00000FF4 T Unity.VisualScripting.ComponentHolderProtocol::GetComponent(UnityEngine.Object)
-// 0x00000FF5 T Unity.VisualScripting.ComponentHolderProtocol::GetComponentInChildren(UnityEngine.Object)
-// 0x00000FF6 T Unity.VisualScripting.ComponentHolderProtocol::GetComponentInParent(UnityEngine.Object)
-// 0x00000FF7 T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponents(UnityEngine.Object)
-// 0x00000FF8 T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInChildren(UnityEngine.Object)
-// 0x00000FF9 T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInParent(UnityEngine.Object)
-// 0x00000FFA UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponent(UnityEngine.Object,System.Type)
+// 0x00000FE9 T Unity.VisualScripting.ComponentHolderProtocol::AddComponent(UnityEngine.Object)
+// 0x00000FEA T Unity.VisualScripting.ComponentHolderProtocol::GetOrAddComponent(UnityEngine.Object)
+// 0x00000FEB T Unity.VisualScripting.ComponentHolderProtocol::GetComponent(UnityEngine.Object)
+// 0x00000FEC T Unity.VisualScripting.ComponentHolderProtocol::GetComponentInChildren(UnityEngine.Object)
+// 0x00000FED T Unity.VisualScripting.ComponentHolderProtocol::GetComponentInParent(UnityEngine.Object)
+// 0x00000FEE T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponents(UnityEngine.Object)
+// 0x00000FEF T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInChildren(UnityEngine.Object)
+// 0x00000FF0 T[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInParent(UnityEngine.Object)
+// 0x00000FF1 UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponent(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponent_mE5E5790164CF649A352BFA049125D7F8AE4624FE (void);
-// 0x00000FFB UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponentInChildren(UnityEngine.Object,System.Type)
+// 0x00000FF2 UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponentInChildren(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponentInChildren_m0D22A4D088DECDFDE86BC2F003E30572DC7FADC8 (void);
-// 0x00000FFC UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponentInParent(UnityEngine.Object,System.Type)
+// 0x00000FF3 UnityEngine.Component Unity.VisualScripting.ComponentHolderProtocol::GetComponentInParent(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponentInParent_m7FD8E94F9DC8C6603816161FB0A3938BF913026C (void);
-// 0x00000FFD UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponents(UnityEngine.Object,System.Type)
+// 0x00000FF4 UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponents(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponents_m3B351BED1B31994BDAD3A9FDAE59A5C48782E424 (void);
-// 0x00000FFE UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInChildren(UnityEngine.Object,System.Type)
+// 0x00000FF5 UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInChildren(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponentsInChildren_mFC4DB00B490F33BE144FC45C875826D5C002766A (void);
-// 0x00000FFF UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInParent(UnityEngine.Object,System.Type)
+// 0x00000FF6 UnityEngine.Component[] Unity.VisualScripting.ComponentHolderProtocol::GetComponentsInParent(UnityEngine.Object,System.Type)
 extern void ComponentHolderProtocol_GetComponentsInParent_mB8D4D7FF99C65189AF883883C3539243FF260435 (void);
-// 0x00001000 System.Void Unity.VisualScripting.CoroutineRunner::Awake()
+// 0x00000FF7 System.Void Unity.VisualScripting.CoroutineRunner::Awake()
 extern void CoroutineRunner_Awake_m797FE6D35F4D0F8CE2C7CED45CA4B7DA740CCEEA (void);
-// 0x00001001 System.Void Unity.VisualScripting.CoroutineRunner::OnDestroy()
+// 0x00000FF8 System.Void Unity.VisualScripting.CoroutineRunner::OnDestroy()
 extern void CoroutineRunner_OnDestroy_mEA0DB38F8A6747033F7D8AA31C0C1E6A20A31369 (void);
-// 0x00001002 Unity.VisualScripting.CoroutineRunner Unity.VisualScripting.CoroutineRunner::get_instance()
+// 0x00000FF9 Unity.VisualScripting.CoroutineRunner Unity.VisualScripting.CoroutineRunner::get_instance()
 extern void CoroutineRunner_get_instance_m36DFFBA8E06B4B241D7C226AE66FA554CEE80606 (void);
-// 0x00001003 System.Void Unity.VisualScripting.CoroutineRunner::.ctor()
+// 0x00000FFA System.Void Unity.VisualScripting.CoroutineRunner::.ctor()
 extern void CoroutineRunner__ctor_m9ECDE7E4B1C1DCC2705FEB8973ABE626824B2E95 (void);
+// 0x00000FFB System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Reflection.MemberInfo,Unity.VisualScripting.ActionDirection)
+extern void CSharpNameUtility_CSharpName_m59FDF63A3C4DC9B0F340A5C02A5C631FB9E11A40 (void);
+// 0x00000FFC System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Type,System.Boolean)
+extern void CSharpNameUtility_CSharpName_m8E73469776C7DC36AE8A115D6D594574D16383A6 (void);
+// 0x00000FFD System.String Unity.VisualScripting.CSharpNameUtility::CSharpFullName(System.Type,System.Boolean)
+extern void CSharpNameUtility_CSharpFullName_m87B7544159A69EA6CE7EB5C3F8A476ACD464CEDD (void);
+// 0x00000FFE System.String Unity.VisualScripting.CSharpNameUtility::CSharpUniqueName(System.Type,System.Boolean)
+extern void CSharpNameUtility_CSharpUniqueName_m05AA47C9386A5F5DA848C7C639F3499A5EF4412B (void);
+// 0x00000FFF System.String Unity.VisualScripting.CSharpNameUtility::CSharpFileName(System.Type,System.Boolean,System.Boolean)
+extern void CSharpNameUtility_CSharpFileName_mB1F719DBD6D006E4DCD1BFC0E90FB97172F9EC19 (void);
+// 0x00001000 System.String Unity.VisualScripting.CSharpNameUtility::CSharpName(System.Type,Unity.VisualScripting.TypeQualifier,System.Boolean)
+extern void CSharpNameUtility_CSharpName_mDCF2F7EC343F5EE798420E82C4D925AF382555C1 (void);
+// 0x00001001 System.Void Unity.VisualScripting.CSharpNameUtility::.cctor()
+extern void CSharpNameUtility__cctor_mFC8CECB0D8F6714B6A352C5888DA4F8CC0036C45 (void);
+// 0x00001002 System.Void Unity.VisualScripting.CSharpNameUtility/<>c__DisplayClass8_0::.ctor()
+extern void U3CU3Ec__DisplayClass8_0__ctor_m111642B8BAAE9F39B6D18C7E0D4B79CA4443F215 (void);
+// 0x00001003 System.String Unity.VisualScripting.CSharpNameUtility/<>c__DisplayClass8_0::<CSharpName>b__0(System.Type)
+extern void U3CU3Ec__DisplayClass8_0_U3CCSharpNameU3Eb__0_mCB16B68B0D9A9C96363171B1D5F86E9AF209E93C (void);
 // 0x00001004 System.Void Unity.VisualScripting.Empty`1::.cctor()
 // 0x00001005 System.Boolean Unity.VisualScripting.EnumUtility::HasFlag(System.Enum,System.Enum)
 extern void EnumUtility_HasFlag_m01EAB417C961F12EB7603C53B8937042AA11C151 (void);
@@ -7723,730 +7723,730 @@ extern void VariablesSaver_get_instance_m311BC22E28996B7A9AFDB8FE8331AC9D0489B24
 extern void VariablesSaver_Instantiate_m3CA5EFEBA65499952B41007269463715A7066636 (void);
 // 0x00001151 System.Void Unity.VisualScripting.VariablesSaver::.ctor()
 extern void VariablesSaver__ctor_m0D71CC9CC4C45098D340EC3477BB7E696A9F0F4A (void);
-// 0x00001152 System.Void Unity.VisualScripting.FullSerializer.fsConverterRegistrar::.cctor()
-extern void fsConverterRegistrar__cctor_mAB439B8C7709F35623F01C7009C8D7951965DDD7 (void);
-// 0x00001153 System.Void Unity.VisualScripting.FullSerializer.fsConverterRegistrar::.ctor()
-extern void fsConverterRegistrar__ctor_mAED9B45E3B0708FB4779217FCA3DAB0F9461EB5C (void);
-// 0x00001154 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::DoSerialize(UnityEngine.AnimationCurve,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void AnimationCurve_DirectConverter_DoSerialize_mC093F4C9E04BB99B9F8FFBE0EF7D475D8C3D059E (void);
-// 0x00001155 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.AnimationCurve&)
-extern void AnimationCurve_DirectConverter_DoDeserialize_m61EEA43B60CA8E84930807493F0AD9C1F888D2F9 (void);
-// 0x00001156 System.Object Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void AnimationCurve_DirectConverter_CreateInstance_m6719A6BE51AEF4A3FD6E8A55837062A376AF8429 (void);
-// 0x00001157 System.Void Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::.ctor()
-extern void AnimationCurve_DirectConverter__ctor_m97FE64E03C5BA438EEF0FD3BFF2B2C5F8241593E (void);
-// 0x00001158 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::DoSerialize(UnityEngine.Bounds,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void Bounds_DirectConverter_DoSerialize_m80DA565A60DF607D7E2898A9A5D506981A01E55B (void);
-// 0x00001159 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Bounds&)
-extern void Bounds_DirectConverter_DoDeserialize_mAC6427D34F0F389B3055C7A58DB560F00B78DDBD (void);
-// 0x0000115A System.Object Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void Bounds_DirectConverter_CreateInstance_m0F48F83A88BBFA778B69513A5EF911EA435064B0 (void);
-// 0x0000115B System.Void Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::.ctor()
-extern void Bounds_DirectConverter__ctor_mE64C93F66164F37395C4825C2E2C89A85ACD0313 (void);
-// 0x0000115C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::DoSerialize(UnityEngine.GUIStyleState,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void GUIStyleState_DirectConverter_DoSerialize_m11F332174BBA0DC0A356EB059A3E34F55FB68A84 (void);
-// 0x0000115D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.GUIStyleState&)
-extern void GUIStyleState_DirectConverter_DoDeserialize_m0A69DF9CE2D501E3D7967D2F9D030EF5AB89BC95 (void);
-// 0x0000115E System.Object Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void GUIStyleState_DirectConverter_CreateInstance_m38337EDF1FC548400AB83C9A86349450851D480F (void);
-// 0x0000115F System.Void Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::.ctor()
-extern void GUIStyleState_DirectConverter__ctor_m5656DA77031E2F79A9DF4C4AC57D89D29D8618B8 (void);
-// 0x00001160 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::DoSerialize(UnityEngine.GUIStyle,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void GUIStyle_DirectConverter_DoSerialize_m9D60429C09362D219AD9871A5017BCFCFC1DD3FD (void);
-// 0x00001161 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.GUIStyle&)
-extern void GUIStyle_DirectConverter_DoDeserialize_m3116C92C6BEAF09E0CF82DE35E909217B1D68F51 (void);
-// 0x00001162 System.Object Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void GUIStyle_DirectConverter_CreateInstance_mD7FC6AFCC0AE9266C85C5B915D9A9E855351563C (void);
-// 0x00001163 System.Void Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::.ctor()
-extern void GUIStyle_DirectConverter__ctor_m158D2CB634D022D6E791C815699285F55D23C9B8 (void);
-// 0x00001164 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::DoSerialize(UnityEngine.Gradient,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void Gradient_DirectConverter_DoSerialize_m237EB5EA32B5231AB6AF1D01719130162710D586 (void);
-// 0x00001165 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Gradient&)
-extern void Gradient_DirectConverter_DoDeserialize_mF8429FDC271DB4E85A42F630BF886D0CD60CAE8B (void);
-// 0x00001166 System.Object Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void Gradient_DirectConverter_CreateInstance_mFD09F8821FAA047ADCC113519016AD91AD9DFCC6 (void);
-// 0x00001167 System.Void Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::.ctor()
-extern void Gradient_DirectConverter__ctor_m30EC46864473C8ED2E52F64B0E73CAD4E3ED7840 (void);
-// 0x00001168 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::DoSerialize(UnityEngine.Keyframe,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void Keyframe_DirectConverter_DoSerialize_m29C203241EE8561C3F66402CD63C694E5F58272D (void);
-// 0x00001169 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Keyframe&)
-extern void Keyframe_DirectConverter_DoDeserialize_m51D898722C82187D4FDCD942BD6F36BC1FD592B5 (void);
-// 0x0000116A System.Object Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void Keyframe_DirectConverter_CreateInstance_m934FF4451BFB6D9CDFCA767989BC3BF591780E08 (void);
-// 0x0000116B System.Void Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::.ctor()
-extern void Keyframe_DirectConverter__ctor_m30581394F27266B39A7F24D558DCB99AF2A58A9F (void);
-// 0x0000116C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::DoSerialize(UnityEngine.LayerMask,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void LayerMask_DirectConverter_DoSerialize_mE0D642B9869CDACA216F21DADB931A3E7CB4B413 (void);
-// 0x0000116D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.LayerMask&)
-extern void LayerMask_DirectConverter_DoDeserialize_mC36DDF62F091EDAAA93D8E7E74F0F52F6684825F (void);
-// 0x0000116E System.Object Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void LayerMask_DirectConverter_CreateInstance_mC5554870983349A67AD8B6BED05A6CC7C3777FBB (void);
-// 0x0000116F System.Void Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::.ctor()
-extern void LayerMask_DirectConverter__ctor_m39FACBD052681F37B03E04C743B4BF86C238B437 (void);
-// 0x00001170 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::DoSerialize(UnityEngine.RectOffset,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void RectOffset_DirectConverter_DoSerialize_m71F9204BCA47A86AD7238C3BC804C0A114E08B80 (void);
-// 0x00001171 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.RectOffset&)
-extern void RectOffset_DirectConverter_DoDeserialize_mAAAE96B1DE66ED7B85966D0B264D35BD85EC263D (void);
-// 0x00001172 System.Object Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void RectOffset_DirectConverter_CreateInstance_mB42C9F6249612306B08FCCF35068F914918C58FD (void);
-// 0x00001173 System.Void Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::.ctor()
-extern void RectOffset_DirectConverter__ctor_mC8D52D76C1DB092664DA474A48A74797A77317AA (void);
-// 0x00001174 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Rect_DirectConverter::DoSerialize(UnityEngine.Rect,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-extern void Rect_DirectConverter_DoSerialize_m08A0FADAF1FFD4ADF9D92DA57671A9CED95EBFB8 (void);
-// 0x00001175 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Rect_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Rect&)
-extern void Rect_DirectConverter_DoDeserialize_m772033545864654BE382D2623654948C4FD336C9 (void);
-// 0x00001176 System.Object Unity.VisualScripting.FullSerializer.Rect_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
-extern void Rect_DirectConverter_CreateInstance_m0802A5884B1B788FEA416FC8F4E838D7E9A4F65F (void);
-// 0x00001177 System.Void Unity.VisualScripting.FullSerializer.Rect_DirectConverter::.ctor()
-extern void Rect_DirectConverter__ctor_m49794B76D6C2C2D463BEF227525D91196AFE6CB2 (void);
-// 0x00001178 System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::CanProcess(System.Type)
+// 0x00001152 System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::CanProcess(System.Type)
 extern void fsArrayConverter_CanProcess_mC812F63BA9DA4087CC82E0E869B5F7390FAC81C1 (void);
-// 0x00001179 System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::RequestCycleSupport(System.Type)
+// 0x00001153 System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::RequestCycleSupport(System.Type)
 extern void fsArrayConverter_RequestCycleSupport_m0A7F56F448ED67FB95EE6163FD6A0E5F20992678 (void);
-// 0x0000117A System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::RequestInheritanceSupport(System.Type)
+// 0x00001154 System.Boolean Unity.VisualScripting.FullSerializer.fsArrayConverter::RequestInheritanceSupport(System.Type)
 extern void fsArrayConverter_RequestInheritanceSupport_mC81F939D38E5BD04E2E75E8C30F6B5634A86167C (void);
-// 0x0000117B Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsArrayConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001155 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsArrayConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsArrayConverter_TrySerialize_m06455924AD13F62F26F5AC4A8857AC3C6C920925 (void);
-// 0x0000117C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsArrayConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001156 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsArrayConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsArrayConverter_TryDeserialize_m1ED67A6A2F6AE5A630F8BDB4EABC3E748459D34D (void);
-// 0x0000117D System.Object Unity.VisualScripting.FullSerializer.fsArrayConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x00001157 System.Object Unity.VisualScripting.FullSerializer.fsArrayConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsArrayConverter_CreateInstance_m69271B347C7C9E69AC7E1544904B8D5821321EED (void);
-// 0x0000117E System.Void Unity.VisualScripting.FullSerializer.fsArrayConverter::.ctor()
+// 0x00001158 System.Void Unity.VisualScripting.FullSerializer.fsArrayConverter::.ctor()
 extern void fsArrayConverter__ctor_mF3DB4719DA4C53D0645C14406F15106CBA69F326 (void);
-// 0x0000117F System.String Unity.VisualScripting.FullSerializer.fsDateConverter::get_DateTimeFormatString()
+// 0x00001159 System.String Unity.VisualScripting.FullSerializer.fsDateConverter::get_DateTimeFormatString()
 extern void fsDateConverter_get_DateTimeFormatString_m7060267388902A4A213718EBDB898926BB64CBA4 (void);
-// 0x00001180 System.Boolean Unity.VisualScripting.FullSerializer.fsDateConverter::CanProcess(System.Type)
+// 0x0000115A System.Boolean Unity.VisualScripting.FullSerializer.fsDateConverter::CanProcess(System.Type)
 extern void fsDateConverter_CanProcess_mC55064B69B219D9686EBB81918F714C012A40ECF (void);
-// 0x00001181 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDateConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x0000115B Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDateConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsDateConverter_TrySerialize_m42983F2FB45C8C8B9D2CD66ACAB58790659AB86C (void);
-// 0x00001182 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDateConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x0000115C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDateConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsDateConverter_TryDeserialize_m2FDEC499002F64CD557C7BC26F08400AB9086941 (void);
-// 0x00001183 System.Void Unity.VisualScripting.FullSerializer.fsDateConverter::.ctor()
+// 0x0000115D System.Void Unity.VisualScripting.FullSerializer.fsDateConverter::.ctor()
 extern void fsDateConverter__ctor_mE7B2A85671B95BEE2B13D8AB2F3A443EBF5E83CC (void);
-// 0x00001184 System.Boolean Unity.VisualScripting.FullSerializer.fsDictionaryConverter::CanProcess(System.Type)
+// 0x0000115E System.Boolean Unity.VisualScripting.FullSerializer.fsDictionaryConverter::CanProcess(System.Type)
 extern void fsDictionaryConverter_CanProcess_m0F2C9585AB012FAEF9F2AEA0E3A81CB4FAF1CC08 (void);
-// 0x00001185 System.Object Unity.VisualScripting.FullSerializer.fsDictionaryConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x0000115F System.Object Unity.VisualScripting.FullSerializer.fsDictionaryConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsDictionaryConverter_CreateInstance_mD873B9FC931CBBE18F68222E1E02E8469BA015F4 (void);
-// 0x00001186 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001160 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsDictionaryConverter_TryDeserialize_mCE4A4465D0860BBB22C2D53F7E8C5DAEAB537952 (void);
-// 0x00001187 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001161 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsDictionaryConverter_TrySerialize_m7670C41256D3265FA8FB68CA82652A6057E6F1C6 (void);
-// 0x00001188 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::AddItemToDictionary(System.Collections.IDictionary,System.Object,System.Object)
+// 0x00001162 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDictionaryConverter::AddItemToDictionary(System.Collections.IDictionary,System.Object,System.Object)
 extern void fsDictionaryConverter_AddItemToDictionary_mBEA790A8C84CA37141202830ED648FAB52BC446D (void);
-// 0x00001189 System.Void Unity.VisualScripting.FullSerializer.fsDictionaryConverter::GetKeyValueTypes(System.Type,System.Type&,System.Type&)
+// 0x00001163 System.Void Unity.VisualScripting.FullSerializer.fsDictionaryConverter::GetKeyValueTypes(System.Type,System.Type&,System.Type&)
 extern void fsDictionaryConverter_GetKeyValueTypes_mF6080CDF3897B335BEE09D8B545E896BAEDECAB6 (void);
-// 0x0000118A System.Void Unity.VisualScripting.FullSerializer.fsDictionaryConverter::.ctor()
+// 0x00001164 System.Void Unity.VisualScripting.FullSerializer.fsDictionaryConverter::.ctor()
 extern void fsDictionaryConverter__ctor_m668F4BE65E6467436373F586FEAD37F472A55ACA (void);
-// 0x0000118B System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::CanProcess(System.Type)
+// 0x00001165 System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::CanProcess(System.Type)
 extern void fsEnumConverter_CanProcess_mB7E95AEBA9B47FC761C98C350E92838DCE26A634 (void);
-// 0x0000118C System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::RequestCycleSupport(System.Type)
+// 0x00001166 System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::RequestCycleSupport(System.Type)
 extern void fsEnumConverter_RequestCycleSupport_m312A3C38F2910A267A44D687D833D4EDD9EB6D91 (void);
-// 0x0000118D System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::RequestInheritanceSupport(System.Type)
+// 0x00001167 System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::RequestInheritanceSupport(System.Type)
 extern void fsEnumConverter_RequestInheritanceSupport_m61A12023AEDA7FD27C68AC605EB5FCD9C4EF696C (void);
-// 0x0000118E System.Object Unity.VisualScripting.FullSerializer.fsEnumConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x00001168 System.Object Unity.VisualScripting.FullSerializer.fsEnumConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsEnumConverter_CreateInstance_m83AC52BB50846317BB08BF009F18CDD3F6DE5561 (void);
-// 0x0000118F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsEnumConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001169 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsEnumConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsEnumConverter_TrySerialize_m9EE5BE8BF13D15ED7CCCED9D50A9B506BC30EE50 (void);
-// 0x00001190 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsEnumConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x0000116A Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsEnumConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsEnumConverter_TryDeserialize_mC4B539334A518C125E7AC968D21086556B2B25B4 (void);
-// 0x00001191 System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::ArrayContains(T[],T)
-// 0x00001192 System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter::.ctor()
+// 0x0000116B System.Boolean Unity.VisualScripting.FullSerializer.fsEnumConverter::ArrayContains(T[],T)
+// 0x0000116C System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter::.ctor()
 extern void fsEnumConverter__ctor_m60A7A37304B4B655B135261505092177EB5271CF (void);
-// 0x00001193 System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c__DisplayClass5_0::.ctor()
+// 0x0000116D System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m8E355725F37DCF563CA859BD8ADD2CD2C71E5C87 (void);
-// 0x00001194 System.ValueTuple`2<System.Enum,System.String> Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c__DisplayClass5_0::<TryDeserialize>b__3(Unity.VisualScripting.RenamedFromAttribute)
+// 0x0000116E System.ValueTuple`2<System.Enum,System.String> Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c__DisplayClass5_0::<TryDeserialize>b__3(Unity.VisualScripting.RenamedFromAttribute)
 extern void U3CU3Ec__DisplayClass5_0_U3CTryDeserializeU3Eb__3_m6820BCBED4F823DFBFB958884E53012470332A11 (void);
-// 0x00001195 System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::.cctor()
+// 0x0000116F System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::.cctor()
 extern void U3CU3Ec__cctor_m5EE405520C00E369D100C46AC087282A43BE3BCB (void);
-// 0x00001196 System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::.ctor()
+// 0x00001170 System.Void Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::.ctor()
 extern void U3CU3Ec__ctor_m15D4E64BD9ABA845A5F475B1A76567EE30FB8BDD (void);
-// 0x00001197 System.Collections.Generic.IEnumerable`1<System.ValueTuple`2<System.Enum,System.String>> Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_0(System.Enum)
+// 0x00001171 System.Collections.Generic.IEnumerable`1<System.ValueTuple`2<System.Enum,System.String>> Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_0(System.Enum)
 extern void U3CU3Ec_U3CTryDeserializeU3Eb__5_0_m3BEA44FB419581664656FC13ED434B30D9890898 (void);
-// 0x00001198 System.String Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_1(System.ValueTuple`2<System.Enum,System.String>)
+// 0x00001172 System.String Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_1(System.ValueTuple`2<System.Enum,System.String>)
 extern void U3CU3Ec_U3CTryDeserializeU3Eb__5_1_m019B199D427FC38370BE36AE8A8F1EB0A5E60B8A (void);
-// 0x00001199 System.Enum Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_2(System.ValueTuple`2<System.Enum,System.String>)
+// 0x00001173 System.Enum Unity.VisualScripting.FullSerializer.fsEnumConverter/<>c::<TryDeserialize>b__5_2(System.ValueTuple`2<System.Enum,System.String>)
 extern void U3CU3Ec_U3CTryDeserializeU3Eb__5_2_m326BBED045D120714F928CC40F53B443CD235562 (void);
-// 0x0000119A System.Void Unity.VisualScripting.FullSerializer.fsForwardAttribute::.ctor(System.String)
+// 0x00001174 System.Void Unity.VisualScripting.FullSerializer.fsForwardAttribute::.ctor(System.String)
 extern void fsForwardAttribute__ctor_m012D991B69E32085B90C0C98D360FBBEAD56339D (void);
-// 0x0000119B System.Void Unity.VisualScripting.FullSerializer.fsForwardConverter::.ctor(Unity.VisualScripting.FullSerializer.fsForwardAttribute)
+// 0x00001175 System.Void Unity.VisualScripting.FullSerializer.fsForwardConverter::.ctor(Unity.VisualScripting.FullSerializer.fsForwardAttribute)
 extern void fsForwardConverter__ctor_mB658EBCDE1BF8CDAB66C52D3EAC9B8A1521BA45C (void);
-// 0x0000119C System.Boolean Unity.VisualScripting.FullSerializer.fsForwardConverter::CanProcess(System.Type)
+// 0x00001176 System.Boolean Unity.VisualScripting.FullSerializer.fsForwardConverter::CanProcess(System.Type)
 extern void fsForwardConverter_CanProcess_mE762E41568C5E18DBC4904E92F67D12C37830446 (void);
-// 0x0000119D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::GetProperty(System.Object,Unity.VisualScripting.FullSerializer.fsMetaProperty&)
+// 0x00001177 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::GetProperty(System.Object,Unity.VisualScripting.FullSerializer.fsMetaProperty&)
 extern void fsForwardConverter_GetProperty_m2B901658700E58C0FD7D005FC00D9CC270686F65 (void);
-// 0x0000119E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001178 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsForwardConverter_TrySerialize_m11974CAAD5374B236CAF2C0467F7B29E80A24976 (void);
-// 0x0000119F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001179 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsForwardConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsForwardConverter_TryDeserialize_mDE2FE372CF24AE333C56CDCC52EBFCB271919188 (void);
-// 0x000011A0 System.Object Unity.VisualScripting.FullSerializer.fsForwardConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x0000117A System.Object Unity.VisualScripting.FullSerializer.fsForwardConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsForwardConverter_CreateInstance_m72B8E32F657BFD6AFC09A14E614C43284D389DF2 (void);
-// 0x000011A1 System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::CanProcess(System.Type)
+// 0x0000117B System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::CanProcess(System.Type)
 extern void fsGuidConverter_CanProcess_m9BDF04BB4DD6D4B3E58B5D15E0452618BB4DCA29 (void);
-// 0x000011A2 System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::RequestCycleSupport(System.Type)
+// 0x0000117C System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::RequestCycleSupport(System.Type)
 extern void fsGuidConverter_RequestCycleSupport_m3DBFC29137F937A7813E0B15BFAD3DE0B91D77A7 (void);
-// 0x000011A3 System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::RequestInheritanceSupport(System.Type)
+// 0x0000117D System.Boolean Unity.VisualScripting.FullSerializer.fsGuidConverter::RequestInheritanceSupport(System.Type)
 extern void fsGuidConverter_RequestInheritanceSupport_mC309A9B8F6D17F76644AD2D93C3BB2D3739164ED (void);
-// 0x000011A4 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsGuidConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x0000117E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsGuidConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsGuidConverter_TrySerialize_m12F5DB4BF4E420D8110F75B863EB4E125E84D686 (void);
-// 0x000011A5 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsGuidConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x0000117F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsGuidConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsGuidConverter_TryDeserialize_m42EFB6BFDFF52BB1DE9F7350A836A92A5AD99788 (void);
-// 0x000011A6 System.Object Unity.VisualScripting.FullSerializer.fsGuidConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x00001180 System.Object Unity.VisualScripting.FullSerializer.fsGuidConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsGuidConverter_CreateInstance_mB9260EDF8704C0F3869417571FB8E82F071261C5 (void);
-// 0x000011A7 System.Void Unity.VisualScripting.FullSerializer.fsGuidConverter::.ctor()
+// 0x00001181 System.Void Unity.VisualScripting.FullSerializer.fsGuidConverter::.ctor()
 extern void fsGuidConverter__ctor_m55052DA5223263915D2BC2AEF25B124274525728 (void);
-// 0x000011A8 System.Boolean Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::CanProcess(System.Type)
+// 0x00001182 System.Boolean Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::CanProcess(System.Type)
 extern void fsIEnumerableConverter_CanProcess_m6C7D24E9CF92E0962C6B5E366934A8914F65F21F (void);
-// 0x000011A9 System.Object Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x00001183 System.Object Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsIEnumerableConverter_CreateInstance_m64AAF627F2DCC6302CCA1BF54333EB9B84BCE3F1 (void);
-// 0x000011AA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001184 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsIEnumerableConverter_TrySerialize_m494915090B70D63C3FED5AE22044BFBCF90FB253 (void);
-// 0x000011AB System.Boolean Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::IsStack(System.Type)
+// 0x00001185 System.Boolean Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::IsStack(System.Type)
 extern void fsIEnumerableConverter_IsStack_m71CB1418705BAD0698E1DF662B2F04EEF5CC3CED (void);
-// 0x000011AC Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001186 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsIEnumerableConverter_TryDeserialize_m9EE147DFCA4E87D72745310A09C008D74873FE9D (void);
-// 0x000011AD System.Int32 Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::HintSize(System.Collections.IEnumerable)
+// 0x00001187 System.Int32 Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::HintSize(System.Collections.IEnumerable)
 extern void fsIEnumerableConverter_HintSize_mA7226E9E5D1422A271163B8A3D4766948D016652 (void);
-// 0x000011AE System.Type Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::GetElementType(System.Type)
+// 0x00001188 System.Type Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::GetElementType(System.Type)
 extern void fsIEnumerableConverter_GetElementType_m78DB50CB0C563489C9E034AF33801A18B8515948 (void);
-// 0x000011AF System.Void Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryClear(System.Type,System.Object)
+// 0x00001189 System.Void Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryClear(System.Type,System.Object)
 extern void fsIEnumerableConverter_TryClear_mE0ADC99A23EA92A0F0063C3BF55FDF90183FDA19 (void);
-// 0x000011B0 System.Int32 Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryGetExistingSize(System.Type,System.Object)
+// 0x0000118A System.Int32 Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::TryGetExistingSize(System.Type,System.Object)
 extern void fsIEnumerableConverter_TryGetExistingSize_mD0C3D917F0E4FF31E8F0B417A28CF14D5C979624 (void);
-// 0x000011B1 System.Reflection.MethodInfo Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::GetAddMethod(System.Type)
+// 0x0000118B System.Reflection.MethodInfo Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::GetAddMethod(System.Type)
 extern void fsIEnumerableConverter_GetAddMethod_m3E8B6D9F9778FB8D134BF86B25867ED676AB50A0 (void);
-// 0x000011B2 System.Void Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::.ctor()
+// 0x0000118C System.Void Unity.VisualScripting.FullSerializer.fsIEnumerableConverter::.ctor()
 extern void fsIEnumerableConverter__ctor_m5543F512D94FBAB49D28753CF3912F4AE5798E9D (void);
-// 0x000011B3 System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::CanProcess(System.Type)
+// 0x0000118D System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::CanProcess(System.Type)
 extern void fsKeyValuePairConverter_CanProcess_mA592307887176EC33A92C1E4A9E3C0CAFC19B138 (void);
-// 0x000011B4 System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::RequestCycleSupport(System.Type)
+// 0x0000118E System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::RequestCycleSupport(System.Type)
 extern void fsKeyValuePairConverter_RequestCycleSupport_m19CC77ECC3D2F75FD3A85EE8317D74BA6440CCDD (void);
-// 0x000011B5 System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::RequestInheritanceSupport(System.Type)
+// 0x0000118F System.Boolean Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::RequestInheritanceSupport(System.Type)
 extern void fsKeyValuePairConverter_RequestInheritanceSupport_m5CCE9E420FBC8EFB080B1C96BCEF424B3911129C (void);
-// 0x000011B6 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001190 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsKeyValuePairConverter_TryDeserialize_m2C5543FF62C82E68164B87CFBFDBCEDF3ECFEFE9 (void);
-// 0x000011B7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001191 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsKeyValuePairConverter_TrySerialize_mCEAED5E05508FA18654A11735CA8467772BBFE98 (void);
-// 0x000011B8 System.Void Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::.ctor()
+// 0x00001192 System.Void Unity.VisualScripting.FullSerializer.fsKeyValuePairConverter::.ctor()
 extern void fsKeyValuePairConverter__ctor_mB2D131F5758DA37234271F8DF86CF66644030ACD (void);
-// 0x000011B9 System.Boolean Unity.VisualScripting.FullSerializer.fsNullableConverter::CanProcess(System.Type)
+// 0x00001193 System.Boolean Unity.VisualScripting.FullSerializer.fsNullableConverter::CanProcess(System.Type)
 extern void fsNullableConverter_CanProcess_m1A706E340440C15213F125EB106628B06C03F455 (void);
-// 0x000011BA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsNullableConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001194 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsNullableConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsNullableConverter_TrySerialize_m39EAE7FDE4F6A1D4120A5E9FB85C7F5C4654B6B8 (void);
-// 0x000011BB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsNullableConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001195 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsNullableConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsNullableConverter_TryDeserialize_mBCA7A072A80F873BEF6EE840DEA7EC096A768633 (void);
-// 0x000011BC System.Object Unity.VisualScripting.FullSerializer.fsNullableConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x00001196 System.Object Unity.VisualScripting.FullSerializer.fsNullableConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsNullableConverter_CreateInstance_mF0AA1385488BDD894E97916472CE67CF0F0AB418 (void);
-// 0x000011BD System.Void Unity.VisualScripting.FullSerializer.fsNullableConverter::.ctor()
+// 0x00001197 System.Void Unity.VisualScripting.FullSerializer.fsNullableConverter::.ctor()
 extern void fsNullableConverter__ctor_m6B019ABC41E275FC29C0C002C25E61AD303DB349 (void);
-// 0x000011BE System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::CanProcess(System.Type)
+// 0x00001198 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::CanProcess(System.Type)
 extern void fsPrimitiveConverter_CanProcess_m26DD96F0878FD3ECEFF0EDB17D6E0112CE533CCE (void);
-// 0x000011BF System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::RequestCycleSupport(System.Type)
+// 0x00001199 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::RequestCycleSupport(System.Type)
 extern void fsPrimitiveConverter_RequestCycleSupport_m64A8B1EED78BB79C1E5BB5B4C7FCA836D49E8CBF (void);
-// 0x000011C0 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::RequestInheritanceSupport(System.Type)
+// 0x0000119A System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::RequestInheritanceSupport(System.Type)
 extern void fsPrimitiveConverter_RequestInheritanceSupport_m867B4302EE1E04FD668A159410CB0155F34C3ECF (void);
-// 0x000011C1 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x0000119B Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsPrimitiveConverter_TrySerialize_m825861168AFAB6D96AFEC21203DC967EF6417459 (void);
-// 0x000011C2 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x0000119C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsPrimitiveConverter_TryDeserialize_mB7E511360F5E0EB46232E90D0D70FC62A29DAE9F (void);
-// 0x000011C3 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseBool(System.Type)
+// 0x0000119D System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseBool(System.Type)
 extern void fsPrimitiveConverter_UseBool_m7E8B516A2E6C02DD867499EBBCAF8F94AFAEF95D (void);
-// 0x000011C4 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseInt64(System.Type)
+// 0x0000119E System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseInt64(System.Type)
 extern void fsPrimitiveConverter_UseInt64_m4B5DF4D92556B489AF092EB8BC62C229E0BF3061 (void);
-// 0x000011C5 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseDouble(System.Type)
+// 0x0000119F System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseDouble(System.Type)
 extern void fsPrimitiveConverter_UseDouble_m95641FD0CBA4D08644A47D3094937AFB648C5447 (void);
-// 0x000011C6 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseString(System.Type)
+// 0x000011A0 System.Boolean Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::UseString(System.Type)
 extern void fsPrimitiveConverter_UseString_m5ECEDEEB6D4C7B3DFFDB5ACA1FA8370A837E1A2F (void);
-// 0x000011C7 System.Void Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::.ctor()
+// 0x000011A1 System.Void Unity.VisualScripting.FullSerializer.fsPrimitiveConverter::.ctor()
 extern void fsPrimitiveConverter__ctor_m09F9AAC8DDBA0AD9D03FEAB2E413EAE812073340 (void);
-// 0x000011C8 System.Boolean Unity.VisualScripting.FullSerializer.fsReflectedConverter::CanProcess(System.Type)
+// 0x000011A2 System.Boolean Unity.VisualScripting.FullSerializer.fsReflectedConverter::CanProcess(System.Type)
 extern void fsReflectedConverter_CanProcess_mBF06950794A6274696482F9EC4F9F9FB888ADA37 (void);
-// 0x000011C9 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsReflectedConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x000011A3 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsReflectedConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsReflectedConverter_TrySerialize_m8E6B54451736AE514D422B3FECD54006D0BA3133 (void);
-// 0x000011CA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsReflectedConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x000011A4 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsReflectedConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsReflectedConverter_TryDeserialize_m513AA91805BA657A339C614A96C9C8182D98869D (void);
-// 0x000011CB System.Object Unity.VisualScripting.FullSerializer.fsReflectedConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x000011A5 System.Object Unity.VisualScripting.FullSerializer.fsReflectedConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsReflectedConverter_CreateInstance_m03A9A5B8D678763FDE97EC8E029D332F41E1E949 (void);
-// 0x000011CC System.Void Unity.VisualScripting.FullSerializer.fsReflectedConverter::.ctor()
+// 0x000011A6 System.Void Unity.VisualScripting.FullSerializer.fsReflectedConverter::.ctor()
 extern void fsReflectedConverter__ctor_mC1B10DE2E5B49784B0FC658CAA28814F555647A6 (void);
-// 0x000011CD System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::CanProcess(System.Type)
+// 0x000011A7 System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::CanProcess(System.Type)
 extern void fsTypeConverter_CanProcess_m91B9CE689C4CCAE928291938CE940AA165F4A42D (void);
-// 0x000011CE System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::RequestCycleSupport(System.Type)
+// 0x000011A8 System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::RequestCycleSupport(System.Type)
 extern void fsTypeConverter_RequestCycleSupport_m39201AC284A5288BD9C0B7414019CF0450F53C09 (void);
-// 0x000011CF System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::RequestInheritanceSupport(System.Type)
+// 0x000011A9 System.Boolean Unity.VisualScripting.FullSerializer.fsTypeConverter::RequestInheritanceSupport(System.Type)
 extern void fsTypeConverter_RequestInheritanceSupport_m770B87C422596DF9CD79FC17464C0D083CDCB2A1 (void);
-// 0x000011D0 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsTypeConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x000011AA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsTypeConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsTypeConverter_TrySerialize_m5C85B08391033D1A3ABD90DED6660C90CEEFE622 (void);
-// 0x000011D1 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsTypeConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x000011AB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsTypeConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsTypeConverter_TryDeserialize_m11D4FC25E9920438E8CDFE40FC8EDF0CB9130485 (void);
-// 0x000011D2 System.Object Unity.VisualScripting.FullSerializer.fsTypeConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x000011AC System.Object Unity.VisualScripting.FullSerializer.fsTypeConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsTypeConverter_CreateInstance_m1B47139441FD91D866882C8603F28938B869D0A5 (void);
-// 0x000011D3 System.Void Unity.VisualScripting.FullSerializer.fsTypeConverter::.ctor()
+// 0x000011AD System.Void Unity.VisualScripting.FullSerializer.fsTypeConverter::.ctor()
 extern void fsTypeConverter__ctor_mB3785D775EC38A17971F369D089F39FA835D087B (void);
-// 0x000011D4 System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::CanProcess(System.Type)
+// 0x000011AE System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::CanProcess(System.Type)
 extern void fsWeakReferenceConverter_CanProcess_mFAA2163DFDD567276F9DCB1FC44C5AC0CD4618DD (void);
-// 0x000011D5 System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::RequestCycleSupport(System.Type)
+// 0x000011AF System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::RequestCycleSupport(System.Type)
 extern void fsWeakReferenceConverter_RequestCycleSupport_m8376F8CD4E3E179ABA1401B75BB31E5CFDF61E0C (void);
-// 0x000011D6 System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::RequestInheritanceSupport(System.Type)
+// 0x000011B0 System.Boolean Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::RequestInheritanceSupport(System.Type)
 extern void fsWeakReferenceConverter_RequestInheritanceSupport_m4EE0E35271996B23F70D17ED61F1B0549CA664ED (void);
-// 0x000011D7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x000011B1 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
 extern void fsWeakReferenceConverter_TrySerialize_mB71B83716AA3FA2CADB4F34836055A7B7314F279 (void);
-// 0x000011D8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x000011B2 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
 extern void fsWeakReferenceConverter_TryDeserialize_m2B488EEB987C1DB9E969066BE54FDA76104E8286 (void);
-// 0x000011D9 System.Object Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x000011B3 System.Object Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsWeakReferenceConverter_CreateInstance_mAE847039874CB4CE7B2D67F72BF1088EAEBA790E (void);
-// 0x000011DA System.Void Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::.ctor()
+// 0x000011B4 System.Void Unity.VisualScripting.FullSerializer.fsWeakReferenceConverter::.ctor()
 extern void fsWeakReferenceConverter__ctor_m961A93BBF5A2B9E276E52E1764917A8A3D48469D (void);
-// 0x000011DB System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.FieldInfo)
-extern void fsMetaProperty__ctor_m8EAD810AB5CC9482CE78ACDAA6D7DCC2680022A6 (void);
-// 0x000011DC System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.PropertyInfo)
-extern void fsMetaProperty__ctor_m6C23AFA33EA55557279A069D19DC87FCCEBBBAD1 (void);
-// 0x000011DD System.Type Unity.VisualScripting.FullSerializer.fsMetaProperty::get_StorageType()
-extern void fsMetaProperty_get_StorageType_m44BED9C0B89B0A58FF1B29E69582E7B5FF75414E (void);
-// 0x000011DE System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_StorageType(System.Type)
-extern void fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6 (void);
-// 0x000011DF System.Type Unity.VisualScripting.FullSerializer.fsMetaProperty::get_OverrideConverterType()
-extern void fsMetaProperty_get_OverrideConverterType_mED201398F793429A572BAC96BBCFA8334F63C6A3 (void);
-// 0x000011E0 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_OverrideConverterType(System.Type)
-extern void fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B (void);
-// 0x000011E1 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_CanRead()
-extern void fsMetaProperty_get_CanRead_mA2A7D389C2D41C426B303F6A269403879F17964D (void);
-// 0x000011E2 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_CanRead(System.Boolean)
-extern void fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73 (void);
-// 0x000011E3 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_CanWrite()
-extern void fsMetaProperty_get_CanWrite_m2BD75237BFBF0A4162BEDF112CF33C6C748EF3D6 (void);
-// 0x000011E4 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_CanWrite(System.Boolean)
-extern void fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694 (void);
-// 0x000011E5 System.String Unity.VisualScripting.FullSerializer.fsMetaProperty::get_JsonName()
-extern void fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652 (void);
-// 0x000011E6 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_JsonName(System.String)
-extern void fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4 (void);
-// 0x000011E7 System.String Unity.VisualScripting.FullSerializer.fsMetaProperty::get_MemberName()
-extern void fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE (void);
-// 0x000011E8 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_MemberName(System.String)
-extern void fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492 (void);
-// 0x000011E9 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_IsPublic()
-extern void fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D (void);
-// 0x000011EA System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_IsPublic(System.Boolean)
-extern void fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA (void);
-// 0x000011EB System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_IsReadOnly()
-extern void fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A (void);
-// 0x000011EC System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_IsReadOnly(System.Boolean)
-extern void fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4 (void);
-// 0x000011ED System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::CommonInitialize(Unity.VisualScripting.FullSerializer.fsConfig)
-extern void fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A (void);
-// 0x000011EE System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::Write(System.Object,System.Object)
-extern void fsMetaProperty_Write_mEA2E2F7E5E785063984023ABD51657C856E60783 (void);
-// 0x000011EF System.Object Unity.VisualScripting.FullSerializer.fsMetaProperty::Read(System.Object)
-extern void fsMetaProperty_Read_mE5F0AE85092593DE88AEDA717359310E9E06C046 (void);
-// 0x000011F0 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Type)
-extern void fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3 (void);
-// 0x000011F1 Unity.VisualScripting.FullSerializer.fsMetaProperty[] Unity.VisualScripting.FullSerializer.fsMetaType::get_Properties()
-extern void fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A (void);
-// 0x000011F2 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::set_Properties(Unity.VisualScripting.FullSerializer.fsMetaProperty[])
-extern void fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E (void);
-// 0x000011F3 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::get_HasDefaultConstructor()
-extern void fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E (void);
-// 0x000011F4 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::EmitAotData()
-extern void fsMetaType_EmitAotData_m567914383E93A38ADA1F4D3AE645632CC6982AC4 (void);
-// 0x000011F5 System.Object Unity.VisualScripting.FullSerializer.fsMetaType::CreateInstance()
-extern void fsMetaType_CreateInstance_m29B05EF9602FCAE885BBC789C04C5EA32D60AE72 (void);
-// 0x000011F6 Unity.VisualScripting.FullSerializer.fsMetaType Unity.VisualScripting.FullSerializer.fsMetaType::Get(Unity.VisualScripting.FullSerializer.fsConfig,System.Type)
-extern void fsMetaType_Get_m2A7F989A6C43B6A159ED1E88A9F96E4D42FC54DA (void);
-// 0x000011F7 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::ClearCache()
-extern void fsMetaType_ClearCache_m3F64D56521C8DE7864FBB1263D27A60F8024EAE8 (void);
-// 0x000011F8 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::CollectProperties(Unity.VisualScripting.FullSerializer.fsConfig,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsMetaProperty>,System.Type)
-extern void fsMetaType_CollectProperties_mD14D24E60521F4BD7D9E8A66208F1A65D730516A (void);
-// 0x000011F9 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::IsAutoProperty(System.Reflection.PropertyInfo,System.Reflection.MemberInfo[])
-extern void fsMetaType_IsAutoProperty_m01EA01ACF10FF812AD74FEAE3C5EA75375D37E5C (void);
-// 0x000011FA System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::CanSerializeProperty(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.PropertyInfo,System.Reflection.MemberInfo[],System.Boolean)
-extern void fsMetaType_CanSerializeProperty_m5405D81261205D08FC44B6A0E5A7E0D24808F174 (void);
-// 0x000011FB System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::CanSerializeField(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.FieldInfo,System.Boolean)
-extern void fsMetaType_CanSerializeField_mE1BDB50A909C9F70D3D7E266CAD876B8EEB5540C (void);
-// 0x000011FC System.Void Unity.VisualScripting.FullSerializer.fsMetaType::.cctor()
-extern void fsMetaType__cctor_m3A1D774D60F6541CF8E0C672DAAAFA11BF82A439 (void);
-// 0x000011FD System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::.ctor()
-extern void U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0 (void);
-// 0x000011FE System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__0(System.Type)
-extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__0_mBDC7709CE09425F240C42147C3BB2FDB7E76FAF5 (void);
-// 0x000011FF System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__1(System.Type)
-extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__1_m086012131CD06B409756038400BF39327BF9F233 (void);
-// 0x00001200 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__2(System.Type)
-extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__2_mCA3D8AC6B0001C61241D0164C6089EE68DF7F245 (void);
-// 0x00001201 System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass18_0::.ctor()
-extern void U3CU3Ec__DisplayClass18_0__ctor_m409998F2ADDDE7B61682E1940C31EB545A5333A9 (void);
-// 0x00001202 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass18_0::<CanSerializeProperty>b__0(System.Type)
-extern void U3CU3Ec__DisplayClass18_0_U3CCanSerializePropertyU3Eb__0_m9DF628356CB27A717F31CD102E1D609070B00ABB (void);
-// 0x00001203 System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass19_0::.ctor()
-extern void U3CU3Ec__DisplayClass19_0__ctor_m577E5745A5BD61B689CD9DF9A336D664BDE608AA (void);
-// 0x00001204 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass19_0::<CanSerializeField>b__0(System.Type)
-extern void U3CU3Ec__DisplayClass19_0_U3CCanSerializeFieldU3Eb__0_mFA28917E7AF68FAD4A6A425DF445DD5AC3115D07 (void);
-// 0x00001205 System.Type Unity.VisualScripting.FullSerializer.fsReflectionUtility::GetInterface(System.Type,System.Type)
-extern void fsReflectionUtility_GetInterface_m58FC8C875C57178B254BCE4884DC9A4F67C56642 (void);
-// 0x00001206 System.Collections.Generic.Dictionary`2<System.Type,System.String> Unity.VisualScripting.FullSerializer.fsAotCompilationManager::get_AvailableAotCompilations()
+// 0x000011B5 System.Void Unity.VisualScripting.FullSerializer.fsConverterRegistrar::.cctor()
+extern void fsConverterRegistrar__cctor_mAB439B8C7709F35623F01C7009C8D7951965DDD7 (void);
+// 0x000011B6 System.Void Unity.VisualScripting.FullSerializer.fsConverterRegistrar::.ctor()
+extern void fsConverterRegistrar__ctor_mAED9B45E3B0708FB4779217FCA3DAB0F9461EB5C (void);
+// 0x000011B7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::DoSerialize(UnityEngine.AnimationCurve,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void AnimationCurve_DirectConverter_DoSerialize_mC093F4C9E04BB99B9F8FFBE0EF7D475D8C3D059E (void);
+// 0x000011B8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.AnimationCurve&)
+extern void AnimationCurve_DirectConverter_DoDeserialize_m61EEA43B60CA8E84930807493F0AD9C1F888D2F9 (void);
+// 0x000011B9 System.Object Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void AnimationCurve_DirectConverter_CreateInstance_m6719A6BE51AEF4A3FD6E8A55837062A376AF8429 (void);
+// 0x000011BA System.Void Unity.VisualScripting.FullSerializer.AnimationCurve_DirectConverter::.ctor()
+extern void AnimationCurve_DirectConverter__ctor_m97FE64E03C5BA438EEF0FD3BFF2B2C5F8241593E (void);
+// 0x000011BB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::DoSerialize(UnityEngine.Bounds,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void Bounds_DirectConverter_DoSerialize_m80DA565A60DF607D7E2898A9A5D506981A01E55B (void);
+// 0x000011BC Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Bounds&)
+extern void Bounds_DirectConverter_DoDeserialize_mAC6427D34F0F389B3055C7A58DB560F00B78DDBD (void);
+// 0x000011BD System.Object Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void Bounds_DirectConverter_CreateInstance_m0F48F83A88BBFA778B69513A5EF911EA435064B0 (void);
+// 0x000011BE System.Void Unity.VisualScripting.FullSerializer.Bounds_DirectConverter::.ctor()
+extern void Bounds_DirectConverter__ctor_mE64C93F66164F37395C4825C2E2C89A85ACD0313 (void);
+// 0x000011BF Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::DoSerialize(UnityEngine.Gradient,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void Gradient_DirectConverter_DoSerialize_m237EB5EA32B5231AB6AF1D01719130162710D586 (void);
+// 0x000011C0 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Gradient&)
+extern void Gradient_DirectConverter_DoDeserialize_mF8429FDC271DB4E85A42F630BF886D0CD60CAE8B (void);
+// 0x000011C1 System.Object Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void Gradient_DirectConverter_CreateInstance_mFD09F8821FAA047ADCC113519016AD91AD9DFCC6 (void);
+// 0x000011C2 System.Void Unity.VisualScripting.FullSerializer.Gradient_DirectConverter::.ctor()
+extern void Gradient_DirectConverter__ctor_m30EC46864473C8ED2E52F64B0E73CAD4E3ED7840 (void);
+// 0x000011C3 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::DoSerialize(UnityEngine.GUIStyleState,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void GUIStyleState_DirectConverter_DoSerialize_m11F332174BBA0DC0A356EB059A3E34F55FB68A84 (void);
+// 0x000011C4 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.GUIStyleState&)
+extern void GUIStyleState_DirectConverter_DoDeserialize_m0A69DF9CE2D501E3D7967D2F9D030EF5AB89BC95 (void);
+// 0x000011C5 System.Object Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void GUIStyleState_DirectConverter_CreateInstance_m38337EDF1FC548400AB83C9A86349450851D480F (void);
+// 0x000011C6 System.Void Unity.VisualScripting.FullSerializer.GUIStyleState_DirectConverter::.ctor()
+extern void GUIStyleState_DirectConverter__ctor_m5656DA77031E2F79A9DF4C4AC57D89D29D8618B8 (void);
+// 0x000011C7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::DoSerialize(UnityEngine.GUIStyle,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void GUIStyle_DirectConverter_DoSerialize_m9D60429C09362D219AD9871A5017BCFCFC1DD3FD (void);
+// 0x000011C8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.GUIStyle&)
+extern void GUIStyle_DirectConverter_DoDeserialize_m3116C92C6BEAF09E0CF82DE35E909217B1D68F51 (void);
+// 0x000011C9 System.Object Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void GUIStyle_DirectConverter_CreateInstance_mD7FC6AFCC0AE9266C85C5B915D9A9E855351563C (void);
+// 0x000011CA System.Void Unity.VisualScripting.FullSerializer.GUIStyle_DirectConverter::.ctor()
+extern void GUIStyle_DirectConverter__ctor_m158D2CB634D022D6E791C815699285F55D23C9B8 (void);
+// 0x000011CB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::DoSerialize(UnityEngine.Keyframe,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void Keyframe_DirectConverter_DoSerialize_m29C203241EE8561C3F66402CD63C694E5F58272D (void);
+// 0x000011CC Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Keyframe&)
+extern void Keyframe_DirectConverter_DoDeserialize_m51D898722C82187D4FDCD942BD6F36BC1FD592B5 (void);
+// 0x000011CD System.Object Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void Keyframe_DirectConverter_CreateInstance_m934FF4451BFB6D9CDFCA767989BC3BF591780E08 (void);
+// 0x000011CE System.Void Unity.VisualScripting.FullSerializer.Keyframe_DirectConverter::.ctor()
+extern void Keyframe_DirectConverter__ctor_m30581394F27266B39A7F24D558DCB99AF2A58A9F (void);
+// 0x000011CF Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::DoSerialize(UnityEngine.LayerMask,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void LayerMask_DirectConverter_DoSerialize_mE0D642B9869CDACA216F21DADB931A3E7CB4B413 (void);
+// 0x000011D0 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.LayerMask&)
+extern void LayerMask_DirectConverter_DoDeserialize_mC36DDF62F091EDAAA93D8E7E74F0F52F6684825F (void);
+// 0x000011D1 System.Object Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void LayerMask_DirectConverter_CreateInstance_mC5554870983349A67AD8B6BED05A6CC7C3777FBB (void);
+// 0x000011D2 System.Void Unity.VisualScripting.FullSerializer.LayerMask_DirectConverter::.ctor()
+extern void LayerMask_DirectConverter__ctor_m39FACBD052681F37B03E04C743B4BF86C238B437 (void);
+// 0x000011D3 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::DoSerialize(UnityEngine.RectOffset,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void RectOffset_DirectConverter_DoSerialize_m71F9204BCA47A86AD7238C3BC804C0A114E08B80 (void);
+// 0x000011D4 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.RectOffset&)
+extern void RectOffset_DirectConverter_DoDeserialize_mAAAE96B1DE66ED7B85966D0B264D35BD85EC263D (void);
+// 0x000011D5 System.Object Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void RectOffset_DirectConverter_CreateInstance_mB42C9F6249612306B08FCCF35068F914918C58FD (void);
+// 0x000011D6 System.Void Unity.VisualScripting.FullSerializer.RectOffset_DirectConverter::.ctor()
+extern void RectOffset_DirectConverter__ctor_mC8D52D76C1DB092664DA474A48A74797A77317AA (void);
+// 0x000011D7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Rect_DirectConverter::DoSerialize(UnityEngine.Rect,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+extern void Rect_DirectConverter_DoSerialize_m08A0FADAF1FFD4ADF9D92DA57671A9CED95EBFB8 (void);
+// 0x000011D8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Rect_DirectConverter::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,UnityEngine.Rect&)
+extern void Rect_DirectConverter_DoDeserialize_m772033545864654BE382D2623654948C4FD336C9 (void);
+// 0x000011D9 System.Object Unity.VisualScripting.FullSerializer.Rect_DirectConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+extern void Rect_DirectConverter_CreateInstance_m0802A5884B1B788FEA416FC8F4E838D7E9A4F65F (void);
+// 0x000011DA System.Void Unity.VisualScripting.FullSerializer.Rect_DirectConverter::.ctor()
+extern void Rect_DirectConverter__ctor_m49794B76D6C2C2D463BEF227525D91196AFE6CB2 (void);
+// 0x000011DB System.Collections.Generic.Dictionary`2<System.Type,System.String> Unity.VisualScripting.FullSerializer.fsAotCompilationManager::get_AvailableAotCompilations()
 extern void fsAotCompilationManager_get_AvailableAotCompilations_mB86C3848F2F68CED65BDED3EE9C59874C6FC6163 (void);
-// 0x00001207 System.Boolean Unity.VisualScripting.FullSerializer.fsAotCompilationManager::TryToPerformAotCompilation(Unity.VisualScripting.FullSerializer.fsConfig,System.Type,System.String&)
+// 0x000011DC System.Boolean Unity.VisualScripting.FullSerializer.fsAotCompilationManager::TryToPerformAotCompilation(Unity.VisualScripting.FullSerializer.fsConfig,System.Type,System.String&)
 extern void fsAotCompilationManager_TryToPerformAotCompilation_mF44E8322013F5DA37BF7FDEBD63335C520DB6FBD (void);
-// 0x00001208 System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::AddAotCompilation(System.Type,Unity.VisualScripting.FullSerializer.fsMetaProperty[],System.Boolean)
+// 0x000011DD System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::AddAotCompilation(System.Type,Unity.VisualScripting.FullSerializer.fsMetaProperty[],System.Boolean)
 extern void fsAotCompilationManager_AddAotCompilation_m662F41F2C929BBCFEE9E76759D1D98B78A934F7D (void);
-// 0x00001209 System.String Unity.VisualScripting.FullSerializer.fsAotCompilationManager::GetConverterString(Unity.VisualScripting.FullSerializer.fsMetaProperty)
+// 0x000011DE System.String Unity.VisualScripting.FullSerializer.fsAotCompilationManager::GetConverterString(Unity.VisualScripting.FullSerializer.fsMetaProperty)
 extern void fsAotCompilationManager_GetConverterString_mD7BAC4E4F5FCAB879A2BB73DE8096791FB952D0E (void);
-// 0x0000120A System.String Unity.VisualScripting.FullSerializer.fsAotCompilationManager::GenerateDirectConverterForTypeInCSharp(System.Type,Unity.VisualScripting.FullSerializer.fsMetaProperty[],System.Boolean)
+// 0x000011DF System.String Unity.VisualScripting.FullSerializer.fsAotCompilationManager::GenerateDirectConverterForTypeInCSharp(System.Type,Unity.VisualScripting.FullSerializer.fsMetaProperty[],System.Boolean)
 extern void fsAotCompilationManager_GenerateDirectConverterForTypeInCSharp_m8D663E5153E3FF2428E72347F465E846F176C6E0 (void);
-// 0x0000120B System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::.ctor()
+// 0x000011E0 System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::.ctor()
 extern void fsAotCompilationManager__ctor_m02739D63EE32A53D432F77FEC42C723A1C4A42D7 (void);
-// 0x0000120C System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::.cctor()
+// 0x000011E1 System.Void Unity.VisualScripting.FullSerializer.fsAotCompilationManager::.cctor()
 extern void fsAotCompilationManager__cctor_mD5401252B0DAEE583EBFC7189DF1865E27498A60 (void);
-// 0x0000120D System.Object Unity.VisualScripting.FullSerializer.fsBaseConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
+// 0x000011E2 System.Object Unity.VisualScripting.FullSerializer.fsBaseConverter::CreateInstance(Unity.VisualScripting.FullSerializer.fsData,System.Type)
 extern void fsBaseConverter_CreateInstance_m560B7E27C98998D4E16AB5223E6D14792C7EE213 (void);
-// 0x0000120E System.Boolean Unity.VisualScripting.FullSerializer.fsBaseConverter::RequestCycleSupport(System.Type)
+// 0x000011E3 System.Boolean Unity.VisualScripting.FullSerializer.fsBaseConverter::RequestCycleSupport(System.Type)
 extern void fsBaseConverter_RequestCycleSupport_mB28BD5D386B27FE5AD8C7C823569FEB489AAB898 (void);
-// 0x0000120F System.Boolean Unity.VisualScripting.FullSerializer.fsBaseConverter::RequestInheritanceSupport(System.Type)
+// 0x000011E4 System.Boolean Unity.VisualScripting.FullSerializer.fsBaseConverter::RequestInheritanceSupport(System.Type)
 extern void fsBaseConverter_RequestInheritanceSupport_m847B97D52071D2C8AB8FCEB0A2B79E233083B720 (void);
-// 0x00001210 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
-// 0x00001211 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
-// 0x00001212 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::FailExpectedType(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsDataType[])
+// 0x000011E5 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x000011E6 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x000011E7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::FailExpectedType(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsDataType[])
 extern void fsBaseConverter_FailExpectedType_m7016D6FE93F844E574F232EFF61942E2E07015B4 (void);
-// 0x00001213 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckType(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsDataType)
+// 0x000011E8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckType(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsDataType)
 extern void fsBaseConverter_CheckType_m14C4D0CAF424DF9F14D6365B5E5681C43FA82F32 (void);
-// 0x00001214 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckKey(Unity.VisualScripting.FullSerializer.fsData,System.String,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x000011E9 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckKey(Unity.VisualScripting.FullSerializer.fsData,System.String,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsBaseConverter_CheckKey_m82204341C573CEB47CC62BD43C0522CFE648F3E1 (void);
-// 0x00001215 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckKey(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.String,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x000011EA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::CheckKey(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.String,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsBaseConverter_CheckKey_mD4F876A6B4BE2208484A4917AD3E3DAC9DE3620A (void);
-// 0x00001216 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::SerializeMember(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.Type,System.String,T)
-// 0x00001217 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::DeserializeMember(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.Type,System.String,T&)
-// 0x00001218 System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter::.ctor()
+// 0x000011EB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::SerializeMember(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.Type,System.String,T)
+// 0x000011EC Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsBaseConverter::DeserializeMember(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,System.Type,System.String,T&)
+// 0x000011ED System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter::.ctor()
 extern void fsBaseConverter__ctor_mDC69FC94FF8A58F044B12046BBA96F994430A2FC (void);
-// 0x00001219 System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::.cctor()
+// 0x000011EE System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::.cctor()
 extern void U3CU3Ec__cctor_m5CE54A037C5160DF4D58768C03695F407C9D39FA (void);
-// 0x0000121A System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::.ctor()
+// 0x000011EF System.Void Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::.ctor()
 extern void U3CU3Ec__ctor_mE8CC346CCBC60E7018B5B4BE957B2330AB84D54C (void);
-// 0x0000121B System.String Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::<FailExpectedType>b__6_0(Unity.VisualScripting.FullSerializer.fsDataType)
+// 0x000011F0 System.String Unity.VisualScripting.FullSerializer.fsBaseConverter/<>c::<FailExpectedType>b__6_0(Unity.VisualScripting.FullSerializer.fsDataType)
 extern void U3CU3Ec_U3CFailExpectedTypeU3Eb__6_0_m537F189F92A9F7D906D2EDD9659143C639C621A3 (void);
-// 0x0000121C System.Void Unity.VisualScripting.FullSerializer.fsGlobalConfig::.cctor()
+// 0x000011F1 System.Void Unity.VisualScripting.FullSerializer.fsGlobalConfig::.cctor()
 extern void fsGlobalConfig__cctor_m492DCBB919AC102C18544E41B9ED61677BE8AEC1 (void);
-// 0x0000121D System.Void Unity.VisualScripting.FullSerializer.fsConfig::.ctor()
+// 0x000011F2 System.Void Unity.VisualScripting.FullSerializer.fsConfig::.ctor()
 extern void fsConfig__ctor_mCB5CF40444C2E640B4141CFE2B8700ADCC08E839 (void);
-// 0x0000121E System.Void Unity.VisualScripting.FullSerializer.fsConfig/<>c::.cctor()
+// 0x000011F3 System.Void Unity.VisualScripting.FullSerializer.fsConfig/<>c::.cctor()
 extern void U3CU3Ec__cctor_m25CCA81A3643FD9A4C8D9839B17737ED2588C105 (void);
-// 0x0000121F System.Void Unity.VisualScripting.FullSerializer.fsConfig/<>c::.ctor()
+// 0x000011F4 System.Void Unity.VisualScripting.FullSerializer.fsConfig/<>c::.ctor()
 extern void U3CU3Ec__ctor_mC79C18C2451830A98579F11E7C7BBFB4CB5E8FAF (void);
-// 0x00001220 System.String Unity.VisualScripting.FullSerializer.fsConfig/<>c::<.ctor>b__10_0(System.String,System.Reflection.MemberInfo)
+// 0x000011F5 System.String Unity.VisualScripting.FullSerializer.fsConfig/<>c::<.ctor>b__10_0(System.String,System.Reflection.MemberInfo)
 extern void U3CU3Ec_U3C_ctorU3Eb__10_0_mBD487886165A2FB0F5AB8F396C98A27C9D1B5DAE (void);
-// 0x00001221 System.Void Unity.VisualScripting.FullSerializer.fsContext::Reset()
+// 0x000011F6 System.Void Unity.VisualScripting.FullSerializer.fsContext::Reset()
 extern void fsContext_Reset_mF98203566A5DBF4D5E1A44D3B5C45EA476DCC4A6 (void);
-// 0x00001222 System.Void Unity.VisualScripting.FullSerializer.fsContext::Set(T)
-// 0x00001223 System.Boolean Unity.VisualScripting.FullSerializer.fsContext::Has()
-// 0x00001224 T Unity.VisualScripting.FullSerializer.fsContext::Get()
-// 0x00001225 System.Void Unity.VisualScripting.FullSerializer.fsContext::.ctor()
+// 0x000011F7 System.Void Unity.VisualScripting.FullSerializer.fsContext::Set(T)
+// 0x000011F8 System.Boolean Unity.VisualScripting.FullSerializer.fsContext::Has()
+// 0x000011F9 T Unity.VisualScripting.FullSerializer.fsContext::Get()
+// 0x000011FA System.Void Unity.VisualScripting.FullSerializer.fsContext::.ctor()
 extern void fsContext__ctor_m48FB2999693498F2BCE7A978A76773DF86E290DB (void);
-// 0x00001226 System.Boolean Unity.VisualScripting.FullSerializer.fsConverter::CanProcess(System.Type)
-// 0x00001227 System.Void Unity.VisualScripting.FullSerializer.fsConverter::.ctor()
+// 0x000011FB System.Boolean Unity.VisualScripting.FullSerializer.fsConverter::CanProcess(System.Type)
+// 0x000011FC System.Void Unity.VisualScripting.FullSerializer.fsConverter::.ctor()
 extern void fsConverter__ctor_m3C3DE66DA4A3FA50ED9A7D0F10EF70BB0D5FEA26 (void);
-// 0x00001228 System.String Unity.VisualScripting.FullSerializer.fsData::ToString()
+// 0x000011FD System.String Unity.VisualScripting.FullSerializer.fsData::ToString()
 extern void fsData_ToString_mB9B72A2286B2AADA8582221CDE13712F3F3C6C9F (void);
-// 0x00001229 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor()
+// 0x000011FE System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor()
 extern void fsData__ctor_mA4E52DCE50BB43C4429E77519CDBD113343180DC (void);
-// 0x0000122A System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Boolean)
+// 0x000011FF System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Boolean)
 extern void fsData__ctor_m740FD2D0D7D78B72181DFC0216FED95818893268 (void);
-// 0x0000122B System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Double)
+// 0x00001200 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Double)
 extern void fsData__ctor_m9C5AE8C2391D7773629D904624B36357DB3F7A24 (void);
-// 0x0000122C System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Int64)
+// 0x00001201 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Int64)
 extern void fsData__ctor_mEF553618B93DB72D7816FD84740EC37A942F129C (void);
-// 0x0000122D System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.String)
+// 0x00001202 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.String)
 extern void fsData__ctor_m144DD5B09AD525C0F94B2E1750A4256495266F66 (void);
-// 0x0000122E System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+// 0x00001203 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
 extern void fsData__ctor_mCF4D73BFD9271596000ACC3E17988E3492236781 (void);
-// 0x0000122F System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsData>)
+// 0x00001204 System.Void Unity.VisualScripting.FullSerializer.fsData::.ctor(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsData>)
 extern void fsData__ctor_mDBA39D40BC739FD480F7C2DA53570109CA466B39 (void);
-// 0x00001230 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateDictionary()
+// 0x00001205 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateDictionary()
 extern void fsData_CreateDictionary_m1F05DD0EA938CF45FB2F0C753A9680AB494E796F (void);
-// 0x00001231 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateList()
+// 0x00001206 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateList()
 extern void fsData_CreateList_m2C47FF0E6F2A2A38E8ACF359E737AA0102AD006A (void);
-// 0x00001232 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateList(System.Int32)
+// 0x00001207 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateList(System.Int32)
 extern void fsData_CreateList_mA859727781B23C576D17B1BD9B8D71AAA75CB6C9 (void);
-// 0x00001233 System.Void Unity.VisualScripting.FullSerializer.fsData::BecomeDictionary()
+// 0x00001208 System.Void Unity.VisualScripting.FullSerializer.fsData::BecomeDictionary()
 extern void fsData_BecomeDictionary_m1375A313DDB0E7DBFFB609A807DA2EE916AF644C (void);
-// 0x00001234 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::Clone()
+// 0x00001209 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::Clone()
 extern void fsData_Clone_mEC41F9EA408E94F8D85EFFF6EADD9DF1B7CA54EF (void);
-// 0x00001235 Unity.VisualScripting.FullSerializer.fsDataType Unity.VisualScripting.FullSerializer.fsData::get_Type()
+// 0x0000120A Unity.VisualScripting.FullSerializer.fsDataType Unity.VisualScripting.FullSerializer.fsData::get_Type()
 extern void fsData_get_Type_mCDB1F38635730E10B61C3D62B8D64C8F5AB845CE (void);
-// 0x00001236 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsNull()
+// 0x0000120B System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsNull()
 extern void fsData_get_IsNull_m2D1318B1C77BD8D5C5C87D52400D1B9239815A2C (void);
-// 0x00001237 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsDouble()
+// 0x0000120C System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsDouble()
 extern void fsData_get_IsDouble_m4895B3C81A738E2907493684593AE745943B6936 (void);
-// 0x00001238 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsInt64()
+// 0x0000120D System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsInt64()
 extern void fsData_get_IsInt64_m53E266DA7DED5DBC5CA5CE79F7BB9C25237B7E42 (void);
-// 0x00001239 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsBool()
+// 0x0000120E System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsBool()
 extern void fsData_get_IsBool_m5C55D9E43C2D8B6840411DF6C192113E60050367 (void);
-// 0x0000123A System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsString()
+// 0x0000120F System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsString()
 extern void fsData_get_IsString_m1B40F32297A731D5A4EB637438B95632453C84B8 (void);
-// 0x0000123B System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsDictionary()
+// 0x00001210 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsDictionary()
 extern void fsData_get_IsDictionary_m323625E7633DF9747CF9FAF44C0E5E9BBA4671E4 (void);
-// 0x0000123C System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsList()
+// 0x00001211 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_IsList()
 extern void fsData_get_IsList_mE4BFDA69E183AB45F4BA89D3F95B630341CF36A2 (void);
-// 0x0000123D System.Double Unity.VisualScripting.FullSerializer.fsData::get_AsDouble()
+// 0x00001212 System.Double Unity.VisualScripting.FullSerializer.fsData::get_AsDouble()
 extern void fsData_get_AsDouble_m5CD93E5F7A8DBE8646C880F0F561CD91613F4D2E (void);
-// 0x0000123E System.Int64 Unity.VisualScripting.FullSerializer.fsData::get_AsInt64()
+// 0x00001213 System.Int64 Unity.VisualScripting.FullSerializer.fsData::get_AsInt64()
 extern void fsData_get_AsInt64_m1C652F5AF0A3C8EB84183204CF3AE983AEC3441E (void);
-// 0x0000123F System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_AsBool()
+// 0x00001214 System.Boolean Unity.VisualScripting.FullSerializer.fsData::get_AsBool()
 extern void fsData_get_AsBool_m34337669439083657DDAD711DAFD463858A2FA15 (void);
-// 0x00001240 System.String Unity.VisualScripting.FullSerializer.fsData::get_AsString()
+// 0x00001215 System.String Unity.VisualScripting.FullSerializer.fsData::get_AsString()
 extern void fsData_get_AsString_mCF0FBBF9D300BCAC9E0F1C7B6C9DAA4B8AFB9570 (void);
-// 0x00001241 System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData> Unity.VisualScripting.FullSerializer.fsData::get_AsDictionary()
+// 0x00001216 System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData> Unity.VisualScripting.FullSerializer.fsData::get_AsDictionary()
 extern void fsData_get_AsDictionary_m51779E71BBC994A7F5036BFB43F61B28C0817D86 (void);
-// 0x00001242 System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsData> Unity.VisualScripting.FullSerializer.fsData::get_AsList()
+// 0x00001217 System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsData> Unity.VisualScripting.FullSerializer.fsData::get_AsList()
 extern void fsData_get_AsList_m0B2AF972F10AE6F9A8EA9157BC27FC0316BB33EA (void);
-// 0x00001243 T Unity.VisualScripting.FullSerializer.fsData::Cast()
-// 0x00001244 System.Boolean Unity.VisualScripting.FullSerializer.fsData::Equals(System.Object)
+// 0x00001218 T Unity.VisualScripting.FullSerializer.fsData::Cast()
+// 0x00001219 System.Boolean Unity.VisualScripting.FullSerializer.fsData::Equals(System.Object)
 extern void fsData_Equals_m28C1452B6B9094F2F8650100539701AE322BEBFE (void);
-// 0x00001245 System.Boolean Unity.VisualScripting.FullSerializer.fsData::Equals(Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000121A System.Boolean Unity.VisualScripting.FullSerializer.fsData::Equals(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsData_Equals_m693932B7DA39DBC63C1B528A9530AD5B51009E9C (void);
-// 0x00001246 System.Boolean Unity.VisualScripting.FullSerializer.fsData::op_Equality(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000121B System.Boolean Unity.VisualScripting.FullSerializer.fsData::op_Equality(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsData)
 extern void fsData_op_Equality_m036049D20935901B209DAD003C21E6D5D63EE0EC (void);
-// 0x00001247 System.Boolean Unity.VisualScripting.FullSerializer.fsData::op_Inequality(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000121C System.Boolean Unity.VisualScripting.FullSerializer.fsData::op_Inequality(Unity.VisualScripting.FullSerializer.fsData,Unity.VisualScripting.FullSerializer.fsData)
 extern void fsData_op_Inequality_m81842EF5B631A2A4941551BF4B24C8171B764CD6 (void);
-// 0x00001248 System.Int32 Unity.VisualScripting.FullSerializer.fsData::GetHashCode()
+// 0x0000121D System.Int32 Unity.VisualScripting.FullSerializer.fsData::GetHashCode()
 extern void fsData_GetHashCode_m0527A5668429A615A6812061DFA50E592E1F4F82 (void);
-// 0x00001249 System.Void Unity.VisualScripting.FullSerializer.fsData::.cctor()
+// 0x0000121E System.Void Unity.VisualScripting.FullSerializer.fsData::.cctor()
 extern void fsData__cctor_mC0C8532ECF79714CE473A0D56ED3BC047C6B2635 (void);
-// 0x0000124A System.Type Unity.VisualScripting.FullSerializer.fsDirectConverter::get_ModelType()
-// 0x0000124B System.Void Unity.VisualScripting.FullSerializer.fsDirectConverter::.ctor()
+// 0x0000121F System.Type Unity.VisualScripting.FullSerializer.fsDirectConverter::get_ModelType()
+// 0x00001220 System.Void Unity.VisualScripting.FullSerializer.fsDirectConverter::.ctor()
 extern void fsDirectConverter__ctor_mCE6F7898DA2A3FBE101F5939D06A809E3164ABE1 (void);
-// 0x0000124C System.Type Unity.VisualScripting.FullSerializer.fsDirectConverter`1::get_ModelType()
-// 0x0000124D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
-// 0x0000124E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
-// 0x0000124F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::DoSerialize(TModel,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
-// 0x00001250 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,TModel&)
-// 0x00001251 System.Void Unity.VisualScripting.FullSerializer.fsDirectConverter`1::.ctor()
-// 0x00001252 System.Void Unity.VisualScripting.FullSerializer.fsMissingVersionConstructorException::.ctor(System.Type,System.Type)
+// 0x00001221 System.Type Unity.VisualScripting.FullSerializer.fsDirectConverter`1::get_ModelType()
+// 0x00001222 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::TrySerialize(System.Object,Unity.VisualScripting.FullSerializer.fsData&,System.Type)
+// 0x00001223 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Object&,System.Type)
+// 0x00001224 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::DoSerialize(TModel,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+// 0x00001225 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsDirectConverter`1::DoDeserialize(System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>,TModel&)
+// 0x00001226 System.Void Unity.VisualScripting.FullSerializer.fsDirectConverter`1::.ctor()
+// 0x00001227 System.Void Unity.VisualScripting.FullSerializer.fsMissingVersionConstructorException::.ctor(System.Type,System.Type)
 extern void fsMissingVersionConstructorException__ctor_m46EA05FE262E8C98465A921D2B2EB6035ED3FEFB (void);
-// 0x00001253 System.Void Unity.VisualScripting.FullSerializer.fsDuplicateVersionNameException::.ctor(System.Type,System.Type,System.String)
+// 0x00001228 System.Void Unity.VisualScripting.FullSerializer.fsDuplicateVersionNameException::.ctor(System.Type,System.Type,System.String)
 extern void fsDuplicateVersionNameException__ctor_m0CA794E21F56EBADEED2971C6E9DC603CAA0AF51 (void);
-// 0x00001254 System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnBeforeSerialize(System.Type)
-// 0x00001255 System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnAfterSerialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
-// 0x00001256 System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnBeforeDeserialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
-// 0x00001257 System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnAfterDeserialize(System.Type)
-// 0x00001258 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::CanProcess(System.Type)
-extern void fsSerializationCallbackProcessor_CanProcess_mC382EF1EA240B657B95653DF7A345748648B7D22 (void);
-// 0x00001259 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnBeforeSerialize(System.Type,System.Object)
-extern void fsSerializationCallbackProcessor_OnBeforeSerialize_mD345A5E296EAB4995B767549EC297AE842C98EA9 (void);
-// 0x0000125A System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnAfterSerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
-extern void fsSerializationCallbackProcessor_OnAfterSerialize_m04ECE444A656E46901FDFA8A4A50CB88B58829A3 (void);
-// 0x0000125B System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnBeforeDeserializeAfterInstanceCreation(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
-extern void fsSerializationCallbackProcessor_OnBeforeDeserializeAfterInstanceCreation_mCB42E40ABF7205C44D09BFAEBF79DD7ED2E8BB62 (void);
-// 0x0000125C System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnAfterDeserialize(System.Type,System.Object)
-extern void fsSerializationCallbackProcessor_OnAfterDeserialize_mBA672AADF2BE57D975BA57E3ECBE67CF53254C9C (void);
-// 0x0000125D System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::.ctor()
-extern void fsSerializationCallbackProcessor__ctor_mA53988890D8BB06D89990CABF451036BFB686968 (void);
-// 0x0000125E System.Boolean Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::CanProcess(System.Type)
-extern void fsSerializationCallbackReceiverProcessor_CanProcess_m70B299D9E2829CAD22276102D7A83EA98EC9ADCE (void);
-// 0x0000125F System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::OnBeforeSerialize(System.Type,System.Object)
-extern void fsSerializationCallbackReceiverProcessor_OnBeforeSerialize_m25ABF450D793FD0619FF1F7625E1CFB5144DEFB8 (void);
-// 0x00001260 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::OnAfterDeserialize(System.Type,System.Object)
-extern void fsSerializationCallbackReceiverProcessor_OnAfterDeserialize_mFF0DAEAE073EDE4E227E46A97DB9C6F93A3EAC1E (void);
-// 0x00001261 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::.ctor()
-extern void fsSerializationCallbackReceiverProcessor__ctor_m8F7AD77AE53D0C041389A60F0787447745505921 (void);
-// 0x00001262 System.Void Unity.VisualScripting.FullSerializer.fsIgnoreAttribute::.ctor()
+// 0x00001229 System.Void Unity.VisualScripting.FullSerializer.fsIgnoreAttribute::.ctor()
 extern void fsIgnoreAttribute__ctor_m510DD6D25C7B7055EBF1CD0FD066F48B3354D613 (void);
-// 0x00001263 System.Void Unity.VisualScripting.FullSerializer.fsJsonParser::.ctor(System.String)
+// 0x0000122A System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnBeforeSerialize(System.Type)
+// 0x0000122B System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnAfterSerialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000122C System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnBeforeDeserialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000122D System.Void Unity.VisualScripting.FullSerializer.fsISerializationCallbacks::OnAfterDeserialize(System.Type)
+// 0x0000122E System.Boolean Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::CanProcess(System.Type)
+extern void fsSerializationCallbackProcessor_CanProcess_mC382EF1EA240B657B95653DF7A345748648B7D22 (void);
+// 0x0000122F System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnBeforeSerialize(System.Type,System.Object)
+extern void fsSerializationCallbackProcessor_OnBeforeSerialize_mD345A5E296EAB4995B767549EC297AE842C98EA9 (void);
+// 0x00001230 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnAfterSerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+extern void fsSerializationCallbackProcessor_OnAfterSerialize_m04ECE444A656E46901FDFA8A4A50CB88B58829A3 (void);
+// 0x00001231 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnBeforeDeserializeAfterInstanceCreation(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+extern void fsSerializationCallbackProcessor_OnBeforeDeserializeAfterInstanceCreation_mCB42E40ABF7205C44D09BFAEBF79DD7ED2E8BB62 (void);
+// 0x00001232 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::OnAfterDeserialize(System.Type,System.Object)
+extern void fsSerializationCallbackProcessor_OnAfterDeserialize_mBA672AADF2BE57D975BA57E3ECBE67CF53254C9C (void);
+// 0x00001233 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackProcessor::.ctor()
+extern void fsSerializationCallbackProcessor__ctor_mA53988890D8BB06D89990CABF451036BFB686968 (void);
+// 0x00001234 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::CanProcess(System.Type)
+extern void fsSerializationCallbackReceiverProcessor_CanProcess_m70B299D9E2829CAD22276102D7A83EA98EC9ADCE (void);
+// 0x00001235 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::OnBeforeSerialize(System.Type,System.Object)
+extern void fsSerializationCallbackReceiverProcessor_OnBeforeSerialize_m25ABF450D793FD0619FF1F7625E1CFB5144DEFB8 (void);
+// 0x00001236 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::OnAfterDeserialize(System.Type,System.Object)
+extern void fsSerializationCallbackReceiverProcessor_OnAfterDeserialize_mFF0DAEAE073EDE4E227E46A97DB9C6F93A3EAC1E (void);
+// 0x00001237 System.Void Unity.VisualScripting.FullSerializer.fsSerializationCallbackReceiverProcessor::.ctor()
+extern void fsSerializationCallbackReceiverProcessor__ctor_m8F7AD77AE53D0C041389A60F0787447745505921 (void);
+// 0x00001238 System.Void Unity.VisualScripting.FullSerializer.fsJsonParser::.ctor(System.String)
 extern void fsJsonParser__ctor_mDF3573B996535708BA931F67A6831FA2082EBDDD (void);
-// 0x00001264 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::MakeFailure(System.String)
+// 0x00001239 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::MakeFailure(System.String)
 extern void fsJsonParser_MakeFailure_m954A9022A21F0A861B51A0D990B4119B22CD3F79 (void);
-// 0x00001265 System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::TryMoveNext()
+// 0x0000123A System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::TryMoveNext()
 extern void fsJsonParser_TryMoveNext_mEA865DF9A93335D212815AFF263D9B24B85BBB57 (void);
-// 0x00001266 System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::HasValue()
+// 0x0000123B System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::HasValue()
 extern void fsJsonParser_HasValue_m1CA829DFE012BE97368B282E74E1726358F06E07 (void);
-// 0x00001267 System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::HasValue(System.Int32)
+// 0x0000123C System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::HasValue(System.Int32)
 extern void fsJsonParser_HasValue_mF7A6023B0B43CCE0E45CD2EB994E0F73F168336B (void);
-// 0x00001268 System.Char Unity.VisualScripting.FullSerializer.fsJsonParser::Character()
+// 0x0000123D System.Char Unity.VisualScripting.FullSerializer.fsJsonParser::Character()
 extern void fsJsonParser_Character_m65CBDF5471FF5B35581B7EFEAE6EC6372E04586B (void);
-// 0x00001269 System.Char Unity.VisualScripting.FullSerializer.fsJsonParser::Character(System.Int32)
+// 0x0000123E System.Char Unity.VisualScripting.FullSerializer.fsJsonParser::Character(System.Int32)
 extern void fsJsonParser_Character_mDDE622FD95D90CE0D28BCA6BC3BF26E751C8EA86 (void);
-// 0x0000126A System.Void Unity.VisualScripting.FullSerializer.fsJsonParser::SkipSpace()
+// 0x0000123F System.Void Unity.VisualScripting.FullSerializer.fsJsonParser::SkipSpace()
 extern void fsJsonParser_SkipSpace_mD9A6A4A11F3A5BB3B1F04637B1F271888001A7AD (void);
-// 0x0000126B Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseExact(System.String)
+// 0x00001240 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseExact(System.String)
 extern void fsJsonParser_TryParseExact_m505485875C284E11FA456B622D67DAB70E21D887 (void);
-// 0x0000126C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseTrue(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001241 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseTrue(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseTrue_m24EC3E78B57CC6F2D509AA248E77EE2A85E233C0 (void);
-// 0x0000126D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseFalse(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001242 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseFalse(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseFalse_m596BC9F804F6B9401B40EDB5237AD29B4D3D80A5 (void);
-// 0x0000126E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseNull(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001243 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseNull(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseNull_m843F34234DB664D0543CABF0E220F750ED46064D (void);
-// 0x0000126F System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::IsSeparator(System.Char)
+// 0x00001244 System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::IsSeparator(System.Char)
 extern void fsJsonParser_IsSeparator_mABE1E2ECF0F25F34AD7DD13F88B79126101BA6E0 (void);
-// 0x00001270 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseNumber(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001245 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseNumber(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseNumber_m2E21CD4F0C7523B4D27DB12562D2246F245978EB (void);
-// 0x00001271 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseString(System.String&)
+// 0x00001246 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseString(System.String&)
 extern void fsJsonParser_TryParseString_m4257104805D84B9015D377222C7101E9E96600A4 (void);
-// 0x00001272 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseArray(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001247 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseArray(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseArray_mB56A5AF71B2A7D1561B823E1F377754D5FE8B43A (void);
-// 0x00001273 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseObject(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001248 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryParseObject(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_TryParseObject_m7B7190173328FF691F900E784239160AC4AEA6A4 (void);
-// 0x00001274 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::RunParse(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001249 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::RunParse(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_RunParse_m0A394E05ACEFF4E6F796992D5C9196AB233A3025 (void);
-// 0x00001275 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::Parse(System.String,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000124A Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::Parse(System.String,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsJsonParser_Parse_m86A4F3116B8AA995ADAD2B8A4555345027FB8537 (void);
-// 0x00001276 Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsJsonParser::Parse(System.String)
+// 0x0000124B Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsJsonParser::Parse(System.String)
 extern void fsJsonParser_Parse_mDD9EF81C64C237D3DE28D455D5A175AFF87A7968 (void);
-// 0x00001277 System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::IsHex(System.Char)
+// 0x0000124C System.Boolean Unity.VisualScripting.FullSerializer.fsJsonParser::IsHex(System.Char)
 extern void fsJsonParser_IsHex_m48F2F8DDD813FC39FCF6977E477217C949B99A57 (void);
-// 0x00001278 System.UInt32 Unity.VisualScripting.FullSerializer.fsJsonParser::ParseSingleChar(System.Char,System.UInt32)
+// 0x0000124D System.UInt32 Unity.VisualScripting.FullSerializer.fsJsonParser::ParseSingleChar(System.Char,System.UInt32)
 extern void fsJsonParser_ParseSingleChar_mD88F637A84EA790C3F29F23648DBF64DA14DB323 (void);
-// 0x00001279 System.UInt32 Unity.VisualScripting.FullSerializer.fsJsonParser::ParseUnicode(System.Char,System.Char,System.Char,System.Char)
+// 0x0000124E System.UInt32 Unity.VisualScripting.FullSerializer.fsJsonParser::ParseUnicode(System.Char,System.Char,System.Char,System.Char)
 extern void fsJsonParser_ParseUnicode_m45633DD01111D8B14D037163008AF1D036AB9B70 (void);
-// 0x0000127A Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryUnescapeChar(System.Char&)
+// 0x0000124F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsJsonParser::TryUnescapeChar(System.Char&)
 extern void fsJsonParser_TryUnescapeChar_mE8EB2102F384B53B9847BA88CCE4DE6CCCB91456 (void);
-// 0x0000127B System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::InsertSpacing(System.IO.TextWriter,System.Int32)
+// 0x00001250 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::InsertSpacing(System.IO.TextWriter,System.Int32)
 extern void fsJsonPrinter_InsertSpacing_mC777C9B4236F924D6B164736F0E15ADCE774C721 (void);
-// 0x0000127C System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::EscapeString(System.String)
+// 0x00001251 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::EscapeString(System.String)
 extern void fsJsonPrinter_EscapeString_m7990272DB8FB5C25C4142BB3C10B0D669781B16E (void);
-// 0x0000127D System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::BuildCompressedString(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter)
+// 0x00001252 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::BuildCompressedString(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter)
 extern void fsJsonPrinter_BuildCompressedString_mFA2FA3C821B062631A2333892B4B37C3F51B5982 (void);
-// 0x0000127E System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::BuildPrettyString(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter,System.Int32)
+// 0x00001253 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::BuildPrettyString(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter,System.Int32)
 extern void fsJsonPrinter_BuildPrettyString_m321F69FCA7C86CB1B76F7BA273C1A7AA1EFE85EE (void);
-// 0x0000127F System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::PrettyJson(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter)
+// 0x00001254 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::PrettyJson(Unity.VisualScripting.FullSerializer.fsData,System.IO.TextWriter)
 extern void fsJsonPrinter_PrettyJson_m4419313C00BA2E0BA4B6DD72CFBCC31EFAE0A83D (void);
-// 0x00001280 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::PrettyJson(Unity.VisualScripting.FullSerializer.fsData)
+// 0x00001255 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::PrettyJson(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsJsonPrinter_PrettyJson_m7973AA4AC0BEB6E5F465A3A944152F10D7466035 (void);
-// 0x00001281 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::CompressedJson(Unity.VisualScripting.FullSerializer.fsData,System.IO.StreamWriter)
+// 0x00001256 System.Void Unity.VisualScripting.FullSerializer.fsJsonPrinter::CompressedJson(Unity.VisualScripting.FullSerializer.fsData,System.IO.StreamWriter)
 extern void fsJsonPrinter_CompressedJson_mBB8DFDE75A2485B595D4FC0CCC52C2F3F72C3DBE (void);
-// 0x00001282 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::CompressedJson(Unity.VisualScripting.FullSerializer.fsData)
+// 0x00001257 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::CompressedJson(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsJsonPrinter_CompressedJson_m12C42E1836DC716FB05B5C9EDA7EC36E20F37569 (void);
-// 0x00001283 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::ConvertDoubleToString(System.Double)
+// 0x00001258 System.String Unity.VisualScripting.FullSerializer.fsJsonPrinter::ConvertDoubleToString(System.Double)
 extern void fsJsonPrinter_ConvertDoubleToString_m82FEB8591E753C5E5FA08C6CBC16878E73ED1D4B (void);
-// 0x00001284 System.Void Unity.VisualScripting.FullSerializer.fsObjectAttribute::.ctor()
+// 0x00001259 System.Void Unity.VisualScripting.FullSerializer.fsObjectAttribute::.ctor()
 extern void fsObjectAttribute__ctor_mC75B4C60B5A3867DE1E9C4811278830EB65609F0 (void);
-// 0x00001285 System.Void Unity.VisualScripting.FullSerializer.fsObjectAttribute::.ctor(System.String,System.Type[])
+// 0x0000125A System.Void Unity.VisualScripting.FullSerializer.fsObjectAttribute::.ctor(System.String,System.Type[])
 extern void fsObjectAttribute__ctor_mABB40D348C9AFA8BB3E34A31F2F6DE7620519060 (void);
-// 0x00001286 System.Boolean Unity.VisualScripting.FullSerializer.fsObjectProcessor::CanProcess(System.Type)
+// 0x0000125B System.Boolean Unity.VisualScripting.FullSerializer.fsObjectProcessor::CanProcess(System.Type)
 extern void fsObjectProcessor_CanProcess_m86183AE7FC4638153EFDF8ADD5FC0C8702A54410 (void);
-// 0x00001287 System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeSerialize(System.Type,System.Object)
+// 0x0000125C System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeSerialize(System.Type,System.Object)
 extern void fsObjectProcessor_OnBeforeSerialize_mE084D698B97C142C4CA8A7CF9581C49D00A4BF59 (void);
-// 0x00001288 System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnAfterSerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000125D System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnAfterSerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsObjectProcessor_OnAfterSerialize_mFC2EE7C13211D4E1F90AEDD9966276C31FDBA040 (void);
-// 0x00001289 System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeDeserialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000125E System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeDeserialize(System.Type,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsObjectProcessor_OnBeforeDeserialize_m6E16DBE8D82C98DA9F2D23674DC6CE04A02B0639 (void);
-// 0x0000128A System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeDeserializeAfterInstanceCreation(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000125F System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnBeforeDeserializeAfterInstanceCreation(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsObjectProcessor_OnBeforeDeserializeAfterInstanceCreation_m60D055099B48A9042D7AC51AAF014EB5D27B80D3 (void);
-// 0x0000128B System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnAfterDeserialize(System.Type,System.Object)
+// 0x00001260 System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::OnAfterDeserialize(System.Type,System.Object)
 extern void fsObjectProcessor_OnAfterDeserialize_m5103A8FA0718C709CC309A39A5E8FE9C30812231 (void);
-// 0x0000128C System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::.ctor()
+// 0x00001261 System.Void Unity.VisualScripting.FullSerializer.fsObjectProcessor::.ctor()
 extern void fsObjectProcessor__ctor_mCA89DB5E44BFCD8B8C5C57A5CBEB1283EB9B4426 (void);
-// 0x0000128D System.Void Unity.VisualScripting.FullSerializer.fsPropertyAttribute::.ctor()
+// 0x00001262 System.Void Unity.VisualScripting.FullSerializer.fsPropertyAttribute::.ctor()
 extern void fsPropertyAttribute__ctor_mE22071D475E236722EE42E780B89EA043EFEFF79 (void);
-// 0x0000128E System.Void Unity.VisualScripting.FullSerializer.fsPropertyAttribute::.ctor(System.String)
+// 0x00001263 System.Void Unity.VisualScripting.FullSerializer.fsPropertyAttribute::.ctor(System.String)
 extern void fsPropertyAttribute__ctor_m12E43FAD4049D30DEB572D58F5D9B8CE03D062E7 (void);
-// 0x0000128F System.Void Unity.VisualScripting.FullSerializer.fsResult::AddMessage(System.String)
+// 0x00001264 System.Void Unity.VisualScripting.FullSerializer.fsResult::AddMessage(System.String)
 extern void fsResult_AddMessage_mC4B690BC3884FF2D235733FD65081C163B4DDD55 (void);
-// 0x00001290 System.Void Unity.VisualScripting.FullSerializer.fsResult::AddMessages(Unity.VisualScripting.FullSerializer.fsResult)
+// 0x00001265 System.Void Unity.VisualScripting.FullSerializer.fsResult::AddMessages(Unity.VisualScripting.FullSerializer.fsResult)
 extern void fsResult_AddMessages_m37B84549F6D482E5C1D8E8761DE4C006D7AB4B9D (void);
-// 0x00001291 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Merge(Unity.VisualScripting.FullSerializer.fsResult)
+// 0x00001266 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Merge(Unity.VisualScripting.FullSerializer.fsResult)
 extern void fsResult_Merge_mB5B8E8B4BD5B6086B6DDFAF478640D9DA56EF0C1 (void);
-// 0x00001292 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Warn(System.String)
+// 0x00001267 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Warn(System.String)
 extern void fsResult_Warn_m494FE0E112E50CD8A4133332C34F55109DA4ACF8 (void);
-// 0x00001293 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Fail(System.String)
+// 0x00001268 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::Fail(System.String)
 extern void fsResult_Fail_m743EBD70D2E0FD9DBC9181E3F2393EB7B326E09A (void);
-// 0x00001294 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::op_Addition(Unity.VisualScripting.FullSerializer.fsResult,Unity.VisualScripting.FullSerializer.fsResult)
+// 0x00001269 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::op_Addition(Unity.VisualScripting.FullSerializer.fsResult,Unity.VisualScripting.FullSerializer.fsResult)
 extern void fsResult_op_Addition_mE39C1BA9B71DB186B1405E1AEC4FD8CFA246C17F (void);
-// 0x00001295 System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_Failed()
+// 0x0000126A System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_Failed()
 extern void fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB (void);
-// 0x00001296 System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_Succeeded()
+// 0x0000126B System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_Succeeded()
 extern void fsResult_get_Succeeded_m01E08C3B731D94618B867B7B55DCC0061CD11769 (void);
-// 0x00001297 System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_HasWarnings()
+// 0x0000126C System.Boolean Unity.VisualScripting.FullSerializer.fsResult::get_HasWarnings()
 extern void fsResult_get_HasWarnings_m030A020FD6B48D0E8E2867D2428135EB771064CE (void);
-// 0x00001298 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::AssertSuccess()
+// 0x0000126D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::AssertSuccess()
 extern void fsResult_AssertSuccess_m7077B79DD80747B32B66ADCDF49243575800FA12 (void);
-// 0x00001299 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::AssertSuccessWithoutWarnings()
+// 0x0000126E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsResult::AssertSuccessWithoutWarnings()
 extern void fsResult_AssertSuccessWithoutWarnings_m0CAECDD9A72E1393CDDDB6BEE1C528674DDD7F6C (void);
-// 0x0000129A System.Exception Unity.VisualScripting.FullSerializer.fsResult::get_AsException()
+// 0x0000126F System.Exception Unity.VisualScripting.FullSerializer.fsResult::get_AsException()
 extern void fsResult_get_AsException_m6D92E907B2E0815691BD5639138FB4E4C578EA0B (void);
-// 0x0000129B System.Collections.Generic.IEnumerable`1<System.String> Unity.VisualScripting.FullSerializer.fsResult::get_RawMessages()
+// 0x00001270 System.Collections.Generic.IEnumerable`1<System.String> Unity.VisualScripting.FullSerializer.fsResult::get_RawMessages()
 extern void fsResult_get_RawMessages_m0B25A624CB4B2F03DF6FC6077284AF92CFFC4683 (void);
-// 0x0000129C System.String Unity.VisualScripting.FullSerializer.fsResult::get_FormattedMessages()
+// 0x00001271 System.String Unity.VisualScripting.FullSerializer.fsResult::get_FormattedMessages()
 extern void fsResult_get_FormattedMessages_mCF960860BF1F178EDFCA80D1196B2F69096144B7 (void);
-// 0x0000129D System.Void Unity.VisualScripting.FullSerializer.fsResult::.cctor()
+// 0x00001272 System.Void Unity.VisualScripting.FullSerializer.fsResult::.cctor()
 extern void fsResult__cctor_mEA264BB804BF4D275289D2B5E2B54411F114F505 (void);
-// 0x0000129E System.Void Unity.VisualScripting.FullSerializer.fsSerializer::.ctor()
+// 0x00001273 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::.ctor()
 extern void fsSerializer__ctor_m2CF241A6E8D255269BC2694F7B87B8BB7381C739 (void);
-// 0x0000129F System.Void Unity.VisualScripting.FullSerializer.fsSerializer::RemapAbstractStorageTypeToDefaultType(System.Type&)
+// 0x00001274 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::RemapAbstractStorageTypeToDefaultType(System.Type&)
 extern void fsSerializer_RemapAbstractStorageTypeToDefaultType_mDAACC633FEB7E4E36783EB6617A943521305150A (void);
-// 0x000012A0 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::AddProcessor(Unity.VisualScripting.FullSerializer.fsObjectProcessor)
+// 0x00001275 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::AddProcessor(Unity.VisualScripting.FullSerializer.fsObjectProcessor)
 extern void fsSerializer_AddProcessor_mED3BA783D4F6A87301C80A9487C3C296883F777C (void);
-// 0x000012A1 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::RemoveProcessor()
-// 0x000012A2 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::SetDefaultStorageType(System.Type,System.Type)
+// 0x00001276 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::RemoveProcessor()
+// 0x00001277 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::SetDefaultStorageType(System.Type,System.Type)
 extern void fsSerializer_SetDefaultStorageType_m91D7A9724B7D2280BA9633B5159887B59A4DD01E (void);
-// 0x000012A3 System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor> Unity.VisualScripting.FullSerializer.fsSerializer::GetProcessors(System.Type)
+// 0x00001278 System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor> Unity.VisualScripting.FullSerializer.fsSerializer::GetProcessors(System.Type)
 extern void fsSerializer_GetProcessors_mB240A96D2D312CE91D3E14DD67CE734BBBE10217 (void);
-// 0x000012A4 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::AddConverter(Unity.VisualScripting.FullSerializer.fsBaseConverter)
+// 0x00001279 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::AddConverter(Unity.VisualScripting.FullSerializer.fsBaseConverter)
 extern void fsSerializer_AddConverter_m7EE7A34BDDD2065481BEB0457C9572270588ED59 (void);
-// 0x000012A5 Unity.VisualScripting.FullSerializer.fsBaseConverter Unity.VisualScripting.FullSerializer.fsSerializer::GetConverter(System.Type,System.Type)
+// 0x0000127A Unity.VisualScripting.FullSerializer.fsBaseConverter Unity.VisualScripting.FullSerializer.fsSerializer::GetConverter(System.Type,System.Type)
 extern void fsSerializer_GetConverter_m3FBA1F6CC05EF20F9F31F1CEE65DCABB40218495 (void);
-// 0x000012A6 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(T,Unity.VisualScripting.FullSerializer.fsData&)
-// 0x000012A7 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,T&)
-// 0x000012A8 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000127B Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(T,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000127C Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,T&)
+// 0x0000127D Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_TrySerialize_mADDE6667080A2E2C69A54662C47111A08A7EC006 (void);
-// 0x000012A9 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000127E Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TrySerialize(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_TrySerialize_m2E029A68D43C8F4783B5912AB8004658E41AB84B (void);
-// 0x000012AA Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_1_ProcessCycles(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x0000127F Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_1_ProcessCycles(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_InternalSerialize_1_ProcessCycles_m81B0B13FD1CA775E3686E91C753424BF2717D9AF (void);
-// 0x000012AB Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_2_Inheritance(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001280 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_2_Inheritance(System.Type,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_InternalSerialize_2_Inheritance_mDDDBA4731B6545294441CB77CB1CEB115C5A2037 (void);
-// 0x000012AC Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_3_ProcessVersioning(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001281 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_3_ProcessVersioning(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_InternalSerialize_3_ProcessVersioning_m59970A3730FC476B186B8D9A9E258C4E3CB2C338 (void);
-// 0x000012AD Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_4_Converter(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001282 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalSerialize_4_Converter(System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_InternalSerialize_4_Converter_m0695101440E5D807387BFD82D7B5BD841BC22456 (void);
-// 0x000012AE Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
+// 0x00001283 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
 extern void fsSerializer_TryDeserialize_mBBA19D9240A719A58C3DA23F2D8D4C538C5C81F2 (void);
-// 0x000012AF Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Type,System.Object&)
+// 0x00001284 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::TryDeserialize(Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Type,System.Object&)
 extern void fsSerializer_TryDeserialize_m675340784F47BA9FF50C193F53A3BAAA1D18D2B9 (void);
-// 0x000012B0 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_1_CycleReference(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
+// 0x00001285 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_1_CycleReference(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
 extern void fsSerializer_InternalDeserialize_1_CycleReference_m1D9180F91CE5B8505373E3301E63AB1FBAB9FEE4 (void);
-// 0x000012B1 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_2_Version(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
+// 0x00001286 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_2_Version(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
 extern void fsSerializer_InternalDeserialize_2_Version_m41956C872601212418C1DAE44AE54FA43265E8A9 (void);
-// 0x000012B2 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_3_Inheritance(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
+// 0x00001287 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_3_Inheritance(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>&)
 extern void fsSerializer_InternalDeserialize_3_Inheritance_m43B49A0E8363275937AC5DC9284B87847142886F (void);
-// 0x000012B3 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_4_Cycles(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
+// 0x00001288 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_4_Cycles(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
 extern void fsSerializer_InternalDeserialize_4_Cycles_m913C1277065AD471EB7F1F22DEACDE4DE1645521 (void);
-// 0x000012B4 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_5_Converter(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
+// 0x00001289 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.fsSerializer::InternalDeserialize_5_Converter(System.Type,Unity.VisualScripting.FullSerializer.fsData,System.Type,System.Object&)
 extern void fsSerializer_InternalDeserialize_5_Converter_m30EBD20C91E165C4B9BC87FCB1467B9BD4EE8DF6 (void);
-// 0x000012B5 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::EnsureDictionary(Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000128A System.Void Unity.VisualScripting.FullSerializer.fsSerializer::EnsureDictionary(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_EnsureDictionary_m53AA208894C93B8D459752864C836CDA1D65FDB4 (void);
-// 0x000012B6 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::.cctor()
+// 0x0000128B System.Void Unity.VisualScripting.FullSerializer.fsSerializer::.cctor()
 extern void fsSerializer__cctor_m5A92DC5061A5DBC4274C041A69CC149F5B69B105 (void);
-// 0x000012B7 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsReservedKeyword(System.String)
+// 0x0000128C System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsReservedKeyword(System.String)
 extern void fsSerializer_IsReservedKeyword_m58209D674DE580948929CF6177A84522861DE9B2 (void);
-// 0x000012B8 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsObjectReference(Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000128D System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsObjectReference(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_IsObjectReference_m28645C5A07A96089DF0501EF5E5D16D4439367B3 (void);
-// 0x000012B9 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsObjectDefinition(Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000128E System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsObjectDefinition(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_IsObjectDefinition_mBCC080064EA54337DBE020674C0DA0B86D05DA35 (void);
-// 0x000012BA System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsVersioned(Unity.VisualScripting.FullSerializer.fsData)
+// 0x0000128F System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsVersioned(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_IsVersioned_m7DE2F499925C3DE0BEE30DC3BAEBE093A85EA3D9 (void);
-// 0x000012BB System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsTypeSpecified(Unity.VisualScripting.FullSerializer.fsData)
+// 0x00001290 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsTypeSpecified(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_IsTypeSpecified_m7D468104E5C11C0363F24CB66C1C05E74C17C520 (void);
-// 0x000012BC System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsWrappedData(Unity.VisualScripting.FullSerializer.fsData)
+// 0x00001291 System.Boolean Unity.VisualScripting.FullSerializer.fsSerializer::IsWrappedData(Unity.VisualScripting.FullSerializer.fsData)
 extern void fsSerializer_IsWrappedData_m0EBBB2527E5408DE37D8B29D6139B89A44582351 (void);
-// 0x000012BD System.Void Unity.VisualScripting.FullSerializer.fsSerializer::StripDeserializationMetadata(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001292 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::StripDeserializationMetadata(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_StripDeserializationMetadata_m439A08C8D303CC91E8BE6D6E6C1DE740F311CF8B (void);
-// 0x000012BE System.Void Unity.VisualScripting.FullSerializer.fsSerializer::ConvertLegacyData(Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001293 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::ConvertLegacyData(Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_ConvertLegacyData_m4E0BDB6246B4312ED75EF4FE73BC6CAB2B5D1D41 (void);
-// 0x000012BF System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeSerialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object)
+// 0x00001294 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeSerialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object)
 extern void fsSerializer_Invoke_OnBeforeSerialize_m7A8342CEC352363372EC0B1B26E30309DDDC0CD3 (void);
-// 0x000012C0 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnAfterSerialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001295 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnAfterSerialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_Invoke_OnAfterSerialize_mFBE175E6DCE5C9511985A74A120B2E97CCB5A052 (void);
-// 0x000012C1 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeDeserialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001296 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeDeserialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_Invoke_OnBeforeDeserialize_m61EC4DBD7A60402DC8ECFD78818BCA2DA128F8AF (void);
-// 0x000012C2 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeDeserializeAfterInstanceCreation(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
+// 0x00001297 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnBeforeDeserializeAfterInstanceCreation(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object,Unity.VisualScripting.FullSerializer.fsData&)
 extern void fsSerializer_Invoke_OnBeforeDeserializeAfterInstanceCreation_m6FB00ECB854D59A2E8C354AEA86B96FBE85652FF (void);
-// 0x000012C3 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnAfterDeserialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object)
+// 0x00001298 System.Void Unity.VisualScripting.FullSerializer.fsSerializer::Invoke_OnAfterDeserialize(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsObjectProcessor>,System.Type,System.Object)
 extern void fsSerializer_Invoke_OnAfterDeserialize_m685A77B5E73A43B4935188E95D9F3DBADD3287AD (void);
-// 0x000012C4 System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::WriteDefinition(System.Int32,Unity.VisualScripting.FullSerializer.fsData)
+// 0x00001299 System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::WriteDefinition(System.Int32,Unity.VisualScripting.FullSerializer.fsData)
 extern void fsLazyCycleDefinitionWriter_WriteDefinition_mE5A307D8E186FF9645CA85A979D7B781C1A8C665 (void);
-// 0x000012C5 System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::WriteReference(System.Int32,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
+// 0x0000129A System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::WriteReference(System.Int32,System.Collections.Generic.Dictionary`2<System.String,Unity.VisualScripting.FullSerializer.fsData>)
 extern void fsLazyCycleDefinitionWriter_WriteReference_mACBE88BD37EDA06D992F9FF0A30B0D3BBE33FD74 (void);
-// 0x000012C6 System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::Clear()
+// 0x0000129B System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::Clear()
 extern void fsLazyCycleDefinitionWriter_Clear_mF81302B0538AD1FBA244D919EF7429B935B1157C (void);
-// 0x000012C7 System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::.ctor()
+// 0x0000129C System.Void Unity.VisualScripting.FullSerializer.fsSerializer/fsLazyCycleDefinitionWriter::.ctor()
 extern void fsLazyCycleDefinitionWriter__ctor_m88404815CC83159CB4B9581C0737F8FE44847A38 (void);
+// 0x0000129D System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.FieldInfo)
+extern void fsMetaProperty__ctor_m8EAD810AB5CC9482CE78ACDAA6D7DCC2680022A6 (void);
+// 0x0000129E System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.PropertyInfo)
+extern void fsMetaProperty__ctor_m6C23AFA33EA55557279A069D19DC87FCCEBBBAD1 (void);
+// 0x0000129F System.Type Unity.VisualScripting.FullSerializer.fsMetaProperty::get_StorageType()
+extern void fsMetaProperty_get_StorageType_m44BED9C0B89B0A58FF1B29E69582E7B5FF75414E (void);
+// 0x000012A0 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_StorageType(System.Type)
+extern void fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6 (void);
+// 0x000012A1 System.Type Unity.VisualScripting.FullSerializer.fsMetaProperty::get_OverrideConverterType()
+extern void fsMetaProperty_get_OverrideConverterType_mED201398F793429A572BAC96BBCFA8334F63C6A3 (void);
+// 0x000012A2 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_OverrideConverterType(System.Type)
+extern void fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B (void);
+// 0x000012A3 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_CanRead()
+extern void fsMetaProperty_get_CanRead_mA2A7D389C2D41C426B303F6A269403879F17964D (void);
+// 0x000012A4 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_CanRead(System.Boolean)
+extern void fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73 (void);
+// 0x000012A5 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_CanWrite()
+extern void fsMetaProperty_get_CanWrite_m2BD75237BFBF0A4162BEDF112CF33C6C748EF3D6 (void);
+// 0x000012A6 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_CanWrite(System.Boolean)
+extern void fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694 (void);
+// 0x000012A7 System.String Unity.VisualScripting.FullSerializer.fsMetaProperty::get_JsonName()
+extern void fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652 (void);
+// 0x000012A8 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_JsonName(System.String)
+extern void fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4 (void);
+// 0x000012A9 System.String Unity.VisualScripting.FullSerializer.fsMetaProperty::get_MemberName()
+extern void fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE (void);
+// 0x000012AA System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_MemberName(System.String)
+extern void fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492 (void);
+// 0x000012AB System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_IsPublic()
+extern void fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D (void);
+// 0x000012AC System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_IsPublic(System.Boolean)
+extern void fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA (void);
+// 0x000012AD System.Boolean Unity.VisualScripting.FullSerializer.fsMetaProperty::get_IsReadOnly()
+extern void fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A (void);
+// 0x000012AE System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::set_IsReadOnly(System.Boolean)
+extern void fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4 (void);
+// 0x000012AF System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::CommonInitialize(Unity.VisualScripting.FullSerializer.fsConfig)
+extern void fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A (void);
+// 0x000012B0 System.Void Unity.VisualScripting.FullSerializer.fsMetaProperty::Write(System.Object,System.Object)
+extern void fsMetaProperty_Write_mEA2E2F7E5E785063984023ABD51657C856E60783 (void);
+// 0x000012B1 System.Object Unity.VisualScripting.FullSerializer.fsMetaProperty::Read(System.Object)
+extern void fsMetaProperty_Read_mE5F0AE85092593DE88AEDA717359310E9E06C046 (void);
+// 0x000012B2 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::.ctor(Unity.VisualScripting.FullSerializer.fsConfig,System.Type)
+extern void fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3 (void);
+// 0x000012B3 Unity.VisualScripting.FullSerializer.fsMetaProperty[] Unity.VisualScripting.FullSerializer.fsMetaType::get_Properties()
+extern void fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A (void);
+// 0x000012B4 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::set_Properties(Unity.VisualScripting.FullSerializer.fsMetaProperty[])
+extern void fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E (void);
+// 0x000012B5 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::get_HasDefaultConstructor()
+extern void fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E (void);
+// 0x000012B6 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::EmitAotData()
+extern void fsMetaType_EmitAotData_m567914383E93A38ADA1F4D3AE645632CC6982AC4 (void);
+// 0x000012B7 System.Object Unity.VisualScripting.FullSerializer.fsMetaType::CreateInstance()
+extern void fsMetaType_CreateInstance_m29B05EF9602FCAE885BBC789C04C5EA32D60AE72 (void);
+// 0x000012B8 Unity.VisualScripting.FullSerializer.fsMetaType Unity.VisualScripting.FullSerializer.fsMetaType::Get(Unity.VisualScripting.FullSerializer.fsConfig,System.Type)
+extern void fsMetaType_Get_m2A7F989A6C43B6A159ED1E88A9F96E4D42FC54DA (void);
+// 0x000012B9 System.Void Unity.VisualScripting.FullSerializer.fsMetaType::ClearCache()
+extern void fsMetaType_ClearCache_m3F64D56521C8DE7864FBB1263D27A60F8024EAE8 (void);
+// 0x000012BA System.Void Unity.VisualScripting.FullSerializer.fsMetaType::CollectProperties(Unity.VisualScripting.FullSerializer.fsConfig,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsMetaProperty>,System.Type)
+extern void fsMetaType_CollectProperties_mD14D24E60521F4BD7D9E8A66208F1A65D730516A (void);
+// 0x000012BB System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::IsAutoProperty(System.Reflection.PropertyInfo,System.Reflection.MemberInfo[])
+extern void fsMetaType_IsAutoProperty_m01EA01ACF10FF812AD74FEAE3C5EA75375D37E5C (void);
+// 0x000012BC System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::CanSerializeProperty(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.PropertyInfo,System.Reflection.MemberInfo[],System.Boolean)
+extern void fsMetaType_CanSerializeProperty_m5405D81261205D08FC44B6A0E5A7E0D24808F174 (void);
+// 0x000012BD System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType::CanSerializeField(Unity.VisualScripting.FullSerializer.fsConfig,System.Reflection.FieldInfo,System.Boolean)
+extern void fsMetaType_CanSerializeField_mE1BDB50A909C9F70D3D7E266CAD876B8EEB5540C (void);
+// 0x000012BE System.Void Unity.VisualScripting.FullSerializer.fsMetaType::.cctor()
+extern void fsMetaType__cctor_m3A1D774D60F6541CF8E0C672DAAAFA11BF82A439 (void);
+// 0x000012BF System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::.ctor()
+extern void U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0 (void);
+// 0x000012C0 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__0(System.Type)
+extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__0_mBDC7709CE09425F240C42147C3BB2FDB7E76FAF5 (void);
+// 0x000012C1 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__1(System.Type)
+extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__1_m086012131CD06B409756038400BF39327BF9F233 (void);
+// 0x000012C2 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass16_0::<CollectProperties>b__2(System.Type)
+extern void U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__2_mCA3D8AC6B0001C61241D0164C6089EE68DF7F245 (void);
+// 0x000012C3 System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass18_0::.ctor()
+extern void U3CU3Ec__DisplayClass18_0__ctor_m409998F2ADDDE7B61682E1940C31EB545A5333A9 (void);
+// 0x000012C4 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass18_0::<CanSerializeProperty>b__0(System.Type)
+extern void U3CU3Ec__DisplayClass18_0_U3CCanSerializePropertyU3Eb__0_m9DF628356CB27A717F31CD102E1D609070B00ABB (void);
+// 0x000012C5 System.Void Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass19_0::.ctor()
+extern void U3CU3Ec__DisplayClass19_0__ctor_m577E5745A5BD61B689CD9DF9A336D664BDE608AA (void);
+// 0x000012C6 System.Boolean Unity.VisualScripting.FullSerializer.fsMetaType/<>c__DisplayClass19_0::<CanSerializeField>b__0(System.Type)
+extern void U3CU3Ec__DisplayClass19_0_U3CCanSerializeFieldU3Eb__0_mFA28917E7AF68FAD4A6A425DF445DD5AC3115D07 (void);
+// 0x000012C7 System.Type Unity.VisualScripting.FullSerializer.fsReflectionUtility::GetInterface(System.Type,System.Type)
+extern void fsReflectionUtility_GetInterface_m58FC8C875C57178B254BCE4884DC9A4F67C56642 (void);
 // 0x000012C8 System.Void Unity.VisualScripting.FullSerializer.Internal.fsCyclicReferenceManager::Enter()
 extern void fsCyclicReferenceManager_Enter_m28863BBFD4BDEF23F1DCBC9D2FC71D797EB2FDB4 (void);
 // 0x000012C9 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsCyclicReferenceManager::Exit()
@@ -8554,30 +8554,30 @@ extern void fsTypeExtensions_CSharpName_m9DA1BFE49686FF36234E224DDC1C62F39EAA369
 extern void U3CU3Ec__DisplayClass2_0__ctor_m80831530C50B87BB035A96D17E242F8B7011C105 (void);
 // 0x00001301 System.String Unity.VisualScripting.FullSerializer.Internal.fsTypeExtensions/<>c__DisplayClass2_0::<CSharpName>b__0(System.Type)
 extern void U3CU3Ec__DisplayClass2_0_U3CCSharpNameU3Eb__0_mB271DB9009C764D4CB33A03876DB554A4EEFB2C3 (void);
-// 0x00001302 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionImportPath(System.String,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType>&)
-extern void fsVersionManager_GetVersionImportPath_mA4AD1BCDF26FDB8DA82AE6EDF148B86F51050BEE (void);
-// 0x00001303 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionImportPathRecursive(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType>,System.String,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
-extern void fsVersionManager_GetVersionImportPathRecursive_mFE5F1875F2854E601D60F04501B684B97A28C3BF (void);
-// 0x00001304 Unity.VisualScripting.FullSerializer.Internal.fsOption`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType> Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionedType(System.Type)
-extern void fsVersionManager_GetVersionedType_mF8DFBB518E5CBEEC17C7ABD9670ED4782FFE0476 (void);
-// 0x00001305 System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::VerifyConstructors(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
-extern void fsVersionManager_VerifyConstructors_mA5FE1DA2326360238A5863FBDBA044E47B0E3294 (void);
-// 0x00001306 System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::VerifyUniqueVersionStrings(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
-extern void fsVersionManager_VerifyUniqueVersionStrings_m5CBEB93FE7A46CEE77E2DE9887DE986217D12594 (void);
-// 0x00001307 System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::.cctor()
-extern void fsVersionManager__cctor_mB2E0400D10D006E9F9404CC991E86DD2236A889B (void);
-// 0x00001308 System.Object Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::Migrate(System.Object)
+// 0x00001302 System.Object Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::Migrate(System.Object)
 extern void fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB (void);
-// 0x00001309 System.String Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::ToString()
+// 0x00001303 System.String Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::ToString()
 extern void fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F (void);
-// 0x0000130A System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::op_Equality(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
+// 0x00001304 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::op_Equality(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
 extern void fsVersionedType_op_Equality_mD1C82D3B6980CF771E510A0A099479F50F78EC8D (void);
-// 0x0000130B System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::op_Inequality(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
+// 0x00001305 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::op_Inequality(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
 extern void fsVersionedType_op_Inequality_m5D3C7C965C16A713CA5DFD45B2C801E3962383F1 (void);
-// 0x0000130C System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::Equals(System.Object)
+// 0x00001306 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::Equals(System.Object)
 extern void fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F (void);
-// 0x0000130D System.Int32 Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::GetHashCode()
+// 0x00001307 System.Int32 Unity.VisualScripting.FullSerializer.Internal.fsVersionedType::GetHashCode()
 extern void fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72D69DD7046C47C6 (void);
+// 0x00001308 Unity.VisualScripting.FullSerializer.fsResult Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionImportPath(System.String,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType,System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType>&)
+extern void fsVersionManager_GetVersionImportPath_mA4AD1BCDF26FDB8DA82AE6EDF148B86F51050BEE (void);
+// 0x00001309 System.Boolean Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionImportPathRecursive(System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType>,System.String,Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
+extern void fsVersionManager_GetVersionImportPathRecursive_mFE5F1875F2854E601D60F04501B684B97A28C3BF (void);
+// 0x0000130A Unity.VisualScripting.FullSerializer.Internal.fsOption`1<Unity.VisualScripting.FullSerializer.Internal.fsVersionedType> Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::GetVersionedType(System.Type)
+extern void fsVersionManager_GetVersionedType_mF8DFBB518E5CBEEC17C7ABD9670ED4782FFE0476 (void);
+// 0x0000130B System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::VerifyConstructors(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
+extern void fsVersionManager_VerifyConstructors_mA5FE1DA2326360238A5863FBDBA044E47B0E3294 (void);
+// 0x0000130C System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::VerifyUniqueVersionStrings(Unity.VisualScripting.FullSerializer.Internal.fsVersionedType)
+extern void fsVersionManager_VerifyUniqueVersionStrings_m5CBEB93FE7A46CEE77E2DE9887DE986217D12594 (void);
+// 0x0000130D System.Void Unity.VisualScripting.FullSerializer.Internal.fsVersionManager::.cctor()
+extern void fsVersionManager__cctor_mB2E0400D10D006E9F9404CC991E86DD2236A889B (void);
 // 0x0000130E System.Boolean Unity.VisualScripting.FullSerializer.Internal.Converters.UnityEvent_Converter::CanProcess(System.Type)
 extern void UnityEvent_Converter_CanProcess_mF33E0BCD3D574E605A042AE18FF9AFA98E3A8A17 (void);
 // 0x0000130F System.Boolean Unity.VisualScripting.FullSerializer.Internal.Converters.UnityEvent_Converter::RequestCycleSupport(System.Type)
@@ -9108,7 +9108,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	InspectableIfAttribute_get_order_mAF8EA9532F24CB30B22AF96132010090D1768B75,
 	InspectableIfAttribute_set_order_m43F6F4BE806CA85D92F62C41D100BCF90CD859AE,
 	InspectableIfAttribute_get_conditionMember_mE57CFBBD3D38775B6A6178A870D4A2F60F1D705A,
-	InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0,
 	InspectorActionDirectionAttribute__ctor_m9B3607AF556284E14C97F346E270D15D078F862C,
 	InspectorActionDirectionAttribute_get_direction_mB732F0695805428CECC78C389416CEBF995388F8,
 	InspectorActionDirectionAttribute_set_direction_m44F88DA21431124243265E2995E8685C9A9337C5,
@@ -9142,6 +9141,7 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	InspectorWideAttribute__ctor_m552B28D4B7600A6F6D6EA70A7FA982BE83D81177,
 	InspectorWideAttribute_get_toEdge_m70A60EAC659618A389E54BEF7BA977342830DEFD,
 	InspectorWideAttribute_set_toEdge_m9E239E2E48DCDC88ECE51309AB059176AABD21D4,
+	InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0,
 	NullMeansSelfAttribute__ctor_mFCECA20DF6BBEFE3E67C8581AA9A43A807DAFF09,
 	PredictableAttribute__ctor_m2F9EEC791FDE2E21150A7C2609309110AE9E47F5,
 	TypeIconAttribute__ctor_m1D6606A07B6F58CEE9E8988724F6D109AF96CC2E,
@@ -9434,12 +9434,12 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	UnityOnInputFieldValueChangedMessageListener_Start_mFE519147C0EC2E77D9F701A41CC5B4C56D392541,
 	UnityOnInputFieldValueChangedMessageListener__ctor_m31BDBF3EC67178840751F00D665B8ABC86356929,
 	UnityOnInputFieldValueChangedMessageListener_U3CStartU3Eb__0_0_m853E3A2CE87138C235BC6C9C5F70C32F0772C3F9,
-	UnityOnScrollRectValueChangedMessageListener_Start_m983AD1FAFE9F7A9C5539C93D00C57731FD1AD555,
-	UnityOnScrollRectValueChangedMessageListener__ctor_m25B624F4E10451CC4A6E0074D01325E29A93D61F,
-	UnityOnScrollRectValueChangedMessageListener_U3CStartU3Eb__0_0_m42DF3A89D079CA8CAA57EADDC9C302DC36961646,
 	UnityOnScrollbarValueChangedMessageListener_Start_m2465A8B83C1C687695D88BC40DAD1FFB970E1998,
 	UnityOnScrollbarValueChangedMessageListener__ctor_mF03993821630E71BA1FEB6E4A89C5B6385EA197F,
 	UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9,
+	UnityOnScrollRectValueChangedMessageListener_Start_m983AD1FAFE9F7A9C5539C93D00C57731FD1AD555,
+	UnityOnScrollRectValueChangedMessageListener__ctor_m25B624F4E10451CC4A6E0074D01325E29A93D61F,
+	UnityOnScrollRectValueChangedMessageListener_U3CStartU3Eb__0_0_m42DF3A89D079CA8CAA57EADDC9C302DC36961646,
 	UnityOnSliderValueChangedMessageListener_Start_m8C96BA43A07EAF7B6FAC3C4A6EA063EA6116CB25,
 	UnityOnSliderValueChangedMessageListener__ctor_m013AE38D402DB04BDCA13B01F33F787C4D3C9298,
 	UnityOnSliderValueChangedMessageListener_U3CStartU3Eb__0_0_m653EEF5593A114CF5DDEB508132FE0BB33077C26,
@@ -9746,6 +9746,10 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	U3CGetBreadcrumbsU3Ed__21_System_Collections_IEnumerator_get_Current_mF3C8C5ECA1E43F3A2AA9142F74B810D6FF5EEC09,
 	U3CGetBreadcrumbsU3Ed__21_System_Collections_Generic_IEnumerableU3CUnity_VisualScripting_GraphReferenceU3E_GetEnumerator_mD0E42ADF3FC30F077AC3234E7B8A048715A4A611,
 	U3CGetBreadcrumbsU3Ed__21_System_Collections_IEnumerable_GetEnumerator_m6BC9921BAA819D320189A23DB1101150629C0796,
+	GraphsExceptionUtility_GetException_m2717C39A8CB9C11BE19E7F12A6A9E0BDDEDD783F,
+	GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943,
+	GraphsExceptionUtility_HandleException_m9C2D5951B5112230CC1531954519BF6753F7E9B5,
+	GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C,
 	GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B,
 	GraphStack_InitializeNoAlloc_m49B8D8812CC5B233991295AEBDA44751469588DA,
 	GraphStack_New_m4E56158E8427A35113217D0207D037A728C03F22,
@@ -9764,10 +9768,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	U3CU3Ec__ctor_mF317AA7A6BB9E4083147F241AC062F3C03C7CC73,
 	U3CU3Ec_U3CNewU3Eb__2_0_mFFD10DAE5D99717A36D33059B8B8CD0C8F63A5BF,
 	U3CU3Ec_U3CNewU3Eb__3_0_mCFE0FC47F88C7FF32475ADC0746FA59AF4CA44E8,
-	GraphsExceptionUtility_GetException_m2717C39A8CB9C11BE19E7F12A6A9E0BDDEDD783F,
-	GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943,
-	GraphsExceptionUtility_HandleException_m9C2D5951B5112230CC1531954519BF6753F7E9B5,
-	GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C,
 	NULL,
 	NULL,
 	NULL,
@@ -12125,17 +12125,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	InvokerBase__ctor_mF8778193D06F6C818A249562C7962709730CC5C3,
 	NULL,
 	InvokerBase_Compile_m473742347F42A36C28E38FD5EA23B24A0E2FCF5E,
@@ -12148,6 +12137,17 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	InvokerBase_Invoke_m1A895777376BE2D347E3A13A111767DF1453A972,
 	InvokerBase_Invoke_m6A842FA819A581F3442E52A918E7DCC8100A2B2F,
 	InvokerBase_Invoke_m00613A6C7F7DA8673663E92A74D552EB9FD452EB,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -12695,15 +12695,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	UnityThread_RuntimeInitialize_mCA67339161F19558CD211935652781F6321113B0,
 	UnityThread_EditorAsync_mAFD8F3FC95EC0A42A42B77361B21F8A89C8A4341,
 	UnityThread__cctor_m5264F6698C80AE00F2A0F3CCF625C1DA2CA4145B,
-	CSharpNameUtility_CSharpName_m59FDF63A3C4DC9B0F340A5C02A5C631FB9E11A40,
-	CSharpNameUtility_CSharpName_m8E73469776C7DC36AE8A115D6D594574D16383A6,
-	CSharpNameUtility_CSharpFullName_m87B7544159A69EA6CE7EB5C3F8A476ACD464CEDD,
-	CSharpNameUtility_CSharpUniqueName_m05AA47C9386A5F5DA848C7C639F3499A5EF4412B,
-	CSharpNameUtility_CSharpFileName_mB1F719DBD6D006E4DCD1BFC0E90FB97172F9EC19,
-	CSharpNameUtility_CSharpName_mDCF2F7EC343F5EE798420E82C4D925AF382555C1,
-	CSharpNameUtility__cctor_mFC8CECB0D8F6714B6A352C5888DA4F8CC0036C45,
-	U3CU3Ec__DisplayClass8_0__ctor_m111642B8BAAE9F39B6D18C7E0D4B79CA4443F215,
-	U3CU3Ec__DisplayClass8_0_U3CCSharpNameU3Eb__0_mCB16B68B0D9A9C96363171B1D5F86E9AF209E93C,
 	ComponentHolderProtocol_IsComponentHolderType_m29A9518E3773E1B094B108EA9EE9B528A3338037,
 	ComponentHolderProtocol_IsComponentHolder_mF98EC4F8B835A0D8174D6B448D90E6006B13B7A0,
 	ComponentHolderProtocol_GameObject_m2CC80CD9F7B92544C51D1E25B0C2F692B56D4E4E,
@@ -12725,6 +12716,15 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	CoroutineRunner_OnDestroy_mEA0DB38F8A6747033F7D8AA31C0C1E6A20A31369,
 	CoroutineRunner_get_instance_m36DFFBA8E06B4B241D7C226AE66FA554CEE80606,
 	CoroutineRunner__ctor_m9ECDE7E4B1C1DCC2705FEB8973ABE626824B2E95,
+	CSharpNameUtility_CSharpName_m59FDF63A3C4DC9B0F340A5C02A5C631FB9E11A40,
+	CSharpNameUtility_CSharpName_m8E73469776C7DC36AE8A115D6D594574D16383A6,
+	CSharpNameUtility_CSharpFullName_m87B7544159A69EA6CE7EB5C3F8A476ACD464CEDD,
+	CSharpNameUtility_CSharpUniqueName_m05AA47C9386A5F5DA848C7C639F3499A5EF4412B,
+	CSharpNameUtility_CSharpFileName_mB1F719DBD6D006E4DCD1BFC0E90FB97172F9EC19,
+	CSharpNameUtility_CSharpName_mDCF2F7EC343F5EE798420E82C4D925AF382555C1,
+	CSharpNameUtility__cctor_mFC8CECB0D8F6714B6A352C5888DA4F8CC0036C45,
+	U3CU3Ec__DisplayClass8_0__ctor_m111642B8BAAE9F39B6D18C7E0D4B79CA4443F215,
+	U3CU3Ec__DisplayClass8_0_U3CCSharpNameU3Eb__0_mCB16B68B0D9A9C96363171B1D5F86E9AF209E93C,
 	NULL,
 	EnumUtility_HasFlag_m01EAB417C961F12EB7603C53B8937042AA11C151,
 	EnumUtility_ValuesByNames_mC467ACAB53693E2E35B8D6108EEA292E9B9370E3,
@@ -13059,44 +13059,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	VariablesSaver_get_instance_m311BC22E28996B7A9AFDB8FE8331AC9D0489B24C,
 	VariablesSaver_Instantiate_m3CA5EFEBA65499952B41007269463715A7066636,
 	VariablesSaver__ctor_m0D71CC9CC4C45098D340EC3477BB7E696A9F0F4A,
-	fsConverterRegistrar__cctor_mAB439B8C7709F35623F01C7009C8D7951965DDD7,
-	fsConverterRegistrar__ctor_mAED9B45E3B0708FB4779217FCA3DAB0F9461EB5C,
-	AnimationCurve_DirectConverter_DoSerialize_mC093F4C9E04BB99B9F8FFBE0EF7D475D8C3D059E,
-	AnimationCurve_DirectConverter_DoDeserialize_m61EEA43B60CA8E84930807493F0AD9C1F888D2F9,
-	AnimationCurve_DirectConverter_CreateInstance_m6719A6BE51AEF4A3FD6E8A55837062A376AF8429,
-	AnimationCurve_DirectConverter__ctor_m97FE64E03C5BA438EEF0FD3BFF2B2C5F8241593E,
-	Bounds_DirectConverter_DoSerialize_m80DA565A60DF607D7E2898A9A5D506981A01E55B,
-	Bounds_DirectConverter_DoDeserialize_mAC6427D34F0F389B3055C7A58DB560F00B78DDBD,
-	Bounds_DirectConverter_CreateInstance_m0F48F83A88BBFA778B69513A5EF911EA435064B0,
-	Bounds_DirectConverter__ctor_mE64C93F66164F37395C4825C2E2C89A85ACD0313,
-	GUIStyleState_DirectConverter_DoSerialize_m11F332174BBA0DC0A356EB059A3E34F55FB68A84,
-	GUIStyleState_DirectConverter_DoDeserialize_m0A69DF9CE2D501E3D7967D2F9D030EF5AB89BC95,
-	GUIStyleState_DirectConverter_CreateInstance_m38337EDF1FC548400AB83C9A86349450851D480F,
-	GUIStyleState_DirectConverter__ctor_m5656DA77031E2F79A9DF4C4AC57D89D29D8618B8,
-	GUIStyle_DirectConverter_DoSerialize_m9D60429C09362D219AD9871A5017BCFCFC1DD3FD,
-	GUIStyle_DirectConverter_DoDeserialize_m3116C92C6BEAF09E0CF82DE35E909217B1D68F51,
-	GUIStyle_DirectConverter_CreateInstance_mD7FC6AFCC0AE9266C85C5B915D9A9E855351563C,
-	GUIStyle_DirectConverter__ctor_m158D2CB634D022D6E791C815699285F55D23C9B8,
-	Gradient_DirectConverter_DoSerialize_m237EB5EA32B5231AB6AF1D01719130162710D586,
-	Gradient_DirectConverter_DoDeserialize_mF8429FDC271DB4E85A42F630BF886D0CD60CAE8B,
-	Gradient_DirectConverter_CreateInstance_mFD09F8821FAA047ADCC113519016AD91AD9DFCC6,
-	Gradient_DirectConverter__ctor_m30EC46864473C8ED2E52F64B0E73CAD4E3ED7840,
-	Keyframe_DirectConverter_DoSerialize_m29C203241EE8561C3F66402CD63C694E5F58272D,
-	Keyframe_DirectConverter_DoDeserialize_m51D898722C82187D4FDCD942BD6F36BC1FD592B5,
-	Keyframe_DirectConverter_CreateInstance_m934FF4451BFB6D9CDFCA767989BC3BF591780E08,
-	Keyframe_DirectConverter__ctor_m30581394F27266B39A7F24D558DCB99AF2A58A9F,
-	LayerMask_DirectConverter_DoSerialize_mE0D642B9869CDACA216F21DADB931A3E7CB4B413,
-	LayerMask_DirectConverter_DoDeserialize_mC36DDF62F091EDAAA93D8E7E74F0F52F6684825F,
-	LayerMask_DirectConverter_CreateInstance_mC5554870983349A67AD8B6BED05A6CC7C3777FBB,
-	LayerMask_DirectConverter__ctor_m39FACBD052681F37B03E04C743B4BF86C238B437,
-	RectOffset_DirectConverter_DoSerialize_m71F9204BCA47A86AD7238C3BC804C0A114E08B80,
-	RectOffset_DirectConverter_DoDeserialize_mAAAE96B1DE66ED7B85966D0B264D35BD85EC263D,
-	RectOffset_DirectConverter_CreateInstance_mB42C9F6249612306B08FCCF35068F914918C58FD,
-	RectOffset_DirectConverter__ctor_mC8D52D76C1DB092664DA474A48A74797A77317AA,
-	Rect_DirectConverter_DoSerialize_m08A0FADAF1FFD4ADF9D92DA57671A9CED95EBFB8,
-	Rect_DirectConverter_DoDeserialize_m772033545864654BE382D2623654948C4FD336C9,
-	Rect_DirectConverter_CreateInstance_m0802A5884B1B788FEA416FC8F4E838D7E9A4F65F,
-	Rect_DirectConverter__ctor_m49794B76D6C2C2D463BEF227525D91196AFE6CB2,
 	fsArrayConverter_CanProcess_mC812F63BA9DA4087CC82E0E869B5F7390FAC81C1,
 	fsArrayConverter_RequestCycleSupport_m0A7F56F448ED67FB95EE6163FD6A0E5F20992678,
 	fsArrayConverter_RequestInheritanceSupport_mC81F939D38E5BD04E2E75E8C30F6B5634A86167C,
@@ -13196,49 +13158,44 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	fsWeakReferenceConverter_TryDeserialize_m2B488EEB987C1DB9E969066BE54FDA76104E8286,
 	fsWeakReferenceConverter_CreateInstance_mAE847039874CB4CE7B2D67F72BF1088EAEBA790E,
 	fsWeakReferenceConverter__ctor_m961A93BBF5A2B9E276E52E1764917A8A3D48469D,
-	fsMetaProperty__ctor_m8EAD810AB5CC9482CE78ACDAA6D7DCC2680022A6,
-	fsMetaProperty__ctor_m6C23AFA33EA55557279A069D19DC87FCCEBBBAD1,
-	fsMetaProperty_get_StorageType_m44BED9C0B89B0A58FF1B29E69582E7B5FF75414E,
-	fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6,
-	fsMetaProperty_get_OverrideConverterType_mED201398F793429A572BAC96BBCFA8334F63C6A3,
-	fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B,
-	fsMetaProperty_get_CanRead_mA2A7D389C2D41C426B303F6A269403879F17964D,
-	fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73,
-	fsMetaProperty_get_CanWrite_m2BD75237BFBF0A4162BEDF112CF33C6C748EF3D6,
-	fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694,
-	fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652,
-	fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4,
-	fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE,
-	fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492,
-	fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D,
-	fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA,
-	fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A,
-	fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4,
-	fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A,
-	fsMetaProperty_Write_mEA2E2F7E5E785063984023ABD51657C856E60783,
-	fsMetaProperty_Read_mE5F0AE85092593DE88AEDA717359310E9E06C046,
-	fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3,
-	fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A,
-	fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E,
-	fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E,
-	fsMetaType_EmitAotData_m567914383E93A38ADA1F4D3AE645632CC6982AC4,
-	fsMetaType_CreateInstance_m29B05EF9602FCAE885BBC789C04C5EA32D60AE72,
-	fsMetaType_Get_m2A7F989A6C43B6A159ED1E88A9F96E4D42FC54DA,
-	fsMetaType_ClearCache_m3F64D56521C8DE7864FBB1263D27A60F8024EAE8,
-	fsMetaType_CollectProperties_mD14D24E60521F4BD7D9E8A66208F1A65D730516A,
-	fsMetaType_IsAutoProperty_m01EA01ACF10FF812AD74FEAE3C5EA75375D37E5C,
-	fsMetaType_CanSerializeProperty_m5405D81261205D08FC44B6A0E5A7E0D24808F174,
-	fsMetaType_CanSerializeField_mE1BDB50A909C9F70D3D7E266CAD876B8EEB5540C,
-	fsMetaType__cctor_m3A1D774D60F6541CF8E0C672DAAAFA11BF82A439,
-	U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0,
-	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__0_mBDC7709CE09425F240C42147C3BB2FDB7E76FAF5,
-	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__1_m086012131CD06B409756038400BF39327BF9F233,
-	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__2_mCA3D8AC6B0001C61241D0164C6089EE68DF7F245,
-	U3CU3Ec__DisplayClass18_0__ctor_m409998F2ADDDE7B61682E1940C31EB545A5333A9,
-	U3CU3Ec__DisplayClass18_0_U3CCanSerializePropertyU3Eb__0_m9DF628356CB27A717F31CD102E1D609070B00ABB,
-	U3CU3Ec__DisplayClass19_0__ctor_m577E5745A5BD61B689CD9DF9A336D664BDE608AA,
-	U3CU3Ec__DisplayClass19_0_U3CCanSerializeFieldU3Eb__0_mFA28917E7AF68FAD4A6A425DF445DD5AC3115D07,
-	fsReflectionUtility_GetInterface_m58FC8C875C57178B254BCE4884DC9A4F67C56642,
+	fsConverterRegistrar__cctor_mAB439B8C7709F35623F01C7009C8D7951965DDD7,
+	fsConverterRegistrar__ctor_mAED9B45E3B0708FB4779217FCA3DAB0F9461EB5C,
+	AnimationCurve_DirectConverter_DoSerialize_mC093F4C9E04BB99B9F8FFBE0EF7D475D8C3D059E,
+	AnimationCurve_DirectConverter_DoDeserialize_m61EEA43B60CA8E84930807493F0AD9C1F888D2F9,
+	AnimationCurve_DirectConverter_CreateInstance_m6719A6BE51AEF4A3FD6E8A55837062A376AF8429,
+	AnimationCurve_DirectConverter__ctor_m97FE64E03C5BA438EEF0FD3BFF2B2C5F8241593E,
+	Bounds_DirectConverter_DoSerialize_m80DA565A60DF607D7E2898A9A5D506981A01E55B,
+	Bounds_DirectConverter_DoDeserialize_mAC6427D34F0F389B3055C7A58DB560F00B78DDBD,
+	Bounds_DirectConverter_CreateInstance_m0F48F83A88BBFA778B69513A5EF911EA435064B0,
+	Bounds_DirectConverter__ctor_mE64C93F66164F37395C4825C2E2C89A85ACD0313,
+	Gradient_DirectConverter_DoSerialize_m237EB5EA32B5231AB6AF1D01719130162710D586,
+	Gradient_DirectConverter_DoDeserialize_mF8429FDC271DB4E85A42F630BF886D0CD60CAE8B,
+	Gradient_DirectConverter_CreateInstance_mFD09F8821FAA047ADCC113519016AD91AD9DFCC6,
+	Gradient_DirectConverter__ctor_m30EC46864473C8ED2E52F64B0E73CAD4E3ED7840,
+	GUIStyleState_DirectConverter_DoSerialize_m11F332174BBA0DC0A356EB059A3E34F55FB68A84,
+	GUIStyleState_DirectConverter_DoDeserialize_m0A69DF9CE2D501E3D7967D2F9D030EF5AB89BC95,
+	GUIStyleState_DirectConverter_CreateInstance_m38337EDF1FC548400AB83C9A86349450851D480F,
+	GUIStyleState_DirectConverter__ctor_m5656DA77031E2F79A9DF4C4AC57D89D29D8618B8,
+	GUIStyle_DirectConverter_DoSerialize_m9D60429C09362D219AD9871A5017BCFCFC1DD3FD,
+	GUIStyle_DirectConverter_DoDeserialize_m3116C92C6BEAF09E0CF82DE35E909217B1D68F51,
+	GUIStyle_DirectConverter_CreateInstance_mD7FC6AFCC0AE9266C85C5B915D9A9E855351563C,
+	GUIStyle_DirectConverter__ctor_m158D2CB634D022D6E791C815699285F55D23C9B8,
+	Keyframe_DirectConverter_DoSerialize_m29C203241EE8561C3F66402CD63C694E5F58272D,
+	Keyframe_DirectConverter_DoDeserialize_m51D898722C82187D4FDCD942BD6F36BC1FD592B5,
+	Keyframe_DirectConverter_CreateInstance_m934FF4451BFB6D9CDFCA767989BC3BF591780E08,
+	Keyframe_DirectConverter__ctor_m30581394F27266B39A7F24D558DCB99AF2A58A9F,
+	LayerMask_DirectConverter_DoSerialize_mE0D642B9869CDACA216F21DADB931A3E7CB4B413,
+	LayerMask_DirectConverter_DoDeserialize_mC36DDF62F091EDAAA93D8E7E74F0F52F6684825F,
+	LayerMask_DirectConverter_CreateInstance_mC5554870983349A67AD8B6BED05A6CC7C3777FBB,
+	LayerMask_DirectConverter__ctor_m39FACBD052681F37B03E04C743B4BF86C238B437,
+	RectOffset_DirectConverter_DoSerialize_m71F9204BCA47A86AD7238C3BC804C0A114E08B80,
+	RectOffset_DirectConverter_DoDeserialize_mAAAE96B1DE66ED7B85966D0B264D35BD85EC263D,
+	RectOffset_DirectConverter_CreateInstance_mB42C9F6249612306B08FCCF35068F914918C58FD,
+	RectOffset_DirectConverter__ctor_mC8D52D76C1DB092664DA474A48A74797A77317AA,
+	Rect_DirectConverter_DoSerialize_m08A0FADAF1FFD4ADF9D92DA57671A9CED95EBFB8,
+	Rect_DirectConverter_DoDeserialize_m772033545864654BE382D2623654948C4FD336C9,
+	Rect_DirectConverter_CreateInstance_m0802A5884B1B788FEA416FC8F4E838D7E9A4F65F,
+	Rect_DirectConverter__ctor_m49794B76D6C2C2D463BEF227525D91196AFE6CB2,
 	fsAotCompilationManager_get_AvailableAotCompilations_mB86C3848F2F68CED65BDED3EE9C59874C6FC6163,
 	fsAotCompilationManager_TryToPerformAotCompilation_mF44E8322013F5DA37BF7FDEBD63335C520DB6FBD,
 	fsAotCompilationManager_AddAotCompilation_m662F41F2C929BBCFEE9E76759D1D98B78A934F7D,
@@ -13317,6 +13274,7 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	NULL,
 	fsMissingVersionConstructorException__ctor_m46EA05FE262E8C98465A921D2B2EB6035ED3FEFB,
 	fsDuplicateVersionNameException__ctor_m0CA794E21F56EBADEED2971C6E9DC603CAA0AF51,
+	fsIgnoreAttribute__ctor_m510DD6D25C7B7055EBF1CD0FD066F48B3354D613,
 	NULL,
 	NULL,
 	NULL,
@@ -13331,7 +13289,6 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	fsSerializationCallbackReceiverProcessor_OnBeforeSerialize_m25ABF450D793FD0619FF1F7625E1CFB5144DEFB8,
 	fsSerializationCallbackReceiverProcessor_OnAfterDeserialize_mFF0DAEAE073EDE4E227E46A97DB9C6F93A3EAC1E,
 	fsSerializationCallbackReceiverProcessor__ctor_m8F7AD77AE53D0C041389A60F0787447745505921,
-	fsIgnoreAttribute__ctor_m510DD6D25C7B7055EBF1CD0FD066F48B3354D613,
 	fsJsonParser__ctor_mDF3573B996535708BA931F67A6831FA2082EBDDD,
 	fsJsonParser_MakeFailure_m954A9022A21F0A861B51A0D990B4119B22CD3F79,
 	fsJsonParser_TryMoveNext_mEA865DF9A93335D212815AFF263D9B24B85BBB57,
@@ -13433,6 +13390,49 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	fsLazyCycleDefinitionWriter_WriteReference_mACBE88BD37EDA06D992F9FF0A30B0D3BBE33FD74,
 	fsLazyCycleDefinitionWriter_Clear_mF81302B0538AD1FBA244D919EF7429B935B1157C,
 	fsLazyCycleDefinitionWriter__ctor_m88404815CC83159CB4B9581C0737F8FE44847A38,
+	fsMetaProperty__ctor_m8EAD810AB5CC9482CE78ACDAA6D7DCC2680022A6,
+	fsMetaProperty__ctor_m6C23AFA33EA55557279A069D19DC87FCCEBBBAD1,
+	fsMetaProperty_get_StorageType_m44BED9C0B89B0A58FF1B29E69582E7B5FF75414E,
+	fsMetaProperty_set_StorageType_mBC9EEB04E34352346F970CB36245E0CAC10F29E6,
+	fsMetaProperty_get_OverrideConverterType_mED201398F793429A572BAC96BBCFA8334F63C6A3,
+	fsMetaProperty_set_OverrideConverterType_m37267DED2A75405AF6B2E4FF77802820C8F8B04B,
+	fsMetaProperty_get_CanRead_mA2A7D389C2D41C426B303F6A269403879F17964D,
+	fsMetaProperty_set_CanRead_m29A21E1EC23A8330A771140563638EBE23C01C73,
+	fsMetaProperty_get_CanWrite_m2BD75237BFBF0A4162BEDF112CF33C6C748EF3D6,
+	fsMetaProperty_set_CanWrite_mCE48F80DD621B06344EE627E0E71B988A63BC694,
+	fsMetaProperty_get_JsonName_mA58DF433A59CBE9214939853C7F4E9D4B838A652,
+	fsMetaProperty_set_JsonName_mF0BBA2CA8267D1CCEB6AD349EC15006B2FC68ED4,
+	fsMetaProperty_get_MemberName_mED2E167648A8A76B9C0FD73A6405012D82D9EDBE,
+	fsMetaProperty_set_MemberName_m910365017A946E12F897AA268E2C54E92D8B0492,
+	fsMetaProperty_get_IsPublic_m30FEC58C34CBDB5F59B85174A8B4F1CB9D7FFE7D,
+	fsMetaProperty_set_IsPublic_mDDC0D9F1D8C16C97D5A967A66B90C96CF00EFDBA,
+	fsMetaProperty_get_IsReadOnly_m0C3E3C1607BF2EE1BFE02073A743AD580EB0EB5A,
+	fsMetaProperty_set_IsReadOnly_m81F1BE9C4A906FD3A846B032068D8CF2E7C69ED4,
+	fsMetaProperty_CommonInitialize_mED4CA3EF3000E44A9A61F6FE6F487BAD44B5AE5A,
+	fsMetaProperty_Write_mEA2E2F7E5E785063984023ABD51657C856E60783,
+	fsMetaProperty_Read_mE5F0AE85092593DE88AEDA717359310E9E06C046,
+	fsMetaType__ctor_mC6683E69F4CE1C8FE4BC514BD4ED19E33CE35CF3,
+	fsMetaType_get_Properties_m54618035A54E08C924EB7E8781AA55C1D19F950A,
+	fsMetaType_set_Properties_m75C4CFDD1D8A0844B8E8E61B1028BB013A011A9E,
+	fsMetaType_get_HasDefaultConstructor_m6AFFF40736CFD48C95681AF3228409840BB4F81E,
+	fsMetaType_EmitAotData_m567914383E93A38ADA1F4D3AE645632CC6982AC4,
+	fsMetaType_CreateInstance_m29B05EF9602FCAE885BBC789C04C5EA32D60AE72,
+	fsMetaType_Get_m2A7F989A6C43B6A159ED1E88A9F96E4D42FC54DA,
+	fsMetaType_ClearCache_m3F64D56521C8DE7864FBB1263D27A60F8024EAE8,
+	fsMetaType_CollectProperties_mD14D24E60521F4BD7D9E8A66208F1A65D730516A,
+	fsMetaType_IsAutoProperty_m01EA01ACF10FF812AD74FEAE3C5EA75375D37E5C,
+	fsMetaType_CanSerializeProperty_m5405D81261205D08FC44B6A0E5A7E0D24808F174,
+	fsMetaType_CanSerializeField_mE1BDB50A909C9F70D3D7E266CAD876B8EEB5540C,
+	fsMetaType__cctor_m3A1D774D60F6541CF8E0C672DAAAFA11BF82A439,
+	U3CU3Ec__DisplayClass16_0__ctor_m538342D591F27E0886D3D9F7969DB43E9F1AC3A0,
+	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__0_mBDC7709CE09425F240C42147C3BB2FDB7E76FAF5,
+	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__1_m086012131CD06B409756038400BF39327BF9F233,
+	U3CU3Ec__DisplayClass16_0_U3CCollectPropertiesU3Eb__2_mCA3D8AC6B0001C61241D0164C6089EE68DF7F245,
+	U3CU3Ec__DisplayClass18_0__ctor_m409998F2ADDDE7B61682E1940C31EB545A5333A9,
+	U3CU3Ec__DisplayClass18_0_U3CCanSerializePropertyU3Eb__0_m9DF628356CB27A717F31CD102E1D609070B00ABB,
+	U3CU3Ec__DisplayClass19_0__ctor_m577E5745A5BD61B689CD9DF9A336D664BDE608AA,
+	U3CU3Ec__DisplayClass19_0_U3CCanSerializeFieldU3Eb__0_mFA28917E7AF68FAD4A6A425DF445DD5AC3115D07,
+	fsReflectionUtility_GetInterface_m58FC8C875C57178B254BCE4884DC9A4F67C56642,
 	fsCyclicReferenceManager_Enter_m28863BBFD4BDEF23F1DCBC9D2FC71D797EB2FDB4,
 	fsCyclicReferenceManager_Exit_m91D1DB5745A082CE50E57ABB26B16E0F3661120F,
 	fsCyclicReferenceManager_GetReferenceObject_mA7330D4D27E050EE92EC6F5333767307B8E1B7C4,
@@ -13491,18 +13491,18 @@ static Il2CppMethodPointer s_methodPointers[4900] =
 	fsTypeExtensions_CSharpName_m9DA1BFE49686FF36234E224DDC1C62F39EAA3694,
 	U3CU3Ec__DisplayClass2_0__ctor_m80831530C50B87BB035A96D17E242F8B7011C105,
 	U3CU3Ec__DisplayClass2_0_U3CCSharpNameU3Eb__0_mB271DB9009C764D4CB33A03876DB554A4EEFB2C3,
-	fsVersionManager_GetVersionImportPath_mA4AD1BCDF26FDB8DA82AE6EDF148B86F51050BEE,
-	fsVersionManager_GetVersionImportPathRecursive_mFE5F1875F2854E601D60F04501B684B97A28C3BF,
-	fsVersionManager_GetVersionedType_mF8DFBB518E5CBEEC17C7ABD9670ED4782FFE0476,
-	fsVersionManager_VerifyConstructors_mA5FE1DA2326360238A5863FBDBA044E47B0E3294,
-	fsVersionManager_VerifyUniqueVersionStrings_m5CBEB93FE7A46CEE77E2DE9887DE986217D12594,
-	fsVersionManager__cctor_mB2E0400D10D006E9F9404CC991E86DD2236A889B,
 	fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB,
 	fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F,
 	fsVersionedType_op_Equality_mD1C82D3B6980CF771E510A0A099479F50F78EC8D,
 	fsVersionedType_op_Inequality_m5D3C7C965C16A713CA5DFD45B2C801E3962383F1,
 	fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F,
 	fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72D69DD7046C47C6,
+	fsVersionManager_GetVersionImportPath_mA4AD1BCDF26FDB8DA82AE6EDF148B86F51050BEE,
+	fsVersionManager_GetVersionImportPathRecursive_mFE5F1875F2854E601D60F04501B684B97A28C3BF,
+	fsVersionManager_GetVersionedType_mF8DFBB518E5CBEEC17C7ABD9670ED4782FFE0476,
+	fsVersionManager_VerifyConstructors_mA5FE1DA2326360238A5863FBDBA044E47B0E3294,
+	fsVersionManager_VerifyUniqueVersionStrings_m5CBEB93FE7A46CEE77E2DE9887DE986217D12594,
+	fsVersionManager__cctor_mB2E0400D10D006E9F9404CC991E86DD2236A889B,
 	UnityEvent_Converter_CanProcess_mF33E0BCD3D574E605A042AE18FF9AFA98E3A8A17,
 	UnityEvent_Converter_RequestCycleSupport_mC04BC3D9FFA6A8379930309C1B0AA784E383CA16,
 	UnityEvent_Converter_TryDeserialize_mF282933A6D6E144C5A62D119971C9E0F248D0F46,
@@ -13608,21 +13608,21 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[47] =
 	{ 0x06000F8D, SerializationData_ToString_m277BCD1A9A8431713FCADB24C479817E0C6A3A4C_AdjustorThunk },
 	{ 0x06000F8E, SerializationData_ToString_mAC5F79322472876518D60654C6515E4ED142EF87_AdjustorThunk },
 	{ 0x06000F8F, SerializationData_ShowString_m53B7B7664BCFCE62D2382E53FF7C0205D9034270_AdjustorThunk },
-	{ 0x0600128F, fsResult_AddMessage_mC4B690BC3884FF2D235733FD65081C163B4DDD55_AdjustorThunk },
-	{ 0x06001290, fsResult_AddMessages_m37B84549F6D482E5C1D8E8761DE4C006D7AB4B9D_AdjustorThunk },
-	{ 0x06001291, fsResult_Merge_mB5B8E8B4BD5B6086B6DDFAF478640D9DA56EF0C1_AdjustorThunk },
-	{ 0x06001295, fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB_AdjustorThunk },
-	{ 0x06001296, fsResult_get_Succeeded_m01E08C3B731D94618B867B7B55DCC0061CD11769_AdjustorThunk },
-	{ 0x06001297, fsResult_get_HasWarnings_m030A020FD6B48D0E8E2867D2428135EB771064CE_AdjustorThunk },
-	{ 0x06001298, fsResult_AssertSuccess_m7077B79DD80747B32B66ADCDF49243575800FA12_AdjustorThunk },
-	{ 0x06001299, fsResult_AssertSuccessWithoutWarnings_m0CAECDD9A72E1393CDDDB6BEE1C528674DDD7F6C_AdjustorThunk },
-	{ 0x0600129A, fsResult_get_AsException_m6D92E907B2E0815691BD5639138FB4E4C578EA0B_AdjustorThunk },
-	{ 0x0600129B, fsResult_get_RawMessages_m0B25A624CB4B2F03DF6FC6077284AF92CFFC4683_AdjustorThunk },
-	{ 0x0600129C, fsResult_get_FormattedMessages_mCF960860BF1F178EDFCA80D1196B2F69096144B7_AdjustorThunk },
-	{ 0x06001308, fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB_AdjustorThunk },
-	{ 0x06001309, fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F_AdjustorThunk },
-	{ 0x0600130C, fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F_AdjustorThunk },
-	{ 0x0600130D, fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72D69DD7046C47C6_AdjustorThunk },
+	{ 0x06001264, fsResult_AddMessage_mC4B690BC3884FF2D235733FD65081C163B4DDD55_AdjustorThunk },
+	{ 0x06001265, fsResult_AddMessages_m37B84549F6D482E5C1D8E8761DE4C006D7AB4B9D_AdjustorThunk },
+	{ 0x06001266, fsResult_Merge_mB5B8E8B4BD5B6086B6DDFAF478640D9DA56EF0C1_AdjustorThunk },
+	{ 0x0600126A, fsResult_get_Failed_m1398C627A72E75F5C7F8DB1A7C14E5B3271FF1FB_AdjustorThunk },
+	{ 0x0600126B, fsResult_get_Succeeded_m01E08C3B731D94618B867B7B55DCC0061CD11769_AdjustorThunk },
+	{ 0x0600126C, fsResult_get_HasWarnings_m030A020FD6B48D0E8E2867D2428135EB771064CE_AdjustorThunk },
+	{ 0x0600126D, fsResult_AssertSuccess_m7077B79DD80747B32B66ADCDF49243575800FA12_AdjustorThunk },
+	{ 0x0600126E, fsResult_AssertSuccessWithoutWarnings_m0CAECDD9A72E1393CDDDB6BEE1C528674DDD7F6C_AdjustorThunk },
+	{ 0x0600126F, fsResult_get_AsException_m6D92E907B2E0815691BD5639138FB4E4C578EA0B_AdjustorThunk },
+	{ 0x06001270, fsResult_get_RawMessages_m0B25A624CB4B2F03DF6FC6077284AF92CFFC4683_AdjustorThunk },
+	{ 0x06001271, fsResult_get_FormattedMessages_mCF960860BF1F178EDFCA80D1196B2F69096144B7_AdjustorThunk },
+	{ 0x06001302, fsVersionedType_Migrate_mA2431BCBC723C85F909F6D50CCC218ABFAED65AB_AdjustorThunk },
+	{ 0x06001303, fsVersionedType_ToString_m584F4EBD02BC6D0502664D2047FF3D71270A359F_AdjustorThunk },
+	{ 0x06001306, fsVersionedType_Equals_m051C07595BCB7037C2E668E0E09D0A4C74A2958F_AdjustorThunk },
+	{ 0x06001307, fsVersionedType_GetHashCode_m02754D5563950758CECD86BE72D69DD7046C47C6_AdjustorThunk },
 };
 static const int32_t s_InvokerIndices[4900] = 
 {
@@ -14108,7 +14108,6 @@ static const int32_t s_InvokerIndices[4900] =
 	5870,
 	4864,
 	5895,
-	6018,
 	4864,
 	5870,
 	4864,
@@ -14142,6 +14141,7 @@ static const int32_t s_InvokerIndices[4900] =
 	4800,
 	5812,
 	4800,
+	6018,
 	6018,
 	6018,
 	4886,
@@ -14436,10 +14436,10 @@ static const int32_t s_InvokerIndices[4900] =
 	4886,
 	6018,
 	6018,
-	4988,
-	6018,
-	6018,
 	4930,
+	6018,
+	6018,
+	4988,
 	6018,
 	6018,
 	4930,
@@ -14746,6 +14746,10 @@ static const int32_t s_InvokerIndices[4900] =
 	5895,
 	5895,
 	5895,
+	7788,
+	7429,
+	7429,
+	7579,
 	6018,
 	1477,
 	7788,
@@ -14764,10 +14768,6 @@ static const int32_t s_InvokerIndices[4900] =
 	6018,
 	5895,
 	5895,
-	7788,
-	7429,
-	7429,
-	7579,
 	0,
 	0,
 	0,
@@ -17125,17 +17125,6 @@ static const int32_t s_InvokerIndices[4900] =
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
 	4886,
 	0,
 	6018,
@@ -17148,6 +17137,17 @@ static const int32_t s_InvokerIndices[4900] =
 	874,
 	455,
 	219,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	0,
 	0,
 	0,
@@ -17695,15 +17695,6 @@ static const int32_t s_InvokerIndices[4900] =
 	8769,
 	8626,
 	8769,
-	7782,
-	7777,
-	7777,
-	7777,
-	7229,
-	7235,
-	8769,
-	6018,
-	4338,
 	8169,
 	8169,
 	8380,
@@ -17725,6 +17716,15 @@ static const int32_t s_InvokerIndices[4900] =
 	6018,
 	8739,
 	6018,
+	7782,
+	7777,
+	7777,
+	7777,
+	7229,
+	7235,
+	8769,
+	6018,
+	4338,
 	0,
 	7579,
 	7777,
@@ -18059,44 +18059,6 @@ static const int32_t s_InvokerIndices[4900] =
 	8739,
 	8769,
 	6018,
-	8769,
-	6018,
-	2894,
-	2892,
-	2183,
-	6018,
-	2889,
-	2892,
-	2183,
-	6018,
-	2894,
-	2892,
-	2183,
-	6018,
-	2894,
-	2892,
-	2183,
-	6018,
-	2894,
-	2892,
-	2183,
-	6018,
-	2890,
-	2892,
-	2183,
-	6018,
-	2891,
-	2892,
-	2183,
-	6018,
-	2894,
-	2892,
-	2183,
-	6018,
-	2897,
-	2892,
-	2183,
-	6018,
 	3555,
 	3555,
 	3555,
@@ -18196,49 +18158,44 @@ static const int32_t s_InvokerIndices[4900] =
 	1526,
 	2183,
 	6018,
-	2802,
-	2802,
-	5895,
-	4886,
-	5895,
-	4886,
-	5812,
-	4800,
-	5812,
-	4800,
-	5895,
-	4886,
-	5895,
-	4886,
-	5812,
-	4800,
-	5812,
-	4800,
-	4886,
-	2802,
-	4338,
-	2802,
-	5895,
-	4886,
-	5812,
-	5812,
-	5895,
-	7788,
-	8769,
-	7429,
-	7579,
-	6670,
-	7075,
 	8769,
 	6018,
-	3555,
-	3555,
-	3555,
+	2894,
+	2892,
+	2183,
 	6018,
-	3555,
+	2889,
+	2892,
+	2183,
 	6018,
-	3555,
-	7788,
+	2894,
+	2892,
+	2183,
+	6018,
+	2894,
+	2892,
+	2183,
+	6018,
+	2894,
+	2892,
+	2183,
+	6018,
+	2890,
+	2892,
+	2183,
+	6018,
+	2891,
+	2892,
+	2183,
+	6018,
+	2894,
+	2892,
+	2183,
+	6018,
+	2897,
+	2892,
+	2183,
+	6018,
 	8739,
 	7074,
 	7425,
@@ -18317,6 +18274,7 @@ static const int32_t s_InvokerIndices[4900] =
 	0,
 	2802,
 	1481,
+	6018,
 	0,
 	0,
 	0,
@@ -18330,7 +18288,6 @@ static const int32_t s_InvokerIndices[4900] =
 	3555,
 	2802,
 	2802,
-	6018,
 	6018,
 	4886,
 	5107,
@@ -18433,6 +18390,49 @@ static const int32_t s_InvokerIndices[4900] =
 	2588,
 	6018,
 	6018,
+	2802,
+	2802,
+	5895,
+	4886,
+	5895,
+	4886,
+	5812,
+	4800,
+	5812,
+	4800,
+	5895,
+	4886,
+	5895,
+	4886,
+	5812,
+	4800,
+	5812,
+	4800,
+	4886,
+	2802,
+	4338,
+	2802,
+	5895,
+	4886,
+	5812,
+	5812,
+	5895,
+	7788,
+	8769,
+	7429,
+	7579,
+	6670,
+	7075,
+	8769,
+	6018,
+	3555,
+	3555,
+	3555,
+	6018,
+	3555,
+	6018,
+	3555,
+	7788,
 	6018,
 	5812,
 	4335,
@@ -18491,18 +18491,18 @@ static const int32_t s_InvokerIndices[4900] =
 	7777,
 	6018,
 	4338,
-	7454,
-	7079,
-	8112,
-	8638,
-	8638,
-	8769,
 	4338,
 	5895,
 	7632,
 	7632,
 	3555,
 	5870,
+	7454,
+	7079,
+	8112,
+	8638,
+	8638,
+	8769,
 	3555,
 	3555,
 	1526,
@@ -18571,23 +18571,23 @@ static const Il2CppTokenRangePair s_rgctxIndices[250] =
 	{ 0x020000D8, { 835, 13 } },
 	{ 0x02000109, { 893, 4 } },
 	{ 0x02000136, { 901, 3 } },
-	{ 0x0200013D, { 904, 2 } },
-	{ 0x0200013E, { 906, 11 } },
-	{ 0x0200013F, { 917, 14 } },
-	{ 0x02000140, { 931, 17 } },
-	{ 0x02000141, { 948, 20 } },
-	{ 0x02000142, { 968, 23 } },
-	{ 0x02000143, { 991, 26 } },
-	{ 0x02000144, { 1017, 21 } },
-	{ 0x02000145, { 1038, 3 } },
-	{ 0x02000146, { 1041, 12 } },
-	{ 0x02000147, { 1053, 15 } },
-	{ 0x02000148, { 1068, 18 } },
-	{ 0x02000149, { 1086, 21 } },
-	{ 0x0200014A, { 1107, 24 } },
-	{ 0x0200014B, { 1131, 27 } },
-	{ 0x0200014C, { 1158, 4 } },
-	{ 0x0200014D, { 1162, 16 } },
+	{ 0x0200013B, { 904, 2 } },
+	{ 0x0200013C, { 906, 11 } },
+	{ 0x0200013D, { 917, 14 } },
+	{ 0x0200013E, { 931, 17 } },
+	{ 0x0200013F, { 948, 20 } },
+	{ 0x02000140, { 968, 23 } },
+	{ 0x02000141, { 991, 26 } },
+	{ 0x02000142, { 1017, 21 } },
+	{ 0x02000143, { 1038, 3 } },
+	{ 0x02000144, { 1041, 12 } },
+	{ 0x02000145, { 1053, 15 } },
+	{ 0x02000146, { 1068, 18 } },
+	{ 0x02000147, { 1086, 21 } },
+	{ 0x02000148, { 1107, 24 } },
+	{ 0x02000149, { 1131, 27 } },
+	{ 0x0200014A, { 1158, 4 } },
+	{ 0x0200014B, { 1162, 16 } },
 	{ 0x02000157, { 1180, 12 } },
 	{ 0x02000158, { 1192, 15 } },
 	{ 0x02000159, { 1207, 18 } },
@@ -18621,7 +18621,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[250] =
 	{ 0x020001BD, { 1751, 5 } },
 	{ 0x020001C3, { 1764, 4 } },
 	{ 0x020001C4, { 1768, 5 } },
-	{ 0x02000205, { 1790, 5 } },
+	{ 0x020001FE, { 1790, 5 } },
 	{ 0x02000217, { 1800, 1 } },
 	{ 0x0600003B, { 6, 1 } },
 	{ 0x0600003D, { 7, 1 } },
@@ -18722,20 +18722,20 @@ static const Il2CppTokenRangePair s_rgctxIndices[250] =
 	{ 0x0600067C, { 882, 5 } },
 	{ 0x06000783, { 887, 6 } },
 	{ 0x06000D30, { 897, 4 } },
-	{ 0x06000DB8, { 1178, 1 } },
+	{ 0x06000DAD, { 1178, 1 } },
 	{ 0x06000DCF, { 1179, 1 } },
 	{ 0x06000E82, { 1422, 2 } },
 	{ 0x06000E83, { 1424, 2 } },
 	{ 0x06000F77, { 1426, 1 } },
 	{ 0x06000F78, { 1427, 2 } },
-	{ 0x06000FF2, { 1481, 1 } },
-	{ 0x06000FF3, { 1482, 3 } },
-	{ 0x06000FF4, { 1485, 2 } },
-	{ 0x06000FF5, { 1487, 2 } },
-	{ 0x06000FF6, { 1489, 2 } },
-	{ 0x06000FF7, { 1491, 2 } },
-	{ 0x06000FF8, { 1493, 2 } },
-	{ 0x06000FF9, { 1495, 2 } },
+	{ 0x06000FE9, { 1481, 1 } },
+	{ 0x06000FEA, { 1482, 3 } },
+	{ 0x06000FEB, { 1485, 2 } },
+	{ 0x06000FEC, { 1487, 2 } },
+	{ 0x06000FED, { 1489, 2 } },
+	{ 0x06000FEE, { 1491, 2 } },
+	{ 0x06000FEF, { 1493, 2 } },
+	{ 0x06000FF0, { 1495, 2 } },
 	{ 0x06001007, { 1503, 8 } },
 	{ 0x06001013, { 1515, 2 } },
 	{ 0x06001014, { 1517, 4 } },
@@ -18764,16 +18764,16 @@ static const Il2CppTokenRangePair s_rgctxIndices[250] =
 	{ 0x060010C9, { 1757, 5 } },
 	{ 0x060010CA, { 1762, 2 } },
 	{ 0x0600111A, { 1773, 2 } },
-	{ 0x06001191, { 1775, 4 } },
-	{ 0x06001216, { 1779, 2 } },
-	{ 0x06001217, { 1781, 2 } },
-	{ 0x06001222, { 1783, 2 } },
-	{ 0x06001223, { 1785, 1 } },
-	{ 0x06001224, { 1786, 2 } },
-	{ 0x06001243, { 1788, 2 } },
-	{ 0x060012A1, { 1795, 1 } },
-	{ 0x060012A6, { 1796, 2 } },
-	{ 0x060012A7, { 1798, 2 } },
+	{ 0x0600116B, { 1775, 4 } },
+	{ 0x060011EB, { 1779, 2 } },
+	{ 0x060011EC, { 1781, 2 } },
+	{ 0x060011F7, { 1783, 2 } },
+	{ 0x060011F8, { 1785, 1 } },
+	{ 0x060011F9, { 1786, 2 } },
+	{ 0x06001218, { 1788, 2 } },
+	{ 0x06001276, { 1795, 1 } },
+	{ 0x0600127B, { 1796, 2 } },
+	{ 0x0600127C, { 1798, 2 } },
 	{ 0x060012D8, { 1801, 2 } },
 	{ 0x060012D9, { 1803, 1 } },
 	{ 0x060012DA, { 1804, 1 } },

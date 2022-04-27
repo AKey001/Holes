@@ -7,54 +7,57 @@ using UnityEngine.Localization.Settings;
 
 public class SettingsManager : MonoBehaviour
 {
-    // public AudioMixer musicMixer;
-    // public AudioMixer sfxMixer;
+    public AudioMixer mixer;
     private SettingState state;
 
-    private IEnumerator Start()
+    IEnumerator Start()
     {
-        yield return LocalizationSettings.InitializationOperation;
         state = PersistenceManager.LoadState();
         if (state == null)
         {
             state = new SettingState
             {
                 language = 0,
-                quality = 2,
+                quality = 0,
                 gyroEnabled = true,
-                sfxVolume = 0f,
-                musicVolume = 0f
+                sfxVolume = 1f,
+                musicVolume = 1f
             };
         }
-        //ChangeMusicVolume(state.musicVolume);
-        //ChangeSFXVolume(state.sfxVolume);
-        ChangeLanguage(state.language);
+        ChangeMusicVolume(state.musicVolume);
+        ChangeSFXVolume(state.sfxVolume);
         ChangeQuality(state.quality);
         ChangeGyro(state.gyroEnabled);
+        
+        yield return LocalizationSettings.InitializationOperation;
+        ChangeLanguage(state.language);
     }
-    
+
     private void UpdateSavedState()
     {
         PersistenceManager.SaveSettings(state);
     }
 
-    // public void ChangeMusicVolume(float volume)
-    // {
-    //     musicMixer.SetFloat("music", volume);
-    //     state.musicVolume = volume;
-    //     UpdateSavedState();
-    // }
-    //
-    // public void ChangeSFXVolume(float volume)
-    // {
-    //     sfxMixer.SetFloat("sfx", volume);
-    //     state.sfxVolume = volume;
-    //     UpdateSavedState();
-    // }
+    public void ChangeMusicVolume(float volume)
+    {
+        print(volume);
+        state.musicVolume = volume;
+        volume = Mathf.Log10(volume) * 20;
+        mixer.SetFloat("music", volume);
+        UpdateSavedState();
+    }
+    
+    public void ChangeSFXVolume(float volume)
+    {
+        print(volume);
+        state.sfxVolume = volume;
+        volume = Mathf.Log10(volume) * 20;
+        mixer.SetFloat("sfx", volume);
+        UpdateSavedState();
+    }
 
     public void ChangeLanguage(int index)
     {
-        print(index);
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
         state.language = index;
         UpdateSavedState();

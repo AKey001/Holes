@@ -5,13 +5,13 @@ using UnityEngine;
 public class PanelManager : MonoBehaviour
 {
     
-    public void Open(GameObject gameObject)
+    public void Open(GameObject gameObjectToOpen)
     {
-        gameObject.SetActive(true);
+        gameObjectToOpen.SetActive(true);
     }
 
-    public void Close(GameObject gameObject)
+    public void Close(GameObject gameObjectToClose)
     {
-        gameObject.SetActive(false);
+        gameObjectToClose.SetActive(false);
     }
 }

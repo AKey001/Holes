@@ -22,6 +22,26 @@ MonoBehaviour:
     m_Localized: Settings
     m_Metadata:
       m_Items: []
+  - m_Id: 2281608955785216
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281664932966400
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281702874640384
+    m_Localized: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281788279058432
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281924518440960
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

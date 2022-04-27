@@ -19,6 +19,26 @@ MonoBehaviour:
     m_Key: settings
     m_Metadata:
       m_Items: []
+  - m_Id: 2281608955785216
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281664932966400
+    m_Key: music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281702874640384
+    m_Key: sfx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281788279058432
+    m_Key: quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2281924518440960
+    m_Key: control
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -634,57 +634,57 @@ extern void InstantiationParameters__ctor_mEFAF8D103303B2D9763B17BAB322E06931F13
 // 0x0000016A TObject UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::Instantiate(TObject)
 // 0x0000016B UnityEngine.GameObject UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider::ProvideInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>,UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters)
 // 0x0000016C System.Void UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider::ReleaseInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.GameObject)
-// 0x0000016D System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::.ctor(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation)
-extern void ProvideHandle__ctor_m747E40C8B08DBF3EB4276D7B0836C0F0D5B59B0A (void);
-// 0x0000016E UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_InternalOp()
-extern void ProvideHandle_get_InternalOp_m1C141F1D99C5BD7F5AA1E973272462966BF0FEAE (void);
-// 0x0000016F UnityEngine.ResourceManagement.ResourceManager UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_ResourceManager()
-extern void ProvideHandle_get_ResourceManager_m21C0C0B4C590B19E601BF83ACEA612EAF3B62262 (void);
-// 0x00000170 System.Type UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_Type()
-extern void ProvideHandle_get_Type_mD0CC7F89812DD44851B9D52DA6960B1671A86559 (void);
-// 0x00000171 UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_Location()
-extern void ProvideHandle_get_Location_m90F975C77A98EB20A2C3B9135D629AB0F04FFA79 (void);
-// 0x00000172 System.Int32 UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_DependencyCount()
-extern void ProvideHandle_get_DependencyCount_mA960290D798128400EBF3411B6B005F3F215A451 (void);
-// 0x00000173 TDepObject UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::GetDependency(System.Int32)
-// 0x00000174 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::GetDependencies(System.Collections.Generic.IList`1<System.Object>)
-extern void ProvideHandle_GetDependencies_m369FC67ECDB4E574C6BC9961896C384189EAFBAD (void);
-// 0x00000175 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetProgressCallback(System.Func`1<System.Single>)
-extern void ProvideHandle_SetProgressCallback_m5D44473DCD8CEB54FB41063B2C2105220822094D (void);
-// 0x00000176 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus>)
-extern void ProvideHandle_SetDownloadProgressCallbacks_m9FB675CA1837DD5CF495B393170257B8EE06C145 (void);
-// 0x00000177 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetWaitForCompletionCallback(System.Func`1<System.Boolean>)
-extern void ProvideHandle_SetWaitForCompletionCallback_m2B606A689DD5A940581F9C0F87C4B6B6714BE7A2 (void);
-// 0x00000178 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::Complete(T,System.Boolean,System.Exception)
-// 0x00000179 System.String UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::get_ProviderId()
-// 0x0000017A System.Type UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::GetDefaultType(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
-// 0x0000017B System.Boolean UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::CanProvide(System.Type,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
-// 0x0000017C System.Void UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle)
-// 0x0000017D System.Void UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.Object)
-// 0x0000017E UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::get_BehaviourFlags()
-// 0x0000017F UnityEngine.SceneManagement.Scene UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::get_Scene()
-extern void SceneInstance_get_Scene_m4A9A4A43AFC047DD8FB2DF665C499A09296CBA58 (void);
-// 0x00000180 System.Void UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::set_Scene(UnityEngine.SceneManagement.Scene)
-extern void SceneInstance_set_Scene_mD929C70C4FEF4B9599C1A6A5C22CE787C433A06C (void);
-// 0x00000181 System.Void UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::Activate()
-extern void SceneInstance_Activate_m87D5B5E1C820F1666917198300E36DABFCA9EF29 (void);
-// 0x00000182 UnityEngine.AsyncOperation UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::ActivateAsync()
-extern void SceneInstance_ActivateAsync_mA5740ABD2A826DB7CCCA83C62F31AA8448DE08C6 (void);
-// 0x00000183 System.Int32 UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::GetHashCode()
-extern void SceneInstance_GetHashCode_m0C1E8F653E55633F9897B5FC62D7D4B7B1D340F4 (void);
-// 0x00000184 System.Boolean UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::Equals(System.Object)
-extern void SceneInstance_Equals_m10E8D14BA2C3057166479C12D2514056E8ACB6AD (void);
-// 0x00000185 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider::ProvideScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.SceneManagement.LoadSceneMode,System.Boolean,System.Int32)
-// 0x00000186 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider::ReleaseScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
-// 0x00000187 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2::ReleaseScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions)
-// 0x00000188 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.SceneProviderExtensions::ReleaseScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider,UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions)
-extern void SceneProviderExtensions_ReleaseScene_m2AF033AE9F34DF57A72C775CB2493EC217490228 (void);
-// 0x00000189 UnityEngine.GameObject UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::ProvideInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>,UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters)
+// 0x0000016D UnityEngine.GameObject UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::ProvideInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>,UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters)
 extern void InstanceProvider_ProvideInstance_m6DE99248B2973F0839880FC3FD240037A3350DF8 (void);
-// 0x0000018A System.Void UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::ReleaseInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.GameObject)
+// 0x0000016E System.Void UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::ReleaseInstance(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.GameObject)
 extern void InstanceProvider_ReleaseInstance_m52D21820C36D02F3E2C0C7C89C0511648FF66A59 (void);
-// 0x0000018B System.Void UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::.ctor()
+// 0x0000016F System.Void UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider::.ctor()
 extern void InstanceProvider__ctor_mF4CD1E6C8E301646D4667748D12B70556B800DB2 (void);
+// 0x00000170 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::.ctor(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation)
+extern void ProvideHandle__ctor_m747E40C8B08DBF3EB4276D7B0836C0F0D5B59B0A (void);
+// 0x00000171 UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_InternalOp()
+extern void ProvideHandle_get_InternalOp_m1C141F1D99C5BD7F5AA1E973272462966BF0FEAE (void);
+// 0x00000172 UnityEngine.ResourceManagement.ResourceManager UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_ResourceManager()
+extern void ProvideHandle_get_ResourceManager_m21C0C0B4C590B19E601BF83ACEA612EAF3B62262 (void);
+// 0x00000173 System.Type UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_Type()
+extern void ProvideHandle_get_Type_mD0CC7F89812DD44851B9D52DA6960B1671A86559 (void);
+// 0x00000174 UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_Location()
+extern void ProvideHandle_get_Location_m90F975C77A98EB20A2C3B9135D629AB0F04FFA79 (void);
+// 0x00000175 System.Int32 UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::get_DependencyCount()
+extern void ProvideHandle_get_DependencyCount_mA960290D798128400EBF3411B6B005F3F215A451 (void);
+// 0x00000176 TDepObject UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::GetDependency(System.Int32)
+// 0x00000177 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::GetDependencies(System.Collections.Generic.IList`1<System.Object>)
+extern void ProvideHandle_GetDependencies_m369FC67ECDB4E574C6BC9961896C384189EAFBAD (void);
+// 0x00000178 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetProgressCallback(System.Func`1<System.Single>)
+extern void ProvideHandle_SetProgressCallback_m5D44473DCD8CEB54FB41063B2C2105220822094D (void);
+// 0x00000179 System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetDownloadProgressCallbacks(System.Func`1<UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus>)
+extern void ProvideHandle_SetDownloadProgressCallbacks_m9FB675CA1837DD5CF495B393170257B8EE06C145 (void);
+// 0x0000017A System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::SetWaitForCompletionCallback(System.Func`1<System.Boolean>)
+extern void ProvideHandle_SetWaitForCompletionCallback_m2B606A689DD5A940581F9C0F87C4B6B6714BE7A2 (void);
+// 0x0000017B System.Void UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::Complete(T,System.Boolean,System.Exception)
+// 0x0000017C System.String UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::get_ProviderId()
+// 0x0000017D System.Type UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::GetDefaultType(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+// 0x0000017E System.Boolean UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::CanProvide(System.Type,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation)
+// 0x0000017F System.Void UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::Provide(UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle)
+// 0x00000180 System.Void UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::Release(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,System.Object)
+// 0x00000181 UnityEngine.ResourceManagement.ResourceProviders.ProviderBehaviourFlags UnityEngine.ResourceManagement.ResourceProviders.IResourceProvider::get_BehaviourFlags()
+// 0x00000182 UnityEngine.SceneManagement.Scene UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::get_Scene()
+extern void SceneInstance_get_Scene_m4A9A4A43AFC047DD8FB2DF665C499A09296CBA58 (void);
+// 0x00000183 System.Void UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::set_Scene(UnityEngine.SceneManagement.Scene)
+extern void SceneInstance_set_Scene_mD929C70C4FEF4B9599C1A6A5C22CE787C433A06C (void);
+// 0x00000184 System.Void UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::Activate()
+extern void SceneInstance_Activate_m87D5B5E1C820F1666917198300E36DABFCA9EF29 (void);
+// 0x00000185 UnityEngine.AsyncOperation UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::ActivateAsync()
+extern void SceneInstance_ActivateAsync_mA5740ABD2A826DB7CCCA83C62F31AA8448DE08C6 (void);
+// 0x00000186 System.Int32 UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::GetHashCode()
+extern void SceneInstance_GetHashCode_m0C1E8F653E55633F9897B5FC62D7D4B7B1D340F4 (void);
+// 0x00000187 System.Boolean UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::Equals(System.Object)
+extern void SceneInstance_Equals_m10E8D14BA2C3057166479C12D2514056E8ACB6AD (void);
+// 0x00000188 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider::ProvideScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation,UnityEngine.SceneManagement.LoadSceneMode,System.Boolean,System.Int32)
+// 0x00000189 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider::ReleaseScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>)
+// 0x0000018A UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2::ReleaseScene(UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions)
+// 0x0000018B UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> UnityEngine.ResourceManagement.ResourceProviders.SceneProviderExtensions::ReleaseScene(UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider,UnityEngine.ResourceManagement.ResourceManager,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>,UnityEngine.SceneManagement.UnloadSceneOptions)
+extern void SceneProviderExtensions_ReleaseScene_m2AF033AE9F34DF57A72C775CB2493EC217490228 (void);
 // 0x0000018C System.Object UnityEngine.ResourceManagement.ResourceProviders.JsonAssetProvider::Convert(System.Type,System.String)
 extern void JsonAssetProvider_Convert_m6FA7F7A940C19DA1E361CCE24898B243EEBBD75E (void);
 // 0x0000018D System.Void UnityEngine.ResourceManagement.ResourceProviders.JsonAssetProvider::.ctor()
@@ -1576,6 +1576,9 @@ static Il2CppMethodPointer s_methodPointers[750] =
 	NULL,
 	NULL,
 	NULL,
+	InstanceProvider_ProvideInstance_m6DE99248B2973F0839880FC3FD240037A3350DF8,
+	InstanceProvider_ReleaseInstance_m52D21820C36D02F3E2C0C7C89C0511648FF66A59,
+	InstanceProvider__ctor_mF4CD1E6C8E301646D4667748D12B70556B800DB2,
 	ProvideHandle__ctor_m747E40C8B08DBF3EB4276D7B0836C0F0D5B59B0A,
 	ProvideHandle_get_InternalOp_m1C141F1D99C5BD7F5AA1E973272462966BF0FEAE,
 	ProvideHandle_get_ResourceManager_m21C0C0B4C590B19E601BF83ACEA612EAF3B62262,
@@ -1604,9 +1607,6 @@ static Il2CppMethodPointer s_methodPointers[750] =
 	NULL,
 	NULL,
 	SceneProviderExtensions_ReleaseScene_m2AF033AE9F34DF57A72C775CB2493EC217490228,
-	InstanceProvider_ProvideInstance_m6DE99248B2973F0839880FC3FD240037A3350DF8,
-	InstanceProvider_ReleaseInstance_m52D21820C36D02F3E2C0C7C89C0511648FF66A59,
-	InstanceProvider__ctor_mF4CD1E6C8E301646D4667748D12B70556B800DB2,
 	JsonAssetProvider_Convert_m6FA7F7A940C19DA1E361CCE24898B243EEBBD75E,
 	JsonAssetProvider__ctor_mB9C7EE8BCD28AA4995F2B29CB3041582769740C2,
 	LegacyResourcesProvider_Provide_mB180B8328373F2A6B219A68631AA4B536BC09DBE,
@@ -2084,22 +2084,22 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[88] =
 	{ 0x06000167, InstantiationParameters_get_SetPositionRotation_m089FF9C21E2840258CE80BB9E77E35F3C2E710B3_AdjustorThunk },
 	{ 0x06000168, InstantiationParameters__ctor_mE2B0DEA67D18FA4C6B5A37BC07629A1364D6B107_AdjustorThunk },
 	{ 0x06000169, InstantiationParameters__ctor_mEFAF8D103303B2D9763B17BAB322E06931F13306_AdjustorThunk },
-	{ 0x0600016D, ProvideHandle__ctor_m747E40C8B08DBF3EB4276D7B0836C0F0D5B59B0A_AdjustorThunk },
-	{ 0x0600016E, ProvideHandle_get_InternalOp_m1C141F1D99C5BD7F5AA1E973272462966BF0FEAE_AdjustorThunk },
-	{ 0x0600016F, ProvideHandle_get_ResourceManager_m21C0C0B4C590B19E601BF83ACEA612EAF3B62262_AdjustorThunk },
-	{ 0x06000170, ProvideHandle_get_Type_mD0CC7F89812DD44851B9D52DA6960B1671A86559_AdjustorThunk },
-	{ 0x06000171, ProvideHandle_get_Location_m90F975C77A98EB20A2C3B9135D629AB0F04FFA79_AdjustorThunk },
-	{ 0x06000172, ProvideHandle_get_DependencyCount_mA960290D798128400EBF3411B6B005F3F215A451_AdjustorThunk },
-	{ 0x06000174, ProvideHandle_GetDependencies_m369FC67ECDB4E574C6BC9961896C384189EAFBAD_AdjustorThunk },
-	{ 0x06000175, ProvideHandle_SetProgressCallback_m5D44473DCD8CEB54FB41063B2C2105220822094D_AdjustorThunk },
-	{ 0x06000176, ProvideHandle_SetDownloadProgressCallbacks_m9FB675CA1837DD5CF495B393170257B8EE06C145_AdjustorThunk },
-	{ 0x06000177, ProvideHandle_SetWaitForCompletionCallback_m2B606A689DD5A940581F9C0F87C4B6B6714BE7A2_AdjustorThunk },
-	{ 0x0600017F, SceneInstance_get_Scene_m4A9A4A43AFC047DD8FB2DF665C499A09296CBA58_AdjustorThunk },
-	{ 0x06000180, SceneInstance_set_Scene_mD929C70C4FEF4B9599C1A6A5C22CE787C433A06C_AdjustorThunk },
-	{ 0x06000181, SceneInstance_Activate_m87D5B5E1C820F1666917198300E36DABFCA9EF29_AdjustorThunk },
-	{ 0x06000182, SceneInstance_ActivateAsync_mA5740ABD2A826DB7CCCA83C62F31AA8448DE08C6_AdjustorThunk },
-	{ 0x06000183, SceneInstance_GetHashCode_m0C1E8F653E55633F9897B5FC62D7D4B7B1D340F4_AdjustorThunk },
-	{ 0x06000184, SceneInstance_Equals_m10E8D14BA2C3057166479C12D2514056E8ACB6AD_AdjustorThunk },
+	{ 0x06000170, ProvideHandle__ctor_m747E40C8B08DBF3EB4276D7B0836C0F0D5B59B0A_AdjustorThunk },
+	{ 0x06000171, ProvideHandle_get_InternalOp_m1C141F1D99C5BD7F5AA1E973272462966BF0FEAE_AdjustorThunk },
+	{ 0x06000172, ProvideHandle_get_ResourceManager_m21C0C0B4C590B19E601BF83ACEA612EAF3B62262_AdjustorThunk },
+	{ 0x06000173, ProvideHandle_get_Type_mD0CC7F89812DD44851B9D52DA6960B1671A86559_AdjustorThunk },
+	{ 0x06000174, ProvideHandle_get_Location_m90F975C77A98EB20A2C3B9135D629AB0F04FFA79_AdjustorThunk },
+	{ 0x06000175, ProvideHandle_get_DependencyCount_mA960290D798128400EBF3411B6B005F3F215A451_AdjustorThunk },
+	{ 0x06000177, ProvideHandle_GetDependencies_m369FC67ECDB4E574C6BC9961896C384189EAFBAD_AdjustorThunk },
+	{ 0x06000178, ProvideHandle_SetProgressCallback_m5D44473DCD8CEB54FB41063B2C2105220822094D_AdjustorThunk },
+	{ 0x06000179, ProvideHandle_SetDownloadProgressCallbacks_m9FB675CA1837DD5CF495B393170257B8EE06C145_AdjustorThunk },
+	{ 0x0600017A, ProvideHandle_SetWaitForCompletionCallback_m2B606A689DD5A940581F9C0F87C4B6B6714BE7A2_AdjustorThunk },
+	{ 0x06000182, SceneInstance_get_Scene_m4A9A4A43AFC047DD8FB2DF665C499A09296CBA58_AdjustorThunk },
+	{ 0x06000183, SceneInstance_set_Scene_mD929C70C4FEF4B9599C1A6A5C22CE787C433A06C_AdjustorThunk },
+	{ 0x06000184, SceneInstance_Activate_m87D5B5E1C820F1666917198300E36DABFCA9EF29_AdjustorThunk },
+	{ 0x06000185, SceneInstance_ActivateAsync_mA5740ABD2A826DB7CCCA83C62F31AA8448DE08C6_AdjustorThunk },
+	{ 0x06000186, SceneInstance_GetHashCode_m0C1E8F653E55633F9897B5FC62D7D4B7B1D340F4_AdjustorThunk },
+	{ 0x06000187, SceneInstance_Equals_m10E8D14BA2C3057166479C12D2514056E8ACB6AD_AdjustorThunk },
 	{ 0x060001F3, DiagnosticEvent_get_Graph_m670206480E0149C55B547DF779321DFE8EF9436B_AdjustorThunk },
 	{ 0x060001F4, DiagnosticEvent_get_ObjectId_mF6D69C8148C581548D9CF4C21293F6A8300DAC75_AdjustorThunk },
 	{ 0x060001F5, DiagnosticEvent_get_DisplayName_m02754B60C44C78A265F62732A3395470BEAA39CA_AdjustorThunk },
@@ -2508,6 +2508,9 @@ static const int32_t s_InvokerIndices[750] =
 	0,
 	0,
 	0,
+	1277,
+	2802,
+	6018,
 	2802,
 	5895,
 	5895,
@@ -2536,9 +2539,6 @@ static const int32_t s_InvokerIndices[750] =
 	0,
 	0,
 	6622,
-	1277,
-	2802,
-	6018,
 	2183,
 	6018,
 	4902,
@@ -2931,8 +2931,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[39] =
 	{ 0x0600010D, { 204, 2 } },
 	{ 0x06000156, { 206, 1 } },
 	{ 0x0600016A, { 207, 4 } },
-	{ 0x06000173, { 211, 1 } },
-	{ 0x06000178, { 212, 1 } },
+	{ 0x06000176, { 211, 1 } },
+	{ 0x0600017B, { 212, 1 } },
 	{ 0x060002A2, { 308, 2 } },
 	{ 0x060002E6, { 325, 1 } },
 	{ 0x060002E8, { 326, 6 } },
