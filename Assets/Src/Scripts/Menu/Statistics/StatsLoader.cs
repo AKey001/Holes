@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using NativeAndroidElements;
 using TMPro;
 using UnityEngine;
+using waqashaxhmi.AndroidNativePlugin;
 
 public class StatsLoader : MonoBehaviour
 {
@@ -21,20 +23,25 @@ public class StatsLoader : MonoBehaviour
 
     public void LoadStats()
     {
-        PlayGamesPlatform.Instance.Events.FetchAllEvents(DataSource.ReadNetworkOnly, (status, list) =>
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
-            string Status = "Fetch All Status: " + status + "\n";
-            print(Status);
-            
-            completedLevels.text = list[0].CurrentCount + "";
-            falls.text = list[1].CurrentCount + "";
-            attempts.text = list[2].CurrentCount + "";
-            collectedStars.text = list[3].CurrentCount + "";
-            playTimes.text = formatTime(list[4].CurrentCount);
-            // playTimes.text = formatTime(9762938000); 112d 23h 55m 38s
-            // time = 1122938;
+            PlayGamesPlatform.Instance.Events.FetchAllEvents(DataSource.ReadNetworkOnly, (status, list) =>
+            {
+                string Status = "Fetch All Status: " + status + "\n";
+                print(Status);
 
-        });
+                completedLevels.text = list[0].CurrentCount + "";
+                falls.text = list[1].CurrentCount + "";
+                attempts.text = list[2].CurrentCount + "";
+                collectedStars.text = list[3].CurrentCount + "";
+                playTimes.text = formatTime(list[4].CurrentCount);
+                // playTimes.text = formatTime(9762938000); 112d 23h 55m 38s
+                // time = 1122938;
+
+            });
+        }
+        
+        Toast.Show("Test", Toast.LENGTH_SHORT);
     }
 
     private string formatTime(float millis)

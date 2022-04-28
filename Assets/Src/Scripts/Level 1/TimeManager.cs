@@ -53,7 +53,7 @@ public class TimeManager : MonoBehaviour
         attempts.text = "0";
         paused = false;
 
-        ball.GetComponent<Rigidbody>().useGravity = false;
+        // ball.GetComponent<Rigidbody>().useGravity = false;
         // FinishPanel.SetActive(false);
         // ball.SetActive(false);
         // platform.GetComponent<PlatformController>().enabled = false;
@@ -95,7 +95,7 @@ public class TimeManager : MonoBehaviour
                 {
                     platform.GetComponent<PlatformController>().enabled = true;
                     countdownPanel.SetActive(false);
-                    ball.GetComponent<Rigidbody>().useGravity = true;
+                    // ball.GetComponent<Rigidbody>().useGravity = true;
 
                     timeRemaining = 0;
                     timerIsRunning = false;
@@ -211,6 +211,14 @@ public class TimeManager : MonoBehaviour
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
             PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b => { });
         }
+    }
+
+    public void Calibrate()
+    {
+        platform.transform.rotation = Quaternion.Euler(Vector3.zero);
+        Vector3 position = ball.transform.position;
+        position.y = 0.03f;
+        ball.transform.position = position;
     }
 
     private void OnDestroy()

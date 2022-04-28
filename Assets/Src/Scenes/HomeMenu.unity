@@ -254,7 +254,6 @@ GameObject:
   m_Component:
   - component: {fileID: 47118268}
   - component: {fileID: 47118267}
-  - component: {fileID: 47118269}
   m_Layer: 0
   m_Name: SettingsManager
   m_TagString: Untagged
@@ -290,23 +289,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &47118269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47118266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ecd1095b2055c348a51b859c156905d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  language: {fileID: 1292667804}
-  musicSlider: {fileID: 1228333459}
-  sfxSlider: {fileID: 1371920645}
-  quality: {fileID: 287941371}
-  gyroEnabled: {fileID: 1357773787}
 --- !u!1 &57947838
 GameObject:
   m_ObjectHideFlags: 0
@@ -4169,6 +4151,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771459944}
   m_CullTransparentMesh: 0
+--- !u!1 &792984454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 792984456}
+  - component: {fileID: 792984455}
+  m_Layer: 0
+  m_Name: AndroidPlugin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &792984455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792984454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb58cf1697d44caea924fe2abed8388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &792984456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792984454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 552.85956, y: 283.2018, z: 1.1104473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804044151
 GameObject:
   m_ObjectHideFlags: 0
@@ -8480,6 +8506,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687566626}
   m_CullTransparentMesh: 0
+--- !u!1 &1702072638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1702072640}
+  - component: {fileID: 1702072639}
+  m_Layer: 0
+  m_Name: SynchronizeSettingsUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1702072639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702072638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecd1095b2055c348a51b859c156905d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: {fileID: 1292667804}
+  musicSlider: {fileID: 1228333459}
+  sfxSlider: {fileID: 1371920645}
+  quality: {fileID: 287941371}
+  gyroEnabled: {fileID: 1357773787}
+--- !u!4 &1702072640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702072638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 552.85956, y: 283.2018, z: 1.1104473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702555762
 GameObject:
   m_ObjectHideFlags: 0
@@ -9669,7 +9744,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1999518856}
         m_TargetAssemblyTypeName: PanelManager, Assembly-CSharp
-        m_MethodName: Open
+        m_MethodName: OpenWithGPGS
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 815664111}

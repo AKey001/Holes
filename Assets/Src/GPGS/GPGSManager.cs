@@ -24,18 +24,21 @@ public class GPGSManager : MonoBehaviour
 
     void Start()
     {
-        PlayGamesPlatform.Instance.LoadScores(
-            GPGSIds.leaderboard_classic_wood,
-            LeaderboardStart.PlayerCentered,
-            1,
-            LeaderboardCollection.Public,
-            LeaderboardTimeSpan.AllTime,
-            (data) =>
-            {
-                print(data);
-                // mStatus = "Leaderboard data valid: " + data.Valid;
-                // mStatus += "\n approx:" +data.ApproximateCount + " have " + data.Scores.Length;
-            });
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.LoadScores(
+                GPGSIds.leaderboard_classic_wood,
+                LeaderboardStart.PlayerCentered,
+                1,
+                LeaderboardCollection.Public,
+                LeaderboardTimeSpan.AllTime,
+                (data) =>
+                {
+                    print(data);
+                    // mStatus = "Leaderboard data valid: " + data.Valid;
+                    // mStatus += "\n approx:" +data.ApproximateCount + " have " + data.Scores.Length;
+                }); 
+        }
     }
 
 
@@ -48,7 +51,19 @@ public class GPGSManager : MonoBehaviour
         } else {
             // Disable your integration with Play Games Services or show a login button
             // to ask users to sign-in. Clicking it should call
-            PlayGamesPlatform.Instance.ManuallyAuthenticate(ProcessAuthentication);
+            PlayGamesPlatform.Instance.ManuallyAuthenticate(ManualAuthentication);
+        }
+    }
+    
+    internal void ManualAuthentication(SignInStatus status) {
+        if (status == SignInStatus.Success) {
+            // Continue with Play Games Services
+            print("authenticated: " + status);
+            string text = PlayGamesPlatform.Instance.GetUserId() + " " + PlayGamesPlatform.Instance.GetUserDisplayName();
+            print(text);
+        } else {
+            // Disable your integration with Play Games Services or show a login button
+            // to ask users to sign-in. Clicking it should call
         }
     }
 }

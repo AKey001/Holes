@@ -12,7 +12,6 @@ public class Ball : MonoBehaviour
     public GameObject ground;
     public CameraController cameraController;
     public TimeManager timeManager;
-    public AudioSource starSound;
     
     void Start()
     {

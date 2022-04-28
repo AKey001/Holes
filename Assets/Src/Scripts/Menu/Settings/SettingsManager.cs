@@ -10,6 +10,22 @@ public class SettingsManager : MonoBehaviour
     public AudioMixer mixer;
     private SettingState state;
 
+    public static SettingsManager instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+
     IEnumerator Start()
     {
         state = PersistenceManager.LoadState();

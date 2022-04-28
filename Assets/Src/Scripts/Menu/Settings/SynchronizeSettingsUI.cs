@@ -23,8 +23,5 @@ public class SynchronizeSettingsUI : MonoBehaviour
         sfxSlider.SetValueWithoutNotify(state.sfxVolume);
         quality.SetValueWithoutNotify(state.quality);
         gyroEnabled.SetValue(state.gyroEnabled);
-        
-        
-        print("sfx: " + state.sfxVolume + " music: " + state.musicVolume);
     }
 }
