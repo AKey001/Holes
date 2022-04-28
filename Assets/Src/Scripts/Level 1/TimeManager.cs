@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using TMPro;
@@ -111,17 +112,19 @@ public class TimeManager : MonoBehaviour
             if (watchIsRunning)
             {
                 time += Time.deltaTime;
-                float minutes = Mathf.FloorToInt(time / 60);
-                float seconds = Mathf.FloorToInt(time % 60);
-                float milliSeconds = (time % 1) * 100;
-                if (milliSeconds < 101 && milliSeconds > 99)
-                {
-                    milliSeconds = 0;
-                }
+                // float minutes = Mathf.FloorToInt(time / 60);
+                // float seconds = Mathf.FloorToInt(time % 60);
+                // float milliSeconds = (time % 1) * 100;
+                // if (milliSeconds < 101 && milliSeconds > 99)
+                // {
+                //     milliSeconds = 0;
+                // }
+                //
+                // watchTime = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
+                
+                // watch.text = watchTime;
 
-                watchTime = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
-
-                watch.text = watchTime;
+                watch.text = TimeConverter.convertSeconds(time);
 
                 overallMillis = time * 1000;
 
@@ -204,6 +207,56 @@ public class TimeManager : MonoBehaviour
         platform.transform.rotation = Quaternion.Euler(Vector3.zero); // TODO reset platform to position not zero
         countdownPanel.SetActive(false);
         
+        // save Result
+        ResultState currentResult = new ResultState();
+        currentResult.star1 = false;
+        currentResult.star2 = false;
+        currentResult.star3 = false;
+        if (starsCount > 0)
+        {
+            currentResult.star1 = true;    
+        }
+        if (starsCount > 1)
+        {
+            currentResult.star2 = true;    
+        }
+        if (starsCount > 2)
+        {
+            currentResult.star3 = true;    
+        }
+        currentResult.time = time;
+        currentResult.level = 1;
+        
+        
+        List<ResultState> resultStates = PersistenceManager.LoadResults();
+        bool exists = false;
+        foreach (var loadedResult in resultStates)
+        {
+            if (loadedResult.level == 1)
+            {
+                if (loadedResult.star1 == true)
+                {
+                    currentResult.star1 = true;
+                }
+                if (loadedResult.star2 == true)
+                {
+                    currentResult.star2 = true;
+                }
+                if (loadedResult.star3 == true)
+                {
+                    currentResult.star3 = true;
+                }
+                if (loadedResult.time < currentResult.time)
+                {
+                    currentResult.time = loadedResult.time;
+                }
+                resultStates.Remove(loadedResult);
+                break;
+            }
+        }
+
+        resultStates.Add(currentResult);   
+        PersistenceManager.SaveResults(resultStates);
         
         // leaderbord + events
         if (PlayGamesPlatform.Instance.IsAuthenticated())

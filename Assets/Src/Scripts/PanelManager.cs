@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using GooglePlayGames;
+using NativeAndroidElements;
 using UnityEngine;
-using waqashaxhmi.AndroidNativePlugin;
+using UnityEngine.UIElements;
 
 public class PanelManager : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class PanelManager : MonoBehaviour
         }
         else 
         {
-            AndroidNativePluginLibrary.Instance.ShowToast("Für diese Funktion sind Google Play Games Services notwendig.");
+            Toast.Show("Für diese Funktion sind Google Play Games Services notwendig.", Toast.LENGTH_SHORT);
         }
     }
 

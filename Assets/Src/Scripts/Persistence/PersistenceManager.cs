@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -15,7 +16,7 @@ public static class PersistenceManager
         fileStream.Close();
     }
 
-    public static SettingState LoadState()
+    public static SettingState LoadSettings()
     {
         string path = Application.persistentDataPath + "/settings.holes";
         if (File.Exists(path))
@@ -27,6 +28,38 @@ public static class PersistenceManager
             fileStream.Close();
             
             return state;
+        }
+        else
+        {
+            Debug.Log("File Not Found");
+            return null;
+        }
+    }
+
+
+    public static void SaveResults(List<ResultState> results)
+    {
+        BinaryFormatter formatter = new BinaryFormatter();
+        string path = Application.persistentDataPath + "/results.holes";
+
+        FileStream fileStream = new FileStream(path, FileMode.Create);
+        
+        formatter.Serialize(fileStream, results);
+        fileStream.Close();
+    }
+    
+    public static List<ResultState> LoadResults()
+    {
+        string path = Application.persistentDataPath + "/results.holes";
+        if (File.Exists(path))
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            FileStream fileStream = new FileStream(path, FileMode.Open);
+
+            List<ResultState> results = formatter.Deserialize(fileStream) as List<ResultState>;
+            fileStream.Close();
+            
+            return results;
         }
         else
         {

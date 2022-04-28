@@ -11,7 +11,7 @@ public class PlatformController : MonoBehaviour
     {
         
         joystick.enabled = false;
-        gyroEnabled = PersistenceManager.LoadState().gyroEnabled;
+        gyroEnabled = PersistenceManager.LoadSettings().gyroEnabled;
         print("Gyro enabled=" + gyroEnabled);
         if (!gyroEnabled)
         {

@@ -221,10 +221,6 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
 struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D;
 // UnityEngine.AndroidJavaRunnable
 struct AndroidJavaRunnable_tF23B9BBDA8C99A48BCEEA6335A47DA3C0EF34A7F;
-// waqashaxhmi.AndroidNativePlugin.AndroidNativeController
-struct AndroidNativeController_t5F8EAF5F01C764E751FA3C4E34863A84762B5FCE;
-// waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary
-struct AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 // UnityEngine.UI.AnimationTriggers
@@ -403,14 +399,11 @@ IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0
 IL2CPP_EXTERN_C RuntimeClass* AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AndroidJavaRunnable_tF23B9BBDA8C99A48BCEEA6335A47DA3C0EF34A7F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Calendar_tDF18B1FF11FD51225CA056F2866B3999D2E8D790_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Comparison_1_tB7DE1436CB53924C2FC41FF926D074C1ACC14D89_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateCallback_t29B6F5D4DE773BDEDD64A34313F0B68873C36CCD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* KeyframeU5BU5D_t63250A46914A6A07B2A6689850D47D7D19D80BA3_il2cpp_TypeInfo_var;
@@ -445,10 +438,8 @@ IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_
 IL2CPP_EXTERN_C RuntimeClass* VertexAnimU5BU5D_tC74236D4EB454A8EF2CE1E6145CE5F78E1D5CF38_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral07A78155EAAB9EA8A2B4B00FEF9CB98DBD489C24;
-IL2CPP_EXTERN_C String_t* _stringLiteral0808A3D2DD5F34E7D68A347FEF3D39DB32F8BF32;
 IL2CPP_EXTERN_C String_t* _stringLiteral1E00A028765E36CFE9A1D3E1D31576348C84197D;
 IL2CPP_EXTERN_C String_t* _stringLiteral2354224C206ED589B771474CE1D230D5815AE927;
-IL2CPP_EXTERN_C String_t* _stringLiteral37A69E0C9E1634EB27A5A5724AFBFC349F63DB0B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3DFC2D8E2B0854967C8EA0AC932952BDB07081DD;
 IL2CPP_EXTERN_C String_t* _stringLiteral42737D67B57D1AED1E18C475494BB867AD0AA192;
 IL2CPP_EXTERN_C String_t* _stringLiteral46C7533E42AC2207E2C39A8F17105E4B349E033B;
@@ -460,12 +451,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6CB60CD0F517BE0AB5DBF3CCB647F6428F1FA6D1
 IL2CPP_EXTERN_C String_t* _stringLiteral75FAF73308668FD490C851CC686D98C743D7461C;
 IL2CPP_EXTERN_C String_t* _stringLiteral76C41506C48C50491E7B491CC16239D496B8C6CA;
 IL2CPP_EXTERN_C String_t* _stringLiteral78FF4FA942C1B42A8039C2BA8E962E337610543C;
-IL2CPP_EXTERN_C String_t* _stringLiteral7BD8280D0BF8E862775BE2ACF402771DB4BBBF50;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D5D6BBF8281151C9F5F57DE5D5BABB7140A651D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F85A2723BB62FEF95DD6F8C5F0FF606EA62246A;
 IL2CPP_EXTERN_C String_t* _stringLiteral84EE66A73B24F0E9CEE249A5A8879E93FCC66EB0;
 IL2CPP_EXTERN_C String_t* _stringLiteral8ACAA4E0B28437F5FD1A41CE6591A16813F05377;
-IL2CPP_EXTERN_C String_t* _stringLiteral990BE24752A5A30D8537388D472F56EC98BF45AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral9ECD13393A1BC799BB4763A4E4CD5B53E220C53A;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FE1252E0C99589986A3FD06B642DC25085790D2;
 IL2CPP_EXTERN_C String_t* _stringLiteralA6107EE62A5874EF8D2DEAC7D3C0A9F07B89E096;
@@ -475,7 +464,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB70B116649A4FB77C86F3579B5C18651B1986299
 IL2CPP_EXTERN_C String_t* _stringLiteralC5819BF401D0B0D60C5764D244FE7CFDCE7B979A;
 IL2CPP_EXTERN_C String_t* _stringLiteralC5E7F48ACAC428EC5EA35E9BBED10A0E23CBE728;
 IL2CPP_EXTERN_C String_t* _stringLiteralC833E0610A569F177D13BAEAB66337E151F2AA65;
-IL2CPP_EXTERN_C String_t* _stringLiteralC94EE0ABD3D60AF12459712227B8C5B2516374CD;
 IL2CPP_EXTERN_C String_t* _stringLiteralCCD938E8DCEBBA7A669E1D04844FC8234C538319;
 IL2CPP_EXTERN_C String_t* _stringLiteralD00074DE8ACBEBA7EF28BE447E997E8352E84502;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2E910962527B07AFFEAE2F679FA32AA00FEE16A;
@@ -494,7 +482,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisHorizontalLayoutG
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisTMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_m0C4C5268B54C7097888C6B109527A680772EBCB5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FastAction_1_Add_m368726E3508DB2176C4F87A79C0C0CC4816176D6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* FastAction_1_Remove_mB29130AC90F5F8967CD89587717469E44E4D186F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisAndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_m8C5F1B115F4DB74C897000E7902BCE110C0FBC27_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m771EB78FF8813B5AFF21AC0D252E5461943E6388_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisTextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957_m15E50057DA76710B136ADF4E7CA55A463D9DA3EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_mF12372E2716F1FC72A4AA2D6EEB7F9972A4D4437_RuntimeMethod_var;
@@ -3076,24 +3063,6 @@ struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160_StaticFields
 	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___k_GlyphIndexArray_69;
 };
 
-// waqashaxhmi.AndroidNativePlugin.AndroidNativeController
-struct AndroidNativeController_t5F8EAF5F01C764E751FA3C4E34863A84762B5FCE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
-// waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary
-struct AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.AndroidJavaClass waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::androidObject
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___androidObject_5;
-};
-
-struct AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_StaticFields
-{
-	// waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::Instance
-	AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* ___Instance_4;
-};
-
 // Menus.SwipeController
 struct SwipeController_tA5353655B322E770163B43DD78E4FF54A75576CC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -4911,19 +4880,6 @@ inline int32_t AndroidJavaObject_GetStatic_TisInt32_t680FF22E76F6EFAD4375103CBBF
 {
 	return ((  int32_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m740F3401DEA4A75BADD753EFF71D2328B4147BFC_gshared)(__this, ___fieldName0, method);
 }
-// T UnityEngine.GameObject::AddComponent<waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary>()
-inline AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* GameObject_AddComponent_TisAndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_m8C5F1B115F4DB74C897000E7902BCE110C0FBC27 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
-{
-	return ((  AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
-}
-// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D (const RuntimeMethod* method) ;
-// System.Boolean waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::IsAndroid()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNativePluginLibrary_IsAndroid_m94FF43E61B38F351AC75895D01E4E0E1FE6FCDD3 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.AndroidJavaObject::CallStatic(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Clamp01(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mD921B23F47F5347996C56DC789D1DE16EE27D9B1_inline (float ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Repeat(System.Single,System.Single)
@@ -11884,239 +11840,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass2_0_U3CShowU3Eb__0_
 		NullCheck(L_14);
 		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_14, _stringLiteral42737D67B57D1AED1E18C475494BB867AD0AA192, L_15, NULL);
 		// }));
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativeController::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativeController_Awake_m37A45755169C76F50FAB343D108A5173DF6F96A2 (AndroidNativeController_t5F8EAF5F01C764E751FA3C4E34863A84762B5FCE* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisAndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_m8C5F1B115F4DB74C897000E7902BCE110C0FBC27_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// gameObject.AddComponent<AndroidNativePluginLibrary> ();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
-		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		NullCheck(L_0);
-		AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* L_1;
-		L_1 = GameObject_AddComponent_TisAndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_m8C5F1B115F4DB74C897000E7902BCE110C0FBC27(L_0, GameObject_AddComponent_TisAndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_m8C5F1B115F4DB74C897000E7902BCE110C0FBC27_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativeController::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativeController__ctor_mABE20A8692F7CF05496155AA9C2354BCFB28ADCA (AndroidNativeController_t5F8EAF5F01C764E751FA3C4E34863A84762B5FCE* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativePluginLibrary_Awake_m24BFC9DC11C01E6BC4343070EFA8E2AB1EDF97C5 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC94EE0ABD3D60AF12459712227B8C5B2516374CD);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Instance = this;
-		((AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_StaticFields*)il2cpp_codegen_static_fields_for(AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_il2cpp_TypeInfo_var))->___Instance_4 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&((AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_StaticFields*)il2cpp_codegen_static_fields_for(AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0_il2cpp_TypeInfo_var))->___Instance_4), (void*)__this);
-		// if (Application.platform == RuntimePlatform.Android) {
-		int32_t L_0;
-		L_0 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		// androidObject = new AndroidJavaClass ("com.example.androidnativelibrary.AndroidBridge");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_1 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_1, _stringLiteralC94EE0ABD3D60AF12459712227B8C5B2516374CD, NULL);
-		__this->___androidObject_5 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___androidObject_5), (void*)L_1);
-	}
-
-IL_001f:
-	{
-		// }
-		return;
-	}
-}
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::ShowToast(System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativePluginLibrary_ShowToast_mEF91E2BD4A08E84C9A258D32383BC50B470B6863 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, String_t* ___message0, int32_t ___Length1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral990BE24752A5A30D8537388D472F56EC98BF45AC);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (IsAndroid())
-		bool L_0;
-		L_0 = AndroidNativePluginLibrary_IsAndroid_m94FF43E61B38F351AC75895D01E4E0E1FE6FCDD3(__this, NULL);
-		if (!L_0)
-		{
-			goto IL_002b;
-		}
-	}
-	{
-		// androidObject.CallStatic("ShowToast", message,Length);
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_1 = __this->___androidObject_5;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = L_2;
-		String_t* L_4 = ___message0;
-		NullCheck(L_3);
-		ArrayElementTypeCheck (L_3, L_4);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_4);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_3;
-		int32_t L_6 = ___Length1;
-		int32_t L_7 = L_6;
-		RuntimeObject* L_8 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_7);
-		NullCheck(L_5);
-		ArrayElementTypeCheck (L_5, L_8);
-		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
-		NullCheck(L_1);
-		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_1, _stringLiteral990BE24752A5A30D8537388D472F56EC98BF45AC, L_5, NULL);
-	}
-
-IL_002b:
-	{
-		// }
-		return;
-	}
-}
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::ShowProgressBar(System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativePluginLibrary_ShowProgressBar_m09C31BA86CE7CE8ABF7B8138087B4A4B3C6B99CF (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, String_t* ___title0, String_t* ___message1, bool ___cancelable2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral37A69E0C9E1634EB27A5A5724AFBFC349F63DB0B);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// androidObject.CallStatic ("ShowProgressBar",title,message,cancelable);
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = __this->___androidObject_5;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___title0;
-		NullCheck(L_2);
-		ArrayElementTypeCheck (L_2, L_3);
-		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		String_t* L_5 = ___message1;
-		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, L_5);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_4;
-		bool L_7 = ___cancelable2;
-		bool L_8 = L_7;
-		RuntimeObject* L_9 = Box(Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var, &L_8);
-		NullCheck(L_6);
-		ArrayElementTypeCheck (L_6, L_9);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
-		NullCheck(L_0);
-		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral37A69E0C9E1634EB27A5A5724AFBFC349F63DB0B, L_6, NULL);
-		// }
-		return;
-	}
-}
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::DismissProgressBar()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativePluginLibrary_DismissProgressBar_m5A171014B1FB330C2C167730B2A09FE85C7EA714 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BD8280D0BF8E862775BE2ACF402771DB4BBBF50);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// androidObject.CallStatic ("DismissProgressBar");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = __this->___androidObject_5;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
-		L_1 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
-		NullCheck(L_0);
-		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_0, _stringLiteral7BD8280D0BF8E862775BE2ACF402771DB4BBBF50, L_1, NULL);
-		// }
-		return;
-	}
-}
-// System.Boolean waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::IsAndroid()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidNativePluginLibrary_IsAndroid_m94FF43E61B38F351AC75895D01E4E0E1FE6FCDD3 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0808A3D2DD5F34E7D68A347FEF3D39DB32F8BF32);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t G_B2_0 = 0;
-	int32_t G_B1_0 = 0;
-	{
-		// bool result = Application.platform == RuntimePlatform.Android;
-		int32_t L_0;
-		L_0 = Application_get_platform_m1AB34E71D9885B120F6021EB2B11DCB28CD6008D(NULL);
-		// if (!result) Debug.LogWarning("Not Android");
-		int32_t L_1 = ((((int32_t)L_0) == ((int32_t)((int32_t)11)))? 1 : 0);
-		G_B1_0 = L_1;
-		if (L_1)
-		{
-			G_B2_0 = L_1;
-			goto IL_0016;
-		}
-	}
-	{
-		// if (!result) Debug.LogWarning("Not Android");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteral0808A3D2DD5F34E7D68A347FEF3D39DB32F8BF32, NULL);
-		G_B2_0 = G_B1_0;
-	}
-
-IL_0016:
-	{
-		// return result;
-		return (bool)G_B2_0;
-	}
-}
-// System.Void waqashaxhmi.AndroidNativePlugin.AndroidNativePluginLibrary::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidNativePluginLibrary__ctor_m80674AF979FA72E9D7E6D665A6EC114F616D82A0 (AndroidNativePluginLibrary_tE70A802A1218AC18732A2B33A8DBF1DFD0397BE0* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
