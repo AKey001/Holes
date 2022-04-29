@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,7 @@ public class GyroButton : MonoBehaviour
     public RawImage buttonImage;
     public Texture2D gyro;
     public Texture2D joystick;
+    public TextMeshProUGUI disabledText;
     public SettingsManager settingsManager;
 
     private bool disabled;
@@ -25,6 +27,7 @@ public class GyroButton : MonoBehaviour
         {
             disabled = true;
             button.interactable = false;
+            disabledText.text = "Your device does only support touch controls";
         }
 
         SetValue(gyroEnabled);

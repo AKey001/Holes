@@ -208,6 +208,7 @@ public class TimeManager : MonoBehaviour
         countdownPanel.SetActive(false);
         
         // save Result
+        #region Result saving  
         ResultState currentResult = new ResultState();
         currentResult.star1 = false;
         currentResult.star2 = false;
@@ -225,6 +226,9 @@ public class TimeManager : MonoBehaviour
             currentResult.star3 = true;    
         }
         currentResult.time = time;
+        currentResult.millis = TimeConverter.extractMillis(time);
+        currentResult.seconds = TimeConverter.extractSeconds(time);
+        currentResult.minutes = TimeConverter.extractMinutes(time);
         currentResult.level = 1;
         
         
@@ -249,6 +253,9 @@ public class TimeManager : MonoBehaviour
                 if (loadedResult.time < currentResult.time)
                 {
                     currentResult.time = loadedResult.time;
+                    currentResult.millis = loadedResult.millis;
+                    currentResult.seconds = loadedResult.seconds;
+                    currentResult.minutes = loadedResult.minutes;
                 }
                 resultStates.Remove(loadedResult);
                 break;
@@ -257,6 +264,7 @@ public class TimeManager : MonoBehaviour
 
         resultStates.Add(currentResult);   
         PersistenceManager.SaveResults(resultStates);
+        #endregion
         
         // leaderbord + events
         if (PlayGamesPlatform.Instance.IsAuthenticated())

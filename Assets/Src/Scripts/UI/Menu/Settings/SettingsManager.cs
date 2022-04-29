@@ -18,7 +18,7 @@ public class SettingsManager : MonoBehaviour
             state = new SettingState
             {
                 language = 0,
-                quality = 0,
+                quality = 2,
                 gyroEnabled = true,
                 sfxVolume = 1f,
                 musicVolume = 1f
