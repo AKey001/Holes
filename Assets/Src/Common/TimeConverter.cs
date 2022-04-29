@@ -21,8 +21,6 @@ public static class TimeConverter
 
     public static float extractMillis(float time)
     {
-        float minutes = Mathf.FloorToInt(time / 60f);
-        float seconds = Mathf.FloorToInt(time % 60);
         float milliSeconds = (time % 1) * 100;
         if (milliSeconds < 101 && milliSeconds > 99)
         {
