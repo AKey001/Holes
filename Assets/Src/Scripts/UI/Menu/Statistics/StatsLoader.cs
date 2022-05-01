@@ -39,8 +39,6 @@ public class StatsLoader : MonoBehaviour
 
             });
         }
-        
-        Toast.Show("Test", Toast.LENGTH_SHORT);
     }
 
     private string formatTime(float millis)

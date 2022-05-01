@@ -23,7 +23,7 @@ public class GyroButton : MonoBehaviour
     
     private void Awake()
     {
-        if (!EnableGyroscope())
+        if (!GyroscopeController.EnableGyroscope())
         {
             disabled = true;
             button.interactable = false;
@@ -32,13 +32,7 @@ public class GyroButton : MonoBehaviour
 
         SetValue(gyroEnabled);
     }
-
-    private bool EnableGyroscope()
-    {
-        if (!SystemInfo.supportsGyroscope) return false;
-        gyroscope = Input.gyro;
-        return gyroscope.enabled = true;
-    }
+    
     
     public void Click()
     {

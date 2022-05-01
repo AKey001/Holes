@@ -9,7 +9,6 @@ public class Ball : MonoBehaviour
 {
     private Vector3 _originalPosition;
     public GameObject platform;
-    public GameObject ground;
     public CameraController cameraController;
     public TimeManager timeManager;
     
@@ -29,7 +28,6 @@ public class Ball : MonoBehaviour
             gameObject.transform.position = _originalPosition;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             platform.transform.rotation = Quaternion.Euler(Vector3.zero);
-            ground.GetComponent<Collider>().enabled = true;
             cameraController.setFalling(false);
             cameraController.Reset();
         }
@@ -47,7 +45,6 @@ public class Ball : MonoBehaviour
         if (other.gameObject.CompareTag("Fall"))
         {
             print("Fall");
-            ground.GetComponent<Collider>().enabled = false;
             cameraController.setFalling(true);
             timeManager.AddFall();
         }

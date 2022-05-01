@@ -30,53 +30,53 @@ extern void ControlConnection_get_sourceExists_mE372107ECA543BBB2DF31CEAD9F2B0FD
 extern void ControlConnection_get_destinationExists_mE18F4D59DA6DE07D77CC4474B537A6358EC354B5 (void);
 // 0x00000009 Unity.VisualScripting.FlowGraph Unity.VisualScripting.ControlConnection::Unity.VisualScripting.IUnitConnection.get_graph()
 extern void ControlConnection_Unity_VisualScripting_IUnitConnection_get_graph_m09E985E95A824BE7CE17ACEC8E204940940F81F6 (void);
-// 0x0000000A System.Void Unity.VisualScripting.InvalidConnection::.ctor()
+// 0x0000000A Unity.VisualScripting.FlowGraph Unity.VisualScripting.IUnitConnection::get_graph()
+// 0x0000000B System.Int32 Unity.VisualScripting.IUnitConnectionDebugData::get_lastInvokeFrame()
+// 0x0000000C System.Void Unity.VisualScripting.IUnitConnectionDebugData::set_lastInvokeFrame(System.Int32)
+// 0x0000000D System.Single Unity.VisualScripting.IUnitConnectionDebugData::get_lastInvokeTime()
+// 0x0000000E System.Void Unity.VisualScripting.IUnitConnectionDebugData::set_lastInvokeTime(System.Single)
+// 0x0000000F System.Void Unity.VisualScripting.InvalidConnection::.ctor()
 extern void InvalidConnection__ctor_m9CA751D263696C2771FB53CFD11155973D2E10F4 (void);
-// 0x0000000B System.Void Unity.VisualScripting.InvalidConnection::.ctor(Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort)
+// 0x00000010 System.Void Unity.VisualScripting.InvalidConnection::.ctor(Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort)
 extern void InvalidConnection__ctor_mAB71D240111EF6DEF8EF3C5486A846E95FBB31F3 (void);
-// 0x0000000C System.Void Unity.VisualScripting.InvalidConnection::AfterRemove()
+// 0x00000011 System.Void Unity.VisualScripting.InvalidConnection::AfterRemove()
 extern void InvalidConnection_AfterRemove_m7436C4B6642A74596B8269793B9AE046278FE869 (void);
-// 0x0000000D Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidConnection::get_source()
+// 0x00000012 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidConnection::get_source()
 extern void InvalidConnection_get_source_mBE4A3D34BE7E33AFABCC0982DE861D75D1CF3EA5 (void);
-// 0x0000000E Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidConnection::get_destination()
+// 0x00000013 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidConnection::get_destination()
 extern void InvalidConnection_get_destination_mFFD82598C1835F99483C22F9786D038C01AE1EA4 (void);
-// 0x0000000F Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidConnection::get_validSource()
+// 0x00000014 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidConnection::get_validSource()
 extern void InvalidConnection_get_validSource_m35D2FCB5BAB701981A69DEF404EC8F1CA9DB85F7 (void);
-// 0x00000010 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidConnection::get_validDestination()
+// 0x00000015 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidConnection::get_validDestination()
 extern void InvalidConnection_get_validDestination_m12C8645C83F45530F4F41A128E4416244005360B (void);
-// 0x00000011 System.Boolean Unity.VisualScripting.InvalidConnection::get_sourceExists()
+// 0x00000016 System.Boolean Unity.VisualScripting.InvalidConnection::get_sourceExists()
 extern void InvalidConnection_get_sourceExists_m3F2A6C9ACF2B733489EFE0DF9F6E4A586E85283C (void);
-// 0x00000012 System.Boolean Unity.VisualScripting.InvalidConnection::get_destinationExists()
+// 0x00000017 System.Boolean Unity.VisualScripting.InvalidConnection::get_destinationExists()
 extern void InvalidConnection_get_destinationExists_m01D424ABDDA408505E6D39E2C9FB6E6E60755894 (void);
-// 0x00000013 System.Boolean Unity.VisualScripting.InvalidConnection::get_validSourceExists()
+// 0x00000018 System.Boolean Unity.VisualScripting.InvalidConnection::get_validSourceExists()
 extern void InvalidConnection_get_validSourceExists_m83834EF3057AAB34B545189CC683124392C6B5D8 (void);
-// 0x00000014 System.Boolean Unity.VisualScripting.InvalidConnection::get_validDestinationExists()
+// 0x00000019 System.Boolean Unity.VisualScripting.InvalidConnection::get_validDestinationExists()
 extern void InvalidConnection_get_validDestinationExists_m37C0BDC6CDD00800C7D64102A3E94647ED1948F9 (void);
-// 0x00000015 System.Boolean Unity.VisualScripting.InvalidConnection::HandleDependencies()
+// 0x0000001A System.Boolean Unity.VisualScripting.InvalidConnection::HandleDependencies()
 extern void InvalidConnection_HandleDependencies_m7C5946CD61BF5DF696ADC2E448EA405C81D3E048 (void);
-// 0x00000016 Unity.VisualScripting.FlowGraph Unity.VisualScripting.InvalidConnection::Unity.VisualScripting.IUnitConnection.get_graph()
+// 0x0000001B Unity.VisualScripting.FlowGraph Unity.VisualScripting.InvalidConnection::Unity.VisualScripting.IUnitConnection.get_graph()
 extern void InvalidConnection_Unity_VisualScripting_IUnitConnection_get_graph_m8768CB625B7FF051DE0B22A28F03091D60CF9888 (void);
-// 0x00000017 System.Boolean Unity.VisualScripting.InvalidConnection::<get_source>b__4_0(Unity.VisualScripting.IUnitOutputPort)
+// 0x0000001C System.Boolean Unity.VisualScripting.InvalidConnection::<get_source>b__4_0(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidConnection_U3Cget_sourceU3Eb__4_0_m1667462D5B1C0DBD58BAEF086C5CCAB9E24FEECE (void);
-// 0x00000018 System.Boolean Unity.VisualScripting.InvalidConnection::<get_destination>b__6_0(Unity.VisualScripting.IUnitInputPort)
+// 0x0000001D System.Boolean Unity.VisualScripting.InvalidConnection::<get_destination>b__6_0(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidConnection_U3Cget_destinationU3Eb__6_0_m7AA5C772A2B3696A5EB3EB7C7CF8FD631F50E710 (void);
-// 0x00000019 System.Boolean Unity.VisualScripting.InvalidConnection::<get_validSource>b__8_0(Unity.VisualScripting.IUnitOutputPort)
+// 0x0000001E System.Boolean Unity.VisualScripting.InvalidConnection::<get_validSource>b__8_0(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidConnection_U3Cget_validSourceU3Eb__8_0_m2BD9E32F8E07566F30DD25C6DFC2213FD2887B43 (void);
-// 0x0000001A System.Boolean Unity.VisualScripting.InvalidConnection::<get_validDestination>b__10_0(Unity.VisualScripting.IUnitInputPort)
+// 0x0000001F System.Boolean Unity.VisualScripting.InvalidConnection::<get_validDestination>b__10_0(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidConnection_U3Cget_validDestinationU3Eb__10_0_m9ED532F45F4321760331A205E51B0BFCB338298C (void);
-// 0x0000001B System.Boolean Unity.VisualScripting.InvalidConnection::<get_sourceExists>b__12_0(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000020 System.Boolean Unity.VisualScripting.InvalidConnection::<get_sourceExists>b__12_0(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidConnection_U3Cget_sourceExistsU3Eb__12_0_mF81B879D1531F85A997DE518723450947266D29A (void);
-// 0x0000001C System.Boolean Unity.VisualScripting.InvalidConnection::<get_destinationExists>b__14_0(Unity.VisualScripting.IUnitInputPort)
+// 0x00000021 System.Boolean Unity.VisualScripting.InvalidConnection::<get_destinationExists>b__14_0(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidConnection_U3Cget_destinationExistsU3Eb__14_0_mD96BC5560F935C23F51C32EAEFFD33CC6DE628D2 (void);
-// 0x0000001D System.Boolean Unity.VisualScripting.InvalidConnection::<get_validSourceExists>b__16_0(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000022 System.Boolean Unity.VisualScripting.InvalidConnection::<get_validSourceExists>b__16_0(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidConnection_U3Cget_validSourceExistsU3Eb__16_0_mB41EAE580C8F6A0BFDA32F8EFA713C8E4AF8F770 (void);
-// 0x0000001E System.Boolean Unity.VisualScripting.InvalidConnection::<get_validDestinationExists>b__18_0(Unity.VisualScripting.IUnitInputPort)
+// 0x00000023 System.Boolean Unity.VisualScripting.InvalidConnection::<get_validDestinationExists>b__18_0(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidConnection_U3Cget_validDestinationExistsU3Eb__18_0_mF31856730E0A2E6B68819D53A24019FAAD5CBC45 (void);
-// 0x0000001F Unity.VisualScripting.FlowGraph Unity.VisualScripting.IUnitConnection::get_graph()
-// 0x00000020 System.Int32 Unity.VisualScripting.IUnitConnectionDebugData::get_lastInvokeFrame()
-// 0x00000021 System.Void Unity.VisualScripting.IUnitConnectionDebugData::set_lastInvokeFrame(System.Int32)
-// 0x00000022 System.Single Unity.VisualScripting.IUnitConnectionDebugData::get_lastInvokeTime()
-// 0x00000023 System.Void Unity.VisualScripting.IUnitConnectionDebugData::set_lastInvokeTime(System.Single)
 // 0x00000024 System.Void Unity.VisualScripting.UnitConnection`2::.ctor()
 // 0x00000025 System.Void Unity.VisualScripting.UnitConnection`2::.ctor(TSourcePort,TDestinationPort)
 // 0x00000026 Unity.VisualScripting.IGraphElementDebugData Unity.VisualScripting.UnitConnection`2::CreateDebugData()
@@ -1283,31 +1283,31 @@ extern void U3CLoopCoroutineU3Ed__24_System_Collections_IEnumerator_Reset_m09082
 // 0x00000289 System.Object Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::System.Collections.IEnumerator.get_Current()
 extern void U3CLoopCoroutineU3Ed__24_System_Collections_IEnumerator_get_Current_m8944950F4ED28CB00AC82D0D40C188D10F9F972C (void);
 // 0x0000028A Unity.VisualScripting.ControlInput Unity.VisualScripting.IBranchUnit::get_enter()
-// 0x0000028B Unity.VisualScripting.ControlInput Unity.VisualScripting.If::get_enter()
+// 0x0000028B Unity.VisualScripting.ValueOutput Unity.VisualScripting.ISelectUnit::get_selection()
+// 0x0000028C Unity.VisualScripting.ControlInput Unity.VisualScripting.If::get_enter()
 extern void If_get_enter_mBAD0E24BB15F31603232F8ED5F85B913D6DF4474 (void);
-// 0x0000028C System.Void Unity.VisualScripting.If::set_enter(Unity.VisualScripting.ControlInput)
+// 0x0000028D System.Void Unity.VisualScripting.If::set_enter(Unity.VisualScripting.ControlInput)
 extern void If_set_enter_mBBED90D66792706C7F5E562880B10E7FBEB34C6D (void);
-// 0x0000028D Unity.VisualScripting.ValueInput Unity.VisualScripting.If::get_condition()
+// 0x0000028E Unity.VisualScripting.ValueInput Unity.VisualScripting.If::get_condition()
 extern void If_get_condition_mFE1225E43798596B684CFD1BBA243003F333890B (void);
-// 0x0000028E System.Void Unity.VisualScripting.If::set_condition(Unity.VisualScripting.ValueInput)
+// 0x0000028F System.Void Unity.VisualScripting.If::set_condition(Unity.VisualScripting.ValueInput)
 extern void If_set_condition_m5F7E757476E4BE185D943C29AB89C36932C51D85 (void);
-// 0x0000028F Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::get_ifTrue()
+// 0x00000290 Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::get_ifTrue()
 extern void If_get_ifTrue_m08ED47FC7FC7EAA91BD51ABD388A9C8D7C5C7F91 (void);
-// 0x00000290 System.Void Unity.VisualScripting.If::set_ifTrue(Unity.VisualScripting.ControlOutput)
+// 0x00000291 System.Void Unity.VisualScripting.If::set_ifTrue(Unity.VisualScripting.ControlOutput)
 extern void If_set_ifTrue_m2CC288AB140F682B15A9C12E817D943CA30811A4 (void);
-// 0x00000291 Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::get_ifFalse()
+// 0x00000292 Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::get_ifFalse()
 extern void If_get_ifFalse_mBAC619B62FAA6BB66ED4CBDE7B4738728D3A5F0E (void);
-// 0x00000292 System.Void Unity.VisualScripting.If::set_ifFalse(Unity.VisualScripting.ControlOutput)
+// 0x00000293 System.Void Unity.VisualScripting.If::set_ifFalse(Unity.VisualScripting.ControlOutput)
 extern void If_set_ifFalse_m248288767AAC6ED8C90C2F727F20F640A7431350 (void);
-// 0x00000293 System.Void Unity.VisualScripting.If::Definition()
+// 0x00000294 System.Void Unity.VisualScripting.If::Definition()
 extern void If_Definition_m6C35D020110E25FAD9334128D8F0935C741A28B3 (void);
-// 0x00000294 Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::Enter(Unity.VisualScripting.Flow)
+// 0x00000295 Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::Enter(Unity.VisualScripting.Flow)
 extern void If_Enter_m8FB110B8E2DE1C653481975166F382F8AB17258B (void);
-// 0x00000295 System.Void Unity.VisualScripting.If::.ctor()
+// 0x00000296 System.Void Unity.VisualScripting.If::.ctor()
 extern void If__ctor_mF7A62324EF9A53220E0FC950B71B1334EFDBFF0A (void);
-// 0x00000296 Unity.VisualScripting.FlowGraph Unity.VisualScripting.If::Unity.VisualScripting.IUnit.get_graph()
+// 0x00000297 Unity.VisualScripting.FlowGraph Unity.VisualScripting.If::Unity.VisualScripting.IUnit.get_graph()
 extern void If_Unity_VisualScripting_IUnit_get_graph_mFFD64501FAE37B4E4870202344FEABC121D4DBAB (void);
-// 0x00000297 Unity.VisualScripting.ValueOutput Unity.VisualScripting.ISelectUnit::get_selection()
 // 0x00000298 Unity.VisualScripting.ControlInput Unity.VisualScripting.LoopUnit::get_enter()
 extern void LoopUnit_get_enter_m62CF2143AD62A0E6558753801D71209827D96DDB (void);
 // 0x00000299 System.Void Unity.VisualScripting.LoopUnit::set_enter(Unity.VisualScripting.ControlInput)
@@ -1905,254 +1905,254 @@ extern void OnDrawGizmosSelected__ctor_m2EB2B0AAFB3CF77160A8B98CEBD1B949968AAE1B
 // 0x000003DC System.Void Unity.VisualScripting.EventUnit`1/Data::.ctor()
 // 0x000003DD System.Void Unity.VisualScripting.EventUnit`1/<>c__DisplayClass14_0::.ctor()
 // 0x000003DE System.Void Unity.VisualScripting.EventUnit`1/<>c__DisplayClass14_0::<StartListening>b__0(TArgs)
-// 0x000003DF System.Boolean Unity.VisualScripting.GameObjectEventUnit`1::get_register()
-// 0x000003E0 System.Type Unity.VisualScripting.GameObjectEventUnit`1::get_MessageListenerType()
-// 0x000003E1 Unity.VisualScripting.IGraphElementData Unity.VisualScripting.GameObjectEventUnit`1::CreateData()
-// 0x000003E2 Unity.VisualScripting.ValueInput Unity.VisualScripting.GameObjectEventUnit`1::get_target()
-// 0x000003E3 System.Void Unity.VisualScripting.GameObjectEventUnit`1::set_target(Unity.VisualScripting.ValueInput)
-// 0x000003E4 System.Void Unity.VisualScripting.GameObjectEventUnit`1::Definition()
-// 0x000003E5 Unity.VisualScripting.EventHook Unity.VisualScripting.GameObjectEventUnit`1::GetHook(Unity.VisualScripting.GraphReference)
-// 0x000003E6 System.String Unity.VisualScripting.GameObjectEventUnit`1::get_hookName()
-// 0x000003E7 System.Void Unity.VisualScripting.GameObjectEventUnit`1::UpdateTarget(Unity.VisualScripting.GraphStack)
-// 0x000003E8 System.Void Unity.VisualScripting.GameObjectEventUnit`1::StartListening(Unity.VisualScripting.GraphStack,System.Boolean)
-// 0x000003E9 System.Void Unity.VisualScripting.GameObjectEventUnit`1::StartListening(Unity.VisualScripting.GraphStack)
-// 0x000003EA System.Void Unity.VisualScripting.GameObjectEventUnit`1::.ctor()
-// 0x000003EB Unity.VisualScripting.FlowGraph Unity.VisualScripting.GameObjectEventUnit`1::Unity.VisualScripting.IUnit.get_graph()
-// 0x000003EC System.Void Unity.VisualScripting.GameObjectEventUnit`1/Data::.ctor()
-// 0x000003ED System.Boolean Unity.VisualScripting.GlobalEventUnit`1::get_register()
-// 0x000003EE System.String Unity.VisualScripting.GlobalEventUnit`1::get_hookName()
-// 0x000003EF Unity.VisualScripting.EventHook Unity.VisualScripting.GlobalEventUnit`1::GetHook(Unity.VisualScripting.GraphReference)
-// 0x000003F0 System.Void Unity.VisualScripting.GlobalEventUnit`1::.ctor()
-// 0x000003F1 Unity.VisualScripting.ValueOutput Unity.VisualScripting.GenericGuiEventUnit::get_data()
+// 0x000003DF Unity.VisualScripting.ValueOutput Unity.VisualScripting.GenericGuiEventUnit::get_data()
 extern void GenericGuiEventUnit_get_data_mA62612C577ABED68DD2D22BAB5A85D5E736F5F93 (void);
-// 0x000003F2 System.Void Unity.VisualScripting.GenericGuiEventUnit::set_data(Unity.VisualScripting.ValueOutput)
+// 0x000003E0 System.Void Unity.VisualScripting.GenericGuiEventUnit::set_data(Unity.VisualScripting.ValueOutput)
 extern void GenericGuiEventUnit_set_data_m29ECFC8B873C81A4FA70556C3EE55C2AA05138CB (void);
-// 0x000003F3 System.Void Unity.VisualScripting.GenericGuiEventUnit::Definition()
+// 0x000003E1 System.Void Unity.VisualScripting.GenericGuiEventUnit::Definition()
 extern void GenericGuiEventUnit_Definition_m0F494099D843E78515CD52B9A66B1DD98F631858 (void);
-// 0x000003F4 System.Void Unity.VisualScripting.GenericGuiEventUnit::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.BaseEventData)
+// 0x000003E2 System.Void Unity.VisualScripting.GenericGuiEventUnit::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.BaseEventData)
 extern void GenericGuiEventUnit_AssignArguments_m3D4CFE9C016D74BAF4BB1590284AE31A10211ACC (void);
-// 0x000003F5 System.Void Unity.VisualScripting.GenericGuiEventUnit::.ctor()
+// 0x000003E3 System.Void Unity.VisualScripting.GenericGuiEventUnit::.ctor()
 extern void GenericGuiEventUnit__ctor_m49889B3DD0493223EF2629A6741CC31C7145BDA6 (void);
-// 0x000003F6 System.Type Unity.VisualScripting.OnBeginDrag::get_MessageListenerType()
+// 0x000003E4 System.Type Unity.VisualScripting.OnBeginDrag::get_MessageListenerType()
 extern void OnBeginDrag_get_MessageListenerType_mF879EBC8B8469CDFAE7EAF6EC18D537A7941EAAD (void);
-// 0x000003F7 System.String Unity.VisualScripting.OnBeginDrag::get_hookName()
+// 0x000003E5 System.String Unity.VisualScripting.OnBeginDrag::get_hookName()
 extern void OnBeginDrag_get_hookName_mF1FD15B0BFB07A30FEBE298E8E59EB031E989573 (void);
-// 0x000003F8 System.Void Unity.VisualScripting.OnBeginDrag::.ctor()
+// 0x000003E6 System.Void Unity.VisualScripting.OnBeginDrag::.ctor()
 extern void OnBeginDrag__ctor_mA76C49ED861470935C47AD02033C6271DC2EDF29 (void);
-// 0x000003F9 System.String Unity.VisualScripting.OnButtonClick::get_hookName()
+// 0x000003E7 System.String Unity.VisualScripting.OnButtonClick::get_hookName()
 extern void OnButtonClick_get_hookName_mEE6A3C151BAC0F269AA579155B7CC3C4BEA07B22 (void);
-// 0x000003FA System.Type Unity.VisualScripting.OnButtonClick::get_MessageListenerType()
+// 0x000003E8 System.Type Unity.VisualScripting.OnButtonClick::get_MessageListenerType()
 extern void OnButtonClick_get_MessageListenerType_m40D14CE70DEBDE4D4591C91D38A9AD212DF08B00 (void);
-// 0x000003FB System.Void Unity.VisualScripting.OnButtonClick::.ctor()
+// 0x000003E9 System.Void Unity.VisualScripting.OnButtonClick::.ctor()
 extern void OnButtonClick__ctor_m6ECAB3459499453467AB0E6A07A084764D58A133 (void);
-// 0x000003FC System.Type Unity.VisualScripting.OnCancel::get_MessageListenerType()
+// 0x000003EA System.Type Unity.VisualScripting.OnCancel::get_MessageListenerType()
 extern void OnCancel_get_MessageListenerType_m3B66E06C4BB26779B2F22A374E5991724EE65E42 (void);
-// 0x000003FD System.String Unity.VisualScripting.OnCancel::get_hookName()
+// 0x000003EB System.String Unity.VisualScripting.OnCancel::get_hookName()
 extern void OnCancel_get_hookName_m61DC354FB4AB12E3938CC66B28B5CDB52F3D7F60 (void);
-// 0x000003FE System.Void Unity.VisualScripting.OnCancel::.ctor()
+// 0x000003EC System.Void Unity.VisualScripting.OnCancel::.ctor()
 extern void OnCancel__ctor_m6F6021887370696945D3B5C4D46CC873BBAA5A4A (void);
-// 0x000003FF System.Type Unity.VisualScripting.OnDeselect::get_MessageListenerType()
+// 0x000003ED System.Type Unity.VisualScripting.OnDeselect::get_MessageListenerType()
 extern void OnDeselect_get_MessageListenerType_mB1914E8517C649CAF1814771FA1C4DF1E553A2D8 (void);
-// 0x00000400 System.String Unity.VisualScripting.OnDeselect::get_hookName()
+// 0x000003EE System.String Unity.VisualScripting.OnDeselect::get_hookName()
 extern void OnDeselect_get_hookName_m437816D2FF8C1FD2D5C00B336161FB7DE33C016E (void);
-// 0x00000401 System.Void Unity.VisualScripting.OnDeselect::.ctor()
+// 0x000003EF System.Void Unity.VisualScripting.OnDeselect::.ctor()
 extern void OnDeselect__ctor_mA5B6E4BC1A2CD51D5628498D682587ADBB5FAA51 (void);
-// 0x00000402 System.String Unity.VisualScripting.OnDrag::get_hookName()
+// 0x000003F0 System.String Unity.VisualScripting.OnDrag::get_hookName()
 extern void OnDrag_get_hookName_mC9BE371D0E38A77D810A2766C4FE499A4E7F77EF (void);
-// 0x00000403 System.Type Unity.VisualScripting.OnDrag::get_MessageListenerType()
+// 0x000003F1 System.Type Unity.VisualScripting.OnDrag::get_MessageListenerType()
 extern void OnDrag_get_MessageListenerType_m55DAA06A9350648B39A3846AF634B4D34BBD8AF5 (void);
-// 0x00000404 System.Void Unity.VisualScripting.OnDrag::.ctor()
+// 0x000003F2 System.Void Unity.VisualScripting.OnDrag::.ctor()
 extern void OnDrag__ctor_mCA7FEC945259DAA511856BEF78343D522A4C6C25 (void);
-// 0x00000405 System.Type Unity.VisualScripting.OnDrop::get_MessageListenerType()
+// 0x000003F3 System.Type Unity.VisualScripting.OnDrop::get_MessageListenerType()
 extern void OnDrop_get_MessageListenerType_m57ABFA6AD8C29FB6A06DBBC748ADF40C2DA1F0D4 (void);
-// 0x00000406 System.String Unity.VisualScripting.OnDrop::get_hookName()
+// 0x000003F4 System.String Unity.VisualScripting.OnDrop::get_hookName()
 extern void OnDrop_get_hookName_m7E71C2F5391E42B2210968272C950A862A7F2B2C (void);
-// 0x00000407 System.Void Unity.VisualScripting.OnDrop::.ctor()
+// 0x000003F5 System.Void Unity.VisualScripting.OnDrop::.ctor()
 extern void OnDrop__ctor_m3C5AEDAC15FADE719982ADD1CF1B2BE454F18C2C (void);
-// 0x00000408 System.Type Unity.VisualScripting.OnDropdownValueChanged::get_MessageListenerType()
+// 0x000003F6 System.Type Unity.VisualScripting.OnDropdownValueChanged::get_MessageListenerType()
 extern void OnDropdownValueChanged_get_MessageListenerType_m1E1F8662FE370CA77B503650EBB1A96A6BB685E4 (void);
-// 0x00000409 System.String Unity.VisualScripting.OnDropdownValueChanged::get_hookName()
+// 0x000003F7 System.String Unity.VisualScripting.OnDropdownValueChanged::get_hookName()
 extern void OnDropdownValueChanged_get_hookName_mF807478EFECF074960D81533355E131715C9E9A3 (void);
-// 0x0000040A Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnDropdownValueChanged::get_index()
+// 0x000003F8 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnDropdownValueChanged::get_index()
 extern void OnDropdownValueChanged_get_index_mA333315D3374ED1761B02A76D84F070CD51AB4B6 (void);
-// 0x0000040B System.Void Unity.VisualScripting.OnDropdownValueChanged::set_index(Unity.VisualScripting.ValueOutput)
+// 0x000003F9 System.Void Unity.VisualScripting.OnDropdownValueChanged::set_index(Unity.VisualScripting.ValueOutput)
 extern void OnDropdownValueChanged_set_index_m8FD39C86463DF6F6DDF825242E00A7949B12297F (void);
-// 0x0000040C Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnDropdownValueChanged::get_text()
+// 0x000003FA Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnDropdownValueChanged::get_text()
 extern void OnDropdownValueChanged_get_text_mD9E94D957A9BE8AB61A4BBD91276A11EA85146A8 (void);
-// 0x0000040D System.Void Unity.VisualScripting.OnDropdownValueChanged::set_text(Unity.VisualScripting.ValueOutput)
+// 0x000003FB System.Void Unity.VisualScripting.OnDropdownValueChanged::set_text(Unity.VisualScripting.ValueOutput)
 extern void OnDropdownValueChanged_set_text_m5CF3AE71A4CDCE0AF1FF0D611BB0B37195370416 (void);
-// 0x0000040E System.Void Unity.VisualScripting.OnDropdownValueChanged::Definition()
+// 0x000003FC System.Void Unity.VisualScripting.OnDropdownValueChanged::Definition()
 extern void OnDropdownValueChanged_Definition_m0A5959A050345557B5558D6580CEFE1D17897618 (void);
-// 0x0000040F System.Void Unity.VisualScripting.OnDropdownValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Int32)
+// 0x000003FD System.Void Unity.VisualScripting.OnDropdownValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Int32)
 extern void OnDropdownValueChanged_AssignArguments_m108A1785FF7803DDBFE9F04FDB17B880DB09AF13 (void);
-// 0x00000410 System.Void Unity.VisualScripting.OnDropdownValueChanged::.ctor()
+// 0x000003FE System.Void Unity.VisualScripting.OnDropdownValueChanged::.ctor()
 extern void OnDropdownValueChanged__ctor_m3EE644888B602C1A2E6E0A82F45399A8A06D1F68 (void);
-// 0x00000411 System.Type Unity.VisualScripting.OnEndDrag::get_MessageListenerType()
+// 0x000003FF System.Type Unity.VisualScripting.OnEndDrag::get_MessageListenerType()
 extern void OnEndDrag_get_MessageListenerType_m40269FE0DE7FE17803CF35D3F41C2D0FE5F7C9A7 (void);
-// 0x00000412 System.String Unity.VisualScripting.OnEndDrag::get_hookName()
+// 0x00000400 System.String Unity.VisualScripting.OnEndDrag::get_hookName()
 extern void OnEndDrag_get_hookName_m21E6B35CFA9F3756D548BB8B9966747B4C1D543D (void);
-// 0x00000413 System.Void Unity.VisualScripting.OnEndDrag::.ctor()
+// 0x00000401 System.Void Unity.VisualScripting.OnEndDrag::.ctor()
 extern void OnEndDrag__ctor_m9BE32008DD7BBC0D8452ED6A8407EB43866E2542 (void);
-// 0x00000414 System.String Unity.VisualScripting.OnGUI::get_hookName()
+// 0x00000402 System.String Unity.VisualScripting.OnGUI::get_hookName()
 extern void OnGUI_get_hookName_m6D31940E134AF71D719FBC5C9DCA7B06A1CF170D (void);
-// 0x00000415 System.Void Unity.VisualScripting.OnGUI::.ctor()
+// 0x00000403 System.Void Unity.VisualScripting.OnGUI::.ctor()
 extern void OnGUI__ctor_m6C0DB8FF9944896886B9DCF3E1B12923B32D33D6 (void);
-// 0x00000416 System.Type Unity.VisualScripting.OnInputFieldEndEdit::get_MessageListenerType()
+// 0x00000404 System.Type Unity.VisualScripting.OnInputFieldEndEdit::get_MessageListenerType()
 extern void OnInputFieldEndEdit_get_MessageListenerType_mA7935CE1688816B97045A918D9290DF9A021EAC8 (void);
-// 0x00000417 System.String Unity.VisualScripting.OnInputFieldEndEdit::get_hookName()
+// 0x00000405 System.String Unity.VisualScripting.OnInputFieldEndEdit::get_hookName()
 extern void OnInputFieldEndEdit_get_hookName_m05234479385313981F000FD792E9569E9FA6CB9D (void);
-// 0x00000418 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnInputFieldEndEdit::get_value()
+// 0x00000406 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnInputFieldEndEdit::get_value()
 extern void OnInputFieldEndEdit_get_value_m00255CCEDD5CBA384EC5B1B0CAD8988A807CEB0F (void);
-// 0x00000419 System.Void Unity.VisualScripting.OnInputFieldEndEdit::set_value(Unity.VisualScripting.ValueOutput)
+// 0x00000407 System.Void Unity.VisualScripting.OnInputFieldEndEdit::set_value(Unity.VisualScripting.ValueOutput)
 extern void OnInputFieldEndEdit_set_value_mF2F42BD6D8A318A4F62A2E6D7704B2471DE135E2 (void);
-// 0x0000041A System.Void Unity.VisualScripting.OnInputFieldEndEdit::Definition()
+// 0x00000408 System.Void Unity.VisualScripting.OnInputFieldEndEdit::Definition()
 extern void OnInputFieldEndEdit_Definition_mFDE6B3C0160AEA892EED06E816C6BC21245607D2 (void);
-// 0x0000041B System.Void Unity.VisualScripting.OnInputFieldEndEdit::AssignArguments(Unity.VisualScripting.Flow,System.String)
+// 0x00000409 System.Void Unity.VisualScripting.OnInputFieldEndEdit::AssignArguments(Unity.VisualScripting.Flow,System.String)
 extern void OnInputFieldEndEdit_AssignArguments_mAED903927E124E9D5789D935447294810D9107BA (void);
-// 0x0000041C System.Void Unity.VisualScripting.OnInputFieldEndEdit::.ctor()
+// 0x0000040A System.Void Unity.VisualScripting.OnInputFieldEndEdit::.ctor()
 extern void OnInputFieldEndEdit__ctor_m15ACB18000D135DD712D3430B369CEFA15665B11 (void);
-// 0x0000041D System.Type Unity.VisualScripting.OnInputFieldValueChanged::get_MessageListenerType()
+// 0x0000040B System.Type Unity.VisualScripting.OnInputFieldValueChanged::get_MessageListenerType()
 extern void OnInputFieldValueChanged_get_MessageListenerType_mC8590A0365E6A2B6372EF95FC4591C6884D37246 (void);
-// 0x0000041E System.String Unity.VisualScripting.OnInputFieldValueChanged::get_hookName()
+// 0x0000040C System.String Unity.VisualScripting.OnInputFieldValueChanged::get_hookName()
 extern void OnInputFieldValueChanged_get_hookName_m7A40B3DCA0C04E5AADD32B1791209E4465F13736 (void);
-// 0x0000041F Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnInputFieldValueChanged::get_value()
+// 0x0000040D Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnInputFieldValueChanged::get_value()
 extern void OnInputFieldValueChanged_get_value_m6E4D8B15B54F8D1F02C407A1D4C26059A4275CA1 (void);
-// 0x00000420 System.Void Unity.VisualScripting.OnInputFieldValueChanged::set_value(Unity.VisualScripting.ValueOutput)
+// 0x0000040E System.Void Unity.VisualScripting.OnInputFieldValueChanged::set_value(Unity.VisualScripting.ValueOutput)
 extern void OnInputFieldValueChanged_set_value_mF11242827C5AB0D5DA71A05C00C2AB6C493AA2B9 (void);
-// 0x00000421 System.Void Unity.VisualScripting.OnInputFieldValueChanged::Definition()
+// 0x0000040F System.Void Unity.VisualScripting.OnInputFieldValueChanged::Definition()
 extern void OnInputFieldValueChanged_Definition_m57C29BA037975EC3F4ECD990DD2CFA2761F2E266 (void);
-// 0x00000422 System.Void Unity.VisualScripting.OnInputFieldValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.String)
+// 0x00000410 System.Void Unity.VisualScripting.OnInputFieldValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.String)
 extern void OnInputFieldValueChanged_AssignArguments_m10E60EC9D968CF08E99D2B2E5BB057787BE20F65 (void);
-// 0x00000423 System.Void Unity.VisualScripting.OnInputFieldValueChanged::.ctor()
+// 0x00000411 System.Void Unity.VisualScripting.OnInputFieldValueChanged::.ctor()
 extern void OnInputFieldValueChanged__ctor_m30842FFF2765FAE31AA2602646A23EECA7289660 (void);
-// 0x00000424 System.Type Unity.VisualScripting.OnMove::get_MessageListenerType()
+// 0x00000412 System.Type Unity.VisualScripting.OnMove::get_MessageListenerType()
 extern void OnMove_get_MessageListenerType_m9333CCC57C4003DA4A85C13F128862655D03DB1B (void);
-// 0x00000425 System.String Unity.VisualScripting.OnMove::get_hookName()
+// 0x00000413 System.String Unity.VisualScripting.OnMove::get_hookName()
 extern void OnMove_get_hookName_m3033AFDA8F279C7474DA0D41B46EA0518D0A53D9 (void);
-// 0x00000426 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnMove::get_data()
+// 0x00000414 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnMove::get_data()
 extern void OnMove_get_data_mEE6623E7B1B6B8D042622832E45750E8FCE4993C (void);
-// 0x00000427 System.Void Unity.VisualScripting.OnMove::set_data(Unity.VisualScripting.ValueOutput)
+// 0x00000415 System.Void Unity.VisualScripting.OnMove::set_data(Unity.VisualScripting.ValueOutput)
 extern void OnMove_set_data_mBE96353D15F3D474662EBB57F14F243D65351AFC (void);
-// 0x00000428 System.Void Unity.VisualScripting.OnMove::Definition()
+// 0x00000416 System.Void Unity.VisualScripting.OnMove::Definition()
 extern void OnMove_Definition_m9DB656FAAB826F8A4424A10D926815D74437827D (void);
-// 0x00000429 System.Void Unity.VisualScripting.OnMove::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.AxisEventData)
+// 0x00000417 System.Void Unity.VisualScripting.OnMove::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.AxisEventData)
 extern void OnMove_AssignArguments_mC0E1B11B30EE32F9591190607523394FCCD85016 (void);
-// 0x0000042A System.Void Unity.VisualScripting.OnMove::.ctor()
+// 0x00000418 System.Void Unity.VisualScripting.OnMove::.ctor()
 extern void OnMove__ctor_mC252558BDC96214FB299218C3430FD75B41D5336 (void);
-// 0x0000042B System.Type Unity.VisualScripting.OnPointerClick::get_MessageListenerType()
+// 0x00000419 System.Type Unity.VisualScripting.OnPointerClick::get_MessageListenerType()
 extern void OnPointerClick_get_MessageListenerType_m7A7D5D47A70BCF5CA44013E5C00D539208E19A7A (void);
-// 0x0000042C System.String Unity.VisualScripting.OnPointerClick::get_hookName()
+// 0x0000041A System.String Unity.VisualScripting.OnPointerClick::get_hookName()
 extern void OnPointerClick_get_hookName_mFFF5F59EDBC039AD97B307BBA03AE5E232C39858 (void);
-// 0x0000042D System.Void Unity.VisualScripting.OnPointerClick::.ctor()
+// 0x0000041B System.Void Unity.VisualScripting.OnPointerClick::.ctor()
 extern void OnPointerClick__ctor_m2B68BD9BD8E6B73E29B0E023F6847E4DFE8ED6E1 (void);
-// 0x0000042E System.Type Unity.VisualScripting.OnPointerDown::get_MessageListenerType()
+// 0x0000041C System.Type Unity.VisualScripting.OnPointerDown::get_MessageListenerType()
 extern void OnPointerDown_get_MessageListenerType_mCFE7A8E528E1324C327C1CEF7C04FB89D474FEEC (void);
-// 0x0000042F System.String Unity.VisualScripting.OnPointerDown::get_hookName()
+// 0x0000041D System.String Unity.VisualScripting.OnPointerDown::get_hookName()
 extern void OnPointerDown_get_hookName_m5C134A70CB73F564779ECF1E48312D89A1762BD9 (void);
-// 0x00000430 System.Void Unity.VisualScripting.OnPointerDown::.ctor()
+// 0x0000041E System.Void Unity.VisualScripting.OnPointerDown::.ctor()
 extern void OnPointerDown__ctor_m60DFA346C30B8511F4CFCE06893E0CD2602955F9 (void);
-// 0x00000431 System.Type Unity.VisualScripting.OnPointerEnter::get_MessageListenerType()
+// 0x0000041F System.Type Unity.VisualScripting.OnPointerEnter::get_MessageListenerType()
 extern void OnPointerEnter_get_MessageListenerType_mD405DB82A9F76BCDD5865FE894550704DC0619AC (void);
-// 0x00000432 System.String Unity.VisualScripting.OnPointerEnter::get_hookName()
+// 0x00000420 System.String Unity.VisualScripting.OnPointerEnter::get_hookName()
 extern void OnPointerEnter_get_hookName_m26446AFF78163B21309163F6E20D2883313F79C2 (void);
-// 0x00000433 System.Void Unity.VisualScripting.OnPointerEnter::.ctor()
+// 0x00000421 System.Void Unity.VisualScripting.OnPointerEnter::.ctor()
 extern void OnPointerEnter__ctor_m72A3805B6EAFD14DF400902601B721A757AA3F32 (void);
-// 0x00000434 System.Type Unity.VisualScripting.OnPointerExit::get_MessageListenerType()
+// 0x00000422 System.Type Unity.VisualScripting.OnPointerExit::get_MessageListenerType()
 extern void OnPointerExit_get_MessageListenerType_mC9ECCBF16EE1C0FF2356F906B3464B5C30B82A03 (void);
-// 0x00000435 System.String Unity.VisualScripting.OnPointerExit::get_hookName()
+// 0x00000423 System.String Unity.VisualScripting.OnPointerExit::get_hookName()
 extern void OnPointerExit_get_hookName_m416B1BBD5F39E66F7994FA411BC52A37B3816BF7 (void);
-// 0x00000436 System.Void Unity.VisualScripting.OnPointerExit::.ctor()
+// 0x00000424 System.Void Unity.VisualScripting.OnPointerExit::.ctor()
 extern void OnPointerExit__ctor_m6B6F38FF7554CEE2E5366089F7FCBB5BB3392A41 (void);
-// 0x00000437 System.Type Unity.VisualScripting.OnPointerUp::get_MessageListenerType()
+// 0x00000425 System.Type Unity.VisualScripting.OnPointerUp::get_MessageListenerType()
 extern void OnPointerUp_get_MessageListenerType_m6D61E86950B8FB10BDDFDAECDED8C1F5A252E232 (void);
-// 0x00000438 System.String Unity.VisualScripting.OnPointerUp::get_hookName()
+// 0x00000426 System.String Unity.VisualScripting.OnPointerUp::get_hookName()
 extern void OnPointerUp_get_hookName_mA354BC0BFCCAF1379BA875544429FD27B5851FF9 (void);
-// 0x00000439 System.Void Unity.VisualScripting.OnPointerUp::.ctor()
+// 0x00000427 System.Void Unity.VisualScripting.OnPointerUp::.ctor()
 extern void OnPointerUp__ctor_m6CAAB8BFF563D9D21121B5389A3FBDC431CB1E07 (void);
-// 0x0000043A System.Type Unity.VisualScripting.OnScroll::get_MessageListenerType()
+// 0x00000428 System.Type Unity.VisualScripting.OnScroll::get_MessageListenerType()
 extern void OnScroll_get_MessageListenerType_m558F7E8687CF6A10F3ECA74B1737E4EC0F370E1A (void);
-// 0x0000043B System.String Unity.VisualScripting.OnScroll::get_hookName()
+// 0x00000429 System.String Unity.VisualScripting.OnScroll::get_hookName()
 extern void OnScroll_get_hookName_m30B8728599DDC4FC6EC8CEFD935AE217348DB3E2 (void);
-// 0x0000043C System.Void Unity.VisualScripting.OnScroll::.ctor()
+// 0x0000042A System.Void Unity.VisualScripting.OnScroll::.ctor()
 extern void OnScroll__ctor_m23791EF4DF542797CFC1A1A01EC28F3C94BFF9E0 (void);
-// 0x0000043D System.Type Unity.VisualScripting.OnScrollbarValueChanged::get_MessageListenerType()
-extern void OnScrollbarValueChanged_get_MessageListenerType_mA780DABC81B21F7970A8F90473A76A87BE9CCE20 (void);
-// 0x0000043E System.String Unity.VisualScripting.OnScrollbarValueChanged::get_hookName()
-extern void OnScrollbarValueChanged_get_hookName_m0CBCDC35F824ECAF68B8C1C822C330654EF259D9 (void);
-// 0x0000043F Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnScrollbarValueChanged::get_value()
-extern void OnScrollbarValueChanged_get_value_m834E1C1828DF2BC22249C757A498793F8B8AE219 (void);
-// 0x00000440 System.Void Unity.VisualScripting.OnScrollbarValueChanged::set_value(Unity.VisualScripting.ValueOutput)
-extern void OnScrollbarValueChanged_set_value_m138364F4D2246ED96945B1CDD71CCD41A329AD42 (void);
-// 0x00000441 System.Void Unity.VisualScripting.OnScrollbarValueChanged::Definition()
-extern void OnScrollbarValueChanged_Definition_m804E975EADDF95CC93568F74E0DC941FBA299CBF (void);
-// 0x00000442 System.Void Unity.VisualScripting.OnScrollbarValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Single)
-extern void OnScrollbarValueChanged_AssignArguments_m7125CE6AB70242FA57924EC06DDE7B6CF42716D1 (void);
-// 0x00000443 System.Void Unity.VisualScripting.OnScrollbarValueChanged::.ctor()
-extern void OnScrollbarValueChanged__ctor_m4FD5B873E3DF20A6C2FA8C58F34CBB3669D9CD31 (void);
-// 0x00000444 System.Type Unity.VisualScripting.OnScrollRectValueChanged::get_MessageListenerType()
+// 0x0000042B System.Type Unity.VisualScripting.OnScrollRectValueChanged::get_MessageListenerType()
 extern void OnScrollRectValueChanged_get_MessageListenerType_mDD8DF8A61478D493B24A2FEB8C4B0554D0D81DEC (void);
-// 0x00000445 System.String Unity.VisualScripting.OnScrollRectValueChanged::get_hookName()
+// 0x0000042C System.String Unity.VisualScripting.OnScrollRectValueChanged::get_hookName()
 extern void OnScrollRectValueChanged_get_hookName_mA117823BCF46ECBA973B23E317BEF82676FD8A30 (void);
-// 0x00000446 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnScrollRectValueChanged::get_value()
+// 0x0000042D Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnScrollRectValueChanged::get_value()
 extern void OnScrollRectValueChanged_get_value_m292B50AE2C3BD76F368C8C65E4BD362DC67C5997 (void);
-// 0x00000447 System.Void Unity.VisualScripting.OnScrollRectValueChanged::set_value(Unity.VisualScripting.ValueOutput)
+// 0x0000042E System.Void Unity.VisualScripting.OnScrollRectValueChanged::set_value(Unity.VisualScripting.ValueOutput)
 extern void OnScrollRectValueChanged_set_value_mC4D9AEA1203889872E4CDB2862BF4A70F048B4B1 (void);
-// 0x00000448 System.Void Unity.VisualScripting.OnScrollRectValueChanged::Definition()
+// 0x0000042F System.Void Unity.VisualScripting.OnScrollRectValueChanged::Definition()
 extern void OnScrollRectValueChanged_Definition_m782FF98F9E5794212D4C6AE9A4C6FD1E8D4CD5EE (void);
-// 0x00000449 System.Void Unity.VisualScripting.OnScrollRectValueChanged::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.Vector2)
+// 0x00000430 System.Void Unity.VisualScripting.OnScrollRectValueChanged::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.Vector2)
 extern void OnScrollRectValueChanged_AssignArguments_m086D3B70279E97B123A2819C07FF0339BE8B36F0 (void);
-// 0x0000044A System.Void Unity.VisualScripting.OnScrollRectValueChanged::.ctor()
+// 0x00000431 System.Void Unity.VisualScripting.OnScrollRectValueChanged::.ctor()
 extern void OnScrollRectValueChanged__ctor_mC668A2F618845A20AD9989C2D5EF7E09C02D4397 (void);
-// 0x0000044B System.Type Unity.VisualScripting.OnSelect::get_MessageListenerType()
+// 0x00000432 System.Type Unity.VisualScripting.OnScrollbarValueChanged::get_MessageListenerType()
+extern void OnScrollbarValueChanged_get_MessageListenerType_mA780DABC81B21F7970A8F90473A76A87BE9CCE20 (void);
+// 0x00000433 System.String Unity.VisualScripting.OnScrollbarValueChanged::get_hookName()
+extern void OnScrollbarValueChanged_get_hookName_m0CBCDC35F824ECAF68B8C1C822C330654EF259D9 (void);
+// 0x00000434 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnScrollbarValueChanged::get_value()
+extern void OnScrollbarValueChanged_get_value_m834E1C1828DF2BC22249C757A498793F8B8AE219 (void);
+// 0x00000435 System.Void Unity.VisualScripting.OnScrollbarValueChanged::set_value(Unity.VisualScripting.ValueOutput)
+extern void OnScrollbarValueChanged_set_value_m138364F4D2246ED96945B1CDD71CCD41A329AD42 (void);
+// 0x00000436 System.Void Unity.VisualScripting.OnScrollbarValueChanged::Definition()
+extern void OnScrollbarValueChanged_Definition_m804E975EADDF95CC93568F74E0DC941FBA299CBF (void);
+// 0x00000437 System.Void Unity.VisualScripting.OnScrollbarValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Single)
+extern void OnScrollbarValueChanged_AssignArguments_m7125CE6AB70242FA57924EC06DDE7B6CF42716D1 (void);
+// 0x00000438 System.Void Unity.VisualScripting.OnScrollbarValueChanged::.ctor()
+extern void OnScrollbarValueChanged__ctor_m4FD5B873E3DF20A6C2FA8C58F34CBB3669D9CD31 (void);
+// 0x00000439 System.Type Unity.VisualScripting.OnSelect::get_MessageListenerType()
 extern void OnSelect_get_MessageListenerType_m6272C3D711E19CAB46C6D534AEF8C6C7C27EBDA5 (void);
-// 0x0000044C System.String Unity.VisualScripting.OnSelect::get_hookName()
+// 0x0000043A System.String Unity.VisualScripting.OnSelect::get_hookName()
 extern void OnSelect_get_hookName_m1E904DE8623DF1A3D33F95F6C9AB0119013C08CD (void);
-// 0x0000044D System.Void Unity.VisualScripting.OnSelect::.ctor()
+// 0x0000043B System.Void Unity.VisualScripting.OnSelect::.ctor()
 extern void OnSelect__ctor_m56C30A8C5983829C09F5DC8C3E1227D205AF6658 (void);
-// 0x0000044E System.Type Unity.VisualScripting.OnSliderValueChanged::get_MessageListenerType()
+// 0x0000043C System.Type Unity.VisualScripting.OnSliderValueChanged::get_MessageListenerType()
 extern void OnSliderValueChanged_get_MessageListenerType_m2B9BC12666080BADE19283255EA5D8B5D35C97E6 (void);
-// 0x0000044F System.String Unity.VisualScripting.OnSliderValueChanged::get_hookName()
+// 0x0000043D System.String Unity.VisualScripting.OnSliderValueChanged::get_hookName()
 extern void OnSliderValueChanged_get_hookName_mCAFB549071737C61C786B8A5ECDB3DBA0503B384 (void);
-// 0x00000450 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnSliderValueChanged::get_value()
+// 0x0000043E Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnSliderValueChanged::get_value()
 extern void OnSliderValueChanged_get_value_mEC56FB1C57A53F466B4B2AEB6901F149D8BAC3DC (void);
-// 0x00000451 System.Void Unity.VisualScripting.OnSliderValueChanged::set_value(Unity.VisualScripting.ValueOutput)
+// 0x0000043F System.Void Unity.VisualScripting.OnSliderValueChanged::set_value(Unity.VisualScripting.ValueOutput)
 extern void OnSliderValueChanged_set_value_m19B000CA961BCA7246C26EA3BBDE08552E3169E6 (void);
-// 0x00000452 System.Void Unity.VisualScripting.OnSliderValueChanged::Definition()
+// 0x00000440 System.Void Unity.VisualScripting.OnSliderValueChanged::Definition()
 extern void OnSliderValueChanged_Definition_m8FED561FBB80CE1DB624CC3D5D3A50732D722926 (void);
-// 0x00000453 System.Void Unity.VisualScripting.OnSliderValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Single)
+// 0x00000441 System.Void Unity.VisualScripting.OnSliderValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Single)
 extern void OnSliderValueChanged_AssignArguments_mCFFE9D961D38BBDEB4703FBC9020FBAC6D9FA589 (void);
-// 0x00000454 System.Void Unity.VisualScripting.OnSliderValueChanged::.ctor()
+// 0x00000442 System.Void Unity.VisualScripting.OnSliderValueChanged::.ctor()
 extern void OnSliderValueChanged__ctor_m5BE266E2E08EAB2FCEDA3B4D699CCC6E76BF82F4 (void);
-// 0x00000455 System.Type Unity.VisualScripting.OnSubmit::get_MessageListenerType()
+// 0x00000443 System.Type Unity.VisualScripting.OnSubmit::get_MessageListenerType()
 extern void OnSubmit_get_MessageListenerType_mA8F052766EA58C4BD94F0CE8BD8E7E3B3F7E5135 (void);
-// 0x00000456 System.String Unity.VisualScripting.OnSubmit::get_hookName()
+// 0x00000444 System.String Unity.VisualScripting.OnSubmit::get_hookName()
 extern void OnSubmit_get_hookName_mB58492F49C846BB20475C989C55DABD24D29CAFC (void);
-// 0x00000457 System.Void Unity.VisualScripting.OnSubmit::.ctor()
+// 0x00000445 System.Void Unity.VisualScripting.OnSubmit::.ctor()
 extern void OnSubmit__ctor_mE6856F897C7E5F73F32EA6627AD2097DAF3D1A44 (void);
-// 0x00000458 System.Type Unity.VisualScripting.OnToggleValueChanged::get_MessageListenerType()
+// 0x00000446 System.Type Unity.VisualScripting.OnToggleValueChanged::get_MessageListenerType()
 extern void OnToggleValueChanged_get_MessageListenerType_m2094FE613F4E1D422B4B25C579D7D93536699B12 (void);
-// 0x00000459 System.String Unity.VisualScripting.OnToggleValueChanged::get_hookName()
+// 0x00000447 System.String Unity.VisualScripting.OnToggleValueChanged::get_hookName()
 extern void OnToggleValueChanged_get_hookName_m47077E64261E42B736355611E4D74AEF2C3E3CD5 (void);
-// 0x0000045A Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnToggleValueChanged::get_value()
+// 0x00000448 Unity.VisualScripting.ValueOutput Unity.VisualScripting.OnToggleValueChanged::get_value()
 extern void OnToggleValueChanged_get_value_m360E1EDD08291DE1A31A74C18759ABBCE02CF3D5 (void);
-// 0x0000045B System.Void Unity.VisualScripting.OnToggleValueChanged::set_value(Unity.VisualScripting.ValueOutput)
+// 0x00000449 System.Void Unity.VisualScripting.OnToggleValueChanged::set_value(Unity.VisualScripting.ValueOutput)
 extern void OnToggleValueChanged_set_value_mAF431C6ECE21A5CCE785955954A6E0E63656D5C9 (void);
-// 0x0000045C System.Void Unity.VisualScripting.OnToggleValueChanged::Definition()
+// 0x0000044A System.Void Unity.VisualScripting.OnToggleValueChanged::Definition()
 extern void OnToggleValueChanged_Definition_m2836DDCAC553BC71B92CA60555A3734435A89BCF (void);
-// 0x0000045D System.Void Unity.VisualScripting.OnToggleValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Boolean)
+// 0x0000044B System.Void Unity.VisualScripting.OnToggleValueChanged::AssignArguments(Unity.VisualScripting.Flow,System.Boolean)
 extern void OnToggleValueChanged_AssignArguments_mC70C0A6E738016595313B811CD62B2E6E3BED0F0 (void);
-// 0x0000045E System.Void Unity.VisualScripting.OnToggleValueChanged::.ctor()
+// 0x0000044C System.Void Unity.VisualScripting.OnToggleValueChanged::.ctor()
 extern void OnToggleValueChanged__ctor_mB8C84632F42297724073A902A24E73FAF34B6927 (void);
-// 0x0000045F Unity.VisualScripting.ValueOutput Unity.VisualScripting.PointerEventUnit::get_data()
+// 0x0000044D Unity.VisualScripting.ValueOutput Unity.VisualScripting.PointerEventUnit::get_data()
 extern void PointerEventUnit_get_data_m18B9E7126BCC08B101E1D6EA8A8717B8FB1C92BF (void);
-// 0x00000460 System.Void Unity.VisualScripting.PointerEventUnit::set_data(Unity.VisualScripting.ValueOutput)
+// 0x0000044E System.Void Unity.VisualScripting.PointerEventUnit::set_data(Unity.VisualScripting.ValueOutput)
 extern void PointerEventUnit_set_data_mBEFEE8C211C06D533A723004EB722AB014EE19CC (void);
-// 0x00000461 System.Void Unity.VisualScripting.PointerEventUnit::Definition()
+// 0x0000044F System.Void Unity.VisualScripting.PointerEventUnit::Definition()
 extern void PointerEventUnit_Definition_mFA1DA38FB02FB86C84EDB203873755E06216F564 (void);
-// 0x00000462 System.Void Unity.VisualScripting.PointerEventUnit::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.PointerEventData)
+// 0x00000450 System.Void Unity.VisualScripting.PointerEventUnit::AssignArguments(Unity.VisualScripting.Flow,UnityEngine.EventSystems.PointerEventData)
 extern void PointerEventUnit_AssignArguments_mDF5538352EC807DAF6E372E403640CF15AADC43D (void);
-// 0x00000463 System.Void Unity.VisualScripting.PointerEventUnit::.ctor()
+// 0x00000451 System.Void Unity.VisualScripting.PointerEventUnit::.ctor()
 extern void PointerEventUnit__ctor_m94638BAC8C45F47CD4FA47E4BBFCE873FA2C4B54 (void);
+// 0x00000452 System.Boolean Unity.VisualScripting.GameObjectEventUnit`1::get_register()
+// 0x00000453 System.Type Unity.VisualScripting.GameObjectEventUnit`1::get_MessageListenerType()
+// 0x00000454 Unity.VisualScripting.IGraphElementData Unity.VisualScripting.GameObjectEventUnit`1::CreateData()
+// 0x00000455 Unity.VisualScripting.ValueInput Unity.VisualScripting.GameObjectEventUnit`1::get_target()
+// 0x00000456 System.Void Unity.VisualScripting.GameObjectEventUnit`1::set_target(Unity.VisualScripting.ValueInput)
+// 0x00000457 System.Void Unity.VisualScripting.GameObjectEventUnit`1::Definition()
+// 0x00000458 Unity.VisualScripting.EventHook Unity.VisualScripting.GameObjectEventUnit`1::GetHook(Unity.VisualScripting.GraphReference)
+// 0x00000459 System.String Unity.VisualScripting.GameObjectEventUnit`1::get_hookName()
+// 0x0000045A System.Void Unity.VisualScripting.GameObjectEventUnit`1::UpdateTarget(Unity.VisualScripting.GraphStack)
+// 0x0000045B System.Void Unity.VisualScripting.GameObjectEventUnit`1::StartListening(Unity.VisualScripting.GraphStack,System.Boolean)
+// 0x0000045C System.Void Unity.VisualScripting.GameObjectEventUnit`1::StartListening(Unity.VisualScripting.GraphStack)
+// 0x0000045D System.Void Unity.VisualScripting.GameObjectEventUnit`1::.ctor()
+// 0x0000045E Unity.VisualScripting.FlowGraph Unity.VisualScripting.GameObjectEventUnit`1::Unity.VisualScripting.IUnit.get_graph()
+// 0x0000045F System.Void Unity.VisualScripting.GameObjectEventUnit`1/Data::.ctor()
+// 0x00000460 System.Boolean Unity.VisualScripting.GlobalEventUnit`1::get_register()
+// 0x00000461 System.String Unity.VisualScripting.GlobalEventUnit`1::get_hookName()
+// 0x00000462 Unity.VisualScripting.EventHook Unity.VisualScripting.GlobalEventUnit`1::GetHook(Unity.VisualScripting.GraphReference)
+// 0x00000463 System.Void Unity.VisualScripting.GlobalEventUnit`1::.ctor()
 // 0x00000464 System.Type Unity.VisualScripting.OnTransformChildrenChanged::get_MessageListenerType()
 extern void OnTransformChildrenChanged_get_MessageListenerType_mC09B007FCC95D042EFBDA911E4D587D0ED06B66D (void);
 // 0x00000465 System.String Unity.VisualScripting.OnTransformChildrenChanged::get_hookName()
@@ -4241,18 +4241,18 @@ extern void GetVariable_IsDefined_m616F62F06F7B44FE8ACB1EBC21DC5792B3EF4415 (voi
 extern void GetVariable_Get_m66E2AFA07A542C2D31B68D1AD0AB84D637D088D6 (void);
 // 0x000008FE System.Void Unity.VisualScripting.GetVariable::.ctor()
 extern void GetVariable__ctor_m05C82BDFBB4CCE608D5DCE13F6AC47297B86E132 (void);
-// 0x000008FF Unity.VisualScripting.ValueOutput Unity.VisualScripting.IsVariableDefined::get_isVariableDefined()
+// 0x000008FF Unity.VisualScripting.VariableKind Unity.VisualScripting.IUnifiedVariableUnit::get_kind()
+// 0x00000900 Unity.VisualScripting.ValueInput Unity.VisualScripting.IUnifiedVariableUnit::get_name()
+// 0x00000901 Unity.VisualScripting.ValueOutput Unity.VisualScripting.IsVariableDefined::get_isVariableDefined()
 extern void IsVariableDefined_get_isVariableDefined_mD00C6E938426C81DEC1181BD03811546567F92AC (void);
-// 0x00000900 System.Void Unity.VisualScripting.IsVariableDefined::set_isVariableDefined(Unity.VisualScripting.ValueOutput)
+// 0x00000902 System.Void Unity.VisualScripting.IsVariableDefined::set_isVariableDefined(Unity.VisualScripting.ValueOutput)
 extern void IsVariableDefined_set_isVariableDefined_m1D71A8C64CCA23C518D3F8D079E261D3DA75A418 (void);
-// 0x00000901 System.Void Unity.VisualScripting.IsVariableDefined::Definition()
+// 0x00000903 System.Void Unity.VisualScripting.IsVariableDefined::Definition()
 extern void IsVariableDefined_Definition_mB3DA0C1F41A3B77844C6C1CB66644CE9D63E269A (void);
-// 0x00000902 System.Boolean Unity.VisualScripting.IsVariableDefined::IsDefined(Unity.VisualScripting.Flow)
+// 0x00000904 System.Boolean Unity.VisualScripting.IsVariableDefined::IsDefined(Unity.VisualScripting.Flow)
 extern void IsVariableDefined_IsDefined_m8109FEC6D47BF7C49C36259ABF4F3D3828054556 (void);
-// 0x00000903 System.Void Unity.VisualScripting.IsVariableDefined::.ctor()
+// 0x00000905 System.Void Unity.VisualScripting.IsVariableDefined::.ctor()
 extern void IsVariableDefined__ctor_mC55E06E0013CFE5ED92E15EB6BDAC5A9D801CF07 (void);
-// 0x00000904 Unity.VisualScripting.VariableKind Unity.VisualScripting.IUnifiedVariableUnit::get_kind()
-// 0x00000905 Unity.VisualScripting.ValueInput Unity.VisualScripting.IUnifiedVariableUnit::get_name()
 // 0x00000906 System.Void Unity.VisualScripting.GetApplicationVariable::.ctor()
 extern void GetApplicationVariable__ctor_m9ACB543C3CF258650AF5ABD4B5C2400F4E594568 (void);
 // 0x00000907 System.Void Unity.VisualScripting.GetApplicationVariable::.ctor(System.String)
@@ -4313,65 +4313,65 @@ extern void GetVariableUnit_Definition_mC49371E92756A8EA5058B4DE4E4AA1D6AF3C7570
 extern void GetVariableUnit_IsDefined_mCF568DD1C45437791F951BAA25CE149DFCE518A9 (void);
 // 0x00000923 System.Object Unity.VisualScripting.GetVariableUnit::Get(Unity.VisualScripting.Flow)
 extern void GetVariableUnit_Get_m742FE1D656CE650A2501902139B7FE5B8E25469D (void);
-// 0x00000924 System.Void Unity.VisualScripting.IsApplicationVariableDefined::.ctor()
+// 0x00000924 Unity.VisualScripting.ValueInput Unity.VisualScripting.IVariableUnit::get_name()
+// 0x00000925 System.Void Unity.VisualScripting.IsApplicationVariableDefined::.ctor()
 extern void IsApplicationVariableDefined__ctor_mFB8BB5A47F7169B495E3B08A5FA5D18FE2A0A7E2 (void);
-// 0x00000925 System.Void Unity.VisualScripting.IsApplicationVariableDefined::.ctor(System.String)
+// 0x00000926 System.Void Unity.VisualScripting.IsApplicationVariableDefined::.ctor(System.String)
 extern void IsApplicationVariableDefined__ctor_m438B6E07E2F2BF1CBC6C70A067A0B5E695DFE205 (void);
-// 0x00000926 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsApplicationVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
+// 0x00000927 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsApplicationVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
 extern void IsApplicationVariableDefined_GetDeclarations_m54BFB538AB5FF4D423EE5F0A763264C34AC1A23F (void);
-// 0x00000927 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsApplicationVariableDefined::Unity.VisualScripting.IUnit.get_graph()
+// 0x00000928 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsApplicationVariableDefined::Unity.VisualScripting.IUnit.get_graph()
 extern void IsApplicationVariableDefined_Unity_VisualScripting_IUnit_get_graph_m45CD6E0673F95F166689D7ADD073CEB90AA1F161 (void);
-// 0x00000928 System.Void Unity.VisualScripting.IsGraphVariableDefined::.ctor()
+// 0x00000929 System.Void Unity.VisualScripting.IsGraphVariableDefined::.ctor()
 extern void IsGraphVariableDefined__ctor_m169094C6FF0416E6C0143CAC0E279B5DCA04D12C (void);
-// 0x00000929 System.Void Unity.VisualScripting.IsGraphVariableDefined::.ctor(System.String)
+// 0x0000092A System.Void Unity.VisualScripting.IsGraphVariableDefined::.ctor(System.String)
 extern void IsGraphVariableDefined__ctor_mA7A94687E5C7FA023C493E16A61008EF5E16D5AF (void);
-// 0x0000092A Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsGraphVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
+// 0x0000092B Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsGraphVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
 extern void IsGraphVariableDefined_GetDeclarations_m1F10B42B0D53EEE721A0EAD846180B3B52650705 (void);
-// 0x0000092B Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsGraphVariableDefined::Unity.VisualScripting.IUnit.get_graph()
+// 0x0000092C Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsGraphVariableDefined::Unity.VisualScripting.IUnit.get_graph()
 extern void IsGraphVariableDefined_Unity_VisualScripting_IUnit_get_graph_mA0BAE616ABBD309B312FA587F41BECFE643C9F50 (void);
-// 0x0000092C System.Void Unity.VisualScripting.IsObjectVariableDefined::.ctor()
+// 0x0000092D System.Void Unity.VisualScripting.IsObjectVariableDefined::.ctor()
 extern void IsObjectVariableDefined__ctor_m923673A42F5E52AD82EEDA84BC41AC3E4937CE1E (void);
-// 0x0000092D System.Void Unity.VisualScripting.IsObjectVariableDefined::.ctor(System.String)
+// 0x0000092E System.Void Unity.VisualScripting.IsObjectVariableDefined::.ctor(System.String)
 extern void IsObjectVariableDefined__ctor_mEFB19EB6EC9606769B7BF82D2C849682EC02DC82 (void);
-// 0x0000092E Unity.VisualScripting.ValueInput Unity.VisualScripting.IsObjectVariableDefined::get_source()
+// 0x0000092F Unity.VisualScripting.ValueInput Unity.VisualScripting.IsObjectVariableDefined::get_source()
 extern void IsObjectVariableDefined_get_source_m254EA83FFC45E3D0CF73F36E41889C36CF3E5123 (void);
-// 0x0000092F System.Void Unity.VisualScripting.IsObjectVariableDefined::set_source(Unity.VisualScripting.ValueInput)
+// 0x00000930 System.Void Unity.VisualScripting.IsObjectVariableDefined::set_source(Unity.VisualScripting.ValueInput)
 extern void IsObjectVariableDefined_set_source_m2B801B442A253027E14742280DB2FAFCF23A73A0 (void);
-// 0x00000930 System.Void Unity.VisualScripting.IsObjectVariableDefined::Definition()
+// 0x00000931 System.Void Unity.VisualScripting.IsObjectVariableDefined::Definition()
 extern void IsObjectVariableDefined_Definition_mEA2E2A541D6C98FD2308249ACA6BF9EF343B303C (void);
-// 0x00000931 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsObjectVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
+// 0x00000932 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsObjectVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
 extern void IsObjectVariableDefined_GetDeclarations_m11035C95ABBA20495A281DFDB65B10EE440DFF75 (void);
-// 0x00000932 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsObjectVariableDefined::Unity.VisualScripting.IUnit.get_graph()
+// 0x00000933 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsObjectVariableDefined::Unity.VisualScripting.IUnit.get_graph()
 extern void IsObjectVariableDefined_Unity_VisualScripting_IUnit_get_graph_m715AB2CCEAF96955CEE0529565D3CA8FF03F952F (void);
-// 0x00000933 System.Void Unity.VisualScripting.IsSavedVariableDefined::.ctor()
+// 0x00000934 System.Void Unity.VisualScripting.IsSavedVariableDefined::.ctor()
 extern void IsSavedVariableDefined__ctor_m121DF4D1E986E313A0F966D3DA7AE4698AA0D311 (void);
-// 0x00000934 System.Void Unity.VisualScripting.IsSavedVariableDefined::.ctor(System.String)
+// 0x00000935 System.Void Unity.VisualScripting.IsSavedVariableDefined::.ctor(System.String)
 extern void IsSavedVariableDefined__ctor_mCB93B863D31E02A72E06BCF285136B0FFCBFD190 (void);
-// 0x00000935 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsSavedVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
+// 0x00000936 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsSavedVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
 extern void IsSavedVariableDefined_GetDeclarations_mFD3880C3B8E726BBD81830BF555ACD1CA6BE3EBE (void);
-// 0x00000936 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsSavedVariableDefined::Unity.VisualScripting.IUnit.get_graph()
+// 0x00000937 Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsSavedVariableDefined::Unity.VisualScripting.IUnit.get_graph()
 extern void IsSavedVariableDefined_Unity_VisualScripting_IUnit_get_graph_m5B618F5241B03D5E1A9CB1CB797A60AAA1769C02 (void);
-// 0x00000937 System.Void Unity.VisualScripting.IsSceneVariableDefined::.ctor()
+// 0x00000938 System.Void Unity.VisualScripting.IsSceneVariableDefined::.ctor()
 extern void IsSceneVariableDefined__ctor_m71FE8C13088308578E5982A210BF0F9CCC0F2498 (void);
-// 0x00000938 System.Void Unity.VisualScripting.IsSceneVariableDefined::.ctor(System.String)
+// 0x00000939 System.Void Unity.VisualScripting.IsSceneVariableDefined::.ctor(System.String)
 extern void IsSceneVariableDefined__ctor_mE92D84CC6D0F913DC0105F8073BE97C3F443FA81 (void);
-// 0x00000939 Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsSceneVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
+// 0x0000093A Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.IsSceneVariableDefined::GetDeclarations(Unity.VisualScripting.Flow)
 extern void IsSceneVariableDefined_GetDeclarations_m77AF229C89D2630DB1043BB6E0450C1A7B05AE07 (void);
-// 0x0000093A Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsSceneVariableDefined::Unity.VisualScripting.IUnit.get_graph()
+// 0x0000093B Unity.VisualScripting.FlowGraph Unity.VisualScripting.IsSceneVariableDefined::Unity.VisualScripting.IUnit.get_graph()
 extern void IsSceneVariableDefined_Unity_VisualScripting_IUnit_get_graph_m8444A07C7FB52DC1F34444BD4CD7164F6A111162 (void);
-// 0x0000093B System.Void Unity.VisualScripting.IsVariableDefinedUnit::.ctor()
+// 0x0000093C System.Void Unity.VisualScripting.IsVariableDefinedUnit::.ctor()
 extern void IsVariableDefinedUnit__ctor_m92AEF666CA865385FB225368CE2CFB02E2BA3B62 (void);
-// 0x0000093C System.Void Unity.VisualScripting.IsVariableDefinedUnit::.ctor(System.String)
+// 0x0000093D System.Void Unity.VisualScripting.IsVariableDefinedUnit::.ctor(System.String)
 extern void IsVariableDefinedUnit__ctor_m1EEA4B771436E4FF477338A4D64B7D15BB577BB0 (void);
-// 0x0000093D Unity.VisualScripting.ValueOutput Unity.VisualScripting.IsVariableDefinedUnit::get_isDefined()
+// 0x0000093E Unity.VisualScripting.ValueOutput Unity.VisualScripting.IsVariableDefinedUnit::get_isDefined()
 extern void IsVariableDefinedUnit_get_isDefined_m955FBA60B87B818CCF10D751705552914079CEBD (void);
-// 0x0000093E System.Void Unity.VisualScripting.IsVariableDefinedUnit::set_isDefined(Unity.VisualScripting.ValueOutput)
+// 0x0000093F System.Void Unity.VisualScripting.IsVariableDefinedUnit::set_isDefined(Unity.VisualScripting.ValueOutput)
 extern void IsVariableDefinedUnit_set_isDefined_m3C2E2626A7C49B5410F58496D34BDAE97EC2EFBA (void);
-// 0x0000093F System.Void Unity.VisualScripting.IsVariableDefinedUnit::Definition()
+// 0x00000940 System.Void Unity.VisualScripting.IsVariableDefinedUnit::Definition()
 extern void IsVariableDefinedUnit_Definition_m2445627BC82F8304ED8007FBE307F0C3DF17A8B9 (void);
-// 0x00000940 System.Boolean Unity.VisualScripting.IsVariableDefinedUnit::IsDefined(Unity.VisualScripting.Flow)
+// 0x00000941 System.Boolean Unity.VisualScripting.IsVariableDefinedUnit::IsDefined(Unity.VisualScripting.Flow)
 extern void IsVariableDefinedUnit_IsDefined_mD2349A1937F8167ABC32ABCEC391596F9BF3C70B (void);
-// 0x00000941 Unity.VisualScripting.ValueInput Unity.VisualScripting.IVariableUnit::get_name()
 // 0x00000942 System.Void Unity.VisualScripting.SetApplicationVariable::.ctor()
 extern void SetApplicationVariable__ctor_m4F38F9F51E9DF78E13667BC6DA1A2D96B80DD6D6 (void);
 // 0x00000943 System.Void Unity.VisualScripting.SetApplicationVariable::.ctor(System.String)
@@ -4705,93 +4705,93 @@ extern void U3CU3Ec__DisplayClass21_0_U3CDisconnectFromValidU3Eb__0_m1DB418735BF
 extern void ControlOutputDefinition__ctor_m7E5B32AF10AAD745BF424BD996F02C521983A242 (void);
 // 0x00000A08 System.Void Unity.VisualScripting.ControlPortDefinition::.ctor()
 extern void ControlPortDefinition__ctor_m3249EB50DAD8823863720810636A31079719F43C (void);
-// 0x00000A09 System.Void Unity.VisualScripting.InvalidInput::.ctor(System.String)
+// 0x00000A09 System.Boolean Unity.VisualScripting.IUnitControlPort::get_isPredictable()
+// 0x00000A0A System.Boolean Unity.VisualScripting.IUnitControlPort::get_couldBeEntered()
+// 0x00000A0B Unity.VisualScripting.IUnit Unity.VisualScripting.IUnitPort::get_unit()
+// 0x00000A0C System.Void Unity.VisualScripting.IUnitPort::set_unit(Unity.VisualScripting.IUnit)
+// 0x00000A0D System.String Unity.VisualScripting.IUnitPort::get_key()
+// 0x00000A0E System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitRelation> Unity.VisualScripting.IUnitPort::get_relations()
+// 0x00000A0F System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitConnection> Unity.VisualScripting.IUnitPort::get_validConnections()
+// 0x00000A10 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.IUnitPort::get_invalidConnections()
+// 0x00000A11 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitConnection> Unity.VisualScripting.IUnitPort::get_connections()
+// 0x00000A12 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitPort> Unity.VisualScripting.IUnitPort::get_connectedPorts()
+// 0x00000A13 System.Boolean Unity.VisualScripting.IUnitPort::get_hasAnyConnection()
+// 0x00000A14 System.Boolean Unity.VisualScripting.IUnitPort::get_hasValidConnection()
+// 0x00000A15 System.Boolean Unity.VisualScripting.IUnitPort::get_hasInvalidConnection()
+// 0x00000A16 System.Boolean Unity.VisualScripting.IUnitPort::CanInvalidlyConnectTo(Unity.VisualScripting.IUnitPort)
+// 0x00000A17 System.Boolean Unity.VisualScripting.IUnitPort::CanValidlyConnectTo(Unity.VisualScripting.IUnitPort)
+// 0x00000A18 System.Void Unity.VisualScripting.IUnitPort::InvalidlyConnectTo(Unity.VisualScripting.IUnitPort)
+// 0x00000A19 System.Void Unity.VisualScripting.IUnitPort::ValidlyConnectTo(Unity.VisualScripting.IUnitPort)
+// 0x00000A1A System.Void Unity.VisualScripting.IUnitPort::Disconnect()
+// 0x00000A1B Unity.VisualScripting.IUnitPort Unity.VisualScripting.IUnitPort::CompatiblePort(Unity.VisualScripting.IUnit)
+// 0x00000A1C TPort Unity.VisualScripting.IUnitPortCollection`1::Single()
+// 0x00000A1D System.String Unity.VisualScripting.IUnitPortDefinition::get_key()
+// 0x00000A1E System.String Unity.VisualScripting.IUnitPortDefinition::get_label()
+// 0x00000A1F System.String Unity.VisualScripting.IUnitPortDefinition::get_summary()
+// 0x00000A20 System.Boolean Unity.VisualScripting.IUnitPortDefinition::get_hideLabel()
+// 0x00000A21 System.Boolean Unity.VisualScripting.IUnitPortDefinition::get_isValid()
+// 0x00000A22 System.Type Unity.VisualScripting.IUnitValuePort::get_type()
+// 0x00000A23 System.Type Unity.VisualScripting.IUnitValuePortDefinition::get_type()
+// 0x00000A24 System.Void Unity.VisualScripting.InvalidInput::.ctor(System.String)
 extern void InvalidInput__ctor_m339720C4AF5EB83AD38964F999AB8E4AA97C7E66 (void);
-// 0x00000A0A System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidInput::get_validConnections()
+// 0x00000A25 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidInput::get_validConnections()
 extern void InvalidInput_get_validConnections_mC947E333A695623796EE9ACC1EF522296F108303 (void);
-// 0x00000A0B System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidInput::get_invalidConnections()
+// 0x00000A26 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidInput::get_invalidConnections()
 extern void InvalidInput_get_invalidConnections_mFA8F573A81A2A6529DA65E16A018E6C9231E5903 (void);
-// 0x00000A0C System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitOutputPort> Unity.VisualScripting.InvalidInput::get_validConnectedPorts()
+// 0x00000A27 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitOutputPort> Unity.VisualScripting.InvalidInput::get_validConnectedPorts()
 extern void InvalidInput_get_validConnectedPorts_m1EAA135ED1AB78B206CE01D5E32B7E0EAC112AC3 (void);
-// 0x00000A0D System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitOutputPort> Unity.VisualScripting.InvalidInput::get_invalidConnectedPorts()
+// 0x00000A28 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitOutputPort> Unity.VisualScripting.InvalidInput::get_invalidConnectedPorts()
 extern void InvalidInput_get_invalidConnectedPorts_m58847E34AF02173099ABBAD2E3A3AFC2ABCD85E2 (void);
-// 0x00000A0E System.Boolean Unity.VisualScripting.InvalidInput::CanConnectToValid(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000A29 System.Boolean Unity.VisualScripting.InvalidInput::CanConnectToValid(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidInput_CanConnectToValid_mFF729121871174418B157FFF82D75BCDC96DACEE (void);
-// 0x00000A0F System.Void Unity.VisualScripting.InvalidInput::ConnectToValid(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000A2A System.Void Unity.VisualScripting.InvalidInput::ConnectToValid(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidInput_ConnectToValid_m792CEEAE8744F3F871ED83C72DD2DF17057575BB (void);
-// 0x00000A10 System.Void Unity.VisualScripting.InvalidInput::ConnectToInvalid(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000A2B System.Void Unity.VisualScripting.InvalidInput::ConnectToInvalid(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidInput_ConnectToInvalid_mF744D4F1271F25F9A15A03D7D085844D3CE52B38 (void);
-// 0x00000A11 System.Void Unity.VisualScripting.InvalidInput::DisconnectFromValid(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000A2C System.Void Unity.VisualScripting.InvalidInput::DisconnectFromValid(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidInput_DisconnectFromValid_m99261D183BBE6281E473F061DAC33F6E34C13F17 (void);
-// 0x00000A12 System.Void Unity.VisualScripting.InvalidInput::DisconnectFromInvalid(Unity.VisualScripting.IUnitOutputPort)
+// 0x00000A2D System.Void Unity.VisualScripting.InvalidInput::DisconnectFromInvalid(Unity.VisualScripting.IUnitOutputPort)
 extern void InvalidInput_DisconnectFromInvalid_mEC52ADF9E604C51D67FF16101B11EEB058531661 (void);
-// 0x00000A13 Unity.VisualScripting.IUnitPort Unity.VisualScripting.InvalidInput::CompatiblePort(Unity.VisualScripting.IUnit)
+// 0x00000A2E Unity.VisualScripting.IUnitPort Unity.VisualScripting.InvalidInput::CompatiblePort(Unity.VisualScripting.IUnit)
 extern void InvalidInput_CompatiblePort_mEBF07165D91C2C195FC6B01FC6FE0F069A1F79F4 (void);
-// 0x00000A14 System.Void Unity.VisualScripting.InvalidInput/<>c::.cctor()
+// 0x00000A2F System.Void Unity.VisualScripting.InvalidInput/<>c::.cctor()
 extern void U3CU3Ec__cctor_m662E77034A3A7C3952004A85D2326170FC760889 (void);
-// 0x00000A15 System.Void Unity.VisualScripting.InvalidInput/<>c::.ctor()
+// 0x00000A30 System.Void Unity.VisualScripting.InvalidInput/<>c::.ctor()
 extern void U3CU3Ec__ctor_m213E64C6E55E436E668E93E7B3DF93CC8BEEA850 (void);
-// 0x00000A16 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidInput/<>c::<get_validConnectedPorts>b__6_0(Unity.VisualScripting.InvalidConnection)
+// 0x00000A31 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidInput/<>c::<get_validConnectedPorts>b__6_0(Unity.VisualScripting.InvalidConnection)
 extern void U3CU3Ec_U3Cget_validConnectedPortsU3Eb__6_0_mCB593B2BC5E0F15434F2D95793167DA1E6381601 (void);
-// 0x00000A17 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidInput/<>c::<get_invalidConnectedPorts>b__8_0(Unity.VisualScripting.InvalidConnection)
+// 0x00000A32 Unity.VisualScripting.IUnitOutputPort Unity.VisualScripting.InvalidInput/<>c::<get_invalidConnectedPorts>b__8_0(Unity.VisualScripting.InvalidConnection)
 extern void U3CU3Ec_U3Cget_invalidConnectedPortsU3Eb__8_0_mA341A37B9EC403698D86D780FE139AED7CB004B7 (void);
-// 0x00000A18 System.Void Unity.VisualScripting.InvalidOutput::.ctor(System.String)
+// 0x00000A33 System.Void Unity.VisualScripting.InvalidOutput::.ctor(System.String)
 extern void InvalidOutput__ctor_m72C3861076079D89495DEB3C1FEEB31246E93521 (void);
-// 0x00000A19 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidOutput::get_validConnections()
+// 0x00000A34 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidOutput::get_validConnections()
 extern void InvalidOutput_get_validConnections_mCA55186C52BF1E8146794C25F16F16CEE75C1330 (void);
-// 0x00000A1A System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidOutput::get_invalidConnections()
+// 0x00000A35 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.InvalidOutput::get_invalidConnections()
 extern void InvalidOutput_get_invalidConnections_m5F16B21F4D55E53D6B93CA9EA87374A354FDB3AE (void);
-// 0x00000A1B System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitInputPort> Unity.VisualScripting.InvalidOutput::get_validConnectedPorts()
+// 0x00000A36 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitInputPort> Unity.VisualScripting.InvalidOutput::get_validConnectedPorts()
 extern void InvalidOutput_get_validConnectedPorts_m8ADA3652DA8135E6CA9010A65CEB62A83A1C8CD3 (void);
-// 0x00000A1C System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitInputPort> Unity.VisualScripting.InvalidOutput::get_invalidConnectedPorts()
+// 0x00000A37 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitInputPort> Unity.VisualScripting.InvalidOutput::get_invalidConnectedPorts()
 extern void InvalidOutput_get_invalidConnectedPorts_mB543EEA57C0BC7A62187A82DCC6B7C0F8DD81E8B (void);
-// 0x00000A1D System.Boolean Unity.VisualScripting.InvalidOutput::CanConnectToValid(Unity.VisualScripting.IUnitInputPort)
+// 0x00000A38 System.Boolean Unity.VisualScripting.InvalidOutput::CanConnectToValid(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidOutput_CanConnectToValid_mE21676CC93251C2E001CCCA286DCF4373864E009 (void);
-// 0x00000A1E System.Void Unity.VisualScripting.InvalidOutput::ConnectToValid(Unity.VisualScripting.IUnitInputPort)
+// 0x00000A39 System.Void Unity.VisualScripting.InvalidOutput::ConnectToValid(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidOutput_ConnectToValid_m2E10777F210BA03425620CEB88DD01130A675BD1 (void);
-// 0x00000A1F System.Void Unity.VisualScripting.InvalidOutput::ConnectToInvalid(Unity.VisualScripting.IUnitInputPort)
+// 0x00000A3A System.Void Unity.VisualScripting.InvalidOutput::ConnectToInvalid(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidOutput_ConnectToInvalid_mFAFCFE5ADD10E5C6A254ECD5BB9DC6A1C0D71102 (void);
-// 0x00000A20 System.Void Unity.VisualScripting.InvalidOutput::DisconnectFromValid(Unity.VisualScripting.IUnitInputPort)
+// 0x00000A3B System.Void Unity.VisualScripting.InvalidOutput::DisconnectFromValid(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidOutput_DisconnectFromValid_mFCD1D51854AC541D5DEB89AA5AD532681211B54A (void);
-// 0x00000A21 System.Void Unity.VisualScripting.InvalidOutput::DisconnectFromInvalid(Unity.VisualScripting.IUnitInputPort)
+// 0x00000A3C System.Void Unity.VisualScripting.InvalidOutput::DisconnectFromInvalid(Unity.VisualScripting.IUnitInputPort)
 extern void InvalidOutput_DisconnectFromInvalid_m0C60B1C446707515084427B50A7B92E31C866964 (void);
-// 0x00000A22 Unity.VisualScripting.IUnitPort Unity.VisualScripting.InvalidOutput::CompatiblePort(Unity.VisualScripting.IUnit)
+// 0x00000A3D Unity.VisualScripting.IUnitPort Unity.VisualScripting.InvalidOutput::CompatiblePort(Unity.VisualScripting.IUnit)
 extern void InvalidOutput_CompatiblePort_mBFDF0160B001B215B349D0C5543A43051CC50019 (void);
-// 0x00000A23 System.Void Unity.VisualScripting.InvalidOutput/<>c::.cctor()
+// 0x00000A3E System.Void Unity.VisualScripting.InvalidOutput/<>c::.cctor()
 extern void U3CU3Ec__cctor_m1851EDA8AE10FD4EA079021EF4EA5E214D0C5F4F (void);
-// 0x00000A24 System.Void Unity.VisualScripting.InvalidOutput/<>c::.ctor()
+// 0x00000A3F System.Void Unity.VisualScripting.InvalidOutput/<>c::.ctor()
 extern void U3CU3Ec__ctor_m4123A93B5B54FEE727F673691AAA61B6EAB881C5 (void);
-// 0x00000A25 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidOutput/<>c::<get_validConnectedPorts>b__6_0(Unity.VisualScripting.InvalidConnection)
+// 0x00000A40 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidOutput/<>c::<get_validConnectedPorts>b__6_0(Unity.VisualScripting.InvalidConnection)
 extern void U3CU3Ec_U3Cget_validConnectedPortsU3Eb__6_0_m14B6A61203B49BF9CC18CB249FDFCF5884992B9B (void);
-// 0x00000A26 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidOutput/<>c::<get_invalidConnectedPorts>b__8_0(Unity.VisualScripting.InvalidConnection)
+// 0x00000A41 Unity.VisualScripting.IUnitInputPort Unity.VisualScripting.InvalidOutput/<>c::<get_invalidConnectedPorts>b__8_0(Unity.VisualScripting.InvalidConnection)
 extern void U3CU3Ec_U3Cget_invalidConnectedPortsU3Eb__8_0_mD41CA9B7D29AE2D92DBDA3D4A4ADEA6F1F636D9B (void);
-// 0x00000A27 System.Boolean Unity.VisualScripting.IUnitControlPort::get_isPredictable()
-// 0x00000A28 System.Boolean Unity.VisualScripting.IUnitControlPort::get_couldBeEntered()
-// 0x00000A29 Unity.VisualScripting.IUnit Unity.VisualScripting.IUnitPort::get_unit()
-// 0x00000A2A System.Void Unity.VisualScripting.IUnitPort::set_unit(Unity.VisualScripting.IUnit)
-// 0x00000A2B System.String Unity.VisualScripting.IUnitPort::get_key()
-// 0x00000A2C System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitRelation> Unity.VisualScripting.IUnitPort::get_relations()
-// 0x00000A2D System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitConnection> Unity.VisualScripting.IUnitPort::get_validConnections()
-// 0x00000A2E System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.InvalidConnection> Unity.VisualScripting.IUnitPort::get_invalidConnections()
-// 0x00000A2F System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitConnection> Unity.VisualScripting.IUnitPort::get_connections()
-// 0x00000A30 System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.IUnitPort> Unity.VisualScripting.IUnitPort::get_connectedPorts()
-// 0x00000A31 System.Boolean Unity.VisualScripting.IUnitPort::get_hasAnyConnection()
-// 0x00000A32 System.Boolean Unity.VisualScripting.IUnitPort::get_hasValidConnection()
-// 0x00000A33 System.Boolean Unity.VisualScripting.IUnitPort::get_hasInvalidConnection()
-// 0x00000A34 System.Boolean Unity.VisualScripting.IUnitPort::CanInvalidlyConnectTo(Unity.VisualScripting.IUnitPort)
-// 0x00000A35 System.Boolean Unity.VisualScripting.IUnitPort::CanValidlyConnectTo(Unity.VisualScripting.IUnitPort)
-// 0x00000A36 System.Void Unity.VisualScripting.IUnitPort::InvalidlyConnectTo(Unity.VisualScripting.IUnitPort)
-// 0x00000A37 System.Void Unity.VisualScripting.IUnitPort::ValidlyConnectTo(Unity.VisualScripting.IUnitPort)
-// 0x00000A38 System.Void Unity.VisualScripting.IUnitPort::Disconnect()
-// 0x00000A39 Unity.VisualScripting.IUnitPort Unity.VisualScripting.IUnitPort::CompatiblePort(Unity.VisualScripting.IUnit)
-// 0x00000A3A TPort Unity.VisualScripting.IUnitPortCollection`1::Single()
-// 0x00000A3B System.String Unity.VisualScripting.IUnitPortDefinition::get_key()
-// 0x00000A3C System.String Unity.VisualScripting.IUnitPortDefinition::get_label()
-// 0x00000A3D System.String Unity.VisualScripting.IUnitPortDefinition::get_summary()
-// 0x00000A3E System.Boolean Unity.VisualScripting.IUnitPortDefinition::get_hideLabel()
-// 0x00000A3F System.Boolean Unity.VisualScripting.IUnitPortDefinition::get_isValid()
-// 0x00000A40 System.Type Unity.VisualScripting.IUnitValuePort::get_type()
-// 0x00000A41 System.Type Unity.VisualScripting.IUnitValuePortDefinition::get_type()
 // 0x00000A42 System.Void Unity.VisualScripting.MissingValuePortInputException::.ctor(System.String)
 extern void MissingValuePortInputException__ctor_mD4A8F195D7F45708BAD298CCB487B0338088CFBA (void);
 // 0x00000A43 System.Void Unity.VisualScripting.UnitPort`3::.ctor(System.String)
@@ -5964,6 +5964,11 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	ControlConnection_get_sourceExists_mE372107ECA543BBB2DF31CEAD9F2B0FDA567B755,
 	ControlConnection_get_destinationExists_mE18F4D59DA6DE07D77CC4474B537A6358EC354B5,
 	ControlConnection_Unity_VisualScripting_IUnitConnection_get_graph_m09E985E95A824BE7CE17ACEC8E204940940F81F6,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	InvalidConnection__ctor_m9CA751D263696C2771FB53CFD11155973D2E10F4,
 	InvalidConnection__ctor_mAB71D240111EF6DEF8EF3C5486A846E95FBB31F3,
 	InvalidConnection_AfterRemove_m7436C4B6642A74596B8269793B9AE046278FE869,
@@ -5985,11 +5990,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	InvalidConnection_U3Cget_destinationExistsU3Eb__14_0_mD96BC5560F935C23F51C32EAEFFD33CC6DE628D2,
 	InvalidConnection_U3Cget_validSourceExistsU3Eb__16_0_mB41EAE580C8F6A0BFDA32F8EFA713C8E4AF8F770,
 	InvalidConnection_U3Cget_validDestinationExistsU3Eb__18_0_mF31856730E0A2E6B68819D53A24019FAAD5CBC45,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -6605,6 +6605,7 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	U3CLoopCoroutineU3Ed__24_System_Collections_IEnumerator_Reset_m09082A5FF36AB11E452713EBEA5CD670F47ADCD7,
 	U3CLoopCoroutineU3Ed__24_System_Collections_IEnumerator_get_Current_m8944950F4ED28CB00AC82D0D40C188D10F9F972C,
 	NULL,
+	NULL,
 	If_get_enter_mBAD0E24BB15F31603232F8ED5F85B913D6DF4474,
 	If_set_enter_mBBED90D66792706C7F5E562880B10E7FBEB34C6D,
 	If_get_condition_mFE1225E43798596B684CFD1BBA243003F333890B,
@@ -6617,7 +6618,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	If_Enter_m8FB110B8E2DE1C653481975166F382F8AB17258B,
 	If__ctor_mF7A62324EF9A53220E0FC950B71B1334EFDBFF0A,
 	If_Unity_VisualScripting_IUnit_get_graph_mFFD64501FAE37B4E4870202344FEABC121D4DBAB,
-	NULL,
 	LoopUnit_get_enter_m62CF2143AD62A0E6558753801D71209827D96DDB,
 	LoopUnit_set_enter_mB8E70D0226278659131CDBE9A03944212389744C,
 	LoopUnit_get_exit_m76AD750BD83218006725E3570BA197CBB1F46124,
@@ -6945,24 +6945,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	GenericGuiEventUnit_get_data_mA62612C577ABED68DD2D22BAB5A85D5E736F5F93,
 	GenericGuiEventUnit_set_data_m29ECFC8B873C81A4FA70556C3EE55C2AA05138CB,
 	GenericGuiEventUnit_Definition_m0F494099D843E78515CD52B9A66B1DD98F631858,
@@ -7039,13 +7021,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	OnScroll_get_MessageListenerType_m558F7E8687CF6A10F3ECA74B1737E4EC0F370E1A,
 	OnScroll_get_hookName_m30B8728599DDC4FC6EC8CEFD935AE217348DB3E2,
 	OnScroll__ctor_m23791EF4DF542797CFC1A1A01EC28F3C94BFF9E0,
-	OnScrollbarValueChanged_get_MessageListenerType_mA780DABC81B21F7970A8F90473A76A87BE9CCE20,
-	OnScrollbarValueChanged_get_hookName_m0CBCDC35F824ECAF68B8C1C822C330654EF259D9,
-	OnScrollbarValueChanged_get_value_m834E1C1828DF2BC22249C757A498793F8B8AE219,
-	OnScrollbarValueChanged_set_value_m138364F4D2246ED96945B1CDD71CCD41A329AD42,
-	OnScrollbarValueChanged_Definition_m804E975EADDF95CC93568F74E0DC941FBA299CBF,
-	OnScrollbarValueChanged_AssignArguments_m7125CE6AB70242FA57924EC06DDE7B6CF42716D1,
-	OnScrollbarValueChanged__ctor_m4FD5B873E3DF20A6C2FA8C58F34CBB3669D9CD31,
 	OnScrollRectValueChanged_get_MessageListenerType_mDD8DF8A61478D493B24A2FEB8C4B0554D0D81DEC,
 	OnScrollRectValueChanged_get_hookName_mA117823BCF46ECBA973B23E317BEF82676FD8A30,
 	OnScrollRectValueChanged_get_value_m292B50AE2C3BD76F368C8C65E4BD362DC67C5997,
@@ -7053,6 +7028,13 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	OnScrollRectValueChanged_Definition_m782FF98F9E5794212D4C6AE9A4C6FD1E8D4CD5EE,
 	OnScrollRectValueChanged_AssignArguments_m086D3B70279E97B123A2819C07FF0339BE8B36F0,
 	OnScrollRectValueChanged__ctor_mC668A2F618845A20AD9989C2D5EF7E09C02D4397,
+	OnScrollbarValueChanged_get_MessageListenerType_mA780DABC81B21F7970A8F90473A76A87BE9CCE20,
+	OnScrollbarValueChanged_get_hookName_m0CBCDC35F824ECAF68B8C1C822C330654EF259D9,
+	OnScrollbarValueChanged_get_value_m834E1C1828DF2BC22249C757A498793F8B8AE219,
+	OnScrollbarValueChanged_set_value_m138364F4D2246ED96945B1CDD71CCD41A329AD42,
+	OnScrollbarValueChanged_Definition_m804E975EADDF95CC93568F74E0DC941FBA299CBF,
+	OnScrollbarValueChanged_AssignArguments_m7125CE6AB70242FA57924EC06DDE7B6CF42716D1,
+	OnScrollbarValueChanged__ctor_m4FD5B873E3DF20A6C2FA8C58F34CBB3669D9CD31,
 	OnSelect_get_MessageListenerType_m6272C3D711E19CAB46C6D534AEF8C6C7C27EBDA5,
 	OnSelect_get_hookName_m1E904DE8623DF1A3D33F95F6C9AB0119013C08CD,
 	OnSelect__ctor_m56C30A8C5983829C09F5DC8C3E1227D205AF6658,
@@ -7078,6 +7060,24 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	PointerEventUnit_Definition_mFA1DA38FB02FB86C84EDB203873755E06216F564,
 	PointerEventUnit_AssignArguments_mDF5538352EC807DAF6E372E403640CF15AADC43D,
 	PointerEventUnit__ctor_m94638BAC8C45F47CD4FA47E4BBFCE873FA2C4B54,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	OnTransformChildrenChanged_get_MessageListenerType_mC09B007FCC95D042EFBDA911E4D587D0ED06B66D,
 	OnTransformChildrenChanged_get_hookName_m65C0B01360EFC900A03CF3DAD34EB04CC0FAE06F,
 	OnTransformChildrenChanged__ctor_m1B62532C46F888FA707F51A1B5164BF7CB898EE8,
@@ -8257,13 +8257,13 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	GetVariable_IsDefined_m616F62F06F7B44FE8ACB1EBC21DC5792B3EF4415,
 	GetVariable_Get_m66E2AFA07A542C2D31B68D1AD0AB84D637D088D6,
 	GetVariable__ctor_m05C82BDFBB4CCE608D5DCE13F6AC47297B86E132,
+	NULL,
+	NULL,
 	IsVariableDefined_get_isVariableDefined_mD00C6E938426C81DEC1181BD03811546567F92AC,
 	IsVariableDefined_set_isVariableDefined_m1D71A8C64CCA23C518D3F8D079E261D3DA75A418,
 	IsVariableDefined_Definition_mB3DA0C1F41A3B77844C6C1CB66644CE9D63E269A,
 	IsVariableDefined_IsDefined_m8109FEC6D47BF7C49C36259ABF4F3D3828054556,
 	IsVariableDefined__ctor_mC55E06E0013CFE5ED92E15EB6BDAC5A9D801CF07,
-	NULL,
-	NULL,
 	GetApplicationVariable__ctor_m9ACB543C3CF258650AF5ABD4B5C2400F4E594568,
 	GetApplicationVariable__ctor_m5B916373FCD31D1E8885305F206FD4B618BEE1C5,
 	GetApplicationVariable_GetDeclarations_mBA9B38B6A7577ECDB3BBAD4AFB6EFC0690A3FE15,
@@ -8294,6 +8294,7 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	GetVariableUnit_Definition_mC49371E92756A8EA5058B4DE4E4AA1D6AF3C7570,
 	GetVariableUnit_IsDefined_mCF568DD1C45437791F951BAA25CE149DFCE518A9,
 	GetVariableUnit_Get_m742FE1D656CE650A2501902139B7FE5B8E25469D,
+	NULL,
 	IsApplicationVariableDefined__ctor_mFB8BB5A47F7169B495E3B08A5FA5D18FE2A0A7E2,
 	IsApplicationVariableDefined__ctor_m438B6E07E2F2BF1CBC6C70A067A0B5E695DFE205,
 	IsApplicationVariableDefined_GetDeclarations_m54BFB538AB5FF4D423EE5F0A763264C34AC1A23F,
@@ -8323,7 +8324,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	IsVariableDefinedUnit_set_isDefined_m3C2E2626A7C49B5410F58496D34BDAE97EC2EFBA,
 	IsVariableDefinedUnit_Definition_m2445627BC82F8304ED8007FBE307F0C3DF17A8B9,
 	IsVariableDefinedUnit_IsDefined_mD2349A1937F8167ABC32ABCEC391596F9BF3C70B,
-	NULL,
 	SetApplicationVariable__ctor_m4F38F9F51E9DF78E13667BC6DA1A2D96B80DD6D6,
 	SetApplicationVariable__ctor_mA8CD2FF7B80A3DA0AAA214820F0A857763863359,
 	SetApplicationVariable_GetDeclarations_mE423AB86E2CD085729150FCCA6078C6EF03AC4C1,
@@ -8523,6 +8523,33 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	U3CU3Ec__DisplayClass21_0_U3CDisconnectFromValidU3Eb__0_m1DB418735BF790649E765369C4B7EF2D0F2A38A8,
 	ControlOutputDefinition__ctor_m7E5B32AF10AAD745BF424BD996F02C521983A242,
 	ControlPortDefinition__ctor_m3249EB50DAD8823863720810636A31079719F43C,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	InvalidInput__ctor_m339720C4AF5EB83AD38964F999AB8E4AA97C7E66,
 	InvalidInput_get_validConnections_mC947E333A695623796EE9ACC1EF522296F108303,
 	InvalidInput_get_invalidConnections_mFA8F573A81A2A6529DA65E16A018E6C9231E5903,
@@ -8553,33 +8580,6 @@ static Il2CppMethodPointer s_methodPointers[3240] =
 	U3CU3Ec__ctor_m4123A93B5B54FEE727F673691AAA61B6EAB881C5,
 	U3CU3Ec_U3Cget_validConnectedPortsU3Eb__6_0_m14B6A61203B49BF9CC18CB249FDFCF5884992B9B,
 	U3CU3Ec_U3Cget_invalidConnectedPortsU3Eb__8_0_mD41CA9B7D29AE2D92DBDA3D4A4ADEA6F1F636D9B,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	MissingValuePortInputException__ctor_mD4A8F195D7F45708BAD298CCB487B0338088CFBA,
 	NULL,
 	NULL,
@@ -9232,6 +9232,11 @@ static const int32_t s_InvokerIndices[3240] =
 	5812,
 	5812,
 	5895,
+	0,
+	0,
+	0,
+	0,
+	0,
 	6018,
 	2802,
 	6018,
@@ -9253,11 +9258,6 @@ static const int32_t s_InvokerIndices[3240] =
 	3555,
 	3555,
 	3555,
-	0,
-	0,
-	0,
-	0,
-	0,
 	0,
 	0,
 	0,
@@ -9873,6 +9873,7 @@ static const int32_t s_InvokerIndices[3240] =
 	6018,
 	5895,
 	0,
+	0,
 	5895,
 	4886,
 	5895,
@@ -9885,7 +9886,6 @@ static const int32_t s_InvokerIndices[3240] =
 	4338,
 	6018,
 	5895,
-	0,
 	5895,
 	4886,
 	5895,
@@ -10213,24 +10213,6 @@ static const int32_t s_InvokerIndices[3240] =
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
 	5895,
 	4886,
 	6018,
@@ -10312,14 +10294,14 @@ static const int32_t s_InvokerIndices[3240] =
 	5895,
 	4886,
 	6018,
-	2808,
+	2816,
 	6018,
 	5895,
 	5895,
 	5895,
 	4886,
 	6018,
-	2816,
+	2808,
 	6018,
 	5895,
 	5895,
@@ -10346,6 +10328,24 @@ static const int32_t s_InvokerIndices[3240] =
 	6018,
 	2802,
 	6018,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	5895,
 	5895,
 	6018,
@@ -11525,43 +11525,13 @@ static const int32_t s_InvokerIndices[3240] =
 	3555,
 	4338,
 	6018,
+	0,
+	0,
 	5895,
 	4886,
 	6018,
 	3555,
 	6018,
-	0,
-	0,
-	6018,
-	4886,
-	4338,
-	5895,
-	6018,
-	4886,
-	4338,
-	5895,
-	6018,
-	4886,
-	5895,
-	4886,
-	6018,
-	4338,
-	5895,
-	6018,
-	4886,
-	4338,
-	5895,
-	6018,
-	4886,
-	4338,
-	5895,
-	6018,
-	4886,
-	5895,
-	4886,
-	6018,
-	3555,
-	4338,
 	6018,
 	4886,
 	4338,
@@ -11591,7 +11561,37 @@ static const int32_t s_InvokerIndices[3240] =
 	4886,
 	6018,
 	3555,
+	4338,
 	0,
+	6018,
+	4886,
+	4338,
+	5895,
+	6018,
+	4886,
+	4338,
+	5895,
+	6018,
+	4886,
+	5895,
+	4886,
+	6018,
+	4338,
+	5895,
+	6018,
+	4886,
+	4338,
+	5895,
+	6018,
+	4886,
+	4338,
+	5895,
+	6018,
+	4886,
+	5895,
+	4886,
+	6018,
+	3555,
 	6018,
 	4886,
 	4338,
@@ -11791,6 +11791,33 @@ static const int32_t s_InvokerIndices[3240] =
 	3555,
 	6018,
 	6018,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 	4886,
 	5895,
 	5895,
@@ -11821,33 +11848,6 @@ static const int32_t s_InvokerIndices[3240] =
 	6018,
 	4338,
 	4338,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
 	4886,
 	0,
 	0,
@@ -12471,9 +12471,9 @@ static const Il2CppTokenRangePair s_rgctxIndices[51] =
 	{ 0x02000058, { 58, 35 } },
 	{ 0x0200006F, { 93, 20 } },
 	{ 0x02000071, { 113, 1 } },
-	{ 0x02000072, { 114, 16 } },
-	{ 0x02000073, { 130, 2 } },
-	{ 0x02000074, { 132, 4 } },
+	{ 0x0200008C, { 114, 16 } },
+	{ 0x0200008D, { 130, 2 } },
+	{ 0x0200008E, { 132, 4 } },
 	{ 0x020000A5, { 136, 4 } },
 	{ 0x020000A6, { 140, 4 } },
 	{ 0x020000C2, { 144, 13 } },

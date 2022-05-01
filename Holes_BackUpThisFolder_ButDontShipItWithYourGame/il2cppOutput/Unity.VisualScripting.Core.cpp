@@ -7086,16 +7086,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m846E66E06483E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityEvent`1<System.Single>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___call0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m71C125B79EE35648CFC416CA7DBBC27C8DBAD45A_gshared (UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851_gshared (UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932* __this, UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669* ___call0, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.EventBus::Trigger<UnityEngine.Vector2>(System.String,UnityEngine.GameObject,TArgs)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventBus_Trigger_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m6694517A41298DA1E8E33AD5751B449B9854D8CB_gshared (String_t* ___name0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___target1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___args2, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityEvent`1<System.Single>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___call0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m11A393DB3C00474B4520978077E444DB6E4418DD_gshared (UnityAction_1_t8EC357AF4FBD2A0C4A575C4BBD0B3A81029E43A9* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
@@ -8070,23 +8070,6 @@ inline void EventBus_Trigger_TisString_t_mDE9571E48944102CF48232BCB5CA48ED5ECB82
 }
 // UnityEngine.UI.InputField/OnChangeEvent UnityEngine.UI.InputField::get_onValueChanged()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE_inline (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
-// T UnityEngine.Component::GetComponent<UnityEngine.UI.Scrollbar>()
-inline Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
-{
-	return ((  Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
-}
-// UnityEngine.UI.Scrollbar/ScrollEvent UnityEngine.UI.Scrollbar::get_onValueChanged()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline (Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5 (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Void UnityEngine.Events.UnityEvent`1<System.Single>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___call0, const RuntimeMethod* method)
-{
-	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, const RuntimeMethod*))UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared)(__this, ___call0, method);
-}
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.ScrollRect>()
 inline ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* Component_GetComponent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_m807654BF9CCD1E13E3FB8498D557BDDF13006518 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -8108,6 +8091,23 @@ inline void UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851 (
 inline void EventBus_Trigger_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m6694517A41298DA1E8E33AD5751B449B9854D8CB (String_t* ___name0, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___target1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___args2, const RuntimeMethod* method)
 {
 	((  void (*) (String_t*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))EventBus_Trigger_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m6694517A41298DA1E8E33AD5751B449B9854D8CB_gshared)(___name0, ___target1, ___args2, method);
+}
+// T UnityEngine.Component::GetComponent<UnityEngine.UI.Scrollbar>()
+inline Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// UnityEngine.UI.Scrollbar/ScrollEvent UnityEngine.UI.Scrollbar::get_onValueChanged()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline (Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
+inline void UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5 (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void UnityEngine.Events.UnityEvent`1<System.Single>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
+inline void UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* ___call0, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*, const RuntimeMethod*))UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_gshared)(__this, ___call0, method);
 }
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Slider>()
 inline Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* Component_GetComponent_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mCE53A354B934E9BDB2E8D3094F4E33EBA8FFAFBA (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
@@ -9045,29 +9045,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GraphReference_t721C982B418EEAA6BE9FA2BFB6A04
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerator`1<Unity.VisualScripting.GraphReference> Unity.VisualScripting.GraphReference/<GetBreadcrumbs>d__21::System.Collections.Generic.IEnumerable<Unity.VisualScripting.GraphReference>.GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetBreadcrumbsU3Ed__21_System_Collections_Generic_IEnumerableU3CUnity_VisualScripting_GraphReferenceU3E_GetEnumerator_mD0E42ADF3FC30F077AC3234E7B8A048715A4A611 (U3CGetBreadcrumbsU3Ed__21_t48E8CF3658272010B2A4D61EB4EE1C8F4A0ED0CE* __this, const RuntimeMethod* method) ;
-// T Unity.VisualScripting.GraphPointer::GetElementDebugData<Unity.VisualScripting.IGraphElementDebugData>(Unity.VisualScripting.IGraphElementWithDebugData)
-inline RuntimeObject* GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D (GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* __this, RuntimeObject* ___element0, const RuntimeMethod* method)
-{
-	return ((  RuntimeObject* (*) (GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B*, RuntimeObject*, const RuntimeMethod*))GraphPointer_GetElementDebugData_TisRuntimeObject_mE1ADEF8C14250DB09E3AF852A9BBE407939F4B4A_gshared)(__this, ___element0, method);
-}
-// System.Void Unity.VisualScripting.EnsureThat::IsNotNull<System.Exception>(T)
-inline void EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB (EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* __this, Exception_t* ___value0, const RuntimeMethod* method)
-{
-	((  void (*) (EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC*, Exception_t*, const RuntimeMethod*))EnsureThat_IsNotNull_TisRuntimeObject_m609E619BEADC6A63A12D5BFF2B15CCB0A4E28F4B_gshared)(__this, ___value0, method);
-}
-// System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
-// System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C (Exception_t* ___ex0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) ;
-// System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) ;
-// Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphReference::ParentReference(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* GraphReference_ParentReference_m9E96DDF6105F8A5BB18B7D5350D1A92CFF6DAF5B (GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* __this, bool ___ensureValid0, const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphReference>::Contains(T)
-inline bool HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* __this, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___item0, const RuntimeMethod* method)
-{
-	return ((  bool (*) (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___item0, method);
-}
 // System.Void Unity.VisualScripting.EnsureThat::IsNotNull<System.Collections.Generic.List`1<Unity.VisualScripting.IGraphParentElement>>(T)
 inline void EnsureThat_IsNotNull_TisList_1_t645DF2A1E7B0FB808EDE07ED53B8C56194AF35E6_m3EFD06FC8BAEF12806C8F9581EBD6048EBC2B696 (EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* __this, List_1_t645DF2A1E7B0FB808EDE07ED53B8C56194AF35E6* ___value0, const RuntimeMethod* method)
 {
@@ -9100,6 +9077,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphPointer_EnterParentElement_m45F902C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mF317AA7A6BB9E4083147F241AC062F3C03C7CC73 (U3CU3Ec_tAEFAA82592AE03C7EE4E3F0A7B29DFD437B98AD4* __this, const RuntimeMethod* method) ;
 // System.Void Unity.VisualScripting.GraphStack::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B (GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* __this, const RuntimeMethod* method) ;
+// T Unity.VisualScripting.GraphPointer::GetElementDebugData<Unity.VisualScripting.IGraphElementDebugData>(Unity.VisualScripting.IGraphElementWithDebugData)
+inline RuntimeObject* GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D (GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* __this, RuntimeObject* ___element0, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B*, RuntimeObject*, const RuntimeMethod*))GraphPointer_GetElementDebugData_TisRuntimeObject_mE1ADEF8C14250DB09E3AF852A9BBE407939F4B4A_gshared)(__this, ___element0, method);
+}
+// System.Void Unity.VisualScripting.EnsureThat::IsNotNull<System.Exception>(T)
+inline void EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB (EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* __this, Exception_t* ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC*, Exception_t*, const RuntimeMethod*))EnsureThat_IsNotNull_TisRuntimeObject_m609E619BEADC6A63A12D5BFF2B15CCB0A4E28F4B_gshared)(__this, ___value0, method);
+}
+// System.Void UnityEngine.Debug::LogError(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+// System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C (Exception_t* ___ex0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) ;
+// System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) ;
+// Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphReference::ParentReference(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* GraphReference_ParentReference_m9E96DDF6105F8A5BB18B7D5350D1A92CFF6DAF5B (GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* __this, bool ___ensureValid0, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphReference>::Contains(T)
+inline bool HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* __this, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___item0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___item0, method);
+}
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
@@ -13461,6 +13461,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InspectableIfAttribute_get_conditio
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Unity.VisualScripting.InspectViaImplementationsAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0 (InspectViaImplementationsAttribute_t05B7B78780A07B8890FD189A8D5C49747E250C17* __this, const RuntimeMethod* method) 
+{
+	{
+		// public InspectViaImplementationsAttribute() { }
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		// public InspectViaImplementationsAttribute() { }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Unity.VisualScripting.InspectorActionDirectionAttribute::.ctor(Unity.VisualScripting.ActionDirection)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorActionDirectionAttribute__ctor_m9B3607AF556284E14C97F346E270D15D078F862C (InspectorActionDirectionAttribute_t8904D7E6BC154F91487A9F43992F4FD45B772CE2* __this, int32_t ___direction0, const RuntimeMethod* method) 
 {
@@ -13913,24 +13931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorWideAttribute_set_toEdge_m9E239
 		// public bool toEdge { get; private set; }
 		bool L_0 = ___value0;
 		__this->___U3CtoEdgeU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.VisualScripting.InspectViaImplementationsAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectViaImplementationsAttribute__ctor_m2BB2FAEE136DA40EDDEB4530112A5BE4A5508EE0 (InspectViaImplementationsAttribute_t05B7B78780A07B8890FD189A8D5C49747E250C17* __this, const RuntimeMethod* method) 
-{
-	{
-		// public InspectViaImplementationsAttribute() { }
-		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
-		// public InspectViaImplementationsAttribute() { }
 		return;
 	}
 }
@@ -19884,104 +19884,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnInputFieldValueChangedMessageList
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener_Start_m2465A8B83C1C687695D88BC40DAD1FFB970E1998 (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* G_B2_0 = NULL;
-	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* G_B1_0 = NULL;
-	ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* G_B4_0 = NULL;
-	ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* G_B3_0 = NULL;
-	{
-		// GetComponent<Scrollbar>()?.onValueChanged?.AddListener((value) =>
-		//     EventBus.Trigger(EventHooks.OnScrollbarValueChanged, gameObject, value));
-		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_0;
-		L_0 = Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D(__this, Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D_RuntimeMethod_var);
-		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_1 = L_0;
-		G_B1_0 = L_1;
-		if (L_1)
-		{
-			G_B2_0 = L_1;
-			goto IL_000b;
-		}
-	}
-	{
-		return;
-	}
-
-IL_000b:
-	{
-		NullCheck(G_B2_0);
-		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_2;
-		L_2 = Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline(G_B2_0, NULL);
-		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_3 = L_2;
-		G_B3_0 = L_3;
-		if (L_3)
-		{
-			G_B4_0 = L_3;
-			goto IL_0015;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0015:
-	{
-		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_4 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
-		NullCheck(L_4);
-		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_4, __this, (intptr_t)((void*)UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9_RuntimeMethod_var), NULL);
-		NullCheck(G_B4_0);
-		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(G_B4_0, L_4, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener__ctor_mF03993821630E71BA1FEB6E4A89C5B6385EA197F (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, const RuntimeMethod* method) 
-{
-	{
-		MessageListener__ctor_m8DA61A2F8AD16822DAF82D7FBEF6100E0AE5761E(__this, NULL);
-		return;
-	}
-}
-// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::<Start>b__0_0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9 (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, float ___value0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBus_t6457FCB216134244ECE28921407E893BC1D38056_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B5F238DECACDE059E88D626EE2E149B87BBE9C);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// EventBus.Trigger(EventHooks.OnScrollbarValueChanged, gameObject, value));
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
-		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
-		float L_1 = ___value0;
-		il2cpp_codegen_runtime_class_init_inline(EventBus_t6457FCB216134244ECE28921407E893BC1D38056_il2cpp_TypeInfo_var);
-		EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9(_stringLiteral91B5F238DECACDE059E88D626EE2E149B87BBE9C, L_0, L_1, EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9_RuntimeMethod_var);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Unity.VisualScripting.UnityOnScrollRectValueChangedMessageListener::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollRectValueChangedMessageListener_Start_m983AD1FAFE9F7A9C5539C93D00C57731FD1AD555 (UnityOnScrollRectValueChangedMessageListener_tC94717C545AD87AD856ADBE3A989F00276A3D2E5* __this, const RuntimeMethod* method) 
 {
@@ -20069,6 +19971,104 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollRectValueChangedMessageList
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___value0;
 		il2cpp_codegen_runtime_class_init_inline(EventBus_t6457FCB216134244ECE28921407E893BC1D38056_il2cpp_TypeInfo_var);
 		EventBus_Trigger_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m6694517A41298DA1E8E33AD5751B449B9854D8CB(_stringLiteral1BB6AA9C9E624C6C3F237E12515B10F99FEB13E8, L_0, L_1, EventBus_Trigger_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m6694517A41298DA1E8E33AD5751B449B9854D8CB_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener_Start_m2465A8B83C1C687695D88BC40DAD1FFB970E1998 (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* G_B2_0 = NULL;
+	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* G_B1_0 = NULL;
+	ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* G_B4_0 = NULL;
+	ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* G_B3_0 = NULL;
+	{
+		// GetComponent<Scrollbar>()?.onValueChanged?.AddListener((value) =>
+		//     EventBus.Trigger(EventHooks.OnScrollbarValueChanged, gameObject, value));
+		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_0;
+		L_0 = Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D(__this, Component_GetComponent_TisScrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3_m926D886710762EDEC3925BB69A204C1BB3E8E93D_RuntimeMethod_var);
+		Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* L_1 = L_0;
+		G_B1_0 = L_1;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		NullCheck(G_B2_0);
+		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_2;
+		L_2 = Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline(G_B2_0, NULL);
+		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_3 = L_2;
+		G_B3_0 = L_3;
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			goto IL_0015;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0015:
+	{
+		UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90* L_4 = (UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90*)il2cpp_codegen_object_new(UnityAction_1_tAEFA3C1C529F0E1AD7C7C7AFC88822D359E7AC90_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_4, __this, (intptr_t)((void*)UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9_RuntimeMethod_var), NULL);
+		NullCheck(G_B4_0);
+		UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC(G_B4_0, L_4, UnityEvent_1_AddListener_m44E396BC4484BD75427FDD8CBE0B533CCAD8C1EC_RuntimeMethod_var);
+		// }
+		return;
+	}
+}
+// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener__ctor_mF03993821630E71BA1FEB6E4A89C5B6385EA197F (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, const RuntimeMethod* method) 
+{
+	{
+		MessageListener__ctor_m8DA61A2F8AD16822DAF82D7FBEF6100E0AE5761E(__this, NULL);
+		return;
+	}
+}
+// System.Void Unity.VisualScripting.UnityOnScrollbarValueChangedMessageListener::<Start>b__0_0(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityOnScrollbarValueChangedMessageListener_U3CStartU3Eb__0_0_m3331C929F61DF2164815A58ABD1A3523733DE0C9 (UnityOnScrollbarValueChangedMessageListener_tBC8E84DE0CD8D49CD5A669A5827F78D814F833E7* __this, float ___value0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventBus_t6457FCB216134244ECE28921407E893BC1D38056_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B5F238DECACDE059E88D626EE2E149B87BBE9C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// EventBus.Trigger(EventHooks.OnScrollbarValueChanged, gameObject, value));
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		float L_1 = ___value0;
+		il2cpp_codegen_runtime_class_init_inline(EventBus_t6457FCB216134244ECE28921407E893BC1D38056_il2cpp_TypeInfo_var);
+		EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9(_stringLiteral91B5F238DECACDE059E88D626EE2E149B87BBE9C, L_0, L_1, EventBus_Trigger_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mCD875C1B97724EA4D7AA6E87B7C6729E7DED2EA9_RuntimeMethod_var);
 		return;
 	}
 }
@@ -28764,347 +28764,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetBreadcrumbsU3Ed__21_Syst
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Exception Unity.VisualScripting.GraphsExceptionUtility::GetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* GraphsExceptionUtility_GetException_m2717C39A8CB9C11BE19E7F12A6A9E0BDDEDD783F (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (!pointer.hasDebugData)
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_0 = ___pointer1;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = GraphPointer_get_hasDebugData_m08EDAE5ADFCF70F537C7A8E72ABFB3B3B2045F10(L_0, NULL);
-		if (L_1)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		// return null;
-		return (Exception_t*)NULL;
-	}
-
-IL_000a:
-	{
-		// var debugData = pointer.GetElementDebugData<IGraphElementDebugData>(element);
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
-		RuntimeObject* L_3 = ___element0;
-		NullCheck(L_2);
-		RuntimeObject* L_4;
-		L_4 = GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D(L_2, L_3, GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
-		// return debugData.runtimeException;
-		NullCheck(L_4);
-		Exception_t* L_5;
-		L_5 = InterfaceFuncInvoker0< Exception_t* >::Invoke(0 /* System.Exception Unity.VisualScripting.IGraphElementDebugData::get_runtimeException() */, IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var, L_4);
-		return L_5;
-	}
-}
-// System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (!pointer.hasDebugData)
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_0 = ___pointer1;
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = GraphPointer_get_hasDebugData_m08EDAE5ADFCF70F537C7A8E72ABFB3B3B2045F10(L_0, NULL);
-		if (L_1)
-		{
-			goto IL_0009;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0009:
-	{
-		// var debugData = pointer.GetElementDebugData<IGraphElementDebugData>(element);
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
-		RuntimeObject* L_3 = ___element0;
-		NullCheck(L_2);
-		RuntimeObject* L_4;
-		L_4 = GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D(L_2, L_3, GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
-		// debugData.runtimeException = ex;
-		Exception_t* L_5 = ___ex2;
-		NullCheck(L_4);
-		InterfaceActionInvoker1< Exception_t* >::Invoke(1 /* System.Void Unity.VisualScripting.IGraphElementDebugData::set_runtimeException(System.Exception) */, IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var, L_4, L_5);
-		// }
-		return;
-	}
-}
-// System.Void Unity.VisualScripting.GraphsExceptionUtility::HandleException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_HandleException_m9C2D5951B5112230CC1531954519BF6753F7E9B5 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementWithDebugData_tFE1BC72BCBEACFE75D1D9D4E58ABA28B6B266A06_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07);
-		s_Il2CppMethodInitialized = true;
-	}
-	GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	Exception_t* G_B3_0 = NULL;
-	String_t* G_B3_1 = NULL;
-	Exception_t* G_B2_0 = NULL;
-	String_t* G_B2_1 = NULL;
-	String_t* G_B4_0 = NULL;
-	String_t* G_B4_1 = NULL;
-	{
-		// Ensure.That(nameof(ex)).IsNotNull(ex);
-		il2cpp_codegen_runtime_class_init_inline(Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
-		EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* L_0;
-		L_0 = Ensure_That_m7D0EB3D682B0E053E207B3FD4CAED11FB417076C(_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07, NULL);
-		Exception_t* L_1 = ___ex2;
-		NullCheck(L_0);
-		EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB(L_0, L_1, EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
-		// if (pointer == null)
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
-		if (L_2)
-		{
-			goto IL_0030;
-		}
-	}
-	{
-		// Debug.LogError("Caught exception with null graph pointer (flow was likely disposed):\n" + ex);
-		Exception_t* L_3 = ___ex2;
-		Exception_t* L_4 = L_3;
-		G_B2_0 = L_4;
-		G_B2_1 = _stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D;
-		if (L_4)
-		{
-			G_B3_0 = L_4;
-			G_B3_1 = _stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D;
-			goto IL_0020;
-		}
-	}
-	{
-		G_B4_0 = ((String_t*)(NULL));
-		G_B4_1 = G_B2_1;
-		goto IL_0025;
-	}
-
-IL_0020:
-	{
-		NullCheck(G_B3_0);
-		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B3_0);
-		G_B4_0 = L_5;
-		G_B4_1 = G_B3_1;
-	}
-
-IL_0025:
-	{
-		String_t* L_6;
-		L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B4_1, G_B4_0, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_6, NULL);
-		// return;
-		return;
-	}
-
-IL_0030:
-	{
-		// var reference = pointer.AsReference();
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_7 = ___pointer1;
-		NullCheck(L_7);
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_8;
-		L_8 = VirtualFuncInvoker0< GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* >::Invoke(4 /* Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphPointer::AsReference() */, L_7);
-		V_0 = L_8;
-		// if (!ex.HandledIn(reference))
-		Exception_t* L_9 = ___ex2;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_10 = V_0;
-		bool L_11;
-		L_11 = GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C(L_9, L_10, NULL);
-		if (L_11)
-		{
-			goto IL_0072;
-		}
-	}
-	{
-		// element.SetException(pointer, ex);
-		RuntimeObject* L_12 = ___element0;
-		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_13 = ___pointer1;
-		Exception_t* L_14 = ___ex2;
-		GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943(L_12, L_13, L_14, NULL);
-		goto IL_0072;
-	}
-
-IL_004a:
-	{
-		// var parentElement = reference.parentElement;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_15 = V_0;
-		NullCheck(L_15);
-		RuntimeObject* L_16;
-		L_16 = GraphPointer_get_parentElement_m6F2B4582F902A2DDB39B1903018CB0D00E1C144A(L_15, NULL);
-		// reference = reference.ParentReference(true);
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_17 = V_0;
-		NullCheck(L_17);
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_18;
-		L_18 = GraphReference_ParentReference_m9E96DDF6105F8A5BB18B7D5350D1A92CFF6DAF5B(L_17, (bool)1, NULL);
-		V_0 = L_18;
-		// if (parentElement is IGraphElementWithDebugData debuggableParentElement)
-		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_16, IGraphElementWithDebugData_tFE1BC72BCBEACFE75D1D9D4E58ABA28B6B266A06_il2cpp_TypeInfo_var));
-		RuntimeObject* L_19 = V_1;
-		if (!L_19)
-		{
-			goto IL_0072;
-		}
-	}
-	{
-		// if (!ex.HandledIn(reference))
-		Exception_t* L_20 = ___ex2;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_21 = V_0;
-		bool L_22;
-		L_22 = GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C(L_20, L_21, NULL);
-		if (L_22)
-		{
-			goto IL_0072;
-		}
-	}
-	{
-		// debuggableParentElement.SetException(reference, ex);
-		RuntimeObject* L_23 = V_1;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_24 = V_0;
-		Exception_t* L_25 = ___ex2;
-		GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943(L_23, L_24, L_25, NULL);
-	}
-
-IL_0072:
-	{
-		// while (reference.isChild)
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_26 = V_0;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = GraphPointer_get_isChild_mC570CC4FB2FE65CEECD3DA60756EA90542745E89(L_26, NULL);
-		if (L_27)
-		{
-			goto IL_004a;
-		}
-	}
-	{
-		// }
-		return;
-	}
-}
-// System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C (Exception_t* ___ex0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07);
-		s_Il2CppMethodInitialized = true;
-	}
-	HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* V_0 = NULL;
-	{
-		// Ensure.That(nameof(ex)).IsNotNull(ex);
-		il2cpp_codegen_runtime_class_init_inline(Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
-		EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* L_0;
-		L_0 = Ensure_That_m7D0EB3D682B0E053E207B3FD4CAED11FB417076C(_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07, NULL);
-		Exception_t* L_1 = ___ex0;
-		NullCheck(L_0);
-		EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB(L_0, L_1, EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
-		// if (!ex.Data.Contains(handledKey))
-		Exception_t* L_2 = ___ex0;
-		NullCheck(L_2);
-		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_2);
-		NullCheck(L_3);
-		bool L_4;
-		L_4 = InterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_3, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
-		if (L_4)
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		// ex.Data.Add(handledKey, new HashSet<GraphReference>());
-		Exception_t* L_5 = ___ex0;
-		NullCheck(L_5);
-		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_5);
-		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_7 = (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*)il2cpp_codegen_object_new(HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060(L_7, HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060_RuntimeMethod_var);
-		NullCheck(L_6);
-		InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(5 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_6, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5, L_7);
-	}
-
-IL_0037:
-	{
-		// var handled = (HashSet<GraphReference>)ex.Data[handledKey];
-		Exception_t* L_8 = ___ex0;
-		NullCheck(L_8);
-		RuntimeObject* L_9;
-		L_9 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_8);
-		NullCheck(L_9);
-		RuntimeObject* L_10;
-		L_10 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_9, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
-		V_0 = ((HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*)CastclassClass((RuntimeObject*)L_10, HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var));
-		// if (handled.Contains(reference))
-		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_11 = V_0;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_12 = ___reference1;
-		NullCheck(L_11);
-		bool L_13;
-		L_13 = HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE(L_11, L_12, HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE_RuntimeMethod_var);
-		if (!L_13)
-		{
-			goto IL_0058;
-		}
-	}
-	{
-		// return true;
-		return (bool)1;
-	}
-
-IL_0058:
-	{
-		// handled.Add(reference);
-		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_14 = V_0;
-		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_15 = ___reference1;
-		NullCheck(L_14);
-		bool L_16;
-		L_16 = HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A(L_14, L_15, HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A_RuntimeMethod_var);
-		// return false;
-		return (bool)0;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void Unity.VisualScripting.GraphStack::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B (GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* __this, const RuntimeMethod* method) 
 {
@@ -29561,6 +29220,347 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F8
 		NullCheck(L_0);
 		GraphStack__ctor_m49D88223B3C3A939AE2CE45B7B6D44DAD76EE72B(L_0, NULL);
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Exception Unity.VisualScripting.GraphsExceptionUtility::GetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* GraphsExceptionUtility_GetException_m2717C39A8CB9C11BE19E7F12A6A9E0BDDEDD783F (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!pointer.hasDebugData)
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_0 = ___pointer1;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GraphPointer_get_hasDebugData_m08EDAE5ADFCF70F537C7A8E72ABFB3B3B2045F10(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		// return null;
+		return (Exception_t*)NULL;
+	}
+
+IL_000a:
+	{
+		// var debugData = pointer.GetElementDebugData<IGraphElementDebugData>(element);
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
+		RuntimeObject* L_3 = ___element0;
+		NullCheck(L_2);
+		RuntimeObject* L_4;
+		L_4 = GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D(L_2, L_3, GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
+		// return debugData.runtimeException;
+		NullCheck(L_4);
+		Exception_t* L_5;
+		L_5 = InterfaceFuncInvoker0< Exception_t* >::Invoke(0 /* System.Exception Unity.VisualScripting.IGraphElementDebugData::get_runtimeException() */, IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var, L_4);
+		return L_5;
+	}
+}
+// System.Void Unity.VisualScripting.GraphsExceptionUtility::SetException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!pointer.hasDebugData)
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_0 = ___pointer1;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GraphPointer_get_hasDebugData_m08EDAE5ADFCF70F537C7A8E72ABFB3B3B2045F10(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// var debugData = pointer.GetElementDebugData<IGraphElementDebugData>(element);
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
+		RuntimeObject* L_3 = ___element0;
+		NullCheck(L_2);
+		RuntimeObject* L_4;
+		L_4 = GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D(L_2, L_3, GraphPointer_GetElementDebugData_TisIGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_m6CFB80FC41624BD38FA753324CE953153D20450D_RuntimeMethod_var);
+		// debugData.runtimeException = ex;
+		Exception_t* L_5 = ___ex2;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< Exception_t* >::Invoke(1 /* System.Void Unity.VisualScripting.IGraphElementDebugData::set_runtimeException(System.Exception) */, IGraphElementDebugData_tE31D0A6EA9490DF57988C77907384AEFC35E51B5_il2cpp_TypeInfo_var, L_4, L_5);
+		// }
+		return;
+	}
+}
+// System.Void Unity.VisualScripting.GraphsExceptionUtility::HandleException(Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.GraphPointer,System.Exception)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GraphsExceptionUtility_HandleException_m9C2D5951B5112230CC1531954519BF6753F7E9B5 (RuntimeObject* ___element0, GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* ___pointer1, Exception_t* ___ex2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IGraphElementWithDebugData_tFE1BC72BCBEACFE75D1D9D4E58ABA28B6B266A06_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07);
+		s_Il2CppMethodInitialized = true;
+	}
+	GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	Exception_t* G_B3_0 = NULL;
+	String_t* G_B3_1 = NULL;
+	Exception_t* G_B2_0 = NULL;
+	String_t* G_B2_1 = NULL;
+	String_t* G_B4_0 = NULL;
+	String_t* G_B4_1 = NULL;
+	{
+		// Ensure.That(nameof(ex)).IsNotNull(ex);
+		il2cpp_codegen_runtime_class_init_inline(Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
+		EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* L_0;
+		L_0 = Ensure_That_m7D0EB3D682B0E053E207B3FD4CAED11FB417076C(_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07, NULL);
+		Exception_t* L_1 = ___ex2;
+		NullCheck(L_0);
+		EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB(L_0, L_1, EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
+		// if (pointer == null)
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_2 = ___pointer1;
+		if (L_2)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		// Debug.LogError("Caught exception with null graph pointer (flow was likely disposed):\n" + ex);
+		Exception_t* L_3 = ___ex2;
+		Exception_t* L_4 = L_3;
+		G_B2_0 = L_4;
+		G_B2_1 = _stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D;
+		if (L_4)
+		{
+			G_B3_0 = L_4;
+			G_B3_1 = _stringLiteralB9A2A106B364ADB2468F6269CF979EEF6E63784D;
+			goto IL_0020;
+		}
+	}
+	{
+		G_B4_0 = ((String_t*)(NULL));
+		G_B4_1 = G_B2_1;
+		goto IL_0025;
+	}
+
+IL_0020:
+	{
+		NullCheck(G_B3_0);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, G_B3_0);
+		G_B4_0 = L_5;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0025:
+	{
+		String_t* L_6;
+		L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(G_B4_1, G_B4_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(L_6, NULL);
+		// return;
+		return;
+	}
+
+IL_0030:
+	{
+		// var reference = pointer.AsReference();
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_7 = ___pointer1;
+		NullCheck(L_7);
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_8;
+		L_8 = VirtualFuncInvoker0< GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* >::Invoke(4 /* Unity.VisualScripting.GraphReference Unity.VisualScripting.GraphPointer::AsReference() */, L_7);
+		V_0 = L_8;
+		// if (!ex.HandledIn(reference))
+		Exception_t* L_9 = ___ex2;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_10 = V_0;
+		bool L_11;
+		L_11 = GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C(L_9, L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		// element.SetException(pointer, ex);
+		RuntimeObject* L_12 = ___element0;
+		GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B* L_13 = ___pointer1;
+		Exception_t* L_14 = ___ex2;
+		GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943(L_12, L_13, L_14, NULL);
+		goto IL_0072;
+	}
+
+IL_004a:
+	{
+		// var parentElement = reference.parentElement;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_15 = V_0;
+		NullCheck(L_15);
+		RuntimeObject* L_16;
+		L_16 = GraphPointer_get_parentElement_m6F2B4582F902A2DDB39B1903018CB0D00E1C144A(L_15, NULL);
+		// reference = reference.ParentReference(true);
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_17 = V_0;
+		NullCheck(L_17);
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_18;
+		L_18 = GraphReference_ParentReference_m9E96DDF6105F8A5BB18B7D5350D1A92CFF6DAF5B(L_17, (bool)1, NULL);
+		V_0 = L_18;
+		// if (parentElement is IGraphElementWithDebugData debuggableParentElement)
+		V_1 = ((RuntimeObject*)IsInst((RuntimeObject*)L_16, IGraphElementWithDebugData_tFE1BC72BCBEACFE75D1D9D4E58ABA28B6B266A06_il2cpp_TypeInfo_var));
+		RuntimeObject* L_19 = V_1;
+		if (!L_19)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		// if (!ex.HandledIn(reference))
+		Exception_t* L_20 = ___ex2;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_21 = V_0;
+		bool L_22;
+		L_22 = GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C(L_20, L_21, NULL);
+		if (L_22)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		// debuggableParentElement.SetException(reference, ex);
+		RuntimeObject* L_23 = V_1;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_24 = V_0;
+		Exception_t* L_25 = ___ex2;
+		GraphsExceptionUtility_SetException_mB7B14596D4F474FAA582155AFE4DB48F904E8943(L_23, L_24, L_25, NULL);
+	}
+
+IL_0072:
+	{
+		// while (reference.isChild)
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_26 = V_0;
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = GraphPointer_get_isChild_mC570CC4FB2FE65CEECD3DA60756EA90542745E89(L_26, NULL);
+		if (L_27)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		// }
+		return;
+	}
+}
+// System.Boolean Unity.VisualScripting.GraphsExceptionUtility::HandledIn(System.Exception,Unity.VisualScripting.GraphReference)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GraphsExceptionUtility_HandledIn_m46752D67310F48AC807E378CE242B814E76D339C (Exception_t* ___ex0, GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference1, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07);
+		s_Il2CppMethodInitialized = true;
+	}
+	HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* V_0 = NULL;
+	{
+		// Ensure.That(nameof(ex)).IsNotNull(ex);
+		il2cpp_codegen_runtime_class_init_inline(Ensure_t1AB90E1B9CFC75A223C082272E0281C91184901D_il2cpp_TypeInfo_var);
+		EnsureThat_tCC49E8B65851E70C9534A68EB657B6227F0549FC* L_0;
+		L_0 = Ensure_That_m7D0EB3D682B0E053E207B3FD4CAED11FB417076C(_stringLiteralEE49EA98A03C905F0251A1B49DF02DEC3C638D07, NULL);
+		Exception_t* L_1 = ___ex0;
+		NullCheck(L_0);
+		EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB(L_0, L_1, EnsureThat_IsNotNull_TisException_t_m82C8A35FE9884E4305BBBCFA8F137C20E602F9CB_RuntimeMethod_var);
+		// if (!ex.Data.Contains(handledKey))
+		Exception_t* L_2 = ___ex0;
+		NullCheck(L_2);
+		RuntimeObject* L_3;
+		L_3 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_2);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = InterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(4 /* System.Boolean System.Collections.IDictionary::Contains(System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_3, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
+		if (L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		// ex.Data.Add(handledKey, new HashSet<GraphReference>());
+		Exception_t* L_5 = ___ex0;
+		NullCheck(L_5);
+		RuntimeObject* L_6;
+		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_5);
+		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_7 = (HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*)il2cpp_codegen_object_new(HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060(L_7, HashSet_1__ctor_mF858293A6C5E40AA8EE817548A2FB3EBED4AD060_RuntimeMethod_var);
+		NullCheck(L_6);
+		InterfaceActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(5 /* System.Void System.Collections.IDictionary::Add(System.Object,System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_6, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5, L_7);
+	}
+
+IL_0037:
+	{
+		// var handled = (HashSet<GraphReference>)ex.Data[handledKey];
+		Exception_t* L_8 = ___ex0;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6 /* System.Collections.IDictionary System.Exception::get_Data() */, L_8);
+		NullCheck(L_9);
+		RuntimeObject* L_10;
+		L_10 = InterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(0 /* System.Object System.Collections.IDictionary::get_Item(System.Object) */, IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220_il2cpp_TypeInfo_var, L_9, _stringLiteral101BEB59B626485D31CAF8E2E843A02C29B467C5);
+		V_0 = ((HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE*)CastclassClass((RuntimeObject*)L_10, HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE_il2cpp_TypeInfo_var));
+		// if (handled.Contains(reference))
+		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_11 = V_0;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_12 = ___reference1;
+		NullCheck(L_11);
+		bool L_13;
+		L_13 = HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE(L_11, L_12, HashSet_1_Contains_m35C9A5D501B32AE1E417C5C3E0275E27075825FE_RuntimeMethod_var);
+		if (!L_13)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		// return true;
+		return (bool)1;
+	}
+
+IL_0058:
+	{
+		// handled.Add(reference);
+		HashSet_1_tE953FDC3D13FF8016A4AD033F61A1534F8E3B7FE* L_14 = V_0;
+		GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* L_15 = ___reference1;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A(L_14, L_15, HashSet_1_Add_mE8F81FC9A0C500D07BCFB367567124FC0B46265A_RuntimeMethod_var);
+		// return false;
+		return (bool)0;
 	}
 }
 #ifdef __clang__
@@ -43043,19 +43043,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline (Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* __this, const RuntimeMethod* method) 
-{
-	{
-		// public ScrollEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
-		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_0 = __this->___m_OnValueChanged_25;
-		return L_0;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26* ScrollRect_get_onValueChanged_mA6AF3832A97E82D31BB8C20BCD6E87A300E56C05_inline (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) 
 {
 	{
 		// public ScrollRectEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
 		ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26* L_0 = __this->___m_OnValueChanged_19;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* Scrollbar_get_onValueChanged_m14356CECC1A2BA96576EB73279AF2ECF28B26D6A_inline (Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* __this, const RuntimeMethod* method) 
+{
+	{
+		// public ScrollEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
+		ScrollEvent_tDDBE21D44D65DF069C54FE3ACF7668D976E6BBB6* L_0 = __this->___m_OnValueChanged_25;
 		return L_0;
 	}
 }

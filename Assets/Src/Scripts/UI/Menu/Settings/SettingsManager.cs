@@ -19,7 +19,7 @@ public class SettingsManager : MonoBehaviour
             {
                 language = 0,
                 quality = 2,
-                gyroEnabled = true,
+                gyroEnabled = GyroscopeController.EnableGyroscope(),
                 sfxVolume = 1f,
                 musicVolume = 1f
             };

@@ -233,7 +233,6 @@ public class TimeManager : MonoBehaviour
         
         
         List<ResultState> resultStates = PersistenceManager.LoadResults();
-        bool exists = false;
         foreach (var loadedResult in resultStates)
         {
             if (loadedResult.level == 1)
