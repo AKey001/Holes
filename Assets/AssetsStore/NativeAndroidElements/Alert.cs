@@ -12,7 +12,7 @@ namespace NativeAndroidElements
 
         public ResponseDelegate onSuccess;
         public ResponseDelegate onFail;
-
+        
         private bool mYesPressed = false;
         private bool mNoPressed = false;
 

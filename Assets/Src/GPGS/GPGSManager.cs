@@ -24,21 +24,21 @@ public class GPGSManager : MonoBehaviour
 
     void Start()
     {
-        if (PlayGamesPlatform.Instance.IsAuthenticated())
-        {
-            PlayGamesPlatform.Instance.LoadScores(
-                GPGSIds.leaderboard_classic_wood,
-                LeaderboardStart.PlayerCentered,
-                1,
-                LeaderboardCollection.Public,
-                LeaderboardTimeSpan.AllTime,
-                (data) =>
-                {
-                    print(data);
-                    // mStatus = "Leaderboard data valid: " + data.Valid;
-                    // mStatus += "\n approx:" +data.ApproximateCount + " have " + data.Scores.Length;
-                }); 
-        }
+        // if (PlayGamesPlatform.Instance.IsAuthenticated())
+        // {
+        //     PlayGamesPlatform.Instance.LoadScores(
+        //         GPGSIds.leaderboard_classic_wood,
+        //         LeaderboardStart.PlayerCentered,
+        //         1,
+        //         LeaderboardCollection.Public,
+        //         LeaderboardTimeSpan.AllTime,
+        //         (data) =>
+        //         {
+        //             print(data);
+        //             // mStatus = "Leaderboard data valid: " + data.Valid;
+        //             // mStatus += "\n approx:" +data.ApproximateCount + " have " + data.Scores.Length;
+        //         }); 
+        // }
     }
 
 
