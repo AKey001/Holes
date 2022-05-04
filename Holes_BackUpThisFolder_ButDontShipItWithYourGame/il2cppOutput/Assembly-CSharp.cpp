@@ -332,8 +332,6 @@ struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 // TMPro.TMP_Text/UnicodeChar[]
 struct UnicodeCharU5BU5D_t67F27D09F8EB28D2C42DFF16FE60054F157012F5;
-// AchievementButton
-struct AchievementButton_tF96D27A3956AB5C2E735C62B3BED84296DE9DC67;
 // AchievementsLoader
 struct AchievementsLoader_t6CE71C1BFD503668219D8B03BF00BD9C9F5A91F0;
 // UnityEngine.AnimationCurve
@@ -466,6 +464,8 @@ struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
 struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 // Joystick
 struct Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A;
+// JoystickHint
+struct JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190;
 // JoystickPlayerExample
 struct JoystickPlayerExample_tD6DD431AB5B17F44428C240223A7B161AECC474B;
 // JoystickSetterExample
@@ -4756,11 +4756,6 @@ struct TMP_PhoneNumberValidator_t0746D23F4BE9695B737D9997BCD6A3B3F916B48C  : pub
 {
 };
 
-// AchievementButton
-struct AchievementButton_tF96D27A3956AB5C2E735C62B3BED84296DE9DC67  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-};
-
 // AchievementsLoader
 struct AchievementsLoader_t6CE71C1BFD503668219D8B03BF00BD9C9F5A91F0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -5052,6 +5047,11 @@ struct Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A  : public MonoBehaviou
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___input_14;
 };
 
+// JoystickHint
+struct JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+
 // JoystickPlayerExample
 struct JoystickPlayerExample_tD6DD431AB5B17F44428C240223A7B161AECC474B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -5131,6 +5131,8 @@ struct PlatformController_t65707DA30BB5471A618E201A09A04D4B081B305F  : public Mo
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___platformRigidbody_6;
 	// Joystick PlatformController::joystick
 	Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* ___joystick_7;
+	// JoystickHint PlatformController::hint
+	JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* ___hint_8;
 };
 
 // SceneChangeController
@@ -7706,15 +7708,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+// SettingState PersistenceManager::LoadSettings()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SettingState_tFC565AC5E4FC71DE3ACBBD84EFFC06893F720108* PersistenceManager_LoadSettings_m96E5ED0743D8BA9176ADE3060CFF6CD0F41648C5 (const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
 inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
+// System.Void JoystickHint::Hide()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickHint_Hide_mAE10C257D072E99EEE4CBABBF1CAF86DD392E46D (JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___value0, const RuntimeMethod* method) ;
-// SettingState PersistenceManager::LoadSettings()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SettingState_tFC565AC5E4FC71DE3ACBBD84EFFC06893F720108* PersistenceManager_LoadSettings_m96E5ED0743D8BA9176ADE3060CFF6CD0F41648C5 (const RuntimeMethod* method) ;
 // System.String System.Boolean::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
 // UnityEngine.Gyroscope UnityEngine.Input::get_gyro()
@@ -7859,8 +7863,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_mD7E7A84A6B9E9A9BADBDA7C46AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BinaryFormatter_Deserialize_mFC50E75F230189EB3660C8F2FD1E786C0D11E1ED (BinaryFormatter_t5A79B3E3328D1B8FDE8C57D1E17668AD47A4466F* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___serializationStream0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
-// System.Void GooglePlayGames.PlayGamesPlatform::ShowAchievementsUI()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_ShowAchievementsUI_m05D716F4BE4206317B8295A74292DDB04718070D (PlayGamesPlatform_tD21BC276B673A2B5309AF3B508E069C8594FAED9* __this, const RuntimeMethod* method) ;
 // System.Void GooglePlayGames.PlayGamesPlatform::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayGamesPlatform_UnlockAchievement_m1D1E8CE0D1AFCE70692D1C3BF845C57B34D0AB5B (PlayGamesPlatform_tD21BC276B673A2B5309AF3B508E069C8594FAED9* __this, String_t* ___achievementID0, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback1, const RuntimeMethod* method) ;
 // System.Void ButtonStart/<>c::.ctor()
@@ -10707,6 +10709,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CameraController__ctor_mE196A6332BDDED63
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void JoystickHint::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickHint_Start_mC41E71FE50F5956AB441C775A13CD1592541F10C (JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* __this, const RuntimeMethod* method) 
+{
+	{
+		// gameObject.SetActive(!PersistenceManager.LoadSettings().gyroEnabled);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		SettingState_tFC565AC5E4FC71DE3ACBBD84EFFC06893F720108* L_1;
+		L_1 = PersistenceManager_LoadSettings_m96E5ED0743D8BA9176ADE3060CFF6CD0F41648C5(NULL);
+		NullCheck(L_1);
+		bool L_2 = L_1->___gyroEnabled_2;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), NULL);
+		// }
+		return;
+	}
+}
+// System.Void JoystickHint::Hide()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickHint_Hide_mAE10C257D072E99EEE4CBABBF1CAF86DD392E46D (JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* __this, const RuntimeMethod* method) 
+{
+	{
+		// gameObject.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// }
+		return;
+	}
+}
+// System.Void JoystickHint::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JoystickHint__ctor_mD67E18E17CEC7778E418059A032771FD528F9D95 (JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void PlatformController::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformController_Awake_m67BBAD2579FA803DEFE8A9CEB8A68B8E2AD41848 (PlatformController_t65707DA30BB5471A618E201A09A04D4B081B305F* __this, const RuntimeMethod* method) 
 {
@@ -10736,49 +10784,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformController_Start_m558862491ECE9C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// joystick.enabled = false;
-		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_0 = __this->___joystick_7;
+		// hint.Hide();
+		JoystickHint_t678AC545F7A0E932AE66C7865C944837F28CE190* L_0 = __this->___hint_8;
 		NullCheck(L_0);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, (bool)0, NULL);
-		// gyroEnabled = PersistenceManager.LoadSettings().gyroEnabled;
-		SettingState_tFC565AC5E4FC71DE3ACBBD84EFFC06893F720108* L_1;
-		L_1 = PersistenceManager_LoadSettings_m96E5ED0743D8BA9176ADE3060CFF6CD0F41648C5(NULL);
+		JoystickHint_Hide_mAE10C257D072E99EEE4CBABBF1CAF86DD392E46D(L_0, NULL);
+		// joystick.enabled = false;
+		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_1 = __this->___joystick_7;
 		NullCheck(L_1);
-		bool L_2 = L_1->___gyroEnabled_2;
-		__this->___gyroEnabled_4 = L_2;
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1, (bool)0, NULL);
+		// gyroEnabled = PersistenceManager.LoadSettings().gyroEnabled;
+		SettingState_tFC565AC5E4FC71DE3ACBBD84EFFC06893F720108* L_2;
+		L_2 = PersistenceManager_LoadSettings_m96E5ED0743D8BA9176ADE3060CFF6CD0F41648C5(NULL);
+		NullCheck(L_2);
+		bool L_3 = L_2->___gyroEnabled_2;
+		__this->___gyroEnabled_4 = L_3;
 		// print("Gyro enabled=" + gyroEnabled);
-		bool* L_3 = (&__this->___gyroEnabled_4);
-		String_t* L_4;
-		L_4 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63(L_3, NULL);
+		bool* L_4 = (&__this->___gyroEnabled_4);
 		String_t* L_5;
-		L_5 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralCC9B37C4033E80EB1074662E8709C053D6D777ED, L_4, NULL);
-		MonoBehaviour_print_mED815C779E369787B3E9646A6DE96FBC2944BF0B(L_5, NULL);
+		L_5 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63(L_4, NULL);
+		String_t* L_6;
+		L_6 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralCC9B37C4033E80EB1074662E8709C053D6D777ED, L_5, NULL);
+		MonoBehaviour_print_mED815C779E369787B3E9646A6DE96FBC2944BF0B(L_6, NULL);
 		// if (!gyroEnabled)
-		bool L_6 = __this->___gyroEnabled_4;
-		if (L_6)
+		bool L_7 = __this->___gyroEnabled_4;
+		if (L_7)
 		{
-			goto IL_004b;
+			goto IL_0056;
 		}
 	}
 	{
 		// joystick.enabled = true;
-		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_7 = __this->___joystick_7;
-		NullCheck(L_7);
-		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_7, (bool)1, NULL);
+		Joystick_tE3193C48A43E3F5577CBD4E9A8204BBFF2FEEB7A* L_8 = __this->___joystick_7;
+		NullCheck(L_8);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)1, NULL);
 		return;
 	}
 
-IL_004b:
+IL_0056:
 	{
 		// gyro = Input.gyro;
-		Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* L_8;
-		L_8 = Input_get_gyro_m5A5F30FDF6BBA469C0C71EF7FC6E02E7FC08CCFC(NULL);
-		__this->___gyro_5 = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___gyro_5), (void*)L_8);
+		Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* L_9;
+		L_9 = Input_get_gyro_m5A5F30FDF6BBA469C0C71EF7FC6E02E7FC08CCFC(NULL);
+		__this->___gyro_5 = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___gyro_5), (void*)L_9);
 		// gyro.enabled = true;
-		Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* L_9 = __this->___gyro_5;
-		NullCheck(L_9);
-		Gyroscope_set_enabled_m2B22BC93369BA61034A80350405FE1B493822DAB(L_9, (bool)1, NULL);
+		Gyroscope_tA4CEC0F47FFB4CEB90410CC6B860D052BB35BE9E* L_10 = __this->___gyro_5;
+		NullCheck(L_10);
+		Gyroscope_set_enabled_m2B22BC93369BA61034A80350405FE1B493822DAB(L_10, (bool)1, NULL);
 		// }
 		return;
 	}
@@ -12688,63 +12740,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingState__ctor_m634014121655D2E4D936
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void AchievementButton::ShowAchievements()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementButton_ShowAchievements_m18DB7E1AEDD56C9A7ADD930A0A38D17B8ED6F62C (AchievementButton_tF96D27A3956AB5C2E735C62B3BED84296DE9DC67* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Toast_t5C6EEB93D7A159453AEBA75FB4CB6964070A8F93_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAED1FF83C01E1BE5A3F77325EBAC7CFFFD99CD55);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (PlayGamesPlatform.Instance.IsAuthenticated())
-		PlayGamesPlatform_tD21BC276B673A2B5309AF3B508E069C8594FAED9* L_0;
-		L_0 = PlayGamesPlatform_get_Instance_m8CAF47CD84B66E81A3F6DD2D00CACA87909A4565(NULL);
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = PlayGamesPlatform_IsAuthenticated_mCFC776455E59DDF3EE4A7002733C53DE7BB4913D(L_0, NULL);
-		if (!L_1)
-		{
-			goto IL_0017;
-		}
-	}
-	{
-		// PlayGamesPlatform.Instance.ShowAchievementsUI();
-		PlayGamesPlatform_tD21BC276B673A2B5309AF3B508E069C8594FAED9* L_2;
-		L_2 = PlayGamesPlatform_get_Instance_m8CAF47CD84B66E81A3F6DD2D00CACA87909A4565(NULL);
-		NullCheck(L_2);
-		PlayGamesPlatform_ShowAchievementsUI_m05D716F4BE4206317B8295A74292DDB04718070D(L_2, NULL);
-		return;
-	}
-
-IL_0017:
-	{
-		// Toast.Show("F?r diese Funktion sind Google Play Games Services notwendig.", Toast.LENGTH_SHORT);
-		il2cpp_codegen_runtime_class_init_inline(Toast_t5C6EEB93D7A159453AEBA75FB4CB6964070A8F93_il2cpp_TypeInfo_var);
-		String_t* L_3 = ((Toast_t5C6EEB93D7A159453AEBA75FB4CB6964070A8F93_StaticFields*)il2cpp_codegen_static_fields_for(Toast_t5C6EEB93D7A159453AEBA75FB4CB6964070A8F93_il2cpp_TypeInfo_var))->___LENGTH_SHORT_0;
-		Toast_Show_mCC20A33ED683EE007AF1BD36A37FADC2CFB5340B(_stringLiteralAED1FF83C01E1BE5A3F77325EBAC7CFFFD99CD55, L_3, NULL);
-		// }
-		return;
-	}
-}
-// System.Void AchievementButton::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementButton__ctor_mD7ABFD8BF02211E924028E7D5408FBB0AAD893FA (AchievementButton_tF96D27A3956AB5C2E735C62B3BED84296DE9DC67* __this, const RuntimeMethod* method) 
-{
-	{
-		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }

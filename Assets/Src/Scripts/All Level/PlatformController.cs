@@ -8,7 +8,8 @@ public class PlatformController : MonoBehaviour
     private Rigidbody platformRigidbody;
 
     public Joystick joystick;
-
+    public JoystickHint hint;
+    
     private void Awake()
     {
         platformRigidbody = GetComponent<Rigidbody>();
@@ -16,6 +17,7 @@ public class PlatformController : MonoBehaviour
 
     void Start()
     {
+        hint.Hide();
         joystick.enabled = false;
         gyroEnabled = PersistenceManager.LoadSettings().gyroEnabled;
         print("Gyro enabled=" + gyroEnabled);

@@ -41,6 +41,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-de
     - Preload
+  - m_GUID: 3623b68282b6daa2282c07810b680307
+    m_Address: Leaderboards_de
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-de
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 5532cabaccdb13d4c9191220b800e264, type: 2}
   m_SchemaSet:
