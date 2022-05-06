@@ -32,7 +32,7 @@ public class PlatformController : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (gyroEnabled)
         {

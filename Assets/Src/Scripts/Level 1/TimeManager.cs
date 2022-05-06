@@ -23,7 +23,10 @@ public class TimeManager : MonoBehaviour
     public Text timeText;
     public Text bestTimeText;
     public Text attemptsText;
-
+    public GameObject star1;
+    public GameObject star2;
+    public GameObject star3;
+    
     // Telemetrics
     public TextMeshProUGUI watch;
     public TextMeshProUGUI countdown;
@@ -53,14 +56,6 @@ public class TimeManager : MonoBehaviour
         watch.text = "00:00:00";
         attempts.text = "0";
         paused = false;
-
-        // ball.GetComponent<Rigidbody>().useGravity = false;
-        // FinishPanel.SetActive(false);
-        // ball.SetActive(false);
-        // platform.GetComponent<PlatformController>().enabled = false;
-        // countdownPanel.SetActive(true);
-        // ball.SetActive(true);
-        // ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 
     void Update()
@@ -112,19 +107,8 @@ public class TimeManager : MonoBehaviour
             if (watchIsRunning)
             {
                 time += Time.deltaTime;
-                // float minutes = Mathf.FloorToInt(time / 60);
-                // float seconds = Mathf.FloorToInt(time % 60);
-                // float milliSeconds = (time % 1) * 100;
-                // if (milliSeconds < 101 && milliSeconds > 99)
-                // {
-                //     milliSeconds = 0;
-                // }
-                //
-                // watchTime = string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
-                
-                // watch.text = watchTime;
 
-                watch.text = TimeConverter.convertSeconds(time);
+                watch.text = watchTime = TimeConverter.convertSeconds(time);
 
                 overallMillis = time * 1000;
 
@@ -169,7 +153,6 @@ public class TimeManager : MonoBehaviour
         Time.timeScale = 0;
         paused = true;
         
-        // ball.GetComponent<Rigidbody>().useGravity = false;
         platform.GetComponent<PlatformController>().enabled = false;
 
         PausePanel.SetActive(true);
@@ -180,36 +163,42 @@ public class TimeManager : MonoBehaviour
         Time.timeScale = 1;
         paused = false;
         
-        // ball.GetComponent<Rigidbody>().useGravity = true;
         platform.GetComponent<PlatformController>().enabled = true;
 
         PausePanel.SetActive(false);
     }
     
+    public void LoadOtherScenePreparation()
+    {
+        Time.timeScale = 1;
+    }
+    
     public void Finish()
     {
         watchIsRunning = false;
-        
+
         // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
         bestTimeText.text = "00:00:00";  // TODO best level time
+        star1.SetActive(true);
+        star2.SetActive(starsCount > 1);
+        star3.SetActive(starsCount > 2);
         FinishPanel.SetActive(true);
         
-        
         // ball
-        ball.SetActive(false);
         ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
-
+        ball.SetActive(false);
         
         // platform
         platform.GetComponent<PlatformController>().enabled = false;
-        platform.transform.rotation = Quaternion.Euler(Vector3.zero); // TODO reset platform to position not zero
+        platform.transform.rotation = Quaternion.Euler(Vector3.zero);
         countdownPanel.SetActive(false);
         
-        // save Result
+        // save Result // TODO bug: nullpointer
+        
         #region Result saving  
-        ResultState currentResult = new ResultState();
+        /*ResultState currentResult = new ResultState();
         currentResult.star1 = false;
         currentResult.star2 = false;
         currentResult.star3 = false;
@@ -237,15 +226,15 @@ public class TimeManager : MonoBehaviour
         {
             if (loadedResult.level == 1)
             {
-                if (loadedResult.star1 == true)
+                if (loadedResult.star1)
                 {
                     currentResult.star1 = true;
                 }
-                if (loadedResult.star2 == true)
+                if (loadedResult.star2)
                 {
                     currentResult.star2 = true;
                 }
-                if (loadedResult.star3 == true)
+                if (loadedResult.star3)
                 {
                     currentResult.star3 = true;
                 }
@@ -262,7 +251,7 @@ public class TimeManager : MonoBehaviour
         }
 
         resultStates.Add(currentResult);   
-        PersistenceManager.SaveResults(resultStates);
+        PersistenceManager.SaveResults(resultStates);*/
         #endregion
         
         // leaderbord + events
@@ -270,6 +259,12 @@ public class TimeManager : MonoBehaviour
         {
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
             PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b => { });
+            PlayGamesPlatform.Instance.LoadScores(GPGSIds.leaderboard_classic_wood, LeaderboardStart.PlayerCentered, 
+                1, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime, data =>
+                {
+                    // TODO best time - convert value
+                    print("LeaderboardData: " + data + " Score: " + data.Scores[0].value + " Score: " + data.Scores[0].formattedValue);
+                });
         }
     }
 
@@ -283,7 +278,6 @@ public class TimeManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        print("time counted, time manager destroyed");
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_play_time, (uint) overallMillis);
