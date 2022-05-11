@@ -2342,58 +2342,58 @@ extern void SwipeButtonController_ButtonClicked_mB5AF7F84167D63A8FD6BF646C673C2D
 extern void SwipeButtonController__ctor_m9C87D09E04E3C4466D2432E1FDAB6C1C91FA255F (void);
 // 0x0000048D System.Boolean GyroscopeController::EnableGyroscope()
 extern void GyroscopeController_EnableGyroscope_m0C62E525784EAE5B55CD241B3E4BCFA56F7C2E10 (void);
-// 0x0000048E System.Void SceneChangeController::ChangeScene(System.String)
+// 0x0000048E System.Void HighscoreLoader::LoadHighscore(System.Int32,TMPro.TextMeshProUGUI)
+extern void HighscoreLoader_LoadHighscore_m36A59DAFB72E288E11A13B6AFBB1627F0938196F (void);
+// 0x0000048F System.Void HighscoreLoader/<>c__DisplayClass0_0::.ctor()
+extern void U3CU3Ec__DisplayClass0_0__ctor_m679D0482F2044AC479208FAB2962CBBA986A977E (void);
+// 0x00000490 System.Void HighscoreLoader/<>c__DisplayClass0_0::<LoadHighscore>b__0(GooglePlayGames.BasicApi.LeaderboardScoreData)
+extern void U3CU3Ec__DisplayClass0_0_U3CLoadHighscoreU3Eb__0_m2036CFBA4D3C52EB9A0EEFB7ED5E61EE36FFAB04 (void);
+// 0x00000491 System.Void SceneChangeController::ChangeScene(System.String)
 extern void SceneChangeController_ChangeScene_m817979DA5C36D304DCBF8EB253A5A5E2CBA01503 (void);
-// 0x0000048F System.Void SceneChangeController::.ctor()
+// 0x00000492 System.Void SceneChangeController::.ctor()
 extern void SceneChangeController__ctor_m576449525B3B7C8C876D9C4D98CA31F5FCAB8345 (void);
-// 0x00000490 System.String TimeConverter::convertSeconds(System.Single)
+// 0x00000493 System.String TimeConverter::convertSeconds(System.Single)
 extern void TimeConverter_convertSeconds_m002FA9C6D38A930FAED3845AEE362948FC749DC2 (void);
-// 0x00000491 System.Single TimeConverter::extractMillis(System.Single)
-extern void TimeConverter_extractMillis_mF6EE04BA894C8FCAE425680856B6B8B84DC38322 (void);
-// 0x00000492 System.Single TimeConverter::extractSeconds(System.Single)
+// 0x00000494 System.Single TimeConverter::extractHundredths(System.Single)
+extern void TimeConverter_extractHundredths_m57BBA8B88E314479B19D4607A9AB80CCB69B44C5 (void);
+// 0x00000495 System.Single TimeConverter::extractSeconds(System.Single)
 extern void TimeConverter_extractSeconds_m5874FDC6F7BDDE3B5B3650355C1A03F3D5B8FED5 (void);
-// 0x00000493 System.Single TimeConverter::extractMinutes(System.Single)
+// 0x00000496 System.Single TimeConverter::extractMinutes(System.Single)
 extern void TimeConverter_extractMinutes_m065AC6EBC0A465CAC25ABEB34BA7519F55F04D08 (void);
-// 0x00000494 System.Void Ball::Start()
+// 0x00000497 System.Void Ball::Start()
 extern void Ball_Start_m6E8CBDA3753768BAFE8CE82AD74B01E8355C50D3 (void);
-// 0x00000495 System.Void Ball::OnTriggerEnter(UnityEngine.Collider)
+// 0x00000498 System.Void Ball::OnTriggerEnter(UnityEngine.Collider)
 extern void Ball_OnTriggerEnter_m04A16021C89C3514A16E70C2B1B0D11D5B4D7569 (void);
-// 0x00000496 System.Void Ball::TriggeredStar(UnityEngine.Collider)
+// 0x00000499 System.Void Ball::TriggeredStar(UnityEngine.Collider)
 extern void Ball_TriggeredStar_m2D464C5C0E4201DE869185F9A33B637C18AC96B5 (void);
-// 0x00000497 System.Void Ball::.ctor()
+// 0x0000049A System.Void Ball::.ctor()
 extern void Ball__ctor_mDFF93D8FA13BD70DF4F2FA2B9B402E3B10BD6EDC (void);
-// 0x00000498 System.Void TimeManager::Start()
+// 0x0000049B System.Void TimeManager::Start()
 extern void TimeManager_Start_mED95DF42E6AF580037B63BC07CB1DBBF661A1B48 (void);
-// 0x00000499 System.Void TimeManager::Update()
+// 0x0000049C System.Void TimeManager::Update()
 extern void TimeManager_Update_mBD274F31E81B84633AB928E2384AFF4BEC822E7C (void);
-// 0x0000049A System.Void TimeManager::AddAttempt()
+// 0x0000049D System.Void TimeManager::AddAttempt()
 extern void TimeManager_AddAttempt_m9144E2914EC95C9BE305B1DD922E63B6E43B1309 (void);
-// 0x0000049B System.Void TimeManager::AddStar()
+// 0x0000049E System.Void TimeManager::AddStar()
 extern void TimeManager_AddStar_mA215C8743586F6B9A981B838C9C9C9A819563D2F (void);
-// 0x0000049C System.Void TimeManager::AddFall()
+// 0x0000049F System.Void TimeManager::AddFall()
 extern void TimeManager_AddFall_mD161BBDCBDA07DFFBC541B78BB01C1C842B464D3 (void);
-// 0x0000049D System.Void TimeManager::Pause()
+// 0x000004A0 System.Void TimeManager::Pause()
 extern void TimeManager_Pause_m773A17867BD9D760D843B587CEEC1CDDC879552A (void);
-// 0x0000049E System.Void TimeManager::Continue()
+// 0x000004A1 System.Void TimeManager::Continue()
 extern void TimeManager_Continue_m707A71403F66B6722109BDFC092478097AFD80B2 (void);
-// 0x0000049F System.Void TimeManager::LoadOtherScenePreparation()
+// 0x000004A2 System.Void TimeManager::LoadOtherScenePreparation()
 extern void TimeManager_LoadOtherScenePreparation_m48EA36BA2BEDEB2EADC068CABA583F1526B7F950 (void);
-// 0x000004A0 System.Void TimeManager::Finish()
+// 0x000004A3 System.Void TimeManager::Finish()
 extern void TimeManager_Finish_m2845B06AD68DA18C133125263F799ABA357B049A (void);
-// 0x000004A1 System.Void TimeManager::Calibrate()
+// 0x000004A4 System.Void TimeManager::Calibrate()
 extern void TimeManager_Calibrate_mD52A2E01CE8B96A6243159777ADA6C23F667D6AA (void);
-// 0x000004A2 System.Void TimeManager::OnDestroy()
+// 0x000004A5 System.Void TimeManager::OnDestroy()
 extern void TimeManager_OnDestroy_mD8CF0FC8814A8D9D6D4E2ED686E17173DD9570DF (void);
-// 0x000004A3 System.Void TimeManager::.ctor()
+// 0x000004A6 System.Void TimeManager::.ctor()
 extern void TimeManager__ctor_m6694D6AACB3E1D767E0EB7D0E2656EE808204877 (void);
-// 0x000004A4 System.Void TimeManager/<>c::.cctor()
-extern void U3CU3Ec__cctor_mD33B180A3F2C701AACBF5EA037FA50AA9478CE37 (void);
-// 0x000004A5 System.Void TimeManager/<>c::.ctor()
-extern void U3CU3Ec__ctor_m034DD53C5ADFB052ACB27453BF1AB366394F5FCE (void);
-// 0x000004A6 System.Void TimeManager/<>c::<Finish>b__32_0(System.Boolean)
-extern void U3CU3Ec_U3CFinishU3Eb__32_0_mF16E134A26B0199976CB34CBB9442BBA9CC38129 (void);
-// 0x000004A7 System.Void TimeManager/<>c::<Finish>b__32_1(GooglePlayGames.BasicApi.LeaderboardScoreData)
-extern void U3CU3Ec_U3CFinishU3Eb__32_1_m7BFEC44C9BB9EA0E939E095C8B92B23995DBC4C0 (void);
+// 0x000004A7 System.Void TimeManager::<Finish>b__32_0(System.Boolean)
+extern void TimeManager_U3CFinishU3Eb__32_0_mD7FFC34CA53D4F9928BCA21C377DD6370CFA06F6 (void);
 // 0x000004A8 System.Void AchievementsLoader::Start()
 extern void AchievementsLoader_Start_mED754E60E079B46F0FE336C2EB771A1FA89FDFBA (void);
 // 0x000004A9 System.Void AchievementsLoader::LoadAchievements()
@@ -4477,10 +4477,13 @@ static Il2CppMethodPointer s_methodPointers[1649] =
 	SwipeButtonController_ButtonClicked_mB5AF7F84167D63A8FD6BF646C673C2D7CA9DA2B8,
 	SwipeButtonController__ctor_m9C87D09E04E3C4466D2432E1FDAB6C1C91FA255F,
 	GyroscopeController_EnableGyroscope_m0C62E525784EAE5B55CD241B3E4BCFA56F7C2E10,
+	HighscoreLoader_LoadHighscore_m36A59DAFB72E288E11A13B6AFBB1627F0938196F,
+	U3CU3Ec__DisplayClass0_0__ctor_m679D0482F2044AC479208FAB2962CBBA986A977E,
+	U3CU3Ec__DisplayClass0_0_U3CLoadHighscoreU3Eb__0_m2036CFBA4D3C52EB9A0EEFB7ED5E61EE36FFAB04,
 	SceneChangeController_ChangeScene_m817979DA5C36D304DCBF8EB253A5A5E2CBA01503,
 	SceneChangeController__ctor_m576449525B3B7C8C876D9C4D98CA31F5FCAB8345,
 	TimeConverter_convertSeconds_m002FA9C6D38A930FAED3845AEE362948FC749DC2,
-	TimeConverter_extractMillis_mF6EE04BA894C8FCAE425680856B6B8B84DC38322,
+	TimeConverter_extractHundredths_m57BBA8B88E314479B19D4607A9AB80CCB69B44C5,
 	TimeConverter_extractSeconds_m5874FDC6F7BDDE3B5B3650355C1A03F3D5B8FED5,
 	TimeConverter_extractMinutes_m065AC6EBC0A465CAC25ABEB34BA7519F55F04D08,
 	Ball_Start_m6E8CBDA3753768BAFE8CE82AD74B01E8355C50D3,
@@ -4499,10 +4502,7 @@ static Il2CppMethodPointer s_methodPointers[1649] =
 	TimeManager_Calibrate_mD52A2E01CE8B96A6243159777ADA6C23F667D6AA,
 	TimeManager_OnDestroy_mD8CF0FC8814A8D9D6D4E2ED686E17173DD9570DF,
 	TimeManager__ctor_m6694D6AACB3E1D767E0EB7D0E2656EE808204877,
-	U3CU3Ec__cctor_mD33B180A3F2C701AACBF5EA037FA50AA9478CE37,
-	U3CU3Ec__ctor_m034DD53C5ADFB052ACB27453BF1AB366394F5FCE,
-	U3CU3Ec_U3CFinishU3Eb__32_0_mF16E134A26B0199976CB34CBB9442BBA9CC38129,
-	U3CU3Ec_U3CFinishU3Eb__32_1_m7BFEC44C9BB9EA0E939E095C8B92B23995DBC4C0,
+	TimeManager_U3CFinishU3Eb__32_0_mD7FFC34CA53D4F9928BCA21C377DD6370CFA06F6,
 	AchievementsLoader_Start_mED754E60E079B46F0FE336C2EB771A1FA89FDFBA,
 	AchievementsLoader_LoadAchievements_m826BB2A0546E4F8540CC019F65E80C7E9B229B2F,
 	AchievementsLoader_synchronizeUI_mF45D88A23FC670B8105FECFDCA0DEE0F6F865672,
@@ -6129,6 +6129,9 @@ static const int32_t s_InvokerIndices[1649] =
 	4887,
 	6043,
 	8816,
+	8064,
+	6043,
+	4909,
 	4909,
 	6043,
 	8488,
@@ -6151,10 +6154,7 @@ static const int32_t s_InvokerIndices[1649] =
 	6043,
 	6043,
 	6043,
-	8868,
-	6043,
 	4823,
-	4909,
 	6043,
 	6043,
 	4909,

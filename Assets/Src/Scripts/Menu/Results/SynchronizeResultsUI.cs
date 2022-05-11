@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi;
+using TMPro;
 using UnityEngine;
 
 public class SynchronizeResultsUI : MonoBehaviour
@@ -9,6 +12,13 @@ public class SynchronizeResultsUI : MonoBehaviour
 
     private void Start()
     {
+        foreach (var uiResult in uiResults)
+        {
+            HighscoreLoader.LoadHighscore(uiResult.level, uiResult.time);
+        }
+        
+        print("StartResultLoading");
+        
         List<ResultState> loadedResults = PersistenceManager.LoadResults();
 
         if (loadedResults != null)
@@ -16,9 +26,7 @@ public class SynchronizeResultsUI : MonoBehaviour
             for (int i = 0; i < loadedResults.Count; i++)
             {
                 ResultState loadedResult = loadedResults[i];
-
-                //UIResult uiResult = Array.Find(uiResults, uiResult => uiResult.level == loadedResult.level);
-            
+                
                 foreach (var uiResult in uiResults)
                 {
                     if (uiResult.level == loadedResult.level)
@@ -26,12 +34,13 @@ public class SynchronizeResultsUI : MonoBehaviour
                         uiResult.star1.SetActive(loadedResult.star1);
                         uiResult.star2.SetActive(loadedResult.star2);
                         uiResult.star3.SetActive(loadedResult.star3);
-                        uiResult.time.text = TimeConverter.convertSeconds(loadedResult.minutes * 60f + loadedResult.seconds + loadedResult.millis * 0.01f);
                         break;
                     }
                 }
             
             }   
         }
+        
     }
+    
 }

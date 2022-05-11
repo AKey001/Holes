@@ -10,23 +10,23 @@ public static class TimeConverter
         // time = 1033586956838.24f;
         float minutes = Mathf.FloorToInt(time / 60f);
         float seconds = Mathf.FloorToInt(time % 60);
-        float milliSeconds = (time % 1) * 100;
-        if (milliSeconds < 101 && milliSeconds > 99)
+        float hundredths = (time % 1) * 100;
+        if (hundredths < 101 && hundredths > 99)
         {
-            milliSeconds = 0;
+            hundredths = 0;
         }
-        
-        return string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds);
+
+        return string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, hundredths);
     }
 
-    public static float extractMillis(float time)
+    public static float extractHundredths(float time)
     {
-        float milliSeconds = (time % 1) * 100;
-        if (milliSeconds < 101 && milliSeconds > 99)
+        float hundredths = (time % 1) * 100;
+        if (hundredths < 101 && hundredths > 99)
         {
-            milliSeconds = 0;
+            hundredths = 0;
         }
-        return milliSeconds;
+        return hundredths;
     }
     
     public static float extractSeconds(float time)

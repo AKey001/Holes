@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Info_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 49628f8e3030926bb8208eed1f02276f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11753713664
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58092384256
+    m_Localized: How to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147196178432
+    m_Localized: "Control the platform and get the ball to the golden star. \n\nTo
+      get even more prestige and honor, you can select the other 2 stars. \n\nThe
+      player with the best time will also be leader of the leaderboard.\n\nThere
+      are two ways to control the platform. You can tilt your device or use the joystick
+      by tatouching on the screen."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

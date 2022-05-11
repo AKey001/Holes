@@ -34,18 +34,78 @@ public class PlatformController : MonoBehaviour
 
     void FixedUpdate()
     {
+        float deltax = 0;
+        float deltaz = 0;
         if (gyroEnabled)
         {
-            Vector3 eulerAngleVelocity = new Vector3(-gyro.rotationRate.x, 0, -gyro.rotationRate.y);
-            Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);    
-            platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
+            deltax = -gyro.rotationRate.x;
+            deltaz = -gyro.rotationRate.y;
         }
         else
         {
-            Vector3 eulerAngleVelocity = new Vector3(joystick.Vertical, 0, -joystick.Horizontal);
-            Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
-            platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
+            deltax = joystick.Vertical;
+            deltaz = -joystick.Horizontal;
         }
+        
+        float x = platformRigidbody.rotation.eulerAngles.x;
+        float z = platformRigidbody.rotation.eulerAngles.z;
+        
+        if (z < 180 && z > 40) // zu weit nach rechts
+        {
+            if (deltaz > 0)
+            {
+                deltaz = 0;
+            }
+        }
+        if (z > 180 && z < 320) // zu weit nach links
+        {
+            if (deltaz < 0)
+            {
+                deltaz = 0;
+            }
+        }
+        if (x < 180 && x > 40) // zu weit nach vorn
+        {
+            if (deltax > 0)
+            {
+                deltax = 0;
+            }
+        }
+        if (x > 180 && x < 320) // zu weit nach hinten
+        {
+            if (deltax < 0)
+            {
+                deltax = 0;
+            }
+        }
+        
+        Vector3 eulerAngleVelocity = new Vector3(deltax, 0, deltaz);
+        Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
+            
+        print((platformRigidbody.rotation * deltaRotation).eulerAngles);
+
+        platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
+        
+        
+        // if (gyroEnabled)
+        // {
+        //     //if (platformRigidbody.rotation.eulerAngles.z )
+        //     Vector3 eulerAngleVelocity = new Vector3(-gyro.rotationRate.x, 0, -gyro.rotationRate.y);
+        //     Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
+        //     
+        //     print((platformRigidbody.rotation * deltaRotation).eulerAngles);
+        //
+        //     platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
+        // }
+        // else
+        // {
+        //     Vector3 eulerAngleVelocity = new Vector3(joystick.Vertical, 0, -joystick.Horizontal);
+        //     Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
+        //     
+        //     print((platformRigidbody.rotation * deltaRotation).eulerAngles);
+        //     
+        //     platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
+        // }
     }
     
 }

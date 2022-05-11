@@ -1053,9 +1053,9 @@ MonoBehaviour:
     m_Left: 0
     m_Right: 0
     m_Top: 0
-    m_Bottom: 0
+    m_Bottom: 15
   m_ChildAlignment: 4
-  m_Spacing: 20
+  m_Spacing: 50
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -2394,9 +2394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The One
-
-'
+  m_Text: Lost in the middle
 --- !u!222 &204566027
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4656,7 +4654,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 0
+    m_Top: 15
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 40
@@ -5410,8 +5408,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15655,7 +15653,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2054870639}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.32429188
+  m_Size: 0.3243567
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

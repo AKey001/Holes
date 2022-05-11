@@ -21,7 +21,7 @@ public class TimeManager : MonoBehaviour
     
     // Finish Panel
     public Text timeText;
-    public Text bestTimeText;
+    public TextMeshProUGUI bestTimeText;
     public Text attemptsText;
     public GameObject star1;
     public GameObject star2;
@@ -55,7 +55,7 @@ public class TimeManager : MonoBehaviour
         watchIsRunning = false;
         watch.text = "00:00:00";
         attempts.text = "0";
-        paused = false;
+        paused = false; 
     }
 
     void Update()
@@ -180,7 +180,7 @@ public class TimeManager : MonoBehaviour
         // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
-        bestTimeText.text = "00:00:00";  // TODO best level time
+        bestTimeText.text = "";  // TODO best level time
         star1.SetActive(true);
         star2.SetActive(starsCount > 1);
         star3.SetActive(starsCount > 2);
@@ -195,8 +195,18 @@ public class TimeManager : MonoBehaviour
         platform.transform.rotation = Quaternion.Euler(Vector3.zero);
         countdownPanel.SetActive(false);
         
-        // save Result // TODO bug: nullpointer
+        // leaderbord + events
+        if (PlayGamesPlatform.Instance.IsAuthenticated())
+        {
+            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
+            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b =>
+            {
+                HighscoreLoader.LoadHighscore(1, bestTimeText);
+            });
+            
+        }
         
+        // save Result // TODO bug: nullpointer
         #region Result saving  
         /*ResultState currentResult = new ResultState();
         currentResult.star1 = false;
@@ -253,19 +263,6 @@ public class TimeManager : MonoBehaviour
         resultStates.Add(currentResult);   
         PersistenceManager.SaveResults(resultStates);*/
         #endregion
-        
-        // leaderbord + events
-        if (PlayGamesPlatform.Instance.IsAuthenticated())
-        {
-            PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
-            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b => { });
-            PlayGamesPlatform.Instance.LoadScores(GPGSIds.leaderboard_classic_wood, LeaderboardStart.PlayerCentered, 
-                1, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime, data =>
-                {
-                    // TODO best time - convert value
-                    print("LeaderboardData: " + data + " Score: " + data.Scores[0].value + " Score: " + data.Scores[0].formattedValue);
-                });
-        }
     }
 
     public void Calibrate()
