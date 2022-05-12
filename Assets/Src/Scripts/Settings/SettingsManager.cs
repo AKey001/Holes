@@ -8,22 +8,9 @@ using UnityEngine.Localization.Settings;
 public class SettingsManager : MonoBehaviour
 {
     public AudioMixer mixer;
-    //private SettingState state;
 
     IEnumerator Start()
     {
-        // if (state == null)
-        // {
-        //     state = new SettingState
-        //     {
-        //         language = 0,
-        //         quality = 2,
-        //         gyroEnabled = GyroscopeController.EnableGyroscope(),
-        //         sfxVolume = 1f,
-        //         musicVolume = 1f
-        //     };
-        // }
-        
         ChangeMusicVolume(PersistenceManager.LoadFloat(Keystore.musicVolume(), 1f));
         ChangeSFXVolume(PersistenceManager.LoadFloat(Keystore.sfxVolume(), 1f));
         ChangeQuality(PersistenceManager.LoadInt(Keystore.quality(), 2));

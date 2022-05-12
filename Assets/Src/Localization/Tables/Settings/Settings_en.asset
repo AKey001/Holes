@@ -42,6 +42,18 @@ MonoBehaviour:
     m_Localized: Controls
     m_Metadata:
       m_Items: []
+  - m_Id: 7609879507464192
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7609890844667904
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7609940832382976
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

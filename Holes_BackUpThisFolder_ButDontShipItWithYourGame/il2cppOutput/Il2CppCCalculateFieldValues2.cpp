@@ -958,6 +958,8 @@ struct TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E;
 struct TextFontWeightU5BU5D_t3DE32809AEE657255C8333897D61F2EA5279D43F;
 // UnityEngine.Texture2D[]
 struct Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191;
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098;
 // UnityEngine.Transform[]
 struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
 // UnityEngine.UIVertex[]
@@ -25936,8 +25938,8 @@ struct SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83  : public
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___musicSlider_5;
 	// UnityEngine.UI.Slider SynchronizeSettingsUI::sfxSlider
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___sfxSlider_6;
-	// UnityEngine.UI.Dropdown SynchronizeSettingsUI::quality
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___quality_7;
+	// UnityEngine.UI.Toggle[] SynchronizeSettingsUI::toggles
+	ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098* ___toggles_7;
 	// GyroButton SynchronizeSettingsUI::gyroEnabled
 	GyroButton_t93847B342A1312D36ECA30E348013655801AF6A3* ___gyroEnabled_8;
 };
@@ -29238,7 +29240,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7097[2] =
 	static_cast<int32_t>(offsetof(SynchronizePauseSettingsUI_tA815FCB6A3C932E8F5054334846E85F736238F85, ___musicSlider_4)),static_cast<int32_t>(offsetof(SynchronizePauseSettingsUI_tA815FCB6A3C932E8F5054334846E85F736238F85, ___sfxSlider_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7098[5] = 
 {
-	static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___language_4)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___musicSlider_5)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___sfxSlider_6)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___quality_7)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___gyroEnabled_8)),};
+	static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___language_4)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___musicSlider_5)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___sfxSlider_6)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___toggles_7)),static_cast<int32_t>(offsetof(SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83, ___gyroEnabled_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7099[6] = 
 {
 	static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___completedLevels_4)),static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___falls_5)),static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___attempts_6)),static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___collectedStars_7)),static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___playTimes_8)),static_cast<int32_t>(offsetof(StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE, ___loadingScreen_9)),};

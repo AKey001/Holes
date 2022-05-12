@@ -39,6 +39,18 @@ MonoBehaviour:
     m_Key: control
     m_Metadata:
       m_Items: []
+  - m_Id: 7609879507464192
+    m_Key: low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7609890844667904
+    m_Key: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7609940832382976
+    m_Key: High
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

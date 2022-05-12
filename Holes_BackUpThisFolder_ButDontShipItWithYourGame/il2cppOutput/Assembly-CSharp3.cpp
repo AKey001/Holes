@@ -305,6 +305,8 @@ struct TMP_SubMeshUIU5BU5D_tC77B263183A59A75345C26152457207EAC3BBF29;
 struct TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC;
 // UnityEngine.Texture2D[]
 struct Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191;
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098;
 // System.Type[]
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
 // UIPlayer[]
@@ -655,6 +657,10 @@ struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 // TimeManager
 struct TimeManager_tEC2F0C27F06166CF8A71453CC852EA192AAA8DD9;
+// UnityEngine.UI.Toggle
+struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F;
+// UnityEngine.UI.ToggleGroup
+struct ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C;
 // UnityEngine.TouchScreenKeyboard
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 // UnityEngine.Transform
@@ -775,6 +781,8 @@ struct U3CRevealWordsU3Ed__8_t912CFD430C602C79AE6BC1BC6C4AEBF101B4D7C8;
 struct U3CDisplayTextMeshFloatingTextU3Ed__16_t5CBD7868EB4D3D561D539B99B4541CC014DFF5F0;
 // TMPro.Examples.TextMeshProFloatingText/<DisplayTextMeshProFloatingText>d__15
 struct U3CDisplayTextMeshProFloatingTextU3Ed__15_tDFD30981C9C1189D2AC3AA6C07DA7EFE7E1694F3;
+// UnityEngine.UI.Toggle/ToggleEvent
+struct ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t38A40574AB80CC30FF578C805B326880626B49AF_il2cpp_TypeInfo_var;
@@ -829,6 +837,7 @@ IL2CPP_EXTERN_C RuntimeClass* TMP_TextUtilities_tD7ED516E31C2AA0EB607D587C0BB0FE
 IL2CPP_EXTERN_C RuntimeClass* TMPro_EventManager_t0234DB5BF625FC164B395C5C3B6F2CB8C89A3BA9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextMeshProFloatingText_t833773B79A4826E78EDF2799C157B0EC3ACACB31_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Toast_t5C6EEB93D7A159453AEBA75FB4CB6964070A8F93_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimatePropertiesU3Ed__6_tF5A2F267919D456EDB1730E0AF6F8776728475FB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CDisplayTextMeshFloatingTextU3Ed__16_t5CBD7868EB4D3D561D539B99B4541CC014DFF5F0_il2cpp_TypeInfo_var;
@@ -1096,6 +1105,7 @@ struct TMP_LineInfoU5BU5D_tE485ECF6A7A96441C72B53D75E7A5A5461A2CA0E;
 struct TMP_LinkInfoU5BU5D_tE11BE54A5923BD2148E716289F44EA465E06536E;
 struct TMP_MeshInfoU5BU5D_t3549EA3B9F542558E0DB1EDFAB98C612FE4231D7;
 struct TMP_WordInfoU5BU5D_tD1759E5A84DCCCD42B718D79E953E72A432BB4DC;
+struct ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098;
 struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
 struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct WaitForSecondsU5BU5D_t2A9038ECB6E643745AEF2AD9A4F7FFD3D272186E;
@@ -5348,8 +5358,8 @@ struct SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83  : public
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___musicSlider_5;
 	// UnityEngine.UI.Slider SynchronizeSettingsUI::sfxSlider
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___sfxSlider_6;
-	// UnityEngine.UI.Dropdown SynchronizeSettingsUI::quality
-	Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___quality_7;
+	// UnityEngine.UI.Toggle[] SynchronizeSettingsUI::toggles
+	ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098* ___toggles_7;
 	// GyroButton SynchronizeSettingsUI::gyroEnabled
 	GyroButton_t93847B342A1312D36ECA30E348013655801AF6A3* ___gyroEnabled_8;
 };
@@ -6128,6 +6138,21 @@ struct TMP_InputField_t3488E0EE8C3DF56C6A328EC95D1BEEA2DF4A7D5F_StaticFields
 {
 	// System.Char[] TMPro.TMP_InputField::kSeparators
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___kSeparators_21;
+};
+
+// UnityEngine.UI.Toggle
+struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	// UnityEngine.UI.Toggle/ToggleTransition UnityEngine.UI.Toggle::toggleTransition
+	int32_t ___toggleTransition_20;
+	// UnityEngine.UI.Graphic UnityEngine.UI.Toggle::graphic
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___graphic_21;
+	// UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::m_Group
+	ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C* ___m_Group_22;
+	// UnityEngine.UI.Toggle/ToggleEvent UnityEngine.UI.Toggle::onValueChanged
+	ToggleEvent_t88B31268F9D6D1882E4F921B14704FB9F7047F02* ___onValueChanged_23;
+	// System.Boolean UnityEngine.UI.Toggle::m_IsOn
+	bool ___m_IsOn_24;
 };
 
 // UnityEngine.UI.Image
@@ -7029,6 +7054,41 @@ struct IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43  : public Ru
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* m_Items[1];
+
+	inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
@@ -8103,6 +8163,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperationHandle_1_t942B32DFBF2792F48E491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_ChangeLanguage_m9DCAFBB70967E656DAC2B1394BF61B55BE96A996 (SettingsManager_t4EE243AF21C0F2368EA2029BEAE2539757C3354B* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown::SetValueWithoutNotify(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_SetValueWithoutNotify_m3D2B40BC16D305309D68D9FF093BF25FF66E4ABA (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, int32_t ___input0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.UI.Toggle::SetIsOnWithoutNotify(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2 (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void StatsLoader::LoadStats()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StatsLoader_LoadStats_m011E04F826729F4C93BCB351217482F2F192AAFC (StatsLoader_t981C271248FCDA5241BFBBA17E5CF0411C93C5BE* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>::.ctor(System.Object,System.IntPtr)
@@ -14154,24 +14216,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizeSettingsUI_Awake_mB71C42B03EC
 		L_8 = PersistenceManager_LoadFloat_mE0CA86BE04E5196C1EFDC64D4F209BD5849D3B83(L_7, (1.0f), NULL);
 		NullCheck(L_6);
 		VirtualActionInvoker1< float >::Invoke(48 /* System.Void UnityEngine.UI.Slider::SetValueWithoutNotify(System.Single) */, L_6, L_8);
-		// quality.SetValueWithoutNotify(PersistenceManager.LoadInt(Keystore.quality(), 2));
-		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_9 = __this->___quality_7;
+		// toggles[PersistenceManager.LoadInt(Keystore.quality(), 2)].SetIsOnWithoutNotify(true);
+		ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098* L_9 = __this->___toggles_7;
 		String_t* L_10;
 		L_10 = Keystore_quality_mE9E65A80589B39AEDC436987BA28C46CEC3343F8(NULL);
 		int32_t L_11;
 		L_11 = PersistenceManager_LoadInt_mA7043B4995ADDE5155787E06CA9055279A061A3D(L_10, 2, NULL);
 		NullCheck(L_9);
-		Dropdown_SetValueWithoutNotify_m3D2B40BC16D305309D68D9FF093BF25FF66E4ABA(L_9, L_11, NULL);
+		int32_t L_12 = L_11;
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		NullCheck(L_13);
+		Toggle_SetIsOnWithoutNotify_mF5B19F1767B9EFF02335E41D3D2DC678642170C2(L_13, (bool)1, NULL);
 		// gyroEnabled.SetValue(PersistenceManager.LoadBool(Keystore.gyroEnabled(), GyroscopeController.EnableGyroscope()));
-		GyroButton_t93847B342A1312D36ECA30E348013655801AF6A3* L_12 = __this->___gyroEnabled_8;
-		String_t* L_13;
-		L_13 = Keystore_gyroEnabled_m15D799C8AE812D6801FF2383624326F95D36289B(NULL);
-		bool L_14;
-		L_14 = GyroscopeController_EnableGyroscope_m0C62E525784EAE5B55CD241B3E4BCFA56F7C2E10(NULL);
-		bool L_15;
-		L_15 = PersistenceManager_LoadBool_m07B1668ACC08735911BACBEDA9AA225A6F51F737(L_13, L_14, NULL);
-		NullCheck(L_12);
-		GyroButton_SetValue_mDA46FD74E0C01F9AC1D201064FA434D6B8BC44C0(L_12, L_15, NULL);
+		GyroButton_t93847B342A1312D36ECA30E348013655801AF6A3* L_14 = __this->___gyroEnabled_8;
+		String_t* L_15;
+		L_15 = Keystore_gyroEnabled_m15D799C8AE812D6801FF2383624326F95D36289B(NULL);
+		bool L_16;
+		L_16 = GyroscopeController_EnableGyroscope_m0C62E525784EAE5B55CD241B3E4BCFA56F7C2E10(NULL);
+		bool L_17;
+		L_17 = PersistenceManager_LoadBool_m07B1668ACC08735911BACBEDA9AA225A6F51F737(L_15, L_16, NULL);
+		NullCheck(L_14);
+		GyroButton_SetValue_mDA46FD74E0C01F9AC1D201064FA434D6B8BC44C0(L_14, L_17, NULL);
 		// }
 		return;
 	}
@@ -14179,7 +14244,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizeSettingsUI_Awake_mB71C42B03EC
 // System.Void SynchronizeSettingsUI::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizeSettingsUI__ctor_m32E7D38D1E536D25A9610D2C5020CF93582AB2CB (SynchronizeSettingsUI_tA23B258A99328161E0DD6594F8490169B530AD83* __this, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public Toggle[] toggles = new Toggle[3];
+		ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098* L_0 = (ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098*)(ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098*)SZArrayNew(ToggleU5BU5D_t73C98F6CC63F9D7C0B8A26533CE6D7E218D00098_il2cpp_TypeInfo_var, (uint32_t)3);
+		__this->___toggles_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___toggles_7), (void*)L_0);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
