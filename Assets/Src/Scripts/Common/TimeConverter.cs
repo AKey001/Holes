@@ -18,24 +18,5 @@ public static class TimeConverter
 
         return string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, hundredths);
     }
-
-    public static float extractHundredths(float time)
-    {
-        float hundredths = (time % 1) * 100;
-        if (hundredths < 101 && hundredths > 99)
-        {
-            hundredths = 0;
-        }
-        return hundredths;
-    }
     
-    public static float extractSeconds(float time)
-    {
-        return Mathf.FloorToInt(time % 60);
-    }
-    
-    public static float extractMinutes(float time)
-    {
-        return Mathf.FloorToInt(time / 60f);
-    }
 }

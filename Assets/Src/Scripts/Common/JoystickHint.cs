@@ -6,7 +6,8 @@ public class JoystickHint : MonoBehaviour
 {
     void Start()
     {
-        gameObject.SetActive(!PersistenceManager.LoadSettings().gyroEnabled);
+        //gameObject.SetActive(!PersistenceManager.LoadSettings().gyroEnabled);
+        gameObject.SetActive(!PersistenceManager.LoadBool(Keystore.gyroEnabled(), false));
     }
     
     public void Hide()

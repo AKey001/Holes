@@ -203,66 +203,21 @@ public class TimeManager : MonoBehaviour
             {
                 HighscoreLoader.LoadHighscore(1, bestTimeText);
             });
-            
         }
         
         // save Result // TODO bug: nullpointer
-        #region Result saving  
-        /*ResultState currentResult = new ResultState();
-        currentResult.star1 = false;
-        currentResult.star2 = false;
-        currentResult.star3 = false;
-        if (starsCount > 0)
+        if (!PersistenceManager.LoadBool(Keystore.star1(1), false))
         {
-            currentResult.star1 = true;    
+            PersistenceManager.SaveBool(Keystore.star1(1), starsCount > 0);  
         }
-        if (starsCount > 1)
+        if (!PersistenceManager.LoadBool(Keystore.star2(1), false))
         {
-            currentResult.star2 = true;    
+            PersistenceManager.SaveBool(Keystore.star2(1), starsCount > 1);  
         }
-        if (starsCount > 2)
+        if (!PersistenceManager.LoadBool(Keystore.star3(1), false))
         {
-            currentResult.star3 = true;    
+            PersistenceManager.SaveBool(Keystore.star3(1), starsCount > 2);  
         }
-        currentResult.time = time;
-        currentResult.millis = TimeConverter.extractMillis(time);
-        currentResult.seconds = TimeConverter.extractSeconds(time);
-        currentResult.minutes = TimeConverter.extractMinutes(time);
-        currentResult.level = 1;
-        
-        
-        List<ResultState> resultStates = PersistenceManager.LoadResults();
-        foreach (var loadedResult in resultStates)
-        {
-            if (loadedResult.level == 1)
-            {
-                if (loadedResult.star1)
-                {
-                    currentResult.star1 = true;
-                }
-                if (loadedResult.star2)
-                {
-                    currentResult.star2 = true;
-                }
-                if (loadedResult.star3)
-                {
-                    currentResult.star3 = true;
-                }
-                if (loadedResult.time < currentResult.time)
-                {
-                    currentResult.time = loadedResult.time;
-                    currentResult.millis = loadedResult.millis;
-                    currentResult.seconds = loadedResult.seconds;
-                    currentResult.minutes = loadedResult.minutes;
-                }
-                resultStates.Remove(loadedResult);
-                break;
-            }
-        }
-
-        resultStates.Add(currentResult);   
-        PersistenceManager.SaveResults(resultStates);*/
-        #endregion
     }
 
     public void Calibrate()

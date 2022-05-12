@@ -11,11 +11,7 @@ public class SynchronizePauseSettingsUI : MonoBehaviour
 
     void Awake()
     {
-        SettingState state = PersistenceManager.LoadSettings();
-        
-        if (state == null) return;
-        
-        musicSlider.SetValueWithoutNotify(state.musicVolume);
-        sfxSlider.SetValueWithoutNotify(state.sfxVolume);
+        musicSlider.SetValueWithoutNotify(PersistenceManager.LoadFloat(Keystore.musicVolume(), 1f));
+        sfxSlider.SetValueWithoutNotify(PersistenceManager.LoadFloat(Keystore.sfxVolume(), 1f));
     }
 }
