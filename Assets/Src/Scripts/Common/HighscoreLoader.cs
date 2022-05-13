@@ -11,7 +11,7 @@ public static class HighscoreLoader
     
     public static void LoadHighscore(int level, TextMeshProUGUI highscoreGUI)
     {
-        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_the_one};
+        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_lost_in_the_middle};
 
         string highscore = "";
         

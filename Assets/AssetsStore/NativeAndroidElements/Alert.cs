@@ -21,14 +21,14 @@ namespace NativeAndroidElements
             onSuccess = null;
         }
 
-        public void onSucessLitener(Action callback)
+        public void onSucessListener(Action callback)
         {
             onSuccess = new ResponseDelegate(callback);
         }
 
-        public void onFailLitener(Action callback)
+        public void onFailListener(Action callback)
         {
-            onSuccess = new ResponseDelegate(callback);
+            onFail = new ResponseDelegate(callback);
         }
 
         public void Show(string title, string message, [CanBeNull] string successBtn = null,

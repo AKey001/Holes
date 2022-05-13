@@ -17,7 +17,27 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 1ab7b36de4ee4464d9a089eab25c0126, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 5344132110446592
+    m_Localized: "Spielst\xE4nde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387914486968320
+    m_Localized: Den Spielstand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387750774894592
+    m_Localized: "L\xF6schen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387754520408064
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5388560946655232
+    m_Localized: "wirklich l\xF6schen?"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

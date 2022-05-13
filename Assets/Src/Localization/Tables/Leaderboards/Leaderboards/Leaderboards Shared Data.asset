@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Leaderboards
   m_TableCollectionNameGuidString: 46e9f5d99d32bfc99bca140734aae170
-  m_Entries: []
+  m_Entries:
+  - m_Id: 3288519893282816
+    m_Key: leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3288894109085696
+    m_Key: no entry
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

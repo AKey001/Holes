@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.UI;
@@ -10,14 +11,13 @@ using UnityEngine.UI;
 public class LeaderboardsLoader : MonoBehaviour
 {
     public List<UIPlayer> players;
-
     public UIPlayer selfPlayer;
-
     public GameObject loadingScreen;
+    public GameObject noEntryHint;
 
     public void LoadLeaderboards(int level)
     {
-        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_the_one};
+        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_lost_in_the_middle};
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
@@ -39,13 +39,22 @@ public class LeaderboardsLoader : MonoBehaviour
 
                                 players[i].parent.GetComponent<Image>().color = new Color32(34, 39, 47, 100);
                                 
-                                
                                 count++;
                             }
                             else
                             {
                                 break;
                             }
+                        }
+
+                        if (count < 1)
+                        {
+                            loadingScreen.SetActive(false);
+                            noEntryHint.SetActive(true);
+                        }
+                        else
+                        {
+                            noEntryHint.SetActive(false);
                         }
 
                         PlayGamesPlatform.Instance.LoadUsers(userIDs.ToArray(), users =>
@@ -56,6 +65,7 @@ public class LeaderboardsLoader : MonoBehaviour
                             }
                             loadingScreen.SetActive(false);
                         });
+                        
                         
 
                         if (data.PlayerScore != null)

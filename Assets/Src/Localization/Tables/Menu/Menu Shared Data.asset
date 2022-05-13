@@ -12,9 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
   m_Name: Menu Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Menu
+  m_TableCollectionName: SavedGames
   m_TableCollectionNameGuidString: 1ab7b36de4ee4464d9a089eab25c0126
-  m_Entries: []
+  m_Entries:
+  - m_Id: 5344132110446592
+    m_Key: saved games
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387750774894592
+    m_Key: delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387754520408064
+    m_Key: cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5387914486968320
+    m_Key: message 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5388560946655232
+    m_Key: message 2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

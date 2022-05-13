@@ -30,7 +30,7 @@ MonoBehaviour:
     - Locale-en
     - Preload
   - m_GUID: 147be5c3236bab4458ceac0e029fcec9
-    m_Address: Menu_en
+    m_Address: SavedGames_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

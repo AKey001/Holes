@@ -17,7 +17,15 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 46e9f5d99d32bfc99bca140734aae170, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 3288519893282816
+    m_Localized: Bestenliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3288894109085696
+    m_Localized: "Bisher keine Eintr\xE4ge"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -18,6 +18,8 @@ public class TimeManager : MonoBehaviour
     private int attemptsCount;
     private string watchTime;
     private bool paused;
+
+    public int level;
     
     // Finish Panel
     public Text timeText;
@@ -201,7 +203,7 @@ public class TimeManager : MonoBehaviour
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
             PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b =>
             {
-                HighscoreLoader.LoadHighscore(1, bestTimeText);
+                HighscoreLoader.LoadHighscore(level, bestTimeText);
             });
         }
         
@@ -233,6 +235,7 @@ public class TimeManager : MonoBehaviour
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_play_time, (uint) overallMillis);
+            SavedGameManager.SaveGame();
         }
 
         Time.timeScale = 1;

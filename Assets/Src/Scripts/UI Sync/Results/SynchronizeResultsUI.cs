@@ -28,33 +28,6 @@ public class SynchronizeResultsUI : MonoBehaviour
             uiResult.star2.SetActive(PersistenceManager.LoadBool(Keystore.star2(uiResult.level), false));
             uiResult.star3.SetActive(PersistenceManager.LoadBool(Keystore.star3(uiResult.level), false));
         }
-        
-        
-        
-        // print("StartResultLoading");
-        //
-        // List<ResultState> loadedResults = PersistenceManager.LoadResults();
-        //
-        // if (loadedResults != null)
-        // {
-        //     for (int i = 0; i < loadedResults.Count; i++)
-        //     {
-        //         ResultState loadedResult = loadedResults[i];
-        //         
-        //         foreach (var uiResult in uiResults)
-        //         {
-        //             if (uiResult.level == loadedResult.level)
-        //             {
-        //                 uiResult.star1.SetActive(loadedResult.star1);
-        //                 uiResult.star2.SetActive(loadedResult.star2);
-        //                 uiResult.star3.SetActive(loadedResult.star3);
-        //                 break;
-        //             }
-        //         }
-        //     
-        //     }   
-        // }
-        
     }
     
 }

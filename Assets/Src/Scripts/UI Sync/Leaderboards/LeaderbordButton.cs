@@ -18,7 +18,7 @@ public class LeaderbordButton : MonoBehaviour
                 GPGSid = GPGSIds.leaderboard_classic_wood;
                 break;
             case 2:
-                GPGSid = GPGSIds.leaderboard_the_one;
+                GPGSid = GPGSIds.leaderboard_lost_in_the_middle;
                 break;
             case 3:
                 GPGSid = GPGSIds.leaderboard_classic_wood;

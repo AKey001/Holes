@@ -29,8 +29,8 @@ public static class GPGSIds
         public const string event_completed_levels = "CgkIqLmmnIYUEAIQBQ"; // <GPGSID>
         public const string achievement_go_get_some_sun = "CgkIqLmmnIYUEAIQCQ"; // <GPGSID>
         public const string achievement_first_try = "CgkIqLmmnIYUEAIQCw"; // <GPGSID>
-        public const string leaderboard_the_one = "CgkIqLmmnIYUEAIQAw"; // <GPGSID>
         public const string leaderboard_classic_wood = "CgkIqLmmnIYUEAIQAQ"; // <GPGSID>
+        public const string leaderboard_lost_in_the_middle = "CgkIqLmmnIYUEAIQAw"; // <GPGSID>
         public const string event_collected_stars = "CgkIqLmmnIYUEAIQBg"; // <GPGSID>
         public const string event_falls = "CgkIqLmmnIYUEAIQBA"; // <GPGSID>
         public const string event_play_time = "CgkIqLmmnIYUEAIQCA"; // <GPGSID>
