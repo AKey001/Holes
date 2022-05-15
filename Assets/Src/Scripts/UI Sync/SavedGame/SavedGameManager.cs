@@ -141,12 +141,29 @@ public class SavedGameManager : MonoBehaviour
         {
             Debug.Log("Successfully loaded saved game");
             SyncData(data);
-            Toast.Show("Success", Toast.LENGTH_SHORT);
+
+            if (PersistenceManager.LoadInt(Keystore.language(), 0) == 0)
+            {
+                Toast.Show("Erfolgreich geladen", Toast.LENGTH_SHORT);
+            }
+            else
+            {
+                Toast.Show("Successfully loaded", Toast.LENGTH_SHORT);    
+            }
+            
         }
         else
         {
             Debug.Log("Failed to load saved game");
-            Toast.Show("Failed", Toast.LENGTH_SHORT);
+            
+            if (PersistenceManager.LoadInt(Keystore.language(), 0) == 0)
+            {
+                Toast.Show("Fehler", Toast.LENGTH_SHORT);
+            }
+            else
+            {
+                Toast.Show("Failed", Toast.LENGTH_SHORT);    
+            }
         }
     }
 
