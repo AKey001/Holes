@@ -14,6 +14,8 @@
 
 // System.Action`1<System.Action>
 struct Action_1_t3137749576010DD307B29662A2E47C43C7F7D04C;
+// System.Action`1<System.Boolean>
+struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
 // System.Action`1<UnityEngine.UIElements.UIR.GradientRemap>
 struct Action_1_tA80D7F2A933CCB808262BB928B2C26230CE6BEE6;
 // System.Action`1<System.IAsyncResult>
@@ -24,14 +26,20 @@ struct Action_1_t29D76190B51538DD0A12FCB471FA7F533D7943F7;
 struct Action_1_t390738D95A0B620166DAF476F4067FBE1A124820;
 // System.Action`1<System.Object>
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+// System.Action`1<System.String>
+struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A;
 // System.Action`1<TMPro.TMP_TextInfo>
 struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+// System.Action`1<UnityEngine.Texture>
+struct Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB;
 // System.Action`1<UnityEngine.UIElements.UIR.VectorImageRenderInfo>
 struct Action_1_t82769AFF59A080B0982E2E3CD2F304AFBDFA977F;
 // System.Action`2<System.Linq.Expressions.Interpreter.LightCompiler,System.Linq.Expressions.Expression>
 struct Action_2_tA1DDF07BB9B5268D2D135B60A3F5F9C11E35DDE5;
 // System.Action`2<System.Object,System.Object>
 struct Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C;
+// System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/ReflectionProbeEvent>
+struct Action_2_tECD5D9B0D67D486B802E231F6C4D4B0870A6FE72;
 // System.Data.Listeners`1/Action`4<System.Data.DataViewListener,System.Data.DataViewListener,System.ComponentModel.ListChangedEventArgs,System.Boolean,System.Boolean>
 struct Action_4_tAA827C6E1C5A7C9000CF64BF37D952510FE2AB69;
 // Newtonsoft.Json.Utilities.BidirectionalDictionary`2<System.String,System.Object>
@@ -80,40 +88,26 @@ struct Dictionary_2_t35511E60D5802E152E6A56E984ACBE19AF7654AD;
 struct Dictionary_2_t256D834E777628043876023A6881E1448AFE7A4B;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.BinaryOperator,Unity.VisualScripting.BinaryOperatorHandler>
 struct Dictionary_2_t2DC4EC4990630703C4F7D8E4851A2CD0A1192C12;
-// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.ControlInput,Unity.VisualScripting.ValueInput>
-struct Dictionary_2_t482039BF0FD6BDA71C0BCE199A8437770DF621B2;
 // System.Collections.Generic.Dictionary`2<System.Data.DataRow,System.Data.DataRowView>
 struct Dictionary_2_t25892D6280676AF8A4362752A8B5485A3347E57B;
 // System.Collections.Generic.Dictionary`2<System.Data.DataTable,System.Collections.Generic.List`1<System.Data.DataTable>>
 struct Dictionary_2_tE397BE443FF81A305BDE78E9F0CC10C168D3B405;
-// System.Collections.Generic.Dictionary`2<System.Enum,Unity.VisualScripting.ControlOutput>
-struct Dictionary_2_tCB1F29AABD4348607CCF6812DDB76928A03100BF;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.EventHook,System.Collections.Generic.HashSet`1<System.Delegate>>
 struct Dictionary_2_tA1178F817CF26475E1CFC07931714B9148837ACC;
 // System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,Unity.VisualScripting.IOptimizedAccessor>
 struct Dictionary_2_tFC6B69B086D054B5EE49F48AD91892D54005A012;
 // System.Collections.Generic.Dictionary`2<System.Reflection.FieldInfo,System.Linq.Expressions.Interpreter.Instruction>
 struct Dictionary_2_t6E102DECB177F86DDA3B068E0B28E809825E9A28;
-// System.Collections.Generic.Dictionary`2<System.Guid,Unity.VisualScripting.IGraphData>
-struct Dictionary_2_tDED662C4DB9053D45AF039138C4AB21227AB4CCB;
-// System.Collections.Generic.Dictionary`2<System.Guid,Unity.VisualScripting.IGraphElementData>
-struct Dictionary_2_t2C373246189CB5E560ADA743D1445944B07A6DF8;
 // System.Collections.Generic.Dictionary`2<System.Guid,Mono.Net.Security.MobileTlsProvider>
 struct Dictionary_2_tAF53376D9E207F701196CFA12420D116F00604AC;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraph,System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphReference>>
 struct Dictionary_2_tF70C1404602AC38A5A920C5C0F9A08B5C1719BE1;
-// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphElementWithData,Unity.VisualScripting.IGraphElementData>
-struct Dictionary_2_t5FE8E0D0B4002BC0AD716FBEA03DDDD93A1CCF41;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphElementWithDebugData,Unity.VisualScripting.IGraphElementDebugData>
 struct Dictionary_2_t1018EAE282705058AA93B1303ED7AED9AF48EDF0;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphParent,System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphReference>>
 struct Dictionary_2_tD0DF7EF7644A895310838B3761475C1E04DA94FA;
-// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphParentElement,Unity.VisualScripting.IGraphData>
-struct Dictionary_2_t13C2FB3B67ADC4D2BF5BEC19B329A6A6B1F93951;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphParentElement,Unity.VisualScripting.IGraphDebugData>
 struct Dictionary_2_t302CBE95E635BFFAB22E5F3277B50990C9AC65DA;
-// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IUnitValuePort,System.Object>
-struct Dictionary_2_t3D5C4496A22EAD3D8DD55DCDFBB4F4E9BE8311FF;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<Unity.VisualScripting.GraphReference>>
 struct Dictionary_2_t103D0AE280060A707280D1A6221B0F0DB05F988E;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<System.WeakReference>>
@@ -140,10 +134,6 @@ struct Dictionary_2_t16EB036F58C554F0E7A81CEBC658E3BD16785165;
 struct Dictionary_2_t52E620CA395064CB24623F22D8F31563B238CF4A;
 // System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style>
 struct Dictionary_2_t5BB0B09C825404C5C7781A7CE8B7D9ADD11A6579;
-// System.Collections.Generic.Dictionary`2<System.Int32,Unity.VisualScripting.ValueInput>
-struct Dictionary_2_tBB3D87E0C1B3CD7B97766852B8427A16B845A61E;
-// System.Collections.Generic.Dictionary`2<System.Int32,Unity.VisualScripting.ValueOutput>
-struct Dictionary_2_t1F52D561AB9DAAE67157554906400DD5A544B902;
 // System.Collections.Generic.Dictionary`2<System.Int32,Unity.VisualScripting.FullSerializer.fsData>
 struct Dictionary_2_t57BFBFEB217716B47C81A0334C62162DDFDB45F6;
 // System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_MaterialManager/FallbackMaterial>
@@ -156,8 +146,6 @@ struct Dictionary_2_t6B68DAC8F709194A911B6D615BEBEFCD212772B4;
 struct Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
-// System.Collections.Generic.Dictionary`2<System.Object,Unity.VisualScripting.ValueInput>
-struct Dictionary_2_tBD65E24014B9F7A15F0B95E6C6F47D4DEECE226A;
 // System.Collections.Generic.Dictionary`2<System.Object,Unity.VisualScripting.AttributeUtility/AttributeCache>
 struct Dictionary_2_tB64F565212CB642ED119A4EFAC1389A923429B7F;
 // System.Collections.Generic.Dictionary`2<System.Linq.Expressions.ParameterExpression,System.Int32>
@@ -252,8 +240,6 @@ struct Dictionary_2_t2E5037179C9A1F1245F111C037CAFB47E3EB45ED;
 struct Dictionary_2_tDE8FAF4CAC415F7871ED1DBA452249683C3C7C27;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.UnaryOperator,Unity.VisualScripting.UnaryOperatorHandler>
 struct Dictionary_2_t429760B8339F650168E1EFD5A5E1AE4347F9CA5F;
-// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.ValueOutput,Unity.VisualScripting.Member>
-struct Dictionary_2_t6E47C0A00909066F92159943E5FB640B2963D999;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UIElements.VectorImage,UnityEngine.UIElements.UIR.VectorImageRenderInfo>
 struct Dictionary_2_t5F59261402C2F52C86880104EFB7C84C2AE89B1E;
 // System.Collections.Generic.Dictionary`2<Unity.VisualScripting.FullSerializer.fsConfig,System.Collections.Generic.Dictionary`2<System.Type,Unity.VisualScripting.FullSerializer.fsMetaType>>
@@ -288,14 +274,14 @@ struct FastAction_2_t67E5AC7D6D05EC71192B279EA4EC495B4B3B4A9B;
 struct FastAction_2_t7A930CE5DBE699F7BADA18E19F951E3D68821A0D;
 // TMPro.FastAction`3<UnityEngine.GameObject,UnityEngine.Material,UnityEngine.Material>
 struct FastAction_3_tF1621854653F0CB64C7EE2C86A181B843FA49E77;
+// System.Func`1<System.Boolean>
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457;
 // System.Func`1<Unity.VisualScripting.CloningContext>
 struct Func_1_t686FA8214591B2E6CC476630AC894B233E43193A;
 // System.Func`1<System.Globalization.DateTimeFormatInfo>
 struct Func_1_t74FC36A4C2A548316E77F19B2968741BF64B13D7;
 // System.Func`1<System.Text.Encoding>
 struct Func_1_t01E2C750A870E045042E56862BC569C800166539;
-// System.Func`1<Unity.VisualScripting.Flow>
-struct Func_1_tFA1039C14FB38E64B5DDDAEC88B92C0E8DAE72B4;
 // System.Func`1<UnityEngine.UIElements.UIR.GradientRemap>
 struct Func_1_t92317F196CFBAA63F3ABEA2ECDB1EDB59A423F18;
 // System.Func`1<Unity.VisualScripting.GraphStack>
@@ -366,18 +352,12 @@ struct Func_2_tFC47A2A4C1BC7214B5B8A7D107141A940E117DAE;
 struct Func_2_t5D51F6431829ECE65F21B86CCE9ADC804041865E;
 // System.Func`2<UnityEngine.TextCore.Glyph,System.UInt32>
 struct Func_2_tBA43006BE5B44011173C435E32D4BC18730623FB;
-// System.Func`2<Unity.VisualScripting.GraphPointer,System.Boolean>
-struct Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB;
 // System.Func`2<Unity.VisualScripting.IGraphElement,System.Collections.Generic.IEnumerable`1<Unity.VisualScripting.ISerializationDependency>>
 struct Func_2_tED0D8F22BF36D2DDC7B24D8467E0D36AA4C7B973;
 // System.Func`2<Unity.VisualScripting.IGraphParentElement,System.Guid>
 struct Func_2_tACA06E1A9AF08A750D2A43329ECC6AC791123F94;
 // System.Func`2<Unity.VisualScripting.IGraphRoot,Unity.VisualScripting.IGraphDebugData>
 struct Func_2_tC5B959A6DD6FDE84607DD9ECC529B9BE485C63C5;
-// System.Func`2<Unity.VisualScripting.IUnitPortDefinition,System.Boolean>
-struct Func_2_tC1F6EE9478186F8FC2BBE76970D27B90DC91D4F3;
-// System.Func`2<Unity.VisualScripting.IUnitPortDefinition,System.String>
-struct Func_2_t6229B3437731EA9C289D415EB20E04925E23E213;
 // System.Func`2<System.Int16,System.Object>
 struct Func_2_tA31DA6D6A5AD14CAABF18013A148EFE6195F787D;
 // System.Func`2<System.Int32,System.Object>
@@ -408,10 +388,6 @@ struct Func_2_t7FECEB520F369A03137535DF31AE9C6C2B6BA5EC;
 struct Func_2_t2BECA93EEB5C5A67E9EFEE1DEEF90D0568B8514C;
 // System.Func`2<System.Linq.Expressions.Interpreter.LabelScopeInfo,System.Linq.Expressions.Interpreter.LabelScopeInfo>
 struct Func_2_t6F585D4C873543C3A883793056942EC8E071C195;
-// System.Func`2<Unity.VisualScripting.Member,System.Int32>
-struct Func_2_t572C5D0C224DBCF459DC161C7E3A97FA9909B878;
-// System.Func`2<Unity.VisualScripting.Member,System.String>
-struct Func_2_tD38A842699FE6003BE79F290FE2A3AB75DE40E2D;
 // System.Func`2<System.Reflection.MemberInfo,System.Boolean>
 struct Func_2_t20D2A8C4D064E72B901CA13A2A4DFFADEA092F9D;
 // System.Func`2<System.Reflection.MemberInfo,System.String>
@@ -712,22 +688,10 @@ struct Func_3_tAD065C32138D70F99F7E8D8BBF25867D55236464;
 struct Func_4_t6562D6B76CC691963D586D62821064575BA2F6CF;
 // System.Func`4<System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext,System.Xml.XmlReader>
 struct Func_4_t714EA7575BC4411791EB413BE56D4DD1F8C570B9;
-// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.ControlConnection,Unity.VisualScripting.ControlOutput,Unity.VisualScripting.ControlInput>
-struct GraphConnectionCollection_3_t1C36521556B52560AC338813684582FE4226703C;
-// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.InvalidConnection,Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort>
-struct GraphConnectionCollection_3_tFD3C8D61A881447B28DC931418DAA45AD99856F6;
-// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.ValueConnection,Unity.VisualScripting.ValueOutput,Unity.VisualScripting.ValueInput>
-struct GraphConnectionCollection_3_tCB3C722EBCB7366D0FCFD32ED000A4A8AFD2C624;
-// Unity.VisualScripting.GraphElementCollection`1<Unity.VisualScripting.GraphGroup>
-struct GraphElementCollection_1_t747DBE349EF6196F21B8B0817448722E5570D25A;
-// Unity.VisualScripting.GraphElementCollection`1<Unity.VisualScripting.IUnit>
-struct GraphElementCollection_1_t0165568BAE7EF8D2CD1E954F9F5CB8527EDEC824;
 // System.Collections.Generic.HashSet`1<System.Dynamic.BindingRestrictions>
 struct HashSet_1_t592C04D3BDE4AD3083872E1A5AC0613BD01EAAEB;
 // System.Collections.Generic.HashSet`1<System.Char>
 struct HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A;
-// System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphStack>
-struct HashSet_1_t015F1F38EE02675ACF63C72E1E1D832249BB06DA;
 // System.Collections.Generic.HashSet`1<Unity.VisualScripting.ICloner>
 struct HashSet_1_t78612646388239F6E7838296D69B92AB4126F7BD;
 // System.Collections.Generic.HashSet`1<Unity.VisualScripting.ISerializationDepender>
@@ -754,10 +718,6 @@ struct HybridReferenceDictionary_2_t7A87D042741A1E0D8B04071F3D2626E8F7E8E200;
 struct HybridReferenceDictionary_2_tBA70675C8DC268BA62B7BB7A3AABDCCC23EBEC84;
 // Newtonsoft.Json.IArrayPool`1<System.Char>
 struct IArrayPool_1_t5EA5B0C4FD1E47DB5E30F9B7802F3D7E181E10F6;
-// System.Collections.Generic.ICollection`1<Unity.VisualScripting.Flow>
-struct ICollection_1_tAEF1C056C36E7D5FEA74D8B3050426267827D51F;
-// Unity.VisualScripting.IConnectionCollection`3<Unity.VisualScripting.IUnitRelation,Unity.VisualScripting.IUnitPort,Unity.VisualScripting.IUnitPort>
-struct IConnectionCollection_3_t3FEDE29075183F9ACBC556BA0F14BF8852E55CD8;
 // System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Schema.JsonSchema>
 struct IDictionary_2_t1CA235AD07E678953EA359A4C42C7FA02BCEB5C6;
 // System.Collections.Generic.IDictionary`2<System.String,Newtonsoft.Json.Schema.JsonSchemaModel>
@@ -782,8 +742,6 @@ struct IEnumerator_1_tB643E521895AE2CA45F187028EC1470EC9DCEEDA;
 struct IEnumerator_1_tF0CA2A62533B2B34FE6ED0A865FFEAB3166AC173;
 // System.Collections.Generic.IEnumerator`1<System.Attribute>
 struct IEnumerator_1_tE3FBD2D20AA88C9A0F855ADC37B0F385A3ADC2C1;
-// System.Collections.Generic.IEnumerator`1<Unity.VisualScripting.ControlOutput>
-struct IEnumerator_1_t11945B41529F8EA15F439A69ACA5E2261D041226;
 // System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JToken>
 struct IEnumerator_1_t0632E50BDC15D0ABBB866944CAA2D6DB854B9641;
 // System.Collections.Generic.IEnumerator`1<Unity.VisualScripting.Namespace>
@@ -820,18 +778,6 @@ struct IList_1_tC37F2CDD4C5A3C66311AE2E51E29AB83511CEA54;
 struct IReadOnlyList_1_tB86476F62FBF3BB3389F17E0FFB65836DD3F2F65;
 // System.Collections.Generic.IReadOnlyList`1<System.Linq.Expressions.ParameterExpression>
 struct IReadOnlyList_1_tADF897B3B81BAE823FBADDB68EA4976E8D672A2D;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ControlInput>
-struct IUnitPortCollection_1_t3F6779B00496B9FD84FEF2783F509958D57F354E;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ControlOutput>
-struct IUnitPortCollection_1_t867A0E5526AAABA203704CD692FBEA4174C71C05;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.InvalidInput>
-struct IUnitPortCollection_1_t3839C272AE6727AE9A1BAC110A75614EBFE42B31;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.InvalidOutput>
-struct IUnitPortCollection_1_t0F2047F1654080ECEB25DFDFAE47ED18B2E4C0F7;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ValueInput>
-struct IUnitPortCollection_1_t3B86C97EE8F1E1DB05CEFB161850DF05862EAFD4;
-// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ValueOutput>
-struct IUnitPortCollection_1_tA11C7DC2E90483113DB83CE13759F647978FFF63;
 // System.Lazy`1<System.Collections.Generic.Dictionary`2<System.Type,System.Reflection.MethodInfo[]>>
 struct Lazy_1_t55C60E05D51635F29392DFCC436853049FCD3E91;
 // System.Lazy`1<System.Collections.Generic.HashSet`1<System.Reflection.MethodInfo>>
@@ -856,10 +802,6 @@ struct LinkedList_1_t09F6FB09C766455615BBF59716D285304C49E0E7;
 struct LinkedPool_1_tD8A175EE023C8220138E51E722F4A20ACE9CA851;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>
 struct List_1_tF8B8CB3D8291FEFE18BE6AF5E7C63F8CC805E927;
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Unity.VisualScripting.ControlOutput>>
-struct List_1_t8BDF31AC066EBE2EFCD4ADCFD029D67210DC406E;
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Unity.VisualScripting.ValueInput>>
-struct List_1_tBA3E1CF32BA161953242BCDD5C4616374AEEA41E;
 // System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToFree>>
 struct List_1_tB86898E2E533634C35EC58EC5DAE3353038A9210;
 // System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.UIElements.UIR.UIRenderDevice/AllocToUpdate>>
@@ -1056,8 +998,6 @@ struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
 struct Queue_1_t55768C6731D974992BF9775CEA33AAFE7F51CF31;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.CatchBlock>
 struct ReadOnlyCollection_1_t8FA231D9D247DE2F30DBDE65EBD26267CD9C5EAA;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ControlOutput>
-struct ReadOnlyCollection_1_t64227572BA96CB765C04E8718B8EFD6E5BE5BD4A;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.ElementInit>
 struct ReadOnlyCollection_1_t74BB860FCECCBD2D57AF6337102E9AA2AACD8004;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>
@@ -1070,10 +1010,6 @@ struct ReadOnlyCollection_1_tA8DE50215C36D93FBEC7CEC73EBD5DB779DEF8D4;
 struct ReadOnlyCollection_1_tFF3A96CB3B2F8DC59789963B01C8937823675505;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.SwitchCase>
 struct ReadOnlyCollection_1_t650E9DD3C9630E13C2E1AAD16E413916030DEFCB;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ValueInput>
-struct ReadOnlyCollection_1_t23633718B1ADFA60DD4047E37F4F2D278B8DC3D9;
-// Unity.VisualScripting.Recursion`1<Unity.VisualScripting.Flow/RecursionNode>
-struct Recursion_1_tDFF1B549E70648F1694033FADF89F8F0EB28587D;
 // UnityEngine.UIElements.StyleDataRef`1/RefCounted<UnityEngine.UIElements.InheritedData>
 struct RefCounted_t6B975CD3D06E8D955346FC0D66E8F6E449D49A44;
 // UnityEngine.UIElements.StyleDataRef`1/RefCounted<UnityEngine.UIElements.LayoutData>
@@ -1094,8 +1030,6 @@ struct Stack_1_t11FC055BC8A112A4D3474F6FA0DCAC26D397C08C;
 struct Stack_1_tD6DF477EB7585D1F4442F510885CD1D22250BA56;
 // System.Collections.Generic.Stack`1<UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator>
 struct Stack_1_t0D47F5E9B4943D4CBCB9CFA4B59EB251D28E5747;
-// System.Collections.Generic.Stack`1<System.Int32>
-struct Stack_1_t3197E0F5EA36E611B259A88751D31FC2396FE4B6;
 // System.Collections.Generic.Stack`1<UnityEngine.Matrix4x4>
 struct Stack_1_t8A661B4E11F715EF60608DE57485D9956E00C72E;
 // System.Collections.Generic.Stack`1<System.Object>
@@ -1196,14 +1130,6 @@ struct ThreadSafeStore_2_t87BBBE053D42EE4846893A2168FF85F61FBA5489;
 struct TweenRunner_1_tF277B20625C8B1939DC85508C4679C690757395E;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
 struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
-// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ControlInputDefinition>
-struct UnitPortDefinitionCollection_1_t665553142D4490579611ED610240743C22D899F8;
-// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ControlOutputDefinition>
-struct UnitPortDefinitionCollection_1_t198398673C495F7DB8AC3CE26E9DC0B8907E628C;
-// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ValueInputDefinition>
-struct UnitPortDefinitionCollection_1_tED71DF94B48CE1756D3168910761094E5E2CC628;
-// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ValueOutputDefinition>
-struct UnitPortDefinitionCollection_1_t0F8E18D70B3C28BCFF0C4A883CC718FF7CE65347;
 // UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>
 struct UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C;
 // System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement>
@@ -1232,6 +1158,8 @@ struct Int32U5BU5DU5BU5D_t179D865D5B30EFCBC50F82C9774329C15943466E;
 struct StringU5BU5DU5BU5D_t8BCC500C5CC1686D9BADCBAA811074FE00F83ACF;
 // Newtonsoft.Json.JsonWriter/State[][]
 struct StateU5BU5DU5BU5D_tA12046738DA5F6289ABA74ED1C079ED07EE202ED;
+// Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem[]
+struct AssetLoadingSubsystemU5BU5D_t08CC4139E69DB2317D5DFA2840874B89A3E5038C;
 // System.Attribute[]
 struct AttributeU5BU5D_t0F73488E6F1249C889608E8DCC0BCC28A874E8F1;
 // System.Numerics.BigInteger[]
@@ -1286,6 +1214,8 @@ struct ExceptionHandlerU5BU5D_t55C2A7230AF6082C4BB4CA2C75E9F1340102EBC4;
 struct ExpressionU5BU5D_tD46A409FDDFCA9729C58372D8A196785A7816170;
 // System.Data.ExpressionNode[]
 struct ExpressionNodeU5BU5D_t8CD9347C6AC09C193F6FBFCD7DFE5F255D641EA8;
+// Unity.IO.LowLevel.Unsafe.FileReadType[]
+struct FileReadTypeU5BU5D_t746DE731BB9F92898AC1C857338FB0C0BDCC32F8;
 // TMPro.FontWeight[]
 struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
 // System.Net.FtpMethodInfo[]
@@ -1342,6 +1272,10 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct ObjectU5BU5D_tD4BF1BEC72A31DF6611C0B8FA3112AF128FC3F8A;
 // System.Data.OperatorInfo[]
 struct OperatorInfoU5BU5D_tBABD1B3A602C8EA7DDE3B7F0D8A4A4DFA0147880;
+// Unity.IO.LowLevel.Unsafe.Priority[]
+struct PriorityU5BU5D_t33A82E2B9942C2D8298F1A5462AF04C6B0DB455B;
+// Unity.IO.LowLevel.Unsafe.ProcessingState[]
+struct ProcessingStateU5BU5D_t87801182761626B2466D1A820621666FEAC24304;
 // System.ComponentModel.PropertyDescriptor[]
 struct PropertyDescriptorU5BU5D_t773E52CC51A2ABE902F526B23CB417FBFF741321;
 // System.Reflection.PropertyInfo[]
@@ -1604,10 +1538,6 @@ struct ConstructorInfo_t1B5967EE7E5554272F79F8880183C70AD240EEEB;
 struct ContextAwareResult_t3CCEE7D0B6510492A4EE1A2F828BDDF012ADBFDA;
 // System.Threading.ContextCallback
 struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
-// Unity.VisualScripting.ControlInput
-struct ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE;
-// Unity.VisualScripting.ControlOutput
-struct ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9;
 // System.Net.CookieCollection
 struct CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608;
 // System.Net.CookieContainer
@@ -1742,8 +1672,6 @@ struct ExecutionContext_t9D6EDFD92F0B2D391751963E2D77A8B03CB81710;
 struct ExpandoClass_t524164F888FFC60A2C71686D3F448F706D3CDF19;
 // System.Dynamic.ExpandoObject
 struct ExpandoObject_t74F67096810BE9395E3E97BB892A8EFA264A3012;
-// Unity.VisualScripting.Expose
-struct Expose_t95DD666E9E5241296BE38598F2A106C19E69978D;
 // System.Linq.Expressions.Expression
 struct Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785;
 // System.Data.ExpressionNode
@@ -1772,16 +1700,8 @@ struct FieldsCloner_t6018D635B26D0F6A3B552143EA1C0F0406602E9D;
 struct FileWebRequest_tD1A538307AB2949504F97926635635C573CDF49A;
 // System.Net.FixedSizeReadStream
 struct FixedSizeReadStream_t36A722CECAA40C689D9604980ECB1FF98343B251;
-// Unity.VisualScripting.Flow
-struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582;
-// Unity.VisualScripting.FlowGraph
-struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45;
 // UnityEngine.Font
 struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6;
-// Unity.VisualScripting.For
-struct For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B;
-// Unity.VisualScripting.ForEach
-struct ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B;
 // System.Data.ForeignKeyConstraint
 struct ForeignKeyConstraint_tBEE8801AF7B2F7F6C806B5347D18CEE1294A9062;
 // System.Net.FtpControlStream
@@ -1814,8 +1734,6 @@ struct Gradient_DirectConverter_t799EF9A69947B175D8F8E31F914E1F5367D99817;
 struct GraphPointer_t01C98F06D1A7635CB867665044B7DC1FE03D1C0B;
 // Unity.VisualScripting.GraphReference
 struct GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9;
-// Unity.VisualScripting.GraphStack
-struct GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 // Unity.VisualScripting.GreaterThanHandler
@@ -1868,8 +1786,6 @@ struct ICredentials_t8FDA6AF64B852DA0631D4BE66962B20E51E230F0;
 struct ICustomTypeDescriptor_tBCDA3354DBE93ADBD2AC81379EB3957347BAD4E8;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
-// System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_tE129D608FCDB7207E0F0ECE33473CC950A83AD16;
 // System.Collections.IEnumerator
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 // System.Collections.IEqualityComparer
@@ -1882,8 +1798,6 @@ struct IFilter_t58EBA348D3AE27E6DFA80A9076821C981199F36F;
 struct IFormatProvider_tC202922D43BFF3525109ABF3FB79625F5646AB52;
 // Unity.VisualScripting.IGraph
 struct IGraph_tBF23D8FF0B4328ED06EAA2E303A4620E57402827;
-// Unity.VisualScripting.IGraphParent
-struct IGraphParent_t08913CB8AED9F8C99F89ADDFF257E8B5EAEA1E18;
 // Unity.VisualScripting.IGraphRoot
 struct IGraphRoot_t84A87B1D402F522D84DF0B9D1FBCA3FBDEEFCC81;
 // System.Collections.IHashCodeProvider
@@ -1924,8 +1838,6 @@ struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 struct ITraceWriter_t44C99CB7D5AB59A077F569914E56DAD66B5A41EF;
 // System.ComponentModel.Design.ITypeDescriptorFilterService
 struct ITypeDescriptorFilterService_tE74C52FB36A71D62CA3617553D830DA6BBBBA788;
-// Unity.VisualScripting.IUnitPort
-struct IUnitPort_t57EEC6D0F0CF09E5D6B071A1C3AD68EB8FEEF1CE;
 // Newtonsoft.Json.Serialization.IValueProvider
 struct IValueProvider_t2EEC2D13DF16BA74BC89448718A0754E0A4931D4;
 // System.Net.IWebProxy
@@ -2068,12 +1980,8 @@ struct MatchCollection_t84805BAED3D556A405EE3FD165856045026106BC;
 struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
 // UnityEngine.MaterialPropertyBlock
 struct MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D;
-// Unity.VisualScripting.Member
-struct Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
-// Unity.VisualScripting.MemberUnit
-struct MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C;
 // System.IO.MemoryStream
 struct MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2;
 // System.Data.MergeFailedEventHandler
@@ -2102,8 +2010,6 @@ struct MobileTlsContext_t456DDC89866EE34EF32EEF959AD92C9F17684476;
 struct MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017;
 // Unity.VisualScripting.ModuloHandler
 struct ModuloHandler_t4A863F5250D12CA0126F59888B9563DAAA7869F2;
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 // System.Net.MonoChunkParser
 struct MonoChunkParser_t7327331046108B5315D66A22FCCF7610B23D320A;
 // System.Net.MonoChunkStream
@@ -2270,16 +2176,12 @@ struct ScanMultipleFilter_tBF843AD1D20ECDFE310F6BC5564B2E75BF8A0A47;
 struct Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3;
 // System.Security.SecureString
 struct SecureString_t6FBEB334D455CA90093BD446BBEBA47FE5B20C6C;
-// Unity.VisualScripting.SelectOnFlow
-struct SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
 // System.Threading.SemaphoreSlim
 struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
 // System.Threading.SendOrPostCallback
 struct SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E;
-// Unity.VisualScripting.Sequence
-struct Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A;
 // System.Runtime.Serialization.SerializationBinder
 struct SerializationBinder_tB959BF0F4EF3F8611E5891A7011DD99F9FD69E2A;
 // System.Runtime.Serialization.SerializationInfo
@@ -2450,10 +2352,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
 struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
 // Newtonsoft.Json.Schema.ValidationEventHandler
 struct ValidationEventHandler_t34445252847AF456F10BB5F86D8BDFBBE2001AC6;
-// Unity.VisualScripting.ValueInput
-struct ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392;
-// Unity.VisualScripting.ValueOutput
-struct ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B;
 // Unity.VisualScripting.VariableDeclarationCollection
 struct VariableDeclarationCollection_tF2FB9698489A7485BE152FDBA89ABFFE7E28C8AC;
 // Unity.VisualScripting.VariableDeclarations
@@ -2510,8 +2408,6 @@ struct WebRequestStream_t731AE4852452BAA73C240BDC7DCBA42ADAD2BAAB;
 struct WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682;
 // System.Net.WebResponseStream
 struct WebResponseStream_tEA4F17CF76BC9DC9C608447C1CAF3084044E43E4;
-// Unity.VisualScripting.While
-struct While_t689072D1951AC27F22C05202DD7DB89206BB1DEF;
 // System.Security.Principal.WindowsIdentity
 struct WindowsIdentity_t18EC60B678C8A1AA9A67A89BC3BCFA1CC1E2C459;
 // System.Security.Cryptography.X509Certificates.X500DistinguishedName
@@ -2598,14 +2494,22 @@ struct fsContext_t3B227C205D84208E2D8934429C07677542C97B5F;
 struct fsCyclicReferenceManager_tED0335497D4376E432D911F842D977B9D52B5EA0;
 // Unity.VisualScripting.FullSerializer.fsSerializer
 struct fsSerializer_t770DD30E2427CF63ECAEF61D7A1D1D178CECB3DC;
+// UnityEngine.Application/LogCallback
+struct LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413;
+// UnityEngine.Application/LowMemoryCallback
+struct LowMemoryCallback_tF685A8AA4A24BB7603D190EB750E61C3F963026F;
 // UnityEngine.UIElements.UIR.BestFitAllocator/Block
 struct Block_tC16ED855DBC82D8C78C1F89B766EA18B563EA698;
 // UnityEngine.UIElements.UIR.BestFitAllocator/BlockPool
 struct BlockPool_t2122FBCA9477E112DB16942F9F85F9FA11C76878;
 // Newtonsoft.Json.Bson.BsonReader/ContainerContext
 struct ContainerContext_t395A53F67B3E3495D06E64D268212D040308EA5A;
+// UnityEngine.Camera/CameraCallback
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
 // TMPro.ColorTween/ColorTweenCallback
 struct ColorTweenCallback_tA3F6E0BB4EBAA1CFB97539807CE8C9BB7C851F53;
+// UnityEngine.CullingGroup/StateChanged
+struct StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F;
 // System.Data.DataRowCollection/DataRowTree
 struct DataRowTree_tE2B5C209F0D2D3B72A2F747AEFD4F76CBDB92AAF;
 // System.Linq.Expressions.Interpreter.DebugInfo/DebugInfoComparer
@@ -2848,21 +2752,6 @@ struct Collection_1_t7B521FDAE878CCBA34B4E63F79D88AC205CB24A3  : public RuntimeO
 	RuntimeObject* ___items_0;
 };
 
-// Unity.VisualScripting.GraphData`1<Unity.VisualScripting.FlowGraph>
-struct GraphData_1_t2C0A8F28B126AE7569B427BEB3345FF8C0CF3AE4  : public RuntimeObject
-{
-	// TGraph Unity.VisualScripting.GraphData`1::<definition>k__BackingField
-	FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45* ___U3CdefinitionU3Ek__BackingField_0;
-	// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphElementWithData,Unity.VisualScripting.IGraphElementData> Unity.VisualScripting.GraphData`1::<elementsData>k__BackingField
-	Dictionary_2_t5FE8E0D0B4002BC0AD716FBEA03DDDD93A1CCF41* ___U3CelementsDataU3Ek__BackingField_1;
-	// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IGraphParentElement,Unity.VisualScripting.IGraphData> Unity.VisualScripting.GraphData`1::<childrenGraphsData>k__BackingField
-	Dictionary_2_t13C2FB3B67ADC4D2BF5BEC19B329A6A6B1F93951* ___U3CchildrenGraphsDataU3Ek__BackingField_2;
-	// System.Collections.Generic.Dictionary`2<System.Guid,Unity.VisualScripting.IGraphElementData> Unity.VisualScripting.GraphData`1::<phantomElementsData>k__BackingField
-	Dictionary_2_t2C373246189CB5E560ADA743D1445944B07A6DF8* ___U3CphantomElementsDataU3Ek__BackingField_3;
-	// System.Collections.Generic.Dictionary`2<System.Guid,Unity.VisualScripting.IGraphData> Unity.VisualScripting.GraphData`1::<phantomChildrenGraphsData>k__BackingField
-	Dictionary_2_tDED662C4DB9053D45AF039138C4AB21227AB4CCB* ___U3CphantomChildrenGraphsDataU3Ek__BackingField_4;
-};
-
 // UnityEngine.UIElements.UIR.LinkedPoolItem`1<UnityEngine.UIElements.UIR.GradientRemap>
 struct LinkedPoolItem_1_t6FDA4D3D7892BA96F64DABAA19EB9989EB14A0FF  : public RuntimeObject
 {
@@ -2965,6 +2854,31 @@ struct AotHelper_t25AEE9B481C82E565752D5B778B28D4BD372D674_StaticFields
 	bool ___s_alwaysFalse_0;
 };
 
+// UnityEngine.Application
+struct Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21  : public RuntimeObject
+{
+};
+
+struct Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields
+{
+	// UnityEngine.Application/LowMemoryCallback UnityEngine.Application::lowMemory
+	LowMemoryCallback_tF685A8AA4A24BB7603D190EB750E61C3F963026F* ___lowMemory_0;
+	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandler
+	LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413* ___s_LogCallbackHandler_1;
+	// UnityEngine.Application/LogCallback UnityEngine.Application::s_LogCallbackHandlerThreaded
+	LogCallback_tCFFF3C009186124A6A83A1E6BB7E360C5674C413* ___s_LogCallbackHandlerThreaded_2;
+	// System.Action`1<System.Boolean> UnityEngine.Application::focusChanged
+	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___focusChanged_3;
+	// System.Action`1<System.String> UnityEngine.Application::deepLinkActivated
+	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___deepLinkActivated_4;
+	// System.Func`1<System.Boolean> UnityEngine.Application::wantsToQuit
+	Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___wantsToQuit_5;
+	// System.Action UnityEngine.Application::quitting
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___quitting_6;
+	// System.Action UnityEngine.Application::unloading
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___unloading_7;
+};
+
 // Unity.VisualScripting.ApplicationVariables
 struct ApplicationVariables_tF08E359A135FC8A8C8C65CAC6F6BB247A730A12B  : public RuntimeObject
 {
@@ -3013,6 +2927,39 @@ struct AsyncProtocolResult_t9A7197618C6BD851C5A33C65F45B4622C3CF9E05  : public R
 	int32_t ___U3CUserResultU3Ek__BackingField_0;
 	// System.Runtime.ExceptionServices.ExceptionDispatchInfo Mono.Net.Security.AsyncProtocolResult::<Error>k__BackingField
 	ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* ___U3CErrorU3Ek__BackingField_1;
+};
+
+// Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters
+struct AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626  : public RuntimeObject
+{
+	// System.UInt64[] Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters::TypeIDs
+	UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299* ___TypeIDs_0;
+	// Unity.IO.LowLevel.Unsafe.ProcessingState[] Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters::States
+	ProcessingStateU5BU5D_t87801182761626B2466D1A820621666FEAC24304* ___States_1;
+	// Unity.IO.LowLevel.Unsafe.FileReadType[] Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters::ReadTypes
+	FileReadTypeU5BU5D_t746DE731BB9F92898AC1C857338FB0C0BDCC32F8* ___ReadTypes_2;
+	// Unity.IO.LowLevel.Unsafe.Priority[] Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters::PriorityLevels
+	PriorityU5BU5D_t33A82E2B9942C2D8298F1A5462AF04C6B0DB455B* ___PriorityLevels_3;
+	// Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem[] Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters::Subsystems
+	AssetLoadingSubsystemU5BU5D_t08CC4139E69DB2317D5DFA2840874B89A3E5038C* ___Subsystems_4;
+};
+// Native definition for P/Invoke marshalling of Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters
+struct AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626_marshaled_pinvoke
+{
+	Il2CppSafeArray/*NONE*/* ___TypeIDs_0;
+	int32_t* ___States_1;
+	int32_t* ___ReadTypes_2;
+	int32_t* ___PriorityLevels_3;
+	int32_t* ___Subsystems_4;
+};
+// Native definition for COM marshalling of Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetricsFilters
+struct AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626_marshaled_com
+{
+	Il2CppSafeArray/*NONE*/* ___TypeIDs_0;
+	int32_t* ___States_1;
+	int32_t* ___ReadTypes_2;
+	int32_t* ___PriorityLevels_3;
+	int32_t* ___Subsystems_4;
 };
 
 // System.Diagnostics.AsyncStreamReader
@@ -4487,45 +4434,6 @@ struct FastAction_t32D4ADE06921D3EAB9BCE9B6397C82A4A898644D  : public RuntimeObj
 	Dictionary_2_t256D834E777628043876023A6881E1448AFE7A4B* ___lookup_1;
 };
 
-// Unity.VisualScripting.Flow
-struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582  : public RuntimeObject
-{
-	// Unity.VisualScripting.GraphStack Unity.VisualScripting.Flow::<stack>k__BackingField
-	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3Ek__BackingField_0;
-	// Unity.VisualScripting.Recursion`1<Unity.VisualScripting.Flow/RecursionNode> Unity.VisualScripting.Flow::recursion
-	Recursion_1_tDFF1B549E70648F1694033FADF89F8F0EB28587D* ___recursion_1;
-	// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.IUnitValuePort,System.Object> Unity.VisualScripting.Flow::locals
-	Dictionary_2_t3D5C4496A22EAD3D8DD55DCDFBB4F4E9BE8311FF* ___locals_2;
-	// Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.Flow::variables
-	VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405* ___variables_3;
-	// System.Collections.Generic.Stack`1<System.Int32> Unity.VisualScripting.Flow::loops
-	Stack_1_t3197E0F5EA36E611B259A88751D31FC2396FE4B6* ___loops_4;
-	// System.Collections.Generic.HashSet`1<Unity.VisualScripting.GraphStack> Unity.VisualScripting.Flow::preservedStacks
-	HashSet_1_t015F1F38EE02675ACF63C72E1E1D832249BB06DA* ___preservedStacks_5;
-	// UnityEngine.MonoBehaviour Unity.VisualScripting.Flow::<coroutineRunner>k__BackingField
-	MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___U3CcoroutineRunnerU3Ek__BackingField_6;
-	// System.Collections.Generic.ICollection`1<Unity.VisualScripting.Flow> Unity.VisualScripting.Flow::activeCoroutinesRegistry
-	RuntimeObject* ___activeCoroutinesRegistry_7;
-	// System.Boolean Unity.VisualScripting.Flow::coroutineStopRequested
-	bool ___coroutineStopRequested_8;
-	// System.Boolean Unity.VisualScripting.Flow::<isCoroutine>k__BackingField
-	bool ___U3CisCoroutineU3Ek__BackingField_9;
-	// System.Collections.IEnumerator Unity.VisualScripting.Flow::coroutineEnumerator
-	RuntimeObject* ___coroutineEnumerator_10;
-	// System.Boolean Unity.VisualScripting.Flow::<isPrediction>k__BackingField
-	bool ___U3CisPredictionU3Ek__BackingField_11;
-	// System.Boolean Unity.VisualScripting.Flow::disposed
-	bool ___disposed_12;
-	// System.Int32 Unity.VisualScripting.Flow::loopIdentifier
-	int32_t ___loopIdentifier_14;
-};
-
-struct Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582_StaticFields
-{
-	// System.Func`2<Unity.VisualScripting.GraphPointer,System.Boolean> Unity.VisualScripting.Flow::<isInspectedBinding>k__BackingField
-	Func_2_tAF4123F8D69F1A665BBB864E1C97131C05AEBBEB* ___U3CisInspectedBindingU3Ek__BackingField_13;
-};
-
 // System.Net.FtpMethodInfo
 struct FtpMethodInfo_t472E9EFDBE8FDE2D3788CACB1A1B8CFB5A23474E  : public RuntimeObject
 {
@@ -5771,6 +5679,17 @@ struct NamingStrategy_tB85DD4A9F6C33F668AF7273D3B5193ABC4617D50  : public Runtim
 	bool ___U3CProcessExtensionDataNamesU3Ek__BackingField_1;
 	// System.Boolean Newtonsoft.Json.Serialization.NamingStrategy::<OverrideSpecifiedNames>k__BackingField
 	bool ___U3COverrideSpecifiedNamesU3Ek__BackingField_2;
+};
+
+// Unity.Collections.NativeLeakDetection
+struct NativeLeakDetection_tACCD9D3F33775DC7E32FC91C422A424DCA4A5946  : public RuntimeObject
+{
+};
+
+struct NativeLeakDetection_tACCD9D3F33775DC7E32FC91C422A424DCA4A5946_StaticFields
+{
+	// System.Int32 Unity.Collections.NativeLeakDetection::s_NativeLeakDetectionMode
+	int32_t ___s_NativeLeakDetectionMode_0;
 };
 
 // System.Net.NclUtilities
@@ -7947,26 +7866,6 @@ struct TypeUtils_t2C9FA7DD0D8907A05421D44B8E7F1D4F602C9FE7_StaticFields
 {
 	// System.Type[] System.Dynamic.Utils.TypeUtils::s_arrayAssignableInterfaces
 	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___s_arrayAssignableInterfaces_0;
-};
-
-// Unity.VisualScripting.UnitConnectionDebugData
-struct UnitConnectionDebugData_t234BD82F4664E0EF5B837522DCED9C3CA886E35E  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.UnitConnectionDebugData::<lastInvokeFrame>k__BackingField
-	int32_t ___U3ClastInvokeFrameU3Ek__BackingField_0;
-	// System.Single Unity.VisualScripting.UnitConnectionDebugData::<lastInvokeTime>k__BackingField
-	float ___U3ClastInvokeTimeU3Ek__BackingField_1;
-	// System.Exception Unity.VisualScripting.UnitConnectionDebugData::<runtimeException>k__BackingField
-	Exception_t* ___U3CruntimeExceptionU3Ek__BackingField_2;
-};
-
-// Unity.VisualScripting.UnitRelation
-struct UnitRelation_tFB91F0AFF5915A3537394C63DD985F4922DE79FE  : public RuntimeObject
-{
-	// Unity.VisualScripting.IUnitPort Unity.VisualScripting.UnitRelation::<source>k__BackingField
-	RuntimeObject* ___U3CsourceU3Ek__BackingField_0;
-	// Unity.VisualScripting.IUnitPort Unity.VisualScripting.UnitRelation::<destination>k__BackingField
-	RuntimeObject* ___U3CdestinationU3Ek__BackingField_1;
 };
 
 // Unity.VisualScripting.UnityThread
@@ -10442,34 +10341,6 @@ struct ValueCollection_tD1F51CD625B96F9BBD48505E7DE3709F73408F88  : public Runti
 	ExpandoData_t82B13AAFF00D56FCEBF09B38052A91ADE30A19EA* ____expandoData_3;
 };
 
-// Unity.VisualScripting.Expose/<>c
-struct U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97  : public RuntimeObject
-{
-};
-
-struct U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields
-{
-	// Unity.VisualScripting.Expose/<>c Unity.VisualScripting.Expose/<>c::<>9
-	U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97* ___U3CU3E9_0;
-	// System.Func`2<System.Reflection.MemberInfo,System.Boolean> Unity.VisualScripting.Expose/<>c::<>9__25_0
-	Func_2_t20D2A8C4D064E72B901CA13A2A4DFFADEA092F9D* ___U3CU3E9__25_0_1;
-	// System.Func`2<Unity.VisualScripting.Member,System.String> Unity.VisualScripting.Expose/<>c::<>9__25_2
-	Func_2_tD38A842699FE6003BE79F290FE2A3AB75DE40E2D* ___U3CU3E9__25_2_2;
-	// System.Func`2<Unity.VisualScripting.Member,System.Int32> Unity.VisualScripting.Expose/<>c::<>9__25_3
-	Func_2_t572C5D0C224DBCF459DC161C7E3A97FA9909B878* ___U3CU3E9__25_3_3;
-	// System.Func`2<Unity.VisualScripting.Member,System.Int32> Unity.VisualScripting.Expose/<>c::<>9__25_4
-	Func_2_t572C5D0C224DBCF459DC161C7E3A97FA9909B878* ___U3CU3E9__25_4_4;
-};
-
-// Unity.VisualScripting.Expose/<>c__DisplayClass25_0
-struct U3CU3Ec__DisplayClass25_0_t75BF43F7ABB06DCFDB023C29793E66E8470D4A30  : public RuntimeObject
-{
-	// Unity.VisualScripting.Member Unity.VisualScripting.Expose/<>c__DisplayClass25_0::member
-	Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5* ___member_0;
-	// Unity.VisualScripting.Expose Unity.VisualScripting.Expose/<>c__DisplayClass25_0::<>4__this
-	Expose_t95DD666E9E5241296BE38598F2A106C19E69978D* ___U3CU3E4__this_1;
-};
-
 // System.Linq.Expressions.Expression/ExtensionInfo
 struct ExtensionInfo_tCE0B03041E5780D311D03EACAA1F672E4C70C3E7  : public RuntimeObject
 {
@@ -10581,127 +10452,6 @@ struct U3CU3Ec_t15C041878E9F5BA63BDF182FF6288DC62B258B83_StaticFields
 	U3CU3Ec_t15C041878E9F5BA63BDF182FF6288DC62B258B83* ___U3CU3E9_0;
 	// System.Func`2<System.String,System.String> Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter/<>c::<>9__2_0
 	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___U3CU3E9__2_0_1;
-};
-
-// Unity.VisualScripting.Flow/<>c
-struct U3CU3Ec_tECD449A8844A978FE77F808D477BCC470E1A43C5  : public RuntimeObject
-{
-};
-
-struct U3CU3Ec_tECD449A8844A978FE77F808D477BCC470E1A43C5_StaticFields
-{
-	// Unity.VisualScripting.Flow/<>c Unity.VisualScripting.Flow/<>c::<>9
-	U3CU3Ec_tECD449A8844A978FE77F808D477BCC470E1A43C5* ___U3CU3E9_0;
-	// System.Func`1<Unity.VisualScripting.Flow> Unity.VisualScripting.Flow/<>c::<>9__35_0
-	Func_1_tFA1039C14FB38E64B5DDDAEC88B92C0E8DAE72B4* ___U3CU3E9__35_0_1;
-};
-
-// Unity.VisualScripting.Flow/<Coroutine>d__53
-struct U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.Flow/<Coroutine>d__53::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.Flow/<Coroutine>d__53::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.Flow/<Coroutine>d__53::<>4__this
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___U3CU3E4__this_2;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Flow/<Coroutine>d__53::startPort
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___startPort_3;
-	// System.Collections.IEnumerator Unity.VisualScripting.Flow/<Coroutine>d__53::<>7__wrap1
-	RuntimeObject* ___U3CU3E7__wrap1_4;
-};
-
-// Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59
-struct U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Int32 Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<>l__initialThreadId
-	int32_t ___U3CU3El__initialThreadId_2;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::input
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___input_3;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<>3__input
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CU3E3__input_4;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<>4__this
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___U3CU3E4__this_5;
-	// System.Collections.IEnumerator Unity.VisualScripting.Flow/<InvokeCoroutineDelegate>d__59::<instructions>5__2
-	RuntimeObject* ___U3CinstructionsU3E5__2_6;
-};
-
-// Unity.VisualScripting.FlowGraph/<>c
-struct U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82  : public RuntimeObject
-{
-};
-
-struct U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields
-{
-	// Unity.VisualScripting.FlowGraph/<>c Unity.VisualScripting.FlowGraph/<>c::<>9
-	U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82* ___U3CU3E9_0;
-	// System.Func`2<System.String,System.Boolean> Unity.VisualScripting.FlowGraph/<>c::<>9__9_2
-	Func_2_tAB9727E0C937894E19032D575D98A8A9AB5EE47D* ___U3CU3E9__9_2_1;
-	// System.Func`2<System.String,System.String> Unity.VisualScripting.FlowGraph/<>c::<>9__9_3
-	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___U3CU3E9__9_3_2;
-	// System.Func`2<Unity.VisualScripting.IUnitPortDefinition,System.Boolean> Unity.VisualScripting.FlowGraph/<>c::<>9__49_0
-	Func_2_tC1F6EE9478186F8FC2BBE76970D27B90DC91D4F3* ___U3CU3E9__49_0_3;
-	// System.Func`2<Unity.VisualScripting.IUnitPortDefinition,System.String> Unity.VisualScripting.FlowGraph/<>c::<>9__49_1
-	Func_2_t6229B3437731EA9C289D415EB20E04925E23E213* ___U3CU3E9__49_1_4;
-};
-
-// Unity.VisualScripting.FlowGraph/<>c__DisplayClass9_0
-struct U3CU3Ec__DisplayClass9_0_t34764FB6D8D7A76D3AAA94A685DAB0725B406AAB  : public RuntimeObject
-{
-	// Unity.VisualScripting.VariableKind Unity.VisualScripting.FlowGraph/<>c__DisplayClass9_0::kind
-	int32_t ___kind_0;
-	// Unity.VisualScripting.GraphReference Unity.VisualScripting.FlowGraph/<>c__DisplayClass9_0::reference
-	GraphReference_t721C982B418EEAA6BE9FA2BFB6A047A8E9362DA9* ___reference_1;
-};
-
-// Unity.VisualScripting.For/<LoopCoroutine>d__21
-struct U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.For/<LoopCoroutine>d__21::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.For/<LoopCoroutine>d__21::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Unity.VisualScripting.For Unity.VisualScripting.For/<LoopCoroutine>d__21::<>4__this
-	For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B* ___U3CU3E4__this_2;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.For/<LoopCoroutine>d__21::flow
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow_3;
-	// System.Int32 Unity.VisualScripting.For/<LoopCoroutine>d__21::<loop>5__2
-	int32_t ___U3CloopU3E5__2_4;
-	// System.Int32 Unity.VisualScripting.For/<LoopCoroutine>d__21::<currentIndex>5__3
-	int32_t ___U3CcurrentIndexU3E5__3_5;
-	// System.Int32 Unity.VisualScripting.For/<LoopCoroutine>d__21::<lastIndex>5__4
-	int32_t ___U3ClastIndexU3E5__4_6;
-	// System.Boolean Unity.VisualScripting.For/<LoopCoroutine>d__21::<ascending>5__5
-	bool ___U3CascendingU3E5__5_7;
-	// Unity.VisualScripting.GraphStack Unity.VisualScripting.For/<LoopCoroutine>d__21::<stack>5__6
-	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3E5__6_8;
-};
-
-// Unity.VisualScripting.ForEach/<LoopCoroutine>d__24
-struct U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Unity.VisualScripting.ForEach Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<>4__this
-	ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B* ___U3CU3E4__this_2;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::flow
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow_3;
-	// System.Int32 Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<loop>5__2
-	int32_t ___U3CloopU3E5__2_4;
-	// System.Collections.IEnumerator Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<enumerator>5__3
-	RuntimeObject* ___U3CenumeratorU3E5__3_5;
-	// System.Collections.IDictionaryEnumerator Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<dictionaryEnumerator>5__4
-	RuntimeObject* ___U3CdictionaryEnumeratorU3E5__4_6;
-	// System.Int32 Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<currentIndex>5__5
-	int32_t ___U3CcurrentIndexU3E5__5_7;
-	// Unity.VisualScripting.GraphStack Unity.VisualScripting.ForEach/<LoopCoroutine>d__24::<stack>5__6
-	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3E5__6_8;
 };
 
 // System.Net.FtpControlStream/<>c__DisplayClass31_0
@@ -12625,19 +12375,6 @@ struct U3CU3Ec_tDB34B21358F25D6818FE4ECE4CAA02FA8F63D1DA_StaticFields
 	Func_2_t9D09D397B043BC5218B2565C13BA5AA81CABC121* ___U3CU3E9__123_0_5;
 };
 
-// Unity.VisualScripting.MemberUnit/<GetAotStubs>d__15
-struct U3CGetAotStubsU3Ed__15_t2E9560B8ABAE52CA5F7D5BD3FC4ECB38A9D845F4  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.MemberUnit/<GetAotStubs>d__15::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.MemberUnit/<GetAotStubs>d__15::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Int32 Unity.VisualScripting.MemberUnit/<GetAotStubs>d__15::<>l__initialThreadId
-	int32_t ___U3CU3El__initialThreadId_2;
-	// Unity.VisualScripting.MemberUnit Unity.VisualScripting.MemberUnit/<GetAotStubs>d__15::<>4__this
-	MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C* ___U3CU3E4__this_3;
-};
-
 // Unity.VisualScripting.MemberUtility/<>c
 struct U3CU3Ec_tD50005C92C2CA3AC0DB8BB7676A11003295489C0  : public RuntimeObject
 {
@@ -13334,13 +13071,6 @@ struct U3CU3Ec_t90F8CB10B454B45A81BE65AA841DD85FE08EA21A_StaticFields
 	U3CU3Ec_t90F8CB10B454B45A81BE65AA841DD85FE08EA21A* ___U3CU3E9_0;
 };
 
-// Unity.VisualScripting.Once/Data
-struct Data_tF4DEB3BC069CDEDD7E866685A35F00CFE930586E  : public RuntimeObject
-{
-	// System.Boolean Unity.VisualScripting.Once/Data::executed
-	bool ___executed_0;
-};
-
 // Unity.VisualScripting.OptimizedReflection/<>c
 struct U3CU3Ec_t41D4242B08B10CCA149FBE68586650982253D6EE  : public RuntimeObject
 {
@@ -13939,32 +13669,6 @@ struct U3CExecuteFilterU3Ed__2_tAEC7DD8E121247811F7357184A2523D5BCDE964C  : publ
 	JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E8B3* ___U3CcU3E5__3_7;
 	// Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JsonPath.ScanFilter/<ExecuteFilter>d__2::<value>5__4
 	JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E8B3* ___U3CvalueU3E5__4_8;
-};
-
-// Unity.VisualScripting.SelectOnFlow/<>c__DisplayClass16_0
-struct U3CU3Ec__DisplayClass16_0_t5BB885553FEBF80853495627FCFB591C49FCD263  : public RuntimeObject
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectOnFlow/<>c__DisplayClass16_0::branchValue
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___branchValue_0;
-	// Unity.VisualScripting.SelectOnFlow Unity.VisualScripting.SelectOnFlow/<>c__DisplayClass16_0::<>4__this
-	SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48* ___U3CU3E4__this_1;
-};
-
-// Unity.VisualScripting.Sequence/<EnterCoroutine>d__14
-struct U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::flow
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow_2;
-	// Unity.VisualScripting.Sequence Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::<>4__this
-	Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A* ___U3CU3E4__this_3;
-	// Unity.VisualScripting.GraphStack Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::<stack>5__2
-	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3E5__2_4;
-	// System.Collections.Generic.IEnumerator`1<Unity.VisualScripting.ControlOutput> Unity.VisualScripting.Sequence/<EnterCoroutine>d__14::<>7__wrap2
-	RuntimeObject* ___U3CU3E7__wrap2_5;
 };
 
 // System.Net.ServerCertValidationCallback/CallbackContext
@@ -14596,20 +14300,6 @@ struct Timer_t251C62B59B7D01C94C28C6162B45228C0276C695  : public RuntimeObject
 	int32_t ___m_DurationMilliseconds_1;
 };
 
-// Unity.VisualScripting.ToggleFlow/Data
-struct Data_tB273390F8A329A47575D3E7A140D0EA5B8B58725  : public RuntimeObject
-{
-	// System.Boolean Unity.VisualScripting.ToggleFlow/Data::isOn
-	bool ___isOn_0;
-};
-
-// Unity.VisualScripting.ToggleValue/Data
-struct Data_t890514292AFD0F6EDA68063912D30932BBA56CE9  : public RuntimeObject
-{
-	// System.Boolean Unity.VisualScripting.ToggleValue/Data::isOn
-	bool ___isOn_0;
-};
-
 // System.ComponentModel.TypeConverter/StandardValuesCollection
 struct StandardValuesCollection_tC5F10128EB5F9B6E4E5519E6AE47DA01384F91E3  : public RuntimeObject
 {
@@ -14864,23 +14554,6 @@ struct U3CU3Ec__DisplayClass41_0_tE35CAD9598280A2D1E00E59D3E975B834A58B865  : pu
 	int32_t ___offset_2;
 	// System.Int32 System.Net.WebResponseStream/<>c__DisplayClass41_0::size
 	int32_t ___size_3;
-};
-
-// Unity.VisualScripting.While/<LoopCoroutine>d__8
-struct U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.While/<LoopCoroutine>d__8::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.While/<LoopCoroutine>d__8::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Unity.VisualScripting.While Unity.VisualScripting.While/<LoopCoroutine>d__8::<>4__this
-	While_t689072D1951AC27F22C05202DD7DB89206BB1DEF* ___U3CU3E4__this_2;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.While/<LoopCoroutine>d__8::flow
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___flow_3;
-	// System.Int32 Unity.VisualScripting.While/<LoopCoroutine>d__8::<loop>5__2
-	int32_t ___U3CloopU3E5__2_4;
-	// Unity.VisualScripting.GraphStack Unity.VisualScripting.While/<LoopCoroutine>d__8::<stack>5__3
-	GraphStack_tD9049F5FB5F8D9E9CD80764D18067D0F87343E7C* ___U3CstackU3E5__3_5;
 };
 
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection/X509CertificateEnumerator
@@ -15400,19 +15073,6 @@ struct Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1
 	int32_t ____version_2;
 	// T System.Collections.Generic.List`1/Enumerator::_current
 	String_t* ____current_3;
-};
-
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Unity.VisualScripting.ValueOutput,Unity.VisualScripting.Member>
-struct Enumerator_t4FC8BE400DB13BAC8899CBBA722F7D4A626FC744 
-{
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_dictionary
-	Dictionary_2_t6E47C0A00909066F92159943E5FB640B2963D999* ____dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_index
-	int32_t ____index_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_version
-	int32_t ____version_2;
-	// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::_currentValue
-	Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5* ____currentValue_3;
 };
 
 // System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken>
@@ -16128,6 +15788,79 @@ struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshale
 	Il2CppMethodPointer ___m_defaultContextAction_1;
 };
 
+// Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13 
+{
+	// System.String Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<AssetName>k__BackingField
+	String_t* ___U3CAssetNameU3Ek__BackingField_0;
+	// System.String Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<FileName>k__BackingField
+	String_t* ___U3CFileNameU3Ek__BackingField_1;
+	// System.UInt64 Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<OffsetBytes>k__BackingField
+	uint64_t ___U3COffsetBytesU3Ek__BackingField_2;
+	// System.UInt64 Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<SizeBytes>k__BackingField
+	uint64_t ___U3CSizeBytesU3Ek__BackingField_3;
+	// System.UInt64 Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<AssetTypeId>k__BackingField
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField_4;
+	// System.UInt64 Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<CurrentBytesRead>k__BackingField
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField_5;
+	// System.UInt32 Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<BatchReadCount>k__BackingField
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField_6;
+	// System.Boolean Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<IsBatchRead>k__BackingField
+	bool ___U3CIsBatchReadU3Ek__BackingField_7;
+	// Unity.IO.LowLevel.Unsafe.ProcessingState Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<State>k__BackingField
+	int32_t ___U3CStateU3Ek__BackingField_8;
+	// Unity.IO.LowLevel.Unsafe.FileReadType Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<ReadType>k__BackingField
+	int32_t ___U3CReadTypeU3Ek__BackingField_9;
+	// Unity.IO.LowLevel.Unsafe.Priority Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<PriorityLevel>k__BackingField
+	int32_t ___U3CPriorityLevelU3Ek__BackingField_10;
+	// Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<Subsystem>k__BackingField
+	int32_t ___U3CSubsystemU3Ek__BackingField_11;
+	// System.Double Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<RequestTimeMicroseconds>k__BackingField
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField_12;
+	// System.Double Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<TimeInQueueMicroseconds>k__BackingField
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField_13;
+	// System.Double Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric::<TotalTimeMicroseconds>k__BackingField
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField_14;
+};
+// Native definition for P/Invoke marshalling of Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_pinvoke
+{
+	char* ___U3CAssetNameU3Ek__BackingField_0;
+	char* ___U3CFileNameU3Ek__BackingField_1;
+	uint64_t ___U3COffsetBytesU3Ek__BackingField_2;
+	uint64_t ___U3CSizeBytesU3Ek__BackingField_3;
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField_4;
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField_5;
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField_6;
+	int32_t ___U3CIsBatchReadU3Ek__BackingField_7;
+	int32_t ___U3CStateU3Ek__BackingField_8;
+	int32_t ___U3CReadTypeU3Ek__BackingField_9;
+	int32_t ___U3CPriorityLevelU3Ek__BackingField_10;
+	int32_t ___U3CSubsystemU3Ek__BackingField_11;
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField_12;
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField_13;
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField_14;
+};
+// Native definition for COM marshalling of Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric
+struct AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13_marshaled_com
+{
+	Il2CppChar* ___U3CAssetNameU3Ek__BackingField_0;
+	Il2CppChar* ___U3CFileNameU3Ek__BackingField_1;
+	uint64_t ___U3COffsetBytesU3Ek__BackingField_2;
+	uint64_t ___U3CSizeBytesU3Ek__BackingField_3;
+	uint64_t ___U3CAssetTypeIdU3Ek__BackingField_4;
+	uint64_t ___U3CCurrentBytesReadU3Ek__BackingField_5;
+	uint32_t ___U3CBatchReadCountU3Ek__BackingField_6;
+	int32_t ___U3CIsBatchReadU3Ek__BackingField_7;
+	int32_t ___U3CStateU3Ek__BackingField_8;
+	int32_t ___U3CReadTypeU3Ek__BackingField_9;
+	int32_t ___U3CPriorityLevelU3Ek__BackingField_10;
+	int32_t ___U3CSubsystemU3Ek__BackingField_11;
+	double ___U3CRequestTimeMicrosecondsU3Ek__BackingField_12;
+	double ___U3CTimeInQueueMicrosecondsU3Ek__BackingField_13;
+	double ___U3CTotalTimeMicrosecondsU3Ek__BackingField_14;
+};
+
 // Mono.Net.Security.AsyncReadOrWriteRequest
 struct AsyncReadOrWriteRequest_tEE5EFA76D488CBB46DBCA56E9914A0E5BF6D4680  : public AsyncProtocolRequest_tF31CF30F8C57A3D5DC10A9FB0A5568FA254DFE86
 {
@@ -16408,6 +16141,13 @@ struct ByteStorage_t4E4B11DED4E1A56305B098A376DF61D33B76DC77  : public DataStora
 {
 	// System.Byte[] System.Data.Common.ByteStorage::_values
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____values_14;
+};
+
+// UnityEngine.Cache
+struct Cache_tDD95655F2F9684598FD7B95827D4F6AD3134CBBC 
+{
+	// System.Int32 UnityEngine.Cache::m_Handle
+	int32_t ___m_Handle_0;
 };
 
 // System.Linq.Expressions.Interpreter.CallInstruction
@@ -16695,6 +16435,17 @@ struct CreateDelegateInstruction_t7E8A90543BE40282539D1911AB30AD714E03DD77  : pu
 {
 	// System.Linq.Expressions.Interpreter.LightDelegateCreator System.Linq.Expressions.Interpreter.CreateDelegateInstruction::_creator
 	LightDelegateCreator_t6214381DCA109BBF9A5B04DB1BCC2AD0EC08AF58* ____creator_0;
+};
+
+// UnityEngine.CullingGroupEvent
+struct CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110 
+{
+	// System.Int32 UnityEngine.CullingGroupEvent::m_Index
+	int32_t ___m_Index_0;
+	// System.Byte UnityEngine.CullingGroupEvent::m_PrevState
+	uint8_t ___m_PrevState_1;
+	// System.Byte UnityEngine.CullingGroupEvent::m_ThisState
+	uint8_t ___m_ThisState_2;
 };
 
 // System.ComponentModel.CultureInfoConverter
@@ -17979,15 +17730,6 @@ struct FloatTween_t4C6604C5D2B0B4B634B53D545A74431BAE3A98BE_marshaled_com
 	int32_t ___m_IgnoreTimeScale_4;
 };
 
-// Unity.VisualScripting.FlowGraphData
-struct FlowGraphData_t6FD5C16241A7A456BB81208D03A8246EA1ED668F  : public GraphData_1_t2C0A8F28B126AE7569B427BEB3345FF8C0CF3AE4
-{
-	// Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.FlowGraphData::<variables>k__BackingField
-	VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405* ___U3CvariablesU3Ek__BackingField_5;
-	// System.Boolean Unity.VisualScripting.FlowGraphData::<isListening>k__BackingField
-	bool ___U3CisListeningU3Ek__BackingField_6;
-};
-
 // TMPro.FontAssetCreationSettings
 struct FontAssetCreationSettings_t2B94078737A72F814E8BC2126F967B94231190DF 
 {
@@ -18344,6 +18086,19 @@ struct Guid_t_StaticFields
 {
 	// System.Guid System.Guid::Empty
 	Guid_t ___Empty_0;
+};
+
+// UnityEngine.Hash128
+struct Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 
+{
+	// System.UInt32 UnityEngine.Hash128::m_u32_0
+	uint32_t ___m_u32_0_0;
+	// System.UInt32 UnityEngine.Hash128::m_u32_1
+	uint32_t ___m_u32_1_1;
+	// System.UInt32 UnityEngine.Hash128::m_u32_2
+	uint32_t ___m_u32_2_2;
+	// System.UInt32 UnityEngine.Hash128::m_u32_3
+	uint32_t ___m_u32_3_3;
 };
 
 // System.Net.HeaderVariantInfo
@@ -18772,6 +18527,25 @@ struct KeyValuePairConverter_t1E679E4477B1456F7A261B3CF60B2D566C2F6413_StaticFie
 	ThreadSafeStore_2_tF759F5FA265D721F4FB391BC4F3E3760CF111CD7* ___ReflectionObjectPerType_2;
 };
 
+// UnityEngine.Keyframe
+struct Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0 
+{
+	// System.Single UnityEngine.Keyframe::m_Time
+	float ___m_Time_0;
+	// System.Single UnityEngine.Keyframe::m_Value
+	float ___m_Value_1;
+	// System.Single UnityEngine.Keyframe::m_InTangent
+	float ___m_InTangent_2;
+	// System.Single UnityEngine.Keyframe::m_OutTangent
+	float ___m_OutTangent_3;
+	// System.Int32 UnityEngine.Keyframe::m_WeightedMode
+	int32_t ___m_WeightedMode_4;
+	// System.Single UnityEngine.Keyframe::m_InWeight
+	float ___m_InWeight_5;
+	// System.Single UnityEngine.Keyframe::m_OutWeight
+	float ___m_OutWeight_6;
+};
+
 // System.Linq.Expressions.LabelExpression
 struct LabelExpression_tEFEEB76D1A905275CA45F611E0ECAB5D1B2E6BFD  : public Expression_t70AA908ECBD33E94249BF235E4EBB0F831AD8785
 {
@@ -19193,6 +18967,28 @@ struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial_6;
 	float ___padding_7;
 	int32_t ___referenceCount_8;
+};
+
+// UnityEngineInternal.MathfInternal
+struct MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C__padding[1];
+	};
+};
+
+struct MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C_StaticFields
+{
+	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinNormal
+	float ___FloatMinNormal_0;
+	// System.Single modreq(System.Runtime.CompilerServices.IsVolatile) UnityEngineInternal.MathfInternal::FloatMinDenormal
+	float ___FloatMinDenormal_1;
+	// System.Boolean UnityEngineInternal.MathfInternal::IsFlushToZeroEnabled
+	bool ___IsFlushToZeroEnabled_2;
 };
 
 // UnityEngine.Matrix4x4
@@ -19867,20 +19663,108 @@ struct PopInstruction_tD3C3D5D7F36AA6B1D59894B582971B3D924EBCA1_StaticFields
 	PopInstruction_tD3C3D5D7F36AA6B1D59894B582971B3D924EBCA1* ___Instance_0;
 };
 
-// Unity.VisualScripting.PortKeyAttribute
-struct PortKeyAttribute_t6CAC1470A88674057F06D7CD3AC1B9BB241BFD2E  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+// Unity.Profiling.ProfilerCategory
+struct ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC 
 {
-	// System.String Unity.VisualScripting.PortKeyAttribute::<key>k__BackingField
-	String_t* ___U3CkeyU3Ek__BackingField_0;
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// System.UInt16 Unity.Profiling.ProfilerCategory::m_CategoryId
+					uint16_t ___m_CategoryId_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					uint16_t ___m_CategoryId_0_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC__padding[2];
+	};
 };
 
-// Unity.VisualScripting.PortLabelAttribute
-struct PortLabelAttribute_t8B0F19314F88B411142A55F2FD658A37F1ACC648  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+// Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData
+struct ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2 
 {
-	// System.String Unity.VisualScripting.PortLabelAttribute::<label>k__BackingField
-	String_t* ___U3ClabelU3Ek__BackingField_0;
-	// System.Boolean Unity.VisualScripting.PortLabelAttribute::<hidden>k__BackingField
-	bool ___U3ChiddenU3Ek__BackingField_1;
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// System.Byte Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData::Type
+					uint8_t ___Type_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					uint8_t ___Type_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___reserved0_1_OffsetPadding[1];
+					// System.Byte Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData::reserved0
+					uint8_t ___reserved0_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___reserved0_1_OffsetPadding_forAlignmentOnly[1];
+					uint8_t ___reserved0_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___reserved1_2_OffsetPadding[2];
+					// System.UInt16 Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData::reserved1
+					uint16_t ___reserved1_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___reserved1_2_OffsetPadding_forAlignmentOnly[2];
+					uint16_t ___reserved1_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Size_3_OffsetPadding[4];
+					// System.UInt32 Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData::Size
+					uint32_t ___Size_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Size_3_OffsetPadding_forAlignmentOnly[4];
+					uint32_t ___Size_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Ptr_4_OffsetPadding[8];
+					// System.Void* Unity.Profiling.LowLevel.Unsafe.ProfilerMarkerData::Ptr
+					void* ___Ptr_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Ptr_4_OffsetPadding_forAlignmentOnly[8];
+					void* ___Ptr_4_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2__padding[16];
+	};
 };
 
 // System.ComponentModel.PropertyChangedEventArgs
@@ -20392,6 +20276,13 @@ struct SingletonAttribute_t4EBE08E147FC39CAF915B5E6AFCACDEAD99FAD5F  : public At
 	int32_t ___U3CHideFlagsU3Ek__BackingField_2;
 	// System.String Unity.VisualScripting.SingletonAttribute::<Name>k__BackingField
 	String_t* ___U3CNameU3Ek__BackingField_3;
+};
+
+// UnityEngine.SortingLayer
+struct SortingLayer_tB4F4D4E2CE652DB0881CDAB9E329DE9833C2B9C3 
+{
+	// System.Int32 UnityEngine.SortingLayer::m_Id
+	int32_t ___m_Id_0;
 };
 
 // UnityEngine.UI.SpriteState
@@ -21764,6 +21655,13 @@ struct TypeIconPriorityAttribute_t9A36C9A15163AD40DA9C6D909043497D9E69B30D  : pu
 	int32_t ___U3CpriorityU3Ek__BackingField_0;
 };
 
+// UnityEngineInternal.TypeInferenceRuleAttribute
+struct TypeInferenceRuleAttribute_t39AE4844222814241F6C40EDFFA93F5F3B7D1CFE  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String UnityEngineInternal.TypeInferenceRuleAttribute::_rule
+	String_t* ____rule_0;
+};
+
 // System.Linq.Expressions.Interpreter.TypeIsInstruction
 struct TypeIsInstruction_t9CAC19A57D78839CB7482DFB2B20784C356709E7  : public Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998
 {
@@ -21850,59 +21748,13 @@ struct UnaryOperatorHandler_t8ABDB63A7AEB1C126A796467B5085C44A881F98E  : public 
 	Dictionary_2_t8BF76F08F2E28AE3B97CD39EBC7A0FE57398B1B0* ___userDefinedOperandTypes_6;
 };
 
-// Unity.VisualScripting.UnitFooterPortsAttribute
-struct UnitFooterPortsAttribute_tE6C73C0FDDDEC7C3614E99C02232B67F704143E6  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+// JetBrains.Annotations.UsedImplicitlyAttribute
+struct UsedImplicitlyAttribute_t946B34060EC17A9CFDBFBDA5A8B934CC0042F2CC  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-	// System.Boolean Unity.VisualScripting.UnitFooterPortsAttribute::<ControlInputs>k__BackingField
-	bool ___U3CControlInputsU3Ek__BackingField_0;
-	// System.Boolean Unity.VisualScripting.UnitFooterPortsAttribute::<ControlOutputs>k__BackingField
-	bool ___U3CControlOutputsU3Ek__BackingField_1;
-	// System.Boolean Unity.VisualScripting.UnitFooterPortsAttribute::<ValueInputs>k__BackingField
-	bool ___U3CValueInputsU3Ek__BackingField_2;
-	// System.Boolean Unity.VisualScripting.UnitFooterPortsAttribute::<ValueOutputs>k__BackingField
-	bool ___U3CValueOutputsU3Ek__BackingField_3;
-};
-
-// Unity.VisualScripting.UnitHeaderInspectableAttribute
-struct UnitHeaderInspectableAttribute_tCAC9EE3696253ECBC4D8B1989ACA149991342ADD  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Unity.VisualScripting.UnitHeaderInspectableAttribute::<label>k__BackingField
-	String_t* ___U3ClabelU3Ek__BackingField_0;
-};
-
-// Unity.VisualScripting.UnitOrderAttribute
-struct UnitOrderAttribute_t734FB55A57CDF6D2F1AEFDCDAF693B945A102F85  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.Int32 Unity.VisualScripting.UnitOrderAttribute::<order>k__BackingField
-	int32_t ___U3CorderU3Ek__BackingField_0;
-};
-
-// Unity.VisualScripting.UnitShortTitleAttribute
-struct UnitShortTitleAttribute_t629390495C52996A6EA3E8C3A59560B4363E329D  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Unity.VisualScripting.UnitShortTitleAttribute::<title>k__BackingField
-	String_t* ___U3CtitleU3Ek__BackingField_0;
-};
-
-// Unity.VisualScripting.UnitSubtitleAttribute
-struct UnitSubtitleAttribute_t6E9BEBC4B9208921DC9E249EC95DD893D10BF301  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Unity.VisualScripting.UnitSubtitleAttribute::<subtitle>k__BackingField
-	String_t* ___U3CsubtitleU3Ek__BackingField_0;
-};
-
-// Unity.VisualScripting.UnitSurtitleAttribute
-struct UnitSurtitleAttribute_t86C0374D97A4D337FC9D85E9CFD66FD03A90C8F1  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Unity.VisualScripting.UnitSurtitleAttribute::<surtitle>k__BackingField
-	String_t* ___U3CsurtitleU3Ek__BackingField_0;
-};
-
-// Unity.VisualScripting.UnitTitleAttribute
-struct UnitTitleAttribute_tC9669628044A2EA49D0CF3EB5E362EBEEF11D3CA  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Unity.VisualScripting.UnitTitleAttribute::<title>k__BackingField
-	String_t* ___U3CtitleU3Ek__BackingField_0;
+	// JetBrains.Annotations.ImplicitUseKindFlags JetBrains.Annotations.UsedImplicitlyAttribute::<UseKindFlags>k__BackingField
+	int32_t ___U3CUseKindFlagsU3Ek__BackingField_0;
+	// JetBrains.Annotations.ImplicitUseTargetFlags JetBrains.Annotations.UsedImplicitlyAttribute::<TargetFlags>k__BackingField
+	int32_t ___U3CTargetFlagsU3Ek__BackingField_1;
 };
 
 // Newtonsoft.Json.Schema.ValidationEventArgs
@@ -23022,6 +22874,31 @@ struct Page_t04FE552A388BF55B12C8868E19589136957E00A5
 	int32_t ___freeSlots_2;
 };
 
+// UnityEngine.Camera/RenderRequest
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A 
+{
+	// UnityEngine.Camera/RenderRequestMode UnityEngine.Camera/RenderRequest::m_CameraRenderMode
+	int32_t ___m_CameraRenderMode_0;
+	// UnityEngine.RenderTexture UnityEngine.Camera/RenderRequest::m_ResultRT
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT_1;
+	// UnityEngine.Camera/RenderRequestOutputSpace UnityEngine.Camera/RenderRequest::m_OutputSpace
+	int32_t ___m_OutputSpace_2;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Camera/RenderRequest
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_pinvoke
+{
+	int32_t ___m_CameraRenderMode_0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT_1;
+	int32_t ___m_OutputSpace_2;
+};
+// Native definition for COM marshalling of UnityEngine.Camera/RenderRequest
+struct RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A_marshaled_com
+{
+	int32_t ___m_CameraRenderMode_0;
+	RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* ___m_ResultRT_1;
+	int32_t ___m_OutputSpace_2;
+};
+
 // Internal.Cryptography.Pal.CertificateData/AlgorithmIdentifier
 struct AlgorithmIdentifier_tCF880F72315F1725C33F59BB2F5D213BB22275A8 
 {
@@ -23184,27 +23061,6 @@ struct ReservedWords_t2834E11516C795E0AD880A651793517590DFCF87_marshaled_com
 	Il2CppChar* ____word_0;
 	int32_t ____token_1;
 	int32_t ____op_2;
-};
-
-// Unity.VisualScripting.Flow/RecursionNode
-struct RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707 
-{
-	// Unity.VisualScripting.IUnitPort Unity.VisualScripting.Flow/RecursionNode::<port>k__BackingField
-	RuntimeObject* ___U3CportU3Ek__BackingField_0;
-	// Unity.VisualScripting.IGraphParent Unity.VisualScripting.Flow/RecursionNode::<context>k__BackingField
-	RuntimeObject* ___U3CcontextU3Ek__BackingField_1;
-};
-// Native definition for P/Invoke marshalling of Unity.VisualScripting.Flow/RecursionNode
-struct RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707_marshaled_pinvoke
-{
-	RuntimeObject* ___U3CportU3Ek__BackingField_0;
-	RuntimeObject* ___U3CcontextU3Ek__BackingField_1;
-};
-// Native definition for COM marshalling of Unity.VisualScripting.Flow/RecursionNode
-struct RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707_marshaled_com
-{
-	RuntimeObject* ___U3CportU3Ek__BackingField_0;
-	RuntimeObject* ___U3CcontextU3Ek__BackingField_1;
 };
 
 // System.Net.HttpWebRequest/AuthorizationState
@@ -23654,15 +23510,6 @@ struct Offset_tE612E8724BE1BAC109CDFA8ED5567B5979139493
 	uint16_t ___End_7;
 };
 #pragma pack(pop, tp)
-
-// Unity.VisualScripting.ValueConnection/DebugData
-struct DebugData_tEDCDDD8D4C175DDD37DF85AB542E754C176D2C6E  : public UnitConnectionDebugData_t234BD82F4664E0EF5B837522DCED9C3CA886E35E
-{
-	// System.Object Unity.VisualScripting.ValueConnection/DebugData::<lastValue>k__BackingField
-	RuntimeObject* ___U3ClastValueU3Ek__BackingField_3;
-	// System.Boolean Unity.VisualScripting.ValueConnection/DebugData::<assignedLastValue>k__BackingField
-	bool ___U3CassignedLastValueU3Ek__BackingField_4;
-};
 
 // System.Data.XmlToDatasetMap/XmlNodeIdHashtable
 struct XmlNodeIdHashtable_t050C2BF886A07F63E01E2F5A03C9332950CB381E  : public Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D
@@ -24214,15 +24061,6 @@ struct ByReference_1_tDDF129F0BC02430629D5CD253C681112F166BAD4
 	intptr_t ____value_0;
 };
 
-// Unity.VisualScripting.GraphElement`1<Unity.VisualScripting.FlowGraph>
-struct GraphElement_1_t3220EDD6251B31FC22A192EC12682C1D8B28F16D  : public RuntimeObject
-{
-	// System.Guid Unity.VisualScripting.GraphElement`1::<guid>k__BackingField
-	Guid_t ___U3CguidU3Ek__BackingField_0;
-	// TGraph Unity.VisualScripting.GraphElement`1::<graph>k__BackingField
-	FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45* ___U3CgraphU3Ek__BackingField_1;
-};
-
 // Unity.VisualScripting.GraphElement`1<Unity.VisualScripting.IGraph>
 struct GraphElement_1_t440282E1242B69F54132FBDFA69165894DB40B5B  : public RuntimeObject
 {
@@ -24538,6 +24376,23 @@ struct AesManaged_t153AF8C6AF037AF4614B15A04CAD48A7F7DA0819  : public Aes_tC72E7
 	RijndaelManaged_t67DFB0E9542F21D9EED0227003A19D9F5ECF2E39* ___m_rijndael_11;
 };
 
+// UnityEngine.AnimationCurve
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.AnimationCurve::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.AnimationCurve
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+};
+// Native definition for COM marshalling of UnityEngine.AnimationCurve
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+};
+
 // System.Linq.Expressions.Interpreter.ArrayByRefUpdater
 struct ArrayByRefUpdater_t27945593497B91239E36429997E5FC128CA4C844  : public ByRefUpdater_t75FD5742B2BCA6799D260F02FA6A21BE313FEE17
 {
@@ -24687,6 +24542,13 @@ struct BlockN_t90754C7E48C08D04C336434F13D3E8A9CF9C77EC  : public BlockExpressio
 	RuntimeObject* ____expressions_3;
 };
 
+// UnityEngine.BootConfigData
+struct BootConfigData_tCD60A463C9C4303D9A7205910F391759BAEFFE23  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.BootConfigData::m_Ptr
+	intptr_t ___m_Ptr_0;
+};
+
 // UnityEngine.Bounds
 struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
 {
@@ -24767,6 +24629,27 @@ struct ByRefNewInstruction_tC8C2A260C37BCC67319D5823C6675C9495CBE69E  : public N
 {
 	// System.Linq.Expressions.Interpreter.ByRefUpdater[] System.Linq.Expressions.Interpreter.ByRefNewInstruction::_byrefArgs
 	ByRefUpdaterU5BU5D_t62ADAA985E00CF3D05497BAFD737A713609B0407* ____byrefArgs_2;
+};
+
+// UnityEngine.CachedAssetBundle
+struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91 
+{
+	// System.String UnityEngine.CachedAssetBundle::m_Name
+	String_t* ___m_Name_0;
+	// UnityEngine.Hash128 UnityEngine.CachedAssetBundle::m_Hash
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.CachedAssetBundle
+struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91_marshaled_pinvoke
+{
+	char* ___m_Name_0;
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
+};
+// Native definition for COM marshalling of UnityEngine.CachedAssetBundle
+struct CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91_marshaled_com
+{
+	Il2CppChar* ___m_Name_0;
+	Hash128_t93367F504B687578F893CDBCD13FB95AC8A87A40 ___m_Hash_1;
 };
 
 // System.Linq.Expressions.Interpreter.CastReferenceToEnumInstruction
@@ -25083,6 +24966,27 @@ struct CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608  : public Runt
 	bool ___m_has_other_versions_3;
 	// System.Boolean System.Net.CookieCollection::m_IsReadOnly
 	bool ___m_IsReadOnly_4;
+};
+
+// UnityEngine.CullingGroup
+struct CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.CullingGroup::m_Ptr
+	intptr_t ___m_Ptr_0;
+	// UnityEngine.CullingGroup/StateChanged UnityEngine.CullingGroup::m_OnStateChanged
+	StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* ___m_OnStateChanged_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.CullingGroup
+struct CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_OnStateChanged_1;
+};
+// Native definition for COM marshalling of UnityEngine.CullingGroup
+struct CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_OnStateChanged_1;
 };
 
 // System.Data.DataColumnPropertyDescriptor
@@ -26306,6 +26210,15 @@ struct JProperty_t1B8E99236F2BD537EC4A7A63ACDB60D7C709C5F4  : public JContainer_
 	String_t* ____name_21;
 };
 
+// Unity.Jobs.JobHandle
+struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
+{
+	// System.IntPtr Unity.Jobs.JobHandle::jobGroup
+	intptr_t ___jobGroup_0;
+	// System.Int32 Unity.Jobs.JobHandle::version
+	int32_t ___version_1;
+};
+
 // Newtonsoft.Json.JsonContainerAttribute
 struct JsonContainerAttribute_t84168DEA2B41EB84D4BF6C3AF04D6075F4CEB1C7  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -27232,6 +27145,97 @@ struct ProcessStartInfo_t03E06D8098D3DC01CDACE23EE2D308BDA8E41D3C_marshaled_com
 	Collection_1_t2C70C2119B2290EEF2700585C16805CAA9C19575* ____argumentList_22;
 	RuntimeObject* ___environment_23;
 	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___U3CStandardInputEncodingU3Ek__BackingField_24;
+};
+
+// Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription
+struct ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					// System.UInt16 Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::Id
+					uint16_t ___Id_0;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					uint16_t ___Id_0_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Flags_1_OffsetPadding[2];
+					// System.UInt16 Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::Flags
+					uint16_t ___Flags_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Flags_1_OffsetPadding_forAlignmentOnly[2];
+					uint16_t ___Flags_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___Color_2_OffsetPadding[4];
+					// UnityEngine.Color32 Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::Color
+					Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___Color_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___Color_2_OffsetPadding_forAlignmentOnly[4];
+					Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___Color_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___reserved0_3_OffsetPadding[8];
+					// System.Int32 Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::reserved0
+					int32_t ___reserved0_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___reserved0_3_OffsetPadding_forAlignmentOnly[8];
+					int32_t ___reserved0_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___NameUtf8Len_4_OffsetPadding[12];
+					// System.Int32 Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::NameUtf8Len
+					int32_t ___NameUtf8Len_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___NameUtf8Len_4_OffsetPadding_forAlignmentOnly[12];
+					int32_t ___NameUtf8Len_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___NameUtf8_5_OffsetPadding[16];
+					// System.Byte* Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription::NameUtf8
+					uint8_t* ___NameUtf8_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___NameUtf8_5_OffsetPadding_forAlignmentOnly[16];
+					uint8_t* ___NameUtf8_5_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28__padding[24];
+	};
 };
 
 // Unity.Profiling.ProfilerMarker
@@ -28456,21 +28460,6 @@ struct U3CGetExpandoEnumeratorU3Ed__51_t421D8F375E4578DE15A8E3481A5E74CAFE0E06F2
 	int32_t ___U3CiU3E5__2_5;
 };
 
-// Unity.VisualScripting.Expose/<GetAotStubs>d__24
-struct U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.Expose/<GetAotStubs>d__24::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.Expose/<GetAotStubs>d__24::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Int32 Unity.VisualScripting.Expose/<GetAotStubs>d__24::<>l__initialThreadId
-	int32_t ___U3CU3El__initialThreadId_2;
-	// Unity.VisualScripting.Expose Unity.VisualScripting.Expose/<GetAotStubs>d__24::<>4__this
-	Expose_t95DD666E9E5241296BE38598F2A106C19E69978D* ___U3CU3E4__this_3;
-	// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<Unity.VisualScripting.ValueOutput,Unity.VisualScripting.Member> Unity.VisualScripting.Expose/<GetAotStubs>d__24::<>7__wrap1
-	Enumerator_t4FC8BE400DB13BAC8899CBBA722F7D4A626FC744 ___U3CU3E7__wrap1_4;
-};
-
 // Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter/<ExecuteFilter>d__2
 struct U3CExecuteFilterU3Ed__2_t68C4B975E8CD91299C36C2F5BA316E56ED2CEE38  : public RuntimeObject
 {
@@ -28498,29 +28487,6 @@ struct U3CExecuteFilterU3Ed__2_t68C4B975E8CD91299C36C2F5BA316E56ED2CEE38  : publ
 	Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 ___U3CU3E7__wrap3_10;
 	// System.String Newtonsoft.Json.Linq.JsonPath.FieldMultipleFilter/<ExecuteFilter>d__2::<name>5__5
 	String_t* ___U3CnameU3E5__5_11;
-};
-
-// Unity.VisualScripting.Flow/<InvokeCoroutine>d__55
-struct U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6  : public RuntimeObject
-{
-	// System.Int32 Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Int32 Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>l__initialThreadId
-	int32_t ___U3CU3El__initialThreadId_2;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::output
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___output_3;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>3__output
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CU3E3__output_4;
-	// Unity.VisualScripting.Flow Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>4__this
-	Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582* ___U3CU3E4__this_5;
-	// Unity.VisualScripting.Flow/RecursionNode Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<recursionNode>5__2
-	RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707 ___U3CrecursionNodeU3E5__2_6;
-	// System.Collections.IEnumerator Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>7__wrap2
-	RuntimeObject* ___U3CU3E7__wrap2_7;
-	// System.Collections.IEnumerator Unity.VisualScripting.Flow/<InvokeCoroutine>d__55::<>7__wrap3
-	RuntimeObject* ___U3CU3E7__wrap3_8;
 };
 
 // System.Linq.Expressions.Interpreter.InstructionArray/DebugView
@@ -28621,6 +28587,13 @@ struct ProcInfo_t79019AEB58EDD7089B790325C2EBE830E1F458D2_marshaled_com
 	Il2CppChar* ___Domain_4;
 	intptr_t ___Password_5;
 	int32_t ___LoadUserProfile_6;
+};
+
+// Unity.Profiling.ProfilerMarker/AutoScope
+struct AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139 
+{
+	// System.IntPtr Unity.Profiling.ProfilerMarker/AutoScope::m_Ptr
+	intptr_t ___m_Ptr_0;
 };
 
 // System.Text.RegularExpressions.Regex/CachedCodeEntry
@@ -29431,33 +29404,6 @@ struct FixedSizeReadStream_t36A722CECAA40C689D9604980ECB1FF98343B251  : public W
 	int64_t ___U3CContentLengthU3Ek__BackingField_7;
 	// System.Int64 System.Net.FixedSizeReadStream::position
 	int64_t ___position_8;
-};
-
-// Unity.VisualScripting.FlowGraph
-struct FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45  : public Graph_tD3F160E11AE372F4006562E44A04A934679A72CA
-{
-	// Unity.VisualScripting.VariableDeclarations Unity.VisualScripting.FlowGraph::<variables>k__BackingField
-	VariableDeclarations_t7701E0B99E3AED5CDC693ABFBDD6D1C73945B405* ___U3CvariablesU3Ek__BackingField_7;
-	// Unity.VisualScripting.GraphElementCollection`1<Unity.VisualScripting.IUnit> Unity.VisualScripting.FlowGraph::<units>k__BackingField
-	GraphElementCollection_1_t0165568BAE7EF8D2CD1E954F9F5CB8527EDEC824* ___U3CunitsU3Ek__BackingField_8;
-	// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.ControlConnection,Unity.VisualScripting.ControlOutput,Unity.VisualScripting.ControlInput> Unity.VisualScripting.FlowGraph::<controlConnections>k__BackingField
-	GraphConnectionCollection_3_t1C36521556B52560AC338813684582FE4226703C* ___U3CcontrolConnectionsU3Ek__BackingField_9;
-	// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.ValueConnection,Unity.VisualScripting.ValueOutput,Unity.VisualScripting.ValueInput> Unity.VisualScripting.FlowGraph::<valueConnections>k__BackingField
-	GraphConnectionCollection_3_tCB3C722EBCB7366D0FCFD32ED000A4A8AFD2C624* ___U3CvalueConnectionsU3Ek__BackingField_10;
-	// Unity.VisualScripting.GraphConnectionCollection`3<Unity.VisualScripting.InvalidConnection,Unity.VisualScripting.IUnitOutputPort,Unity.VisualScripting.IUnitInputPort> Unity.VisualScripting.FlowGraph::<invalidConnections>k__BackingField
-	GraphConnectionCollection_3_tFD3C8D61A881447B28DC931418DAA45AD99856F6* ___U3CinvalidConnectionsU3Ek__BackingField_11;
-	// Unity.VisualScripting.GraphElementCollection`1<Unity.VisualScripting.GraphGroup> Unity.VisualScripting.FlowGraph::<groups>k__BackingField
-	GraphElementCollection_1_t747DBE349EF6196F21B8B0817448722E5570D25A* ___U3CgroupsU3Ek__BackingField_12;
-	// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ControlInputDefinition> Unity.VisualScripting.FlowGraph::<controlInputDefinitions>k__BackingField
-	UnitPortDefinitionCollection_1_t665553142D4490579611ED610240743C22D899F8* ___U3CcontrolInputDefinitionsU3Ek__BackingField_15;
-	// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ControlOutputDefinition> Unity.VisualScripting.FlowGraph::<controlOutputDefinitions>k__BackingField
-	UnitPortDefinitionCollection_1_t198398673C495F7DB8AC3CE26E9DC0B8907E628C* ___U3CcontrolOutputDefinitionsU3Ek__BackingField_16;
-	// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ValueInputDefinition> Unity.VisualScripting.FlowGraph::<valueInputDefinitions>k__BackingField
-	UnitPortDefinitionCollection_1_tED71DF94B48CE1756D3168910761094E5E2CC628* ___U3CvalueInputDefinitionsU3Ek__BackingField_17;
-	// Unity.VisualScripting.UnitPortDefinitionCollection`1<Unity.VisualScripting.ValueOutputDefinition> Unity.VisualScripting.FlowGraph::<valueOutputDefinitions>k__BackingField
-	UnitPortDefinitionCollection_1_t0F8E18D70B3C28BCFF0C4A883CC718FF7CE65347* ___U3CvalueOutputDefinitionsU3Ek__BackingField_18;
-	// System.Action Unity.VisualScripting.FlowGraph::onPortDefinitionsChanged
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPortDefinitionsChanged_19;
 };
 
 // System.Linq.Expressions.FullConditionalExpressionWithType
@@ -30761,37 +30707,6 @@ struct UIRenderDevice_t59628CBA89B4617E832C2B270E1C1A3931D01302_StaticFields
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexFloat_37;
 	// UnityEngine.Texture2D UnityEngine.UIElements.UIR.UIRenderDevice::s_DefaultShaderInfoTexARGB8
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_DefaultShaderInfoTexARGB8_38;
-};
-
-// Unity.VisualScripting.Unit
-struct Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191  : public GraphElement_1_t3220EDD6251B31FC22A192EC12682C1D8B28F16D
-{
-	// System.Boolean Unity.VisualScripting.Unit::<isDefined>k__BackingField
-	bool ___U3CisDefinedU3Ek__BackingField_2;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ControlInput> Unity.VisualScripting.Unit::<controlInputs>k__BackingField
-	RuntimeObject* ___U3CcontrolInputsU3Ek__BackingField_3;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ControlOutput> Unity.VisualScripting.Unit::<controlOutputs>k__BackingField
-	RuntimeObject* ___U3CcontrolOutputsU3Ek__BackingField_4;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ValueInput> Unity.VisualScripting.Unit::<valueInputs>k__BackingField
-	RuntimeObject* ___U3CvalueInputsU3Ek__BackingField_5;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.ValueOutput> Unity.VisualScripting.Unit::<valueOutputs>k__BackingField
-	RuntimeObject* ___U3CvalueOutputsU3Ek__BackingField_6;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.InvalidInput> Unity.VisualScripting.Unit::<invalidInputs>k__BackingField
-	RuntimeObject* ___U3CinvalidInputsU3Ek__BackingField_7;
-	// Unity.VisualScripting.IUnitPortCollection`1<Unity.VisualScripting.InvalidOutput> Unity.VisualScripting.Unit::<invalidOutputs>k__BackingField
-	RuntimeObject* ___U3CinvalidOutputsU3Ek__BackingField_8;
-	// System.Action Unity.VisualScripting.Unit::onPortsChanged
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onPortsChanged_9;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Object> Unity.VisualScripting.Unit::<defaultValues>k__BackingField
-	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___U3CdefaultValuesU3Ek__BackingField_10;
-	// Unity.VisualScripting.IConnectionCollection`3<Unity.VisualScripting.IUnitRelation,Unity.VisualScripting.IUnitPort,Unity.VisualScripting.IUnitPort> Unity.VisualScripting.Unit::<relations>k__BackingField
-	RuntimeObject* ___U3CrelationsU3Ek__BackingField_11;
-	// System.Boolean Unity.VisualScripting.Unit::<isControlRoot>k__BackingField
-	bool ___U3CisControlRootU3Ek__BackingField_12;
-	// UnityEngine.Vector2 Unity.VisualScripting.Unit::<position>k__BackingField
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField_13;
-	// System.Exception Unity.VisualScripting.Unit::<definitionException>k__BackingField
-	Exception_t* ___U3CdefinitionExceptionU3Ek__BackingField_14;
 };
 
 // Mono.Unity.UnityTlsContext
@@ -32125,63 +32040,6 @@ struct U3CReadAsyncU3Ed__40_t26006401CB87E1D5F6C3DD5CE927537D70CF48F4
 	ConfiguredTaskAwaiter_t8FC486401D1951F2426478F2050EE290197B6E80 ___U3CU3Eu__2_11;
 };
 
-// Unity.VisualScripting.MultiInputUnit`1<System.Collections.IDictionary>
-struct MultiInputUnit_1_t6A4BCADE7E3BC7612DEDE5F42988DBC5CD2B96FC  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Int32 Unity.VisualScripting.MultiInputUnit`1::_inputCount
-	int32_t ____inputCount_15;
-	// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ValueInput> Unity.VisualScripting.MultiInputUnit`1::<multiInputs>k__BackingField
-	ReadOnlyCollection_1_t23633718B1ADFA60DD4047E37F4F2D278B8DC3D9* ___U3CmultiInputsU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.MultiInputUnit`1<System.Collections.IEnumerable>
-struct MultiInputUnit_1_t0BDCA05AD1AD5411BE769B60A43E728910380341  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Int32 Unity.VisualScripting.MultiInputUnit`1::_inputCount
-	int32_t ____inputCount_15;
-	// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ValueInput> Unity.VisualScripting.MultiInputUnit`1::<multiInputs>k__BackingField
-	ReadOnlyCollection_1_t23633718B1ADFA60DD4047E37F4F2D278B8DC3D9* ___U3CmultiInputsU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.MultiInputUnit`1<System.Object>
-struct MultiInputUnit_1_tB9D48D3321FD19E1BA7FF317ED13BCABAAA31087  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Int32 Unity.VisualScripting.MultiInputUnit`1::_inputCount
-	int32_t ____inputCount_15;
-	// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ValueInput> Unity.VisualScripting.MultiInputUnit`1::<multiInputs>k__BackingField
-	ReadOnlyCollection_1_t23633718B1ADFA60DD4047E37F4F2D278B8DC3D9* ___U3CmultiInputsU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.SelectUnit`1<System.String>
-struct SelectUnit_1_t28AD2FF34E5B4B81E9EF714029A2EFCA00AC3357  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<T,Unity.VisualScripting.ValueInput>> Unity.VisualScripting.SelectUnit`1::<branches>k__BackingField
-	List_1_tBA3E1CF32BA161953242BCDD5C4616374AEEA41E* ___U3CbranchesU3Ek__BackingField_15;
-	// System.Collections.Generic.List`1<T> Unity.VisualScripting.SelectUnit`1::<options>k__BackingField
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CoptionsU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectUnit`1::<selector>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CselectorU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectUnit`1::<default>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdefaultU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SelectUnit`1::<selection>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CselectionU3Ek__BackingField_19;
-};
-
-// Unity.VisualScripting.SwitchUnit`1<System.String>
-struct SwitchUnit_1_t1B9B7CA7AA71F4FFF9D7E78E76F95757786440EC  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<T,Unity.VisualScripting.ControlOutput>> Unity.VisualScripting.SwitchUnit`1::<branches>k__BackingField
-	List_1_t8BDF31AC066EBE2EFCD4ADCFD029D67210DC406E* ___U3CbranchesU3Ek__BackingField_15;
-	// System.Collections.Generic.List`1<T> Unity.VisualScripting.SwitchUnit`1::<options>k__BackingField
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CoptionsU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.SwitchUnit`1::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SwitchUnit`1::<selector>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CselectorU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.SwitchUnit`1::<default>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CdefaultU3Ek__BackingField_19;
-};
-
 // System.Collections.Generic.ValueListBuilder`1<System.Int32>
 struct ValueListBuilder_1_t6FD822120F40721DF2404D457F44E0620BF20961 
 {
@@ -32193,156 +32051,14 @@ struct ValueListBuilder_1_t6FD822120F40721DF2404D457F44E0620BF20961
 	int32_t ____pos_2;
 };
 
-// Unity.VisualScripting.AddDictionaryItem
-struct AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.AddDictionaryItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.AddDictionaryItem::<dictionaryInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.AddDictionaryItem::<dictionaryOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CdictionaryOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.AddDictionaryItem::<key>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CkeyU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.AddDictionaryItem::<value>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CvalueU3Ek__BackingField_19;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.AddDictionaryItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_20;
-};
-
-// Unity.VisualScripting.AddListItem
-struct AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.AddListItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.AddListItem::<listInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.AddListItem::<listOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.AddListItem::<item>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CitemU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.AddListItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
-};
-
 // UnityEngine.Behaviour
 struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
 
-// Unity.VisualScripting.Break
-struct Break_t3D2F60E4320976EEFFB45FF8EBBDFB851726B498  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Break::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-};
-
-// Unity.VisualScripting.Cache
-struct Cache_tEDAFC8E76C859316C2BE39663F70521C0ECCD021  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Cache::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.Cache::<input>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CinputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.Cache::<output>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CoutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Cache::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.ClearDictionary
-struct ClearDictionary_t1732F7138CD5191170A3CB2E6C1073125819F6FE  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ClearDictionary::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ClearDictionary::<dictionaryInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ClearDictionary::<dictionaryOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CdictionaryOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ClearDictionary::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.ClearList
-struct ClearList_t4783756F6EB1B3F948C1D2C2649882466850FE28  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ClearList::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ClearList::<listInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ClearList::<listOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ClearList::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.CountItems
-struct CountItems_tD5AD0DCB03CB2745FF9CDE9F4936A07BBC841551  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.CountItems::<collection>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CcollectionU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.CountItems::<count>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcountU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.CreateDictionary
-struct CreateDictionary_tA5400BF9DF981E5C4F7FFB92DDA1600AB4B1B907  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.CreateDictionary::<dictionary>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CdictionaryU3Ek__BackingField_15;
-};
-
-// Unity.VisualScripting.CreateStruct
-struct CreateStruct_t8AF5E2C6D1649BB76D9D0D47D5DBE0A42C59D206  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Type Unity.VisualScripting.CreateStruct::<type>k__BackingField
-	Type_t* ___U3CtypeU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.CreateStruct::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.CreateStruct::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.CreateStruct::<output>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CoutputU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.DictionaryContainsKey
-struct DictionaryContainsKey_t8D3F6F88261C7A4D068E324C5ADB8DE204B62AA9  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.DictionaryContainsKey::<dictionary>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.DictionaryContainsKey::<key>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CkeyU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.DictionaryContainsKey::<contains>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcontainsU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.Expose
-struct Expose_t95DD666E9E5241296BE38598F2A106C19E69978D  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Type Unity.VisualScripting.Expose::<type>k__BackingField
-	Type_t* ___U3CtypeU3Ek__BackingField_15;
-	// System.Boolean Unity.VisualScripting.Expose::<instance>k__BackingField
-	bool ___U3CinstanceU3Ek__BackingField_16;
-	// System.Boolean Unity.VisualScripting.Expose::<static>k__BackingField
-	bool ___U3CstaticU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.Expose::<target>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CtargetU3Ek__BackingField_18;
-	// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.ValueOutput,Unity.VisualScripting.Member> Unity.VisualScripting.Expose::<members>k__BackingField
-	Dictionary_2_t6E47C0A00909066F92159943E5FB640B2963D999* ___U3CmembersU3Ek__BackingField_19;
-};
-
 // System.Runtime.InteropServices.ExternalException
 struct ExternalException_t419875A3CD3C551692EDBBC99E4927E69F2E1F4C  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-};
-
-// Unity.VisualScripting.FirstItem
-struct FirstItem_tE99D1D8175EB981776F6C30B782DE14B45B1F8AB  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.FirstItem::<collection>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CcollectionU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.FirstItem::<firstItem>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CfirstItemU3Ek__BackingField_16;
 };
 
 // System.Net.FtpControlStream
@@ -32394,58 +32110,6 @@ struct FtpControlStream_tEB060EF4E06E99909915AE726E1C3098C4F6E888_StaticFields
 	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___s_connectCallbackDelegate_40;
 	// System.AsyncCallback System.Net.FtpControlStream::s_SSLHandshakeCallback
 	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___s_SSLHandshakeCallback_41;
-};
-
-// Unity.VisualScripting.GetDictionaryItem
-struct GetDictionaryItem_tC0D0390DFDD45557F32EBCCF967EDEAA817EBDA0  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.GetDictionaryItem::<dictionary>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.GetDictionaryItem::<key>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CkeyU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.GetDictionaryItem::<value>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CvalueU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.GetListItem
-struct GetListItem_t335C08CD2ACB37C33F6165011F39725B11202CEA  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.GetListItem::<list>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.GetListItem::<index>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CindexU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.GetListItem::<item>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CitemU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.If
-struct If_t1313A652732BEEC0A39ABA971B59F4832927C969  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.If::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.If::<condition>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CconditionU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::<ifTrue>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CifTrueU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.If::<ifFalse>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CifFalseU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.InsertListItem
-struct InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.InsertListItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.InsertListItem::<listInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.InsertListItem::<listOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.InsertListItem::<index>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CindexU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.InsertListItem::<item>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CitemU3Ek__BackingField_19;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.InsertListItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_20;
 };
 
 // System.InvalidOperationException
@@ -32608,37 +32272,6 @@ struct JsonWriterException_tF13EC07A2159B2C5951971D4AED5A195DEBE8AAA  : public J
 	String_t* ___U3CPathU3Ek__BackingField_18;
 };
 
-// Unity.VisualScripting.LastItem
-struct LastItem_t4F3400D86D0B5B6CCE0130EF224BB6646954963A  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.LastItem::<collection>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CcollectionU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.LastItem::<lastItem>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClastItemU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.ListContainsItem
-struct ListContainsItem_tC755BF4717625946A70DFCF2B296B08343692911  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ListContainsItem::<list>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ListContainsItem::<item>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CitemU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ListContainsItem::<contains>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcontainsU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.LoopUnit
-struct LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.LoopUnit::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.LoopUnit::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.LoopUnit::<body>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CbodyU3Ek__BackingField_17;
-};
-
 // Unity.VisualScripting.LudiqScriptableObject
 struct LudiqScriptableObject_t6F4EC66CCD2BE314F06A538F6CB55E5424F64771  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
@@ -32648,78 +32281,11 @@ struct LudiqScriptableObject_t6F4EC66CCD2BE314F06A538F6CB55E5424F64771  : public
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnDestroyActions_5;
 };
 
-// Unity.VisualScripting.MemberUnit
-struct MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.Member Unity.VisualScripting.MemberUnit::<member>k__BackingField
-	Member_tC451ED4AC43F0B8B413D36E5A0D96FFA9B8B48F5* ___U3CmemberU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.MemberUnit::<target>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CtargetU3Ek__BackingField_16;
-};
-
-// Unity.VisualScripting.Once
-struct Once_t1CB7B8E194EFC283E987884F75AAD62B6FAB9B4D  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Once::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Once::<reset>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CresetU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Once::<once>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3ConceU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.Once::<after>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CafterU3Ek__BackingField_18;
-};
-
 // System.Linq.Expressions.OpAssignMethodConversionBinaryExpression
 struct OpAssignMethodConversionBinaryExpression_tC4CC4BA42E9E7E788875378FC641FEDEBD44086F  : public MethodBinaryExpression_tBD5B7CA409065E598C4445C04E391E5BC7E7B71C
 {
 	// System.Linq.Expressions.LambdaExpression System.Linq.Expressions.OpAssignMethodConversionBinaryExpression::_conversion
 	LambdaExpression_tD26FB6AEAD01B2EBB668CDEAFAAFA4948697300E* ____conversion_8;
-};
-
-// Unity.VisualScripting.RemoveDictionaryItem
-struct RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.RemoveDictionaryItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveDictionaryItem::<dictionaryInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.RemoveDictionaryItem::<dictionaryOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CdictionaryOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveDictionaryItem::<key>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CkeyU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.RemoveDictionaryItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
-};
-
-// Unity.VisualScripting.RemoveListItem
-struct RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.RemoveListItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveListItem::<listInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.RemoveListItem::<listOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveListItem::<item>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CitemU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.RemoveListItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
-};
-
-// Unity.VisualScripting.RemoveListItemAt
-struct RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.RemoveListItemAt::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveListItemAt::<listInput>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistInputU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.RemoveListItemAt::<listOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistOutputU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.RemoveListItemAt::<index>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CindexU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.RemoveListItemAt::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
 };
 
 // Microsoft.Win32.SafeHandles.SafeProcessHandle
@@ -32755,99 +32321,6 @@ struct ScopeWithType_tE82C61C8FE4BBFB8C75A6CC55171C50B19ADD639  : public ScopeN_
 {
 	// System.Type System.Linq.Expressions.ScopeWithType::<Type>k__BackingField
 	Type_t* ___U3CTypeU3Ek__BackingField_5;
-};
-
-// Unity.VisualScripting.SelectOnEnum
-struct SelectOnEnum_t6CCA99127D79B78C680BE8CEA3DEBB124CBF7844  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Collections.Generic.Dictionary`2<System.Object,Unity.VisualScripting.ValueInput> Unity.VisualScripting.SelectOnEnum::<branches>k__BackingField
-	Dictionary_2_tBD65E24014B9F7A15F0B95E6C6F47D4DEECE226A* ___U3CbranchesU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectOnEnum::<selector>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CselectorU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SelectOnEnum::<selection>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CselectionU3Ek__BackingField_17;
-	// System.Type Unity.VisualScripting.SelectOnEnum::<enumType>k__BackingField
-	Type_t* ___U3CenumTypeU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.SelectOnFlow
-struct SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Int32 Unity.VisualScripting.SelectOnFlow::_branchCount
-	int32_t ____branchCount_15;
-	// System.Collections.Generic.Dictionary`2<Unity.VisualScripting.ControlInput,Unity.VisualScripting.ValueInput> Unity.VisualScripting.SelectOnFlow::<branches>k__BackingField
-	Dictionary_2_t482039BF0FD6BDA71C0BCE199A8437770DF621B2* ___U3CbranchesU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.SelectOnFlow::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SelectOnFlow::<selection>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CselectionU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.SelectUnit
-struct SelectUnit_t1E4C21D0F93AEB7C84D35BAD1825B1516254A557  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectUnit::<condition>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CconditionU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectUnit::<ifTrue>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CifTrueU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SelectUnit::<ifFalse>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CifFalseU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SelectUnit::<selection>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CselectionU3Ek__BackingField_18;
-};
-
-// Unity.VisualScripting.Sequence
-struct Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Int32 Unity.VisualScripting.Sequence::_outputCount
-	int32_t ____outputCount_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Sequence::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_16;
-	// System.Collections.ObjectModel.ReadOnlyCollection`1<Unity.VisualScripting.ControlOutput> Unity.VisualScripting.Sequence::<multiOutputs>k__BackingField
-	ReadOnlyCollection_1_t64227572BA96CB765C04E8718B8EFD6E5BE5BD4A* ___U3CmultiOutputsU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.SetDictionaryItem
-struct SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.SetDictionaryItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetDictionaryItem::<dictionary>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CdictionaryU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetDictionaryItem::<key>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CkeyU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetDictionaryItem::<value>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CvalueU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.SetDictionaryItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
-};
-
-// Unity.VisualScripting.SetListItem
-struct SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.SetListItem::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetListItem::<list>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClistU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetListItem::<index>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CindexU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetListItem::<item>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CitemU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.SetListItem::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_19;
-};
-
-// Unity.VisualScripting.SwitchOnEnum
-struct SwitchOnEnum_tF595BF785A683D8AF3AC39ACBC04B5880E294845  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Collections.Generic.Dictionary`2<System.Enum,Unity.VisualScripting.ControlOutput> Unity.VisualScripting.SwitchOnEnum::<branches>k__BackingField
-	Dictionary_2_tCB1F29AABD4348607CCF6812DDB76928A03100BF* ___U3CbranchesU3Ek__BackingField_15;
-	// System.Type Unity.VisualScripting.SwitchOnEnum::<enumType>k__BackingField
-	Type_t* ___U3CenumTypeU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.SwitchOnEnum::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SwitchOnEnum::<enum>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CenumU3Ek__BackingField_18;
 };
 
 // TMPro.TMP_Asset
@@ -32966,89 +32439,9 @@ struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859  : public Script
 	Dictionary_2_t5BB0B09C825404C5C7781A7CE8B7D9ADD11A6579* ___m_StyleLookupDictionary_5;
 };
 
-// Unity.VisualScripting.Throw
-struct Throw_t88F5243564953F5ECFA92E8C825A6E974C4841B3  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Boolean Unity.VisualScripting.Throw::<custom>k__BackingField
-	bool ___U3CcustomU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.Throw::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_16;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.Throw::<message>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CmessageU3Ek__BackingField_17;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.Throw::<exception>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CexceptionU3Ek__BackingField_18;
-};
-
 // System.TimeoutException
 struct TimeoutException_t7552449BA7E0911AEA1B6C7D1BEAC6534819305F  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-};
-
-// Unity.VisualScripting.ToggleFlow
-struct ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Boolean Unity.VisualScripting.ToggleFlow::<startOn>k__BackingField
-	bool ___U3CstartOnU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleFlow::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleFlow::<turnOn>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CturnOnU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleFlow::<turnOff>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CturnOffU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleFlow::<toggle>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CtoggleU3Ek__BackingField_19;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleFlow::<exitOn>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitOnU3Ek__BackingField_20;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleFlow::<exitOff>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitOffU3Ek__BackingField_21;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleFlow::<turnedOn>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CturnedOnU3Ek__BackingField_22;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleFlow::<turnedOff>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CturnedOffU3Ek__BackingField_23;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ToggleFlow::<isOn>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CisOnU3Ek__BackingField_24;
-};
-
-// Unity.VisualScripting.ToggleValue
-struct ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// System.Boolean Unity.VisualScripting.ToggleValue::<startOn>k__BackingField
-	bool ___U3CstartOnU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleValue::<turnOn>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CturnOnU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleValue::<turnOff>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CturnOffU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.ToggleValue::<toggle>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CtoggleU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ToggleValue::<onValue>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ConValueU3Ek__BackingField_19;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ToggleValue::<offValue>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CoffValueU3Ek__BackingField_20;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleValue::<turnedOn>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CturnedOnU3Ek__BackingField_21;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.ToggleValue::<turnedOff>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CturnedOffU3Ek__BackingField_22;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ToggleValue::<isOn>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CisOnU3Ek__BackingField_23;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ToggleValue::<value>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CvalueU3Ek__BackingField_24;
-};
-
-// Unity.VisualScripting.TryCatch
-struct TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272  : public Unit_tEFDDF0DAD2C72D6F68E357D3530E23599F7D8191
-{
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.TryCatch::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_15;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.TryCatch::<try>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CtryU3Ek__BackingField_16;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.TryCatch::<catch>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CcatchU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.TryCatch::<finally>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CfinallyU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.TryCatch::<exception>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CexceptionU3Ek__BackingField_19;
-	// System.Type Unity.VisualScripting.TryCatch::<exceptionType>k__BackingField
-	Type_t* ___U3CexceptionTypeU3Ek__BackingField_20;
 };
 
 // TMPro.WordWrapState
@@ -34794,6 +34187,21 @@ struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F
 	int32_t ___m_Count_5;
 };
 
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
+};
+
 // System.ComponentModel.Design.CheckoutException
 struct CheckoutException_t774D33279730A17392AEB757BDDD65E2409E92BB  : public ExternalException_t419875A3CD3C551692EDBBC99E4927E69F2E1F4C
 {
@@ -34805,13 +34213,6 @@ struct CheckoutException_t774D33279730A17392AEB757BDDD65E2409E92BB_StaticFields
 	CheckoutException_t774D33279730A17392AEB757BDDD65E2409E92BB* ___Canceled_18;
 };
 
-// Unity.VisualScripting.CreateList
-struct CreateList_t18FFE98298795CB1165AA9F0D314FD37C8CA4A93  : public MultiInputUnit_1_tB9D48D3321FD19E1BA7FF317ED13BCABAAA31087
-{
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.CreateList::<list>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistU3Ek__BackingField_17;
-};
-
 // Unity.VisualScripting.DictionaryAsset
 struct DictionaryAsset_tB284ECB16D7E639BB80FD6623A5A9F8C0FE0A09D  : public LudiqScriptableObject_t6F4EC66CCD2BE314F06A538F6CB55E5424F64771
 {
@@ -34819,81 +34220,22 @@ struct DictionaryAsset_tB284ECB16D7E639BB80FD6623A5A9F8C0FE0A09D  : public Ludiq
 	Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___U3CdictionaryU3Ek__BackingField_6;
 };
 
-// Unity.VisualScripting.For
-struct For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B  : public LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.For::<firstIndex>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CfirstIndexU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.For::<lastIndex>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3ClastIndexU3Ek__BackingField_19;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.For::<step>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CstepU3Ek__BackingField_20;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.For::<currentIndex>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcurrentIndexU3Ek__BackingField_21;
-};
-
-// Unity.VisualScripting.ForEach
-struct ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B  : public LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C
-{
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.ForEach::<collection>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CcollectionU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ForEach::<currentIndex>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcurrentIndexU3Ek__BackingField_19;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ForEach::<currentKey>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcurrentKeyU3Ek__BackingField_20;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.ForEach::<currentItem>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CcurrentItemU3Ek__BackingField_21;
-	// System.Boolean Unity.VisualScripting.ForEach::<dictionary>k__BackingField
-	bool ___U3CdictionaryU3Ek__BackingField_22;
-};
-
-// Unity.VisualScripting.GetMember
-struct GetMember_t1FC9E82697066DAF317CB2B4E855101CD57FF2F1  : public MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C
-{
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.GetMember::<value>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CvalueU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.InvokeMember
-struct InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F  : public MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C
-{
-	// System.Boolean Unity.VisualScripting.InvokeMember::useExpandedParameters
-	bool ___useExpandedParameters_17;
-	// System.Boolean Unity.VisualScripting.InvokeMember::<chainable>k__BackingField
-	bool ___U3CchainableU3Ek__BackingField_18;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.InvokeMember::<enter>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CenterU3Ek__BackingField_19;
-	// System.Collections.Generic.Dictionary`2<System.Int32,Unity.VisualScripting.ValueInput> Unity.VisualScripting.InvokeMember::<inputParameters>k__BackingField
-	Dictionary_2_tBB3D87E0C1B3CD7B97766852B8427A16B845A61E* ___U3CinputParametersU3Ek__BackingField_20;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.InvokeMember::<targetOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CtargetOutputU3Ek__BackingField_21;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.InvokeMember::<result>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CresultU3Ek__BackingField_22;
-	// System.Collections.Generic.Dictionary`2<System.Int32,Unity.VisualScripting.ValueOutput> Unity.VisualScripting.InvokeMember::<outputParameters>k__BackingField
-	Dictionary_2_t1F52D561AB9DAAE67157554906400DD5A544B902* ___U3CoutputParametersU3Ek__BackingField_23;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.InvokeMember::<exit>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CexitU3Ek__BackingField_24;
-	// System.Int32 Unity.VisualScripting.InvokeMember::parameterCount
-	int32_t ___parameterCount_25;
-};
-
-// Unity.VisualScripting.MergeDictionaries
-struct MergeDictionaries_t037A0870E8CCD1132ADECAFADC077D099EFCCBFB  : public MultiInputUnit_1_t6A4BCADE7E3BC7612DEDE5F42988DBC5CD2B96FC
-{
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.MergeDictionaries::<dictionary>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CdictionaryU3Ek__BackingField_17;
-};
-
-// Unity.VisualScripting.MergeLists
-struct MergeLists_t1B76D51289E55B4C1D304C46919A02C87FA05B0C  : public MultiInputUnit_1_t0BDCA05AD1AD5411BE769B60A43E728910380341
-{
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.MergeLists::<list>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3ClistU3Ek__BackingField_17;
-};
-
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
+};
+
+// UnityEngine.ReflectionProbe
+struct ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+struct ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_StaticFields
+{
+	// System.Action`2<UnityEngine.ReflectionProbe,UnityEngine.ReflectionProbe/ReflectionProbeEvent> UnityEngine.ReflectionProbe::reflectionProbeChanged
+	Action_2_tECD5D9B0D67D486B802E231F6C4D4B0870A6FE72* ___reflectionProbeChanged_4;
+	// System.Action`1<UnityEngine.Texture> UnityEngine.ReflectionProbe::defaultReflectionTexture
+	Action_1_t29B51564E49F5100689191ED6A9BFFC2081294EB* ___defaultReflectionTexture_5;
 };
 
 // System.Text.RegularExpressions.RegexFCD
@@ -34975,37 +34317,6 @@ struct RegexWriter_t618A9F9480E99C224DE6D93EEFED48EF0CEFAB12_marshaled_com
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____stringTable_3;
 	Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* ____caps_4;
 	int32_t ____trackCount_5;
-};
-
-// Unity.VisualScripting.SelectOnString
-struct SelectOnString_t524E366187086484D3D45B6E77BB99DE1D639292  : public SelectUnit_1_t28AD2FF34E5B4B81E9EF714029A2EFCA00AC3357
-{
-	// System.Boolean Unity.VisualScripting.SelectOnString::<ignoreCase>k__BackingField
-	bool ___U3CignoreCaseU3Ek__BackingField_20;
-};
-
-// Unity.VisualScripting.SetMember
-struct SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B  : public MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C
-{
-	// System.Boolean Unity.VisualScripting.SetMember::<chainable>k__BackingField
-	bool ___U3CchainableU3Ek__BackingField_17;
-	// Unity.VisualScripting.ControlInput Unity.VisualScripting.SetMember::<assign>k__BackingField
-	ControlInput_t1AD434958538C865F55A62C66B9C24DA82AD31FE* ___U3CassignU3Ek__BackingField_18;
-	// Unity.VisualScripting.ValueInput Unity.VisualScripting.SetMember::<input>k__BackingField
-	ValueInput_t2F9A2AA29F683A1C27C273BF8AABA4C2D9851392* ___U3CinputU3Ek__BackingField_19;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SetMember::<output>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CoutputU3Ek__BackingField_20;
-	// Unity.VisualScripting.ValueOutput Unity.VisualScripting.SetMember::<targetOutput>k__BackingField
-	ValueOutput_tADDC9DBF6515A1572E876C3881B5F110DC5EBE1B* ___U3CtargetOutputU3Ek__BackingField_21;
-	// Unity.VisualScripting.ControlOutput Unity.VisualScripting.SetMember::<assigned>k__BackingField
-	ControlOutput_t478B71A736EFBCE24B532F0279A9E701C9CDD8B9* ___U3CassignedU3Ek__BackingField_22;
-};
-
-// Unity.VisualScripting.SwitchOnString
-struct SwitchOnString_t30FF241708FC4608B357114CF2CBED5B66A6B332  : public SwitchUnit_1_t1B9B7CA7AA71F4FFF9D7E78E76F95757786440EC
-{
-	// System.Boolean Unity.VisualScripting.SwitchOnString::<ignoreCase>k__BackingField
-	bool ___U3CignoreCaseU3Ek__BackingField_20;
 };
 
 // TMPro.TMP_FontAsset
@@ -42035,249 +41346,168 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5901[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5904[1] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t04635BCB4D7C7C21D10547072BD307E80F347DD3_StaticFields, ___1C3635C112D556F4C11A4FE6BDE6ED3F126C4B2B546811BDB64DE7BDED3A05CB_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5911[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5908[3] = 
 {
-	0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5912[3] = 
+	static_cast<int32_t>(offsetof(MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C_StaticFields, ___FloatMinNormal_0)),static_cast<int32_t>(offsetof(MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C_StaticFields, ___FloatMinDenormal_1)),static_cast<int32_t>(offsetof(MathfInternal_t27434D3DAEB0E34640418CF76AA9A06D6D0D7F7C_StaticFields, ___IsFlushToZeroEnabled_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5909[5] = 
 {
-	static_cast<int32_t>(offsetof(UnitConnectionDebugData_t234BD82F4664E0EF5B837522DCED9C3CA886E35E, ___U3ClastInvokeFrameU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(UnitConnectionDebugData_t234BD82F4664E0EF5B837522DCED9C3CA886E35E, ___U3ClastInvokeTimeU3Ek__BackingField_1)),static_cast<int32_t>(offsetof(UnitConnectionDebugData_t234BD82F4664E0EF5B837522DCED9C3CA886E35E, ___U3CruntimeExceptionU3Ek__BackingField_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5913[2] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5910[1] = 
 {
-	static_cast<int32_t>(offsetof(UnitRelation_tFB91F0AFF5915A3537394C63DD985F4922DE79FE, ___U3CsourceU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(UnitRelation_tFB91F0AFF5915A3537394C63DD985F4922DE79FE, ___U3CdestinationU3Ek__BackingField_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5914[2] = 
+	static_cast<int32_t>(offsetof(TypeInferenceRuleAttribute_t39AE4844222814241F6C40EDFFA93F5F3B7D1CFE, ____rule_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5912[1] = 
 {
-	static_cast<int32_t>(offsetof(DebugData_tEDCDDD8D4C175DDD37DF85AB542E754C176D2C6E, ___U3ClastValueU3Ek__BackingField_3)),static_cast<int32_t>(offsetof(DebugData_tEDCDDD8D4C175DDD37DF85AB542E754C176D2C6E, ___U3CassignedLastValueU3Ek__BackingField_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5916[1] = 
+	static_cast<int32_t>(offsetof(ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC, ___m_CategoryId_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5913[1] = 
 {
-	static_cast<int32_t>(offsetof(PortKeyAttribute_t6CAC1470A88674057F06D7CD3AC1B9BB241BFD2E, ___U3CkeyU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5917[2] = 
+	static_cast<int32_t>(offsetof(AutoScope_tFB983697E28885CB10FFDB92D7EFD0615AEF3139, ___m_Ptr_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5914[1] = 
 {
-	static_cast<int32_t>(offsetof(PortLabelAttribute_t8B0F19314F88B411142A55F2FD658A37F1ACC648, ___U3ClabelU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(PortLabelAttribute_t8B0F19314F88B411142A55F2FD658A37F1ACC648, ___U3ChiddenU3Ek__BackingField_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5920[4] = 
+	static_cast<int32_t>(offsetof(ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD, ___m_Ptr_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5915[7] = 
 {
-	static_cast<int32_t>(offsetof(UnitFooterPortsAttribute_tE6C73C0FDDDEC7C3614E99C02232B67F704143E6, ___U3CControlInputsU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(UnitFooterPortsAttribute_tE6C73C0FDDDEC7C3614E99C02232B67F704143E6, ___U3CControlOutputsU3Ek__BackingField_1)),static_cast<int32_t>(offsetof(UnitFooterPortsAttribute_tE6C73C0FDDDEC7C3614E99C02232B67F704143E6, ___U3CValueInputsU3Ek__BackingField_2)),static_cast<int32_t>(offsetof(UnitFooterPortsAttribute_tE6C73C0FDDDEC7C3614E99C02232B67F704143E6, ___U3CValueOutputsU3Ek__BackingField_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5921[1] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5916[4] = 
 {
-	static_cast<int32_t>(offsetof(UnitHeaderInspectableAttribute_tCAC9EE3696253ECBC4D8B1989ACA149991342ADD, ___U3ClabelU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5922[1] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5917[9] = 
 {
-	static_cast<int32_t>(offsetof(UnitOrderAttribute_t734FB55A57CDF6D2F1AEFDCDAF693B945A102F85, ___U3CorderU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5923[1] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5918[5] = 
 {
-	static_cast<int32_t>(offsetof(UnitShortTitleAttribute_t629390495C52996A6EA3E8C3A59560B4363E329D, ___U3CtitleU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5924[1] = 
+	static_cast<int32_t>(offsetof(ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2, ___Type_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2, ___reserved0_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2, ___reserved1_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2, ___Size_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerMarkerData_tC01B15D61B904B700E4DE1FFB3452F2C5C2789A2, ___Ptr_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5919[6] = 
 {
-	static_cast<int32_t>(offsetof(UnitSubtitleAttribute_t6E9BEBC4B9208921DC9E249EC95DD893D10BF301, ___U3CsubtitleU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5925[1] = 
+	static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___Id_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___Flags_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___Color_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___reserved0_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___NameUtf8Len_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(ProfilerCategoryDescription_t95156934408507201B3A69E71BE15975ACDDED28, ___NameUtf8_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5921[2] = 
 {
-	static_cast<int32_t>(offsetof(UnitSurtitleAttribute_t86C0374D97A4D337FC9D85E9CFD66FD03A90C8F1, ___U3CsurtitleU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5926[1] = 
+	static_cast<int32_t>(offsetof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, ___jobGroup_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, ___version_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5923[3] = 
 {
-	static_cast<int32_t>(offsetof(UnitTitleAttribute_tC9669628044A2EA49D0CF3EB5E362EBEEF11D3CA, ___U3CtitleU3Ek__BackingField_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5927[2] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5924[10] = 
 {
-	static_cast<int32_t>(offsetof(RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707, ___U3CportU3Ek__BackingField_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RecursionNode_t0C46AE9F2D87E73EC9D98C4251B9AFFC0B1E7707, ___U3CcontextU3Ek__BackingField_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5928[2] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5925[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_tECD449A8844A978FE77F808D477BCC470E1A43C5_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tECD449A8844A978FE77F808D477BCC470E1A43C5_StaticFields, ___U3CU3E9__35_0_1)),};
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5926[7] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5927[3] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5928[15] = 
+{
+	static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CAssetNameU3Ek__BackingField_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CFileNameU3Ek__BackingField_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3COffsetBytesU3Ek__BackingField_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CSizeBytesU3Ek__BackingField_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CAssetTypeIdU3Ek__BackingField_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CCurrentBytesReadU3Ek__BackingField_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CBatchReadCountU3Ek__BackingField_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CIsBatchReadU3Ek__BackingField_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CStateU3Ek__BackingField_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CReadTypeU3Ek__BackingField_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CPriorityLevelU3Ek__BackingField_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CSubsystemU3Ek__BackingField_11)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CRequestTimeMicrosecondsU3Ek__BackingField_12)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CTimeInQueueMicrosecondsU3Ek__BackingField_13)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(AsyncReadManagerRequestMetric_t41C6C9C513C5E798C5D4A9BD4A04216D42458B13, ___U3CTotalTimeMicrosecondsU3Ek__BackingField_14)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5929[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD, ___startPort_3)),static_cast<int32_t>(offsetof(U3CCoroutineU3Ed__53_t30C459AE93C09F60A8489DCC3B5D9B6C11C055AD, ___U3CU3E7__wrap1_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5930[9] = 
+	static_cast<int32_t>(offsetof(AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626, ___TypeIDs_0)),static_cast<int32_t>(offsetof(AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626, ___States_1)),static_cast<int32_t>(offsetof(AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626, ___ReadTypes_2)),static_cast<int32_t>(offsetof(AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626, ___PriorityLevels_3)),static_cast<int32_t>(offsetof(AsyncReadManagerMetricsFilters_t8345AB04A9736805407C88046E48E05CE9CEB626, ___Subsystems_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5936[7] = 
 {
-	static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3El__initialThreadId_2)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___output_3)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E3__output_4)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E4__this_5)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CrecursionNodeU3E5__2_6)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E7__wrap2_7)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineU3Ed__55_t2B5EFB2D3F5264329324E858378C47CE515BAAD6, ___U3CU3E7__wrap3_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5931[7] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5937[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CU3El__initialThreadId_2)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___input_3)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CU3E3__input_4)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CU3E4__this_5)),static_cast<int32_t>(offsetof(U3CInvokeCoroutineDelegateU3Ed__59_t2B418DE445022574CF6735BE89F1D179B0D83F6E, ___U3CinstructionsU3E5__2_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5932[15] = 
+	static_cast<int32_t>(offsetof(NativeLeakDetection_tACCD9D3F33775DC7E32FC91C422A424DCA4A5946_StaticFields, ___s_NativeLeakDetectionMode_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5938[3] = 
 {
-	static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___U3CstackU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___recursion_1)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___locals_2)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___variables_3)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___loops_4)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___preservedStacks_5)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___U3CcoroutineRunnerU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___activeCoroutinesRegistry_7)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___coroutineStopRequested_8)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___U3CisCoroutineU3Ek__BackingField_9)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___coroutineEnumerator_10)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___U3CisPredictionU3Ek__BackingField_11)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___disposed_12)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582_StaticFields, ___U3CisInspectedBindingU3Ek__BackingField_13)),static_cast<int32_t>(offsetof(Flow_tC370BDFF173D53E274F883ED6ADAFE29B049C582, ___loopIdentifier_14)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5933[2] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass9_0_t34764FB6D8D7A76D3AAA94A685DAB0725B406AAB, ___kind_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass9_0_t34764FB6D8D7A76D3AAA94A685DAB0725B406AAB, ___reference_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5934[5] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields, ___U3CU3E9__9_2_1)),static_cast<int32_t>(offsetof(U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields, ___U3CU3E9__9_3_2)),static_cast<int32_t>(offsetof(U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields, ___U3CU3E9__49_0_3)),static_cast<int32_t>(offsetof(U3CU3Ec_tE547E87118374F8F69B2DCB3F844192FF933CB82_StaticFields, ___U3CU3E9__49_1_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5935[13] = 
-{
-	static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CvariablesU3Ek__BackingField_7)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CunitsU3Ek__BackingField_8)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CcontrolConnectionsU3Ek__BackingField_9)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CvalueConnectionsU3Ek__BackingField_10)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CinvalidConnectionsU3Ek__BackingField_11)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CgroupsU3Ek__BackingField_12)),0,0,static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CcontrolInputDefinitionsU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CcontrolOutputDefinitionsU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CvalueInputDefinitionsU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___U3CvalueOutputDefinitionsU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(FlowGraph_tF9E42FECF535CD5BAB10F75672B5BCE285627A45, ___onPortDefinitionsChanged_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5936[2] = 
-{
-	static_cast<int32_t>(offsetof(FlowGraphData_t6FD5C16241A7A456BB81208D03A8246EA1ED668F, ___U3CvariablesU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(FlowGraphData_t6FD5C16241A7A456BB81208D03A8246EA1ED668F, ___U3CisListeningU3Ek__BackingField_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5937[4] = 
-{
-	static_cast<int32_t>(offsetof(CreateStruct_t8AF5E2C6D1649BB76D9D0D47D5DBE0A42C59D206, ___U3CtypeU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(CreateStruct_t8AF5E2C6D1649BB76D9D0D47D5DBE0A42C59D206, ___U3CenterU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(CreateStruct_t8AF5E2C6D1649BB76D9D0D47D5DBE0A42C59D206, ___U3CexitU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(CreateStruct_t8AF5E2C6D1649BB76D9D0D47D5DBE0A42C59D206, ___U3CoutputU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5938[5] = 
-{
-	static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6, ___U3CU3El__initialThreadId_2)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6, ___U3CU3E4__this_3)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__24_t3B6CA1C0A3C3DC7E52B5963AC8A44BB6AB96CBA6, ___U3CU3E7__wrap1_4)),};
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5939[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass25_0_t75BF43F7ABB06DCFDB023C29793E66E8470D4A30, ___member_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass25_0_t75BF43F7ABB06DCFDB023C29793E66E8470D4A30, ___U3CU3E4__this_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5940[5] = 
+	0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5940[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields, ___U3CU3E9__25_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields, ___U3CU3E9__25_2_2)),static_cast<int32_t>(offsetof(U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields, ___U3CU3E9__25_3_3)),static_cast<int32_t>(offsetof(U3CU3Ec_tF87925F3DF09C6431DCD3EC924294C282061FD97_StaticFields, ___U3CU3E9__25_4_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5941[5] = 
+	0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5943[2] = 
 {
-	static_cast<int32_t>(offsetof(Expose_t95DD666E9E5241296BE38598F2A106C19E69978D, ___U3CtypeU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(Expose_t95DD666E9E5241296BE38598F2A106C19E69978D, ___U3CinstanceU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(Expose_t95DD666E9E5241296BE38598F2A106C19E69978D, ___U3CstaticU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(Expose_t95DD666E9E5241296BE38598F2A106C19E69978D, ___U3CtargetU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(Expose_t95DD666E9E5241296BE38598F2A106C19E69978D, ___U3CmembersU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5942[1] = 
+	0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5944[3] = 
 {
-	static_cast<int32_t>(offsetof(GetMember_t1FC9E82697066DAF317CB2B4E855101CD57FF2F1, ___U3CvalueU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5943[9] = 
+	0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5960[2] = 
 {
-	static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___useExpandedParameters_17)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CchainableU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CenterU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CinputParametersU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CtargetOutputU3Ek__BackingField_21)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CresultU3Ek__BackingField_22)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CoutputParametersU3Ek__BackingField_23)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___U3CexitU3Ek__BackingField_24)),static_cast<int32_t>(offsetof(InvokeMember_t12A220ACB90CE0D08583638A869A3263DE3B851F, ___parameterCount_25)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5944[4] = 
+	0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5964[2] = 
 {
-	static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__15_t2E9560B8ABAE52CA5F7D5BD3FC4ECB38A9D845F4, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__15_t2E9560B8ABAE52CA5F7D5BD3FC4ECB38A9D845F4, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__15_t2E9560B8ABAE52CA5F7D5BD3FC4ECB38A9D845F4, ___U3CU3El__initialThreadId_2)),static_cast<int32_t>(offsetof(U3CGetAotStubsU3Ed__15_t2E9560B8ABAE52CA5F7D5BD3FC4ECB38A9D845F4, ___U3CU3E4__this_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5945[2] = 
+	static_cast<int32_t>(offsetof(UsedImplicitlyAttribute_t946B34060EC17A9CFDBFBDA5A8B934CC0042F2CC, ___U3CUseKindFlagsU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(UsedImplicitlyAttribute_t946B34060EC17A9CFDBFBDA5A8B934CC0042F2CC, ___U3CTargetFlagsU3Ek__BackingField_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5965[6] = 
 {
-	static_cast<int32_t>(offsetof(MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C, ___U3CmemberU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(MemberUnit_t89D73BBBF195E9A32884BF5BC7B910F3E529F84C, ___U3CtargetU3Ek__BackingField_16)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5946[6] = 
-{
-	static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CchainableU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CassignU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CinputU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CoutputU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CtargetOutputU3Ek__BackingField_21)),static_cast<int32_t>(offsetof(SetMember_t23BCBDFA0F5AEE2DDA21D07B667F2B6D93C6616B, ___U3CassignedU3Ek__BackingField_22)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5947[2] = 
-{
-	static_cast<int32_t>(offsetof(CountItems_tD5AD0DCB03CB2745FF9CDE9F4936A07BBC841551, ___U3CcollectionU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(CountItems_tD5AD0DCB03CB2745FF9CDE9F4936A07BBC841551, ___U3CcountU3Ek__BackingField_16)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5948[6] = 
-{
-	static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CdictionaryInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CdictionaryOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CkeyU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CvalueU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(AddDictionaryItem_tD95C54A0B60D155954F83DC831E6A378E72DA3A9, ___U3CexitU3Ek__BackingField_20)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5949[4] = 
-{
-	static_cast<int32_t>(offsetof(ClearDictionary_t1732F7138CD5191170A3CB2E6C1073125819F6FE, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(ClearDictionary_t1732F7138CD5191170A3CB2E6C1073125819F6FE, ___U3CdictionaryInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(ClearDictionary_t1732F7138CD5191170A3CB2E6C1073125819F6FE, ___U3CdictionaryOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(ClearDictionary_t1732F7138CD5191170A3CB2E6C1073125819F6FE, ___U3CexitU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5950[1] = 
-{
-	static_cast<int32_t>(offsetof(CreateDictionary_tA5400BF9DF981E5C4F7FFB92DDA1600AB4B1B907, ___U3CdictionaryU3Ek__BackingField_15)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5951[3] = 
-{
-	static_cast<int32_t>(offsetof(DictionaryContainsKey_t8D3F6F88261C7A4D068E324C5ADB8DE204B62AA9, ___U3CdictionaryU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(DictionaryContainsKey_t8D3F6F88261C7A4D068E324C5ADB8DE204B62AA9, ___U3CkeyU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(DictionaryContainsKey_t8D3F6F88261C7A4D068E324C5ADB8DE204B62AA9, ___U3CcontainsU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5952[3] = 
-{
-	static_cast<int32_t>(offsetof(GetDictionaryItem_tC0D0390DFDD45557F32EBCCF967EDEAA817EBDA0, ___U3CdictionaryU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(GetDictionaryItem_tC0D0390DFDD45557F32EBCCF967EDEAA817EBDA0, ___U3CkeyU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(GetDictionaryItem_tC0D0390DFDD45557F32EBCCF967EDEAA817EBDA0, ___U3CvalueU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5953[1] = 
-{
-	static_cast<int32_t>(offsetof(MergeDictionaries_t037A0870E8CCD1132ADECAFADC077D099EFCCBFB, ___U3CdictionaryU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5954[5] = 
-{
-	static_cast<int32_t>(offsetof(RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025, ___U3CdictionaryInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025, ___U3CdictionaryOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025, ___U3CkeyU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(RemoveDictionaryItem_t782305F0CF3F64DDECC11D691B8920A925BF2025, ___U3CexitU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5955[5] = 
-{
-	static_cast<int32_t>(offsetof(SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1, ___U3CdictionaryU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1, ___U3CkeyU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1, ___U3CvalueU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(SetDictionaryItem_tD0600B2D5CB254101F5424D6A579D759E62C96F1, ___U3CexitU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5956[2] = 
-{
-	static_cast<int32_t>(offsetof(FirstItem_tE99D1D8175EB981776F6C30B782DE14B45B1F8AB, ___U3CcollectionU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(FirstItem_tE99D1D8175EB981776F6C30B782DE14B45B1F8AB, ___U3CfirstItemU3Ek__BackingField_16)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5957[2] = 
-{
-	static_cast<int32_t>(offsetof(LastItem_t4F3400D86D0B5B6CCE0130EF224BB6646954963A, ___U3CcollectionU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(LastItem_t4F3400D86D0B5B6CCE0130EF224BB6646954963A, ___U3ClastItemU3Ek__BackingField_16)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5958[5] = 
-{
-	static_cast<int32_t>(offsetof(AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6, ___U3ClistInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6, ___U3ClistOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6, ___U3CitemU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(AddListItem_tF421B182D08DF549181235E24EB1998B0DEE63B6, ___U3CexitU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5959[4] = 
-{
-	static_cast<int32_t>(offsetof(ClearList_t4783756F6EB1B3F948C1D2C2649882466850FE28, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(ClearList_t4783756F6EB1B3F948C1D2C2649882466850FE28, ___U3ClistInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(ClearList_t4783756F6EB1B3F948C1D2C2649882466850FE28, ___U3ClistOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(ClearList_t4783756F6EB1B3F948C1D2C2649882466850FE28, ___U3CexitU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5960[1] = 
-{
-	static_cast<int32_t>(offsetof(CreateList_t18FFE98298795CB1165AA9F0D314FD37C8CA4A93, ___U3ClistU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5961[3] = 
-{
-	static_cast<int32_t>(offsetof(GetListItem_t335C08CD2ACB37C33F6165011F39725B11202CEA, ___U3ClistU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(GetListItem_t335C08CD2ACB37C33F6165011F39725B11202CEA, ___U3CindexU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(GetListItem_t335C08CD2ACB37C33F6165011F39725B11202CEA, ___U3CitemU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5962[6] = 
-{
-	static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3ClistInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3ClistOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3CindexU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3CitemU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(InsertListItem_tA533BDAC6BD981D086C40734E494BCA9C9D8553D, ___U3CexitU3Ek__BackingField_20)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5963[3] = 
-{
-	static_cast<int32_t>(offsetof(ListContainsItem_tC755BF4717625946A70DFCF2B296B08343692911, ___U3ClistU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(ListContainsItem_tC755BF4717625946A70DFCF2B296B08343692911, ___U3CitemU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(ListContainsItem_tC755BF4717625946A70DFCF2B296B08343692911, ___U3CcontainsU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5964[1] = 
-{
-	static_cast<int32_t>(offsetof(MergeLists_t1B76D51289E55B4C1D304C46919A02C87FA05B0C, ___U3ClistU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5965[5] = 
-{
-	static_cast<int32_t>(offsetof(RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB, ___U3ClistInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB, ___U3ClistOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB, ___U3CitemU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(RemoveListItem_t600E420BDCD43CA760F47244AC295FE44C406FEB, ___U3CexitU3Ek__BackingField_19)),};
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5966[5] = 
 {
-	static_cast<int32_t>(offsetof(RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E, ___U3ClistInputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E, ___U3ClistOutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E, ___U3CindexU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(RemoveListItemAt_t6AB569290867330852C20846D25637A72EF2665E, ___U3CexitU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5967[5] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5969[3] = 
 {
-	static_cast<int32_t>(offsetof(SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B, ___U3ClistU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B, ___U3CindexU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B, ___U3CitemU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(SetListItem_tC659310AC7B33F3F04FC61EAC1BC1CA1F8E6041B, ___U3CexitU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5968[1] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5970[7] = 
 {
-	static_cast<int32_t>(offsetof(Break_t3D2F60E4320976EEFFB45FF8EBBDFB851726B498, ___U3CenterU3Ek__BackingField_15)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5969[4] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5971[3] = 
 {
-	static_cast<int32_t>(offsetof(Cache_tEDAFC8E76C859316C2BE39663F70521C0ECCD021, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(Cache_tEDAFC8E76C859316C2BE39663F70521C0ECCD021, ___U3CinputU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(Cache_tEDAFC8E76C859316C2BE39663F70521C0ECCD021, ___U3CoutputU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(Cache_tEDAFC8E76C859316C2BE39663F70521C0ECCD021, ___U3CexitU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5970[9] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[48] = 
 {
-	static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___flow_3)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CloopU3E5__2_4)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CcurrentIndexU3E5__3_5)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3ClastIndexU3E5__4_6)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CascendingU3E5__5_7)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__21_t3EEFA5ECAB1EC7E381D22278F72D65121597A591, ___U3CstackU3E5__6_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5971[4] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5973[44] = 
 {
-	static_cast<int32_t>(offsetof(For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B, ___U3CfirstIndexU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B, ___U3ClastIndexU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B, ___U3CstepU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(For_tFC9C53F784BBCA64B8AFB3D099ECC2A0152A564B, ___U3CcurrentIndexU3Ek__BackingField_21)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[9] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5974[6] = 
 {
-	static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___flow_3)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CloopU3E5__2_4)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CenumeratorU3E5__3_5)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CdictionaryEnumeratorU3E5__4_6)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CcurrentIndexU3E5__5_7)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__24_t59D8F6991927634FAFDDEEC09E39CC7E3C34DC0E, ___U3CstackU3E5__6_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5973[5] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5975[3] = 
 {
-	static_cast<int32_t>(offsetof(ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B, ___U3CcollectionU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B, ___U3CcurrentIndexU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B, ___U3CcurrentKeyU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B, ___U3CcurrentItemU3Ek__BackingField_21)),static_cast<int32_t>(offsetof(ForEach_t156043EE02CC3B1D334723F22F2EE2467154EC2B, ___U3CdictionaryU3Ek__BackingField_22)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[4] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[1] = 
 {
-	static_cast<int32_t>(offsetof(If_t1313A652732BEEC0A39ABA971B59F4832927C969, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(If_t1313A652732BEEC0A39ABA971B59F4832927C969, ___U3CconditionU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(If_t1313A652732BEEC0A39ABA971B59F4832927C969, ___U3CifTrueU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(If_t1313A652732BEEC0A39ABA971B59F4832927C969, ___U3CifFalseU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[3] = 
+	static_cast<int32_t>(offsetof(SortingLayer_tB4F4D4E2CE652DB0881CDAB9E329DE9833C2B9C3, ___m_Id_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[7] = 
 {
-	static_cast<int32_t>(offsetof(LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C, ___U3CexitU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(LoopUnit_t3EB221FAA1A6CB3374C3354793BE64C997BB951C, ___U3CbodyU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5978[1] = 
+	static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_Time_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_Value_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_InTangent_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_OutTangent_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_WeightedMode_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_InWeight_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Keyframe_tB9C67DCBFE10C0AE9C52CB5C66E944255C9254F0, ___m_OutWeight_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5978[7] = 
 {
-	static_cast<int32_t>(offsetof(Data_tF4DEB3BC069CDEDD7E866685A35F00CFE930586E, ___executed_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5979[4] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5979[1] = 
 {
-	static_cast<int32_t>(offsetof(Once_t1CB7B8E194EFC283E987884F75AAD62B6FAB9B4D, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(Once_t1CB7B8E194EFC283E987884F75AAD62B6FAB9B4D, ___U3CresetU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(Once_t1CB7B8E194EFC283E987884F75AAD62B6FAB9B4D, ___U3ConceU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(Once_t1CB7B8E194EFC283E987884F75AAD62B6FAB9B4D, ___U3CafterU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5980[4] = 
+	static_cast<int32_t>(offsetof(AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354, ___m_Ptr_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[8] = 
 {
-	static_cast<int32_t>(offsetof(SelectOnEnum_t6CCA99127D79B78C680BE8CEA3DEBB124CBF7844, ___U3CbranchesU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(SelectOnEnum_t6CCA99127D79B78C680BE8CEA3DEBB124CBF7844, ___U3CselectorU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SelectOnEnum_t6CCA99127D79B78C680BE8CEA3DEBB124CBF7844, ___U3CselectionU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SelectOnEnum_t6CCA99127D79B78C680BE8CEA3DEBB124CBF7844, ___U3CenumTypeU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5981[2] = 
+	static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___lowMemory_0)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___s_LogCallbackHandler_1)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___s_LogCallbackHandlerThreaded_2)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___focusChanged_3)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___deepLinkActivated_4)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___wantsToQuit_5)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___quitting_6)),static_cast<int32_t>(offsetof(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_StaticFields, ___unloading_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass16_0_t5BB885553FEBF80853495627FCFB591C49FCD263, ___branchValue_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass16_0_t5BB885553FEBF80853495627FCFB591C49FCD263, ___U3CU3E4__this_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[4] = 
+	static_cast<int32_t>(offsetof(BootConfigData_tCD60A463C9C4303D9A7205910F391759BAEFFE23, ___m_Ptr_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[2] = 
 {
-	static_cast<int32_t>(offsetof(SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48, ____branchCount_15)),static_cast<int32_t>(offsetof(SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48, ___U3CbranchesU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48, ___U3CexitU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SelectOnFlow_t106841938A1836EF24AEF3FAAF02B2066B372F48, ___U3CselectionU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[1] = 
+	static_cast<int32_t>(offsetof(CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91, ___m_Name_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(CachedAssetBundle_t5C0C1D8D8AAF7DDC3D3CF7D81BBF581A89819E91, ___m_Hash_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5985[1] = 
 {
-	static_cast<int32_t>(offsetof(SelectOnString_t524E366187086484D3D45B6E77BB99DE1D639292, ___U3CignoreCaseU3Ek__BackingField_20)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5985[4] = 
+	static_cast<int32_t>(offsetof(Cache_tDD95655F2F9684598FD7B95827D4F6AD3134CBBC, ___m_Handle_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[3] = 
 {
-	static_cast<int32_t>(offsetof(SelectUnit_t1E4C21D0F93AEB7C84D35BAD1825B1516254A557, ___U3CconditionU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(SelectUnit_t1E4C21D0F93AEB7C84D35BAD1825B1516254A557, ___U3CifTrueU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SelectUnit_t1E4C21D0F93AEB7C84D35BAD1825B1516254A557, ___U3CifFalseU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SelectUnit_t1E4C21D0F93AEB7C84D35BAD1825B1516254A557, ___U3CselectionU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[5] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5988[4] = 
 {
-	0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[6] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[15] = 
 {
-	static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___flow_2)),static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___U3CU3E4__this_3)),static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___U3CstackU3E5__2_4)),static_cast<int32_t>(offsetof(U3CEnterCoroutineU3Ed__14_t7C9390ED9E22E1578151139E050F187DDCB3DE83, ___U3CU3E7__wrap2_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5988[3] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5990[11] = 
 {
-	static_cast<int32_t>(offsetof(Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A, ____outputCount_15)),static_cast<int32_t>(offsetof(Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A, ___U3CenterU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(Sequence_tBEBE0F9B4C022B99745BEA7EA9C7C500FD29EC0A, ___U3CmultiOutputsU3Ek__BackingField_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[4] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[3] = 
 {
-	static_cast<int32_t>(offsetof(SwitchOnEnum_tF595BF785A683D8AF3AC39ACBC04B5880E294845, ___U3CbranchesU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(SwitchOnEnum_tF595BF785A683D8AF3AC39ACBC04B5880E294845, ___U3CenumTypeU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(SwitchOnEnum_tF595BF785A683D8AF3AC39ACBC04B5880E294845, ___U3CenterU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(SwitchOnEnum_tF595BF785A683D8AF3AC39ACBC04B5880E294845, ___U3CenumU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[1] = 
+	static_cast<int32_t>(offsetof(RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A, ___m_CameraRenderMode_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A, ___m_ResultRT_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(RenderRequest_t432931B06439AC4704282E924DE8A9A474DB6B9A, ___m_OutputSpace_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[3] = 
 {
-	static_cast<int32_t>(offsetof(SwitchOnString_t30FF241708FC4608B357114CF2CBED5B66A6B332, ___U3CignoreCaseU3Ek__BackingField_20)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[5] = 
+	static_cast<int32_t>(offsetof(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields, ___onPreCull_4)),static_cast<int32_t>(offsetof(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields, ___onPreRender_5)),static_cast<int32_t>(offsetof(Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields, ___onPostRender_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[3] = 
 {
-	0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[4] = 
+	static_cast<int32_t>(offsetof(CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110, ___m_Index_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110, ___m_PrevState_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110, ___m_ThisState_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[2] = 
 {
-	static_cast<int32_t>(offsetof(Throw_t88F5243564953F5ECFA92E8C825A6E974C4841B3, ___U3CcustomU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(Throw_t88F5243564953F5ECFA92E8C825A6E974C4841B3, ___U3CenterU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(Throw_t88F5243564953F5ECFA92E8C825A6E974C4841B3, ___U3CmessageU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(Throw_t88F5243564953F5ECFA92E8C825A6E974C4841B3, ___U3CexceptionU3Ek__BackingField_18)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[1] = 
+	static_cast<int32_t>(offsetof(CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7, ___m_Ptr_0)),static_cast<int32_t>(offsetof(CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7, ___m_OnStateChanged_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[3] = 
 {
-	static_cast<int32_t>(offsetof(Data_tB273390F8A329A47575D3E7A140D0EA5B8B58725, ___isOn_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[10] = 
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[2] = 
 {
-	static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CstartOnU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CenterU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CturnOnU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CturnOffU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CtoggleU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CexitOnU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CexitOffU3Ek__BackingField_21)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CturnedOnU3Ek__BackingField_22)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CturnedOffU3Ek__BackingField_23)),static_cast<int32_t>(offsetof(ToggleFlow_tE8935A2E599E6A846A1A934DDCAC1242A2543324, ___U3CisOnU3Ek__BackingField_24)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[1] = 
-{
-	static_cast<int32_t>(offsetof(Data_t890514292AFD0F6EDA68063912D30932BBA56CE9, ___isOn_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[10] = 
-{
-	static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CstartOnU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CturnOnU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CturnOffU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CtoggleU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3ConValueU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CoffValueU3Ek__BackingField_20)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CturnedOnU3Ek__BackingField_21)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CturnedOffU3Ek__BackingField_22)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CisOnU3Ek__BackingField_23)),static_cast<int32_t>(offsetof(ToggleValue_t0779CED50593FB13E430531F6D5EF9EDA4E780C3, ___U3CvalueU3Ek__BackingField_24)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[6] = 
-{
-	static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CenterU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CtryU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CcatchU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CfinallyU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CexceptionU3Ek__BackingField_19)),static_cast<int32_t>(offsetof(TryCatch_t7B279A6C74D6619C143DD14F091390FD48584272, ___U3CexceptionTypeU3Ek__BackingField_20)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5999[6] = 
-{
-	static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___flow_3)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___U3CloopU3E5__2_4)),static_cast<int32_t>(offsetof(U3CLoopCoroutineU3Ed__8_tA730B44137307E71E50D9B2800B5098BA47BE747, ___U3CstackU3E5__3_5)),};
+	static_cast<int32_t>(offsetof(ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_StaticFields, ___reflectionProbeChanged_4)),static_cast<int32_t>(offsetof(ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D_StaticFields, ___defaultReflectionTexture_5)),};

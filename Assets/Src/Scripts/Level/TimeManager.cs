@@ -197,28 +197,28 @@ public class TimeManager : MonoBehaviour
         platform.transform.rotation = Quaternion.Euler(Vector3.zero);
         countdownPanel.SetActive(false);
         
-        // leaderbord + events
+        // leaderboard + events
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
-            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GPGSIds.leaderboard_classic_wood, b =>
+            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GlobalData.leaderboardID(level), b =>
             {
                 HighscoreLoader.LoadHighscore(level, bestTimeText);
             });
         }
         
-        // save Result // TODO bug: nullpointer
-        if (!PersistenceManager.LoadBool(Keystore.star1(1), false))
+        // save Result 
+        if (!PersistenceManager.LoadBool(Keystore.star1(level), false))
         {
-            PersistenceManager.SaveBool(Keystore.star1(1), starsCount > 0);  
+            PersistenceManager.SaveBool(Keystore.star1(level), starsCount > 0);  
         }
-        if (!PersistenceManager.LoadBool(Keystore.star2(1), false))
+        if (!PersistenceManager.LoadBool(Keystore.star2(level), false))
         {
-            PersistenceManager.SaveBool(Keystore.star2(1), starsCount > 1);  
+            PersistenceManager.SaveBool(Keystore.star2(level), starsCount > 1);  
         }
-        if (!PersistenceManager.LoadBool(Keystore.star3(1), false))
+        if (!PersistenceManager.LoadBool(Keystore.star3(level), false))
         {
-            PersistenceManager.SaveBool(Keystore.star3(1), starsCount > 2);  
+            PersistenceManager.SaveBool(Keystore.star3(level), starsCount > 2);  
         }
     }
 

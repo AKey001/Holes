@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Src/Scenes/HomeMenu.unity
+    path: Assets/Src/Scenes/Menu/HomeMenu.unity
     guid: 05188c7c10428a2508e8df4ec63cdb02
   - enabled: 1
-    path: Assets/Src/Scenes/SwipeMenu.unity
+    path: Assets/Src/Scenes/Menu/SwipeMenu.unity
     guid: 7e1e71cc0df1405fdb1ddfc6c968df4b
   - enabled: 1
-    path: Assets/Src/Scenes/Classic.unity
+    path: Assets/Src/Scenes/Level/Classic.unity
     guid: 8e99450d904e047249873f49bd65f877
   - enabled: 1
-    path: Assets/Src/Scenes/Ring.unity
-    guid: ca8933023cbaff0708148e3d2eba023a
+    path: Assets/Src/Scenes/Level/Middle.unity
+    guid: b97302026536b0a619d323cbfb91601f
+  - enabled: 1
+    path: Assets/Src/Scenes/Level/Darkness.unity
+    guid: 3b9ccd3a5cff8832c9892c31d024b3f8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 5d4738a7be3f72f35b37affb8f1d439d,
       type: 2}

@@ -17,11 +17,15 @@ public class LeaderboardsLoader : MonoBehaviour
 
     public void LoadLeaderboards(int level)
     {
-        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_lost_in_the_middle};
+        foreach (var player in players)
+        {
+            player.parent.SetActive(false);
+        }
+        noEntryHint.SetActive(false);
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
-            PlayGamesPlatform.Instance.LoadScores(leaderboardIDs[level - 1], LeaderboardStart.TopScores,
+            PlayGamesPlatform.Instance.LoadScores(GlobalData.leaderboardID(level), LeaderboardStart.TopScores,
                 10, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime,
                 data =>
                 {

@@ -10,14 +10,12 @@ public static class HighscoreLoader
 {
     
     public static void LoadHighscore(int level, TextMeshProUGUI highscoreGUI)
-    {
-        string[] leaderboardIDs = {GPGSIds.leaderboard_classic_wood, GPGSIds.leaderboard_lost_in_the_middle};
-
+    { ;
         string highscore = "";
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
-            PlayGamesPlatform.Instance.LoadScores(leaderboardIDs[level - 1], LeaderboardStart.TopScores,
+            PlayGamesPlatform.Instance.LoadScores(GlobalData.leaderboardID(level), LeaderboardStart.TopScores,
                 1, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime,
                 data =>
                 {

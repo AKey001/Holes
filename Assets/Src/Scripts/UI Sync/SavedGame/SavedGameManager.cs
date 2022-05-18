@@ -183,7 +183,7 @@ public class SavedGameManager : MonoBehaviour
     {
         Dictionary<string, object> data = new Dictionary<string, object>();
 
-        for (var i = 1; i < GlobalData.levelCount() + 1; i++)
+        for (var i = 0; i < GlobalData.levelCount(); i++)
         {
             data.Add(Keystore.star1(i), PersistenceManager.LoadBool(Keystore.star1(i), false));
             data.Add(Keystore.star2(i), PersistenceManager.LoadBool(Keystore.star2(i), false));
@@ -211,7 +211,7 @@ public class SavedGameManager : MonoBehaviour
         stream.Seek(0, SeekOrigin.Begin);
         Dictionary<string, object> loadedData = (Dictionary<string, object>) formatter.Deserialize(stream);
 
-        for (var i = 1; i < GlobalData.levelCount() + 1; i++)
+        for (var i = 0; i < GlobalData.levelCount(); i++)
         {
             PersistenceManager.SaveBool(Keystore.star1(i), (bool) loadedData[Keystore.star1(i)]);
             PersistenceManager.SaveBool(Keystore.star2(i), (bool) loadedData[Keystore.star2(i)]);
