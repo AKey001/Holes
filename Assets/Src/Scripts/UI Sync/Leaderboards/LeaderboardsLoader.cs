@@ -25,7 +25,7 @@ public class LeaderboardsLoader : MonoBehaviour
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
-            PlayGamesPlatform.Instance.LoadScores(GlobalData.leaderboardID(level), LeaderboardStart.TopScores,
+            PlayGamesPlatform.Instance.LoadScores(GlobalData.LeaderboardID(level), LeaderboardStart.TopScores,
                 10, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime,
                 data =>
                 {

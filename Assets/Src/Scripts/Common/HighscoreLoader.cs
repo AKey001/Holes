@@ -15,7 +15,7 @@ public static class HighscoreLoader
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
-            PlayGamesPlatform.Instance.LoadScores(GlobalData.leaderboardID(level), LeaderboardStart.TopScores,
+            PlayGamesPlatform.Instance.LoadScores(GlobalData.LeaderboardID(level), LeaderboardStart.TopScores,
                 1, LeaderboardCollection.Public, LeaderboardTimeSpan.AllTime,
                 data =>
                 {

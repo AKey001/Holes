@@ -200,11 +200,17 @@ public class TimeManager : MonoBehaviour
         // leaderboard + events
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
+            PlayGamesPlatform.Instance.UnlockAchievement(GlobalData.LevelCompletedAchievementID(level));
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
-            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GlobalData.leaderboardID(level), b =>
+            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GlobalData.LeaderboardID(level), b =>
             {
                 HighscoreLoader.LoadHighscore(level, bestTimeText);
             });
+
+            if (attemptsCount < 2)
+            {
+                PlayGamesPlatform.Instance.UnlockAchievement(GPGSIds.achievement_first_try);
+            }
         }
         
         // save Result 

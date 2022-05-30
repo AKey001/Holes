@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Src/Scenes/Level/Classic.unity
     guid: 8e99450d904e047249873f49bd65f877
   - enabled: 1
+    path: Assets/Src/Scenes/Level/Cardboard.unity
+    guid: 10689ea5584ae9da9a40820e6b363710
+  - enabled: 1
     path: Assets/Src/Scenes/Level/Middle.unity
     guid: b97302026536b0a619d323cbfb91601f
   - enabled: 1
