@@ -22,7 +22,7 @@ public static class HighscoreLoader
                     if (data.Valid && data.PlayerScore != null)
                     {
                         string time = TimeConverter.convertSeconds(data.PlayerScore.value / 1000f);
-                        if (highscoreGUI.IsUnityNull()) { highscoreGUI.text = time; }
+                        if (!highscoreGUI.IsUnityNull()) { highscoreGUI.text = time; }
                         PersistenceManager.SaveString(Keystore.time(level), time);
                     }
                 });

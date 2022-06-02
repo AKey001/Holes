@@ -16,14 +16,11 @@ public class Ball : MonoBehaviour
     {
         _originalPosition = transform.position;
     }
-
-    // TODO reset platform position to position, not to zero
+    
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Respawn"))
         {
-            print("Respawn");
-            
             timeManager.AddAttempt();
             gameObject.transform.position = _originalPosition;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
@@ -33,8 +30,6 @@ public class Ball : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Finish"))
         {
-            print("Finish");
-            
             TriggeredStar(other);
             
             gameObject.transform.position = _originalPosition;
@@ -44,7 +39,7 @@ public class Ball : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Fall"))
         {
-            print("Fall");
+            FindObjectOfType<AudioManager>().Play("Fall");    
             cameraController.setFalling(true);
             timeManager.AddFall();
         }
@@ -56,7 +51,6 @@ public class Ball : MonoBehaviour
 
     private void TriggeredStar(Collider other)
     {
-        print("Star");
         FindObjectOfType<AudioManager>().Play("Star");
         timeManager.AddStar();
         other.gameObject.SetActive(false);

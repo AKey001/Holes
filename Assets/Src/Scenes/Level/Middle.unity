@@ -6462,6 +6462,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3803753596361447202, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Middle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596495133112, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Darkness
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753596598081017, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6479,6 +6489,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c187d1df90914084499f7be44beb8763,
         type: 3}
+    - target: {fileID: 3803753597364974827, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Middle
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753597423623716, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: ball

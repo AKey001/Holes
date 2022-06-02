@@ -19,7 +19,6 @@ public class PlatformController : MonoBehaviour
     {
         hint.Hide();
         joystick.enabled = false;
-        //gyroEnabled = PersistenceManager.LoadSettings().gyroEnabled;
         gyroEnabled = PersistenceManager.LoadBool(Keystore.gyroEnabled(), false);
         print("Gyro enabled=" + gyroEnabled);
         if (!gyroEnabled)
@@ -35,8 +34,8 @@ public class PlatformController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float deltax = 0;
-        float deltaz = 0;
+        float deltax;
+        float deltaz;
         if (gyroEnabled)
         {
             deltax = -gyro.rotationRate.x;
@@ -82,31 +81,8 @@ public class PlatformController : MonoBehaviour
         
         Vector3 eulerAngleVelocity = new Vector3(deltax, 0, deltaz);
         Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
-            
-        print((platformRigidbody.rotation * deltaRotation).eulerAngles);
-
+        
         platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
-        
-        
-        // if (gyroEnabled)
-        // {
-        //     //if (platformRigidbody.rotation.eulerAngles.z )
-        //     Vector3 eulerAngleVelocity = new Vector3(-gyro.rotationRate.x, 0, -gyro.rotationRate.y);
-        //     Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
-        //     
-        //     print((platformRigidbody.rotation * deltaRotation).eulerAngles);
-        //
-        //     platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
-        // }
-        // else
-        // {
-        //     Vector3 eulerAngleVelocity = new Vector3(joystick.Vertical, 0, -joystick.Horizontal);
-        //     Quaternion deltaRotation = Quaternion.Euler(eulerAngleVelocity);
-        //     
-        //     print((platformRigidbody.rotation * deltaRotation).eulerAngles);
-        //     
-        //     platformRigidbody.MoveRotation(platformRigidbody.rotation * deltaRotation);
-        // }
     }
     
 }

@@ -49,5 +49,9 @@ public static class Keystore
     {
         return "bestTime_" + level;
     }
-    
+
+    public static string audioBounce(int level)
+    {
+        return "Bounce" + level;
+    }
 }

@@ -58,6 +58,7 @@ public class TimeManager : MonoBehaviour
         watch.text = "00:00:00";
         attempts.text = "0";
         paused = false; 
+        FindObjectOfType<AudioManager>().Stop("Theme");
     }
 
     void Update()
@@ -93,8 +94,9 @@ public class TimeManager : MonoBehaviour
                 {
                     platform.GetComponent<PlatformController>().enabled = true;
                     countdownPanel.SetActive(false);
-                    // ball.GetComponent<Rigidbody>().useGravity = true;
 
+                    FindObjectOfType<AudioManager>().Play("ActionTheme");
+                    
                     timeRemaining = 0;
                     timerIsRunning = false;
                     watchIsRunning = true;
@@ -173,16 +175,22 @@ public class TimeManager : MonoBehaviour
     public void LoadOtherScenePreparation()
     {
         Time.timeScale = 1;
+        FindObjectOfType<AudioManager>().Stop("ActionTheme");
+        FindObjectOfType<AudioManager>().Play("Theme");
     }
     
     public void Finish()
     {
         watchIsRunning = false;
 
+        // Audio
+        FindObjectOfType<AudioManager>().Stop("ActionTheme");
+        FindObjectOfType<AudioManager>().Play("Theme");
+        
         // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
-        bestTimeText.text = "";  // TODO best level time
+        bestTimeText.text = "";  // Done through HighscoreLoader after reporting new score
         star1.SetActive(true);
         star2.SetActive(starsCount > 1);
         star3.SetActive(starsCount > 2);

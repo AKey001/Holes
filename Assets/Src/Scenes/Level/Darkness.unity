@@ -2991,6 +2991,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 3803753596495133112, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: SwipeMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753596598081017, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target

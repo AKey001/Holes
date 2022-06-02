@@ -12,8 +12,11 @@ public class AchievementsLoader : MonoBehaviour
     public GameObject loadingScreen;
 
     public UIAchievement press_play;
-    public UIAchievement first_try;
+    public UIAchievement that_was_easy;
+    public UIAchievement successfully_tinkered;
+    public UIAchievement not_lost;
     public UIAchievement go_get_some_sun;
+    public UIAchievement first_try;
     
     void Start()
     {
@@ -55,13 +58,37 @@ public class AchievementsLoader : MonoBehaviour
             press_play.locked.enabled = false;
             press_play.unlocked.enabled = true;
         }
-
+        
+        if (achievementsMapping[GPGSIds.achievement_that_was_easy])
+        {
+            that_was_easy.name.color = Color.white;
+            that_was_easy.description.color = Color.white;
+            that_was_easy.unlocked.enabled = true;
+            that_was_easy.locked.enabled = false;
+        }
+        
+        if (achievementsMapping[GPGSIds.achievement_succesfully_tinkered])
+        {
+            successfully_tinkered.name.color = Color.white;
+            successfully_tinkered.description.color = Color.white;
+            successfully_tinkered.unlocked.enabled = true;
+            successfully_tinkered.locked.enabled = false;
+        }
+        
         if (achievementsMapping[GPGSIds.achievement_first_try])
         {
             first_try.name.color = Color.white;
             first_try.description.color = Color.white;
             first_try.unlocked.enabled = true;
             first_try.locked.enabled = false;
+        }
+        
+        if (achievementsMapping[GPGSIds.achievement_not_lost])
+        {
+            not_lost.name.color = Color.white;
+            not_lost.description.color = Color.white;
+            not_lost.unlocked.enabled = true;
+            not_lost.locked.enabled = false;
         }
 
         if (achievementsMapping[GPGSIds.achievement_go_get_some_sun])
@@ -70,6 +97,14 @@ public class AchievementsLoader : MonoBehaviour
             go_get_some_sun.description.color = Color.white;
             go_get_some_sun.locked.enabled = false;
             go_get_some_sun.unlocked.enabled = true;
+        }
+        
+        if (achievementsMapping[GPGSIds.achievement_first_try])
+        {
+            first_try.name.color = Color.white;
+            first_try.description.color = Color.white;
+            first_try.unlocked.enabled = true;
+            first_try.locked.enabled = false;
         }
     }
 }

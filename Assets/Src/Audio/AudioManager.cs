@@ -48,4 +48,31 @@ public class AudioManager : MonoBehaviour
         }
         sound.source.Play();
     }
+    
+    public void Play(string name, float volume)
+    {
+        Sound sound = Array.Find(sounds, sound => sound.name == name);
+        if (sound == null)
+        {
+            Debug.LogWarning("Audio could not be played. Unknown audio name: " + sound.name);
+            return;
+        }
+        sound.source.PlayOneShot(sound.source.clip, volume);
+    }
+    
+    public void Stop(string name)
+    {
+        Sound sound = Array.Find(sounds, sound => sound.name == name);
+        if (sound == null)
+        {
+            Debug.LogWarning("Audio could not be stopped. Unknown audio name: " + sound.name);
+            return;
+        }
+
+        if (sound.source.isPlaying)
+        {
+            sound.source.Stop();    
+        }
+        
+    }
 }
