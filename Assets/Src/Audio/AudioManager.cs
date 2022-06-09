@@ -57,7 +57,23 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Audio could not be played. Unknown audio name: " + sound.name);
             return;
         }
-        sound.source.PlayOneShot(sound.source.clip, volume);
+        sound.source.PlayOneShot(sound.source.clip, volume);    
+    }
+    
+    public void PlayIfNotPlaying(string name, float volume)
+    {
+        Sound sound = Array.Find(sounds, sound => sound.name == name);
+        if (sound == null)
+        {
+            Debug.LogWarning("Audio could not be played. Unknown audio name: " + sound.name);
+            return;
+        }
+
+        if (!sound.source.isPlaying)
+        {
+            sound.source.volume = volume;
+            sound.source.Play();
+        }
     }
     
     public void Stop(string name)

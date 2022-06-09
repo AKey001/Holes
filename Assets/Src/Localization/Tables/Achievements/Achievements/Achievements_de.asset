@@ -22,6 +22,62 @@ MonoBehaviour:
     m_Localized: Erfolge
     m_Metadata:
       m_Items: []
+  - m_Id: 11769397199990784
+    m_Localized: "Dr\xFCcke, um zu starten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769581493514240
+    m_Localized: Das war einfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769786397847552
+    m_Localized: Erfolgreich gebastelt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769924243648512
+    m_Localized: Doch nicht verloren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769940098117632
+    m_Localized: "Los, geh mal nach drau\xDFen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770211167596544
+    m_Localized: Erster Versuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770579758837760
+    m_Localized: Klick einfach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770716128243712
+    m_Localized: Beende That Was Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770948480102400
+    m_Localized: Beende Cardboard Tinkering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770989492006912
+    m_Localized: Beende Lost In The Middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11771070710509568
+    m_Localized: Beende Remember The Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11771640838057984
+    m_Localized: Beende ein Level ohne ein einziges Mal herunterzufallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13628735447330816
+    m_Localized: Du bekommst nicht genug, oder?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13630407473065984
+    m_Localized: Einfach 1000 mal fallen
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

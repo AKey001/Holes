@@ -1,6 +1,7 @@
 
 using System;
 using GooglePlayGames;
+using RDG;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -27,11 +28,13 @@ public class Ball : MonoBehaviour
             platform.transform.rotation = Quaternion.Euler(Vector3.zero);
             cameraController.setFalling(false);
             cameraController.Reset();
+            Vibration.Vibrate(50, Vibration.GetDefaultAmplitude());
         }
         if (other.gameObject.CompareTag("Finish"))
         {
             TriggeredStar(other);
             
+            Vibration.Vibrate(1000, Vibration.GetDefaultAmplitude());
             gameObject.transform.position = _originalPosition;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             platform.transform.rotation = Quaternion.Euler(Vector3.zero);
@@ -45,6 +48,7 @@ public class Ball : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Star"))
         {
+            Vibration.Vibrate(50, Vibration.GetDefaultAmplitude());
             TriggeredStar(other);
         }
     }

@@ -29,16 +29,16 @@ public static class GPGSIds
         public const string leaderboard_remember_the_darkness = "CgkIqLmmnIYUEAIQDQ"; // <GPGSID>
         public const string event_falls = "CgkIqLmmnIYUEAIQBA"; // <GPGSID>
         public const string leaderboard_classic_wood = "CgkIqLmmnIYUEAIQAQ"; // <GPGSID>
-        public const string achievement_level_5 = "CgkIqLmmnIYUEAIQEg"; // <GPGSID>
+        public const string leaderboard_lost_in_the_middle = "CgkIqLmmnIYUEAIQAw"; // <GPGSID>
         public const string event_play_time = "CgkIqLmmnIYUEAIQCA"; // <GPGSID>
         public const string achievement_succesfully_tinkered = "CgkIqLmmnIYUEAIQDw"; // <GPGSID>
         public const string achievement_not_lost = "CgkIqLmmnIYUEAIQEA"; // <GPGSID>
         public const string leaderboard_cardboard_tinkering = "CgkIqLmmnIYUEAIQDA"; // <GPGSID>
         public const string achievement_that_was_easy = "CgkIqLmmnIYUEAIQDg"; // <GPGSID>
+        public const string achievement_you_dont_get_enough_arent_you = "CgkIqLmmnIYUEAIQEw"; // <GPGSID>
         public const string event_collected_stars = "CgkIqLmmnIYUEAIQBg"; // <GPGSID>
         public const string achievement_go_get_some_sun = "CgkIqLmmnIYUEAIQEQ"; // <GPGSID>
         public const string achievement_press_play_to_start = "CgkIqLmmnIYUEAIQCg"; // <GPGSID>
-        public const string leaderboard_lost_in_the_middle = "CgkIqLmmnIYUEAIQAw"; // <GPGSID>
         public const string event_completed_levels = "CgkIqLmmnIYUEAIQBQ"; // <GPGSID>
 
 }

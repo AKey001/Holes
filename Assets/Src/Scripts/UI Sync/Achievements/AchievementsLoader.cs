@@ -17,6 +17,7 @@ public class AchievementsLoader : MonoBehaviour
     public UIAchievement not_lost;
     public UIAchievement go_get_some_sun;
     public UIAchievement first_try;
+    public UIAchievement not_enough;
     
     void Start()
     {
@@ -105,6 +106,14 @@ public class AchievementsLoader : MonoBehaviour
             first_try.description.color = Color.white;
             first_try.unlocked.enabled = true;
             first_try.locked.enabled = false;
+        }
+        
+        if (achievementsMapping[GPGSIds.achievement_you_dont_get_enough_arent_you])
+        {
+            not_enough.name.color = Color.white;
+            not_enough.description.color = Color.white;
+            not_enough.unlocked.enabled = true;
+            not_enough.locked.enabled = false;
         }
     }
 }

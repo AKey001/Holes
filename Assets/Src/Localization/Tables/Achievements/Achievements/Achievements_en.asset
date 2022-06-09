@@ -22,6 +22,62 @@ MonoBehaviour:
     m_Localized: Achievements
     m_Metadata:
       m_Items: []
+  - m_Id: 11769397199990784
+    m_Localized: Press Start To Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769581493514240
+    m_Localized: That Was Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769786397847552
+    m_Localized: Successfully Tinkered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769924243648512
+    m_Localized: Not Lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11769940098117632
+    m_Localized: Go Get Some Sum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770211167596544
+    m_Localized: First Try
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770579758837760
+    m_Localized: Just click there
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770716128243712
+    m_Localized: Complete That Was Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770948480102400
+    m_Localized: Complete Cardboard Tinkering
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770989492006912
+    m_Localized: Complete Lost In The Middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11771070710509568
+    m_Localized: Complete Remember The Darkness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11771640838057984
+    m_Localized: Complete a level without falling a single time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13628735447330816
+    m_Localized: You don't get enough, aren't you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13630407473065984
+    m_Localized: Just fall 1000 times
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

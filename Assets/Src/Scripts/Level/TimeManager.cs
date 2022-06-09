@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using RDG;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -148,17 +149,24 @@ public class TimeManager : MonoBehaviour
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_falls, 1);
+            PlayGamesPlatform.Instance.Events.FetchEvent(DataSource.ReadCacheOrNetwork, GPGSIds.event_falls, (status, eventFalls) =>
+            {
+                Debug.Log(status);
+                if (eventFalls.CurrentCount >= 1000 && eventFalls.CurrentCount < 1025)
+                {
+                    PlayGamesPlatform.Instance.UnlockAchievement(GPGSIds.achievement_you_dont_get_enough_arent_you);
+                }
+            });
         }
     }
     
     public void Pause()
     {
-        print(Time.timeScale);
         Time.timeScale = 0;
         paused = true;
         
         platform.GetComponent<PlatformController>().enabled = false;
-
+        
         PausePanel.SetActive(true);
     }
 
@@ -175,8 +183,11 @@ public class TimeManager : MonoBehaviour
     public void LoadOtherScenePreparation()
     {
         Time.timeScale = 1;
+        ball.GetComponent<BallRolling>().enabled = false;
+        FindObjectOfType<AudioManager>().Stop("Fall");
         FindObjectOfType<AudioManager>().Stop("ActionTheme");
         FindObjectOfType<AudioManager>().Play("Theme");
+        
     }
     
     public void Finish()
@@ -190,7 +201,7 @@ public class TimeManager : MonoBehaviour
         // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
-        bestTimeText.text = "";  // Done through HighscoreLoader after reporting new score
+        bestTimeText.text = "";  // Done hrough HighscoreLoader after reporting new score
         star1.SetActive(true);
         star2.SetActive(starsCount > 1);
         star3.SetActive(starsCount > 2);

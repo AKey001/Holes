@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using RDG;
 using UnityEngine;
 
 public class BallCollision : MonoBehaviour
@@ -11,18 +12,12 @@ public class BallCollision : MonoBehaviour
     {
         if (collision.collider.CompareTag("Bounce"))
         {
-            float force = collision.relativeVelocity.magnitude;
-            float volume = 1;
-            if (force <= 0.3)
-            {
-                volume = force * 3;
-            } else if (force <= 1)
-            {
-                volume = force;
-            }
+            float volume = Mathf.Clamp01(collision.relativeVelocity.magnitude / 0.25f);
 
-            print("FORCE: " + force);
-            print("VOLUME: " + volume);
+            if (collision.relativeVelocity.magnitude < 0.05)
+            {
+                volume = 0.2f;
+            }
             
             FindObjectOfType<AudioManager>().Play(Keystore.audioBounce(level), volume);    
         }

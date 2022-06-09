@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Star
-    clip: {fileID: 8300000, guid: 501fed57dacef891cb69d35c3d051c05, type: 3}
+    clip: {fileID: 8300000, guid: 4691de26d691f8fba9a2bb8c58176a3a, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Countdown
-    clip: {fileID: 8300000, guid: d7eb78c30f3aaa91ab1487d55bb93c96, type: 3}
+    clip: {fileID: 8300000, guid: 2de10ead70a42cabda8e106548f355e9, type: 3}
     volume: 0.6
     pitch: 1
     loop: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Countdown Start
-    clip: {fileID: 8300000, guid: eb21b330304ffedb09952079488cd80f, type: 3}
+    clip: {fileID: 8300000, guid: 214b99444fc53aced858eb5b16520228, type: 3}
     volume: 0.8
     pitch: 1
     loop: 0
@@ -84,15 +84,15 @@ MonoBehaviour:
     source: {fileID: 0}
     mixer: {fileID: 2802443341311913769, guid: 62856a773a4e27c4b8de9c12c6bead5c, type: 2}
   - name: Fall
-    clip: {fileID: 8300000, guid: 2611e37a9e5e8c19f858f4b5996c3428, type: 3}
-    volume: 0.325
-    pitch: 1
+    clip: {fileID: 8300000, guid: 318209b0961922dfda7f7fcbfb6cf7f3, type: 3}
+    volume: 0.2
+    pitch: 1.4
     loop: 0
     source: {fileID: 0}
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Bounce0
-    clip: {fileID: 8300000, guid: eb48d07ff30da14eabeefe2c5ed88c08, type: 3}
+    clip: {fileID: 8300000, guid: 49c5f00e48d2e2118aadcfa08a101904, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Bounce1
-    clip: {fileID: 8300000, guid: eb48d07ff30da14eabeefe2c5ed88c08, type: 3}
+    clip: {fileID: 8300000, guid: c7fb9d1bbb907528791ddae1e6463495, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Bounce3
-    clip: {fileID: 8300000, guid: eb48d07ff30da14eabeefe2c5ed88c08, type: 3}
+    clip: {fileID: 8300000, guid: 5621d152caddd3f15b49e6f626dec4d2, type: 3}
     volume: 1
     pitch: 1
     loop: 0
