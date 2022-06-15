@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 512
+  m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -2017,7 +2017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 1741430767}
   cameraController: {fileID: 434042253}
-  timeManager: {fileID: 1136326674}
+  levelManager: {fileID: 1136326674}
 --- !u!114 &1647574802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3086,6 +3086,11 @@ PrefabInstance:
       propertyPath: platform
       value: 
       objectReference: {fileID: 1741430767}
+    - target: {fileID: 3803753597423623718, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753597655104695, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: m_AnchorMax.y

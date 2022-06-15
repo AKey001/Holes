@@ -29,7 +29,7 @@ public class StatsLoader : MonoBehaviour
             PlayGamesPlatform.Instance.Events.FetchAllEvents(DataSource.ReadNetworkOnly, (status, list) =>
             {
                 loadingScreen.SetActive(false);
-                string Status = "Fetch All Status: " + status + "\n";
+                string Status = "Fetch All Stats Status: " + status + "\n";
                 print(Status);
 
                 completedLevels.text = list[0].CurrentCount + "";

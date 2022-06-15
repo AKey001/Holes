@@ -9,7 +9,7 @@ public class SettingsManager : MonoBehaviour
 {
     public AudioMixer mixer;
 
-    IEnumerator Start()
+    public IEnumerator Start()
     {
         ChangeMusicVolume(PersistenceManager.LoadFloat(Keystore.musicVolume(), 1f));
         ChangeSFXVolume(PersistenceManager.LoadFloat(Keystore.sfxVolume(), 1f));
@@ -20,7 +20,6 @@ public class SettingsManager : MonoBehaviour
         ChangeLanguage(PersistenceManager.LoadInt(Keystore.language(), 0));
     }
     
-
     public void ChangeMusicVolume(float volume)
     {
         PersistenceManager.SaveFloat(Keystore.musicVolume(), volume);

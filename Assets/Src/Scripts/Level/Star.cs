@@ -6,11 +6,11 @@ using UnityEngine;
 
 public class Star : MonoBehaviour
 {
-    public TimeManager timeManager;
+    public LevelManager levelManager;
     private void OnTriggerEnter(Collider other)
     {
         print("Star");
-        timeManager.AddStar();
+        levelManager.AddStar();
         enabled = false;
         
         PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_collected_stars, 1);

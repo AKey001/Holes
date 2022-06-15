@@ -17,10 +17,6 @@ public class LeaderboardsLoader : MonoBehaviour
 
     public void LoadLeaderboards(int level)
     {
-        foreach (var player in players)
-        {
-            player.parent.SetActive(false);
-        }
         noEntryHint.SetActive(false);
         
         if (PlayGamesPlatform.Instance.IsAuthenticated())
@@ -41,13 +37,13 @@ public class LeaderboardsLoader : MonoBehaviour
                                 userIDs.Add(data.Scores[i].userID); 
                                 players[i].time.text = TimeConverter.convertSeconds(data.Scores[i].value / 1000f);
 
-                                players[i].parent.GetComponent<Image>().color = new Color32(34, 39, 47, 100);
+                                players[i].parent.GetComponent<Image>().color = new Color32(34, 39, 47, 255);
                                 
                                 count++;
                             }
                             else
                             {
-                                break;
+                                players[i].parent.SetActive(false);
                             }
                         }
 

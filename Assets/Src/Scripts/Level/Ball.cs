@@ -1,17 +1,13 @@
 
-using System;
-using GooglePlayGames;
-using RDG;
-using UnityEditor;
+
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class Ball : MonoBehaviour
 {
     private Vector3 _originalPosition;
     public GameObject platform;
     public CameraController cameraController;
-    public TimeManager timeManager;
+    public LevelManager levelManager;
     
     void Start()
     {
@@ -22,33 +18,30 @@ public class Ball : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Respawn"))
         {
-            timeManager.AddAttempt();
+            levelManager.AddAttempt();
             gameObject.transform.position = _originalPosition;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             platform.transform.rotation = Quaternion.Euler(Vector3.zero);
             cameraController.setFalling(false);
             cameraController.Reset();
-            Vibration.Vibrate(50, Vibration.GetDefaultAmplitude());
         }
         if (other.gameObject.CompareTag("Finish"))
         {
             TriggeredStar(other);
             
-            Vibration.Vibrate(1000, Vibration.GetDefaultAmplitude());
             gameObject.transform.position = _originalPosition;
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             platform.transform.rotation = Quaternion.Euler(Vector3.zero);
-            timeManager.Finish();
+            levelManager.Finish();
         }
         if (other.gameObject.CompareTag("Fall"))
         {
             FindObjectOfType<AudioManager>().Play("Fall");    
             cameraController.setFalling(true);
-            timeManager.AddFall();
+            levelManager.AddFall();
         }
         if (other.gameObject.CompareTag("Star"))
         {
-            Vibration.Vibrate(50, Vibration.GetDefaultAmplitude());
             TriggeredStar(other);
         }
     }
@@ -56,7 +49,7 @@ public class Ball : MonoBehaviour
     private void TriggeredStar(Collider other)
     {
         FindObjectOfType<AudioManager>().Play("Star");
-        timeManager.AddStar();
+        levelManager.AddStar();
         other.gameObject.SetActive(false);
     }
     

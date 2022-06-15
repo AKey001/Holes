@@ -6869,6 +6869,11 @@ PrefabInstance:
       propertyPath: platform
       value: 
       objectReference: {fileID: 1741430767}
+    - target: {fileID: 3803753597423623718, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72fec70757f799ad081bd3f60a883b64, type: 3}
 --- !u!1 &4374524750478972452
@@ -7131,6 +7136,11 @@ PrefabInstance:
     - target: {fileID: 6484724785344954521, guid: d2a69626014c3cc71a4b045d8733a6ed,
         type: 3}
       propertyPath: timeManager
+      value: 
+      objectReference: {fileID: 1136326674}
+    - target: {fileID: 6484724785344954521, guid: d2a69626014c3cc71a4b045d8733a6ed,
+        type: 3}
+      propertyPath: levelManager
       value: 
       objectReference: {fileID: 1136326674}
     - target: {fileID: 6484724785344954521, guid: d2a69626014c3cc71a4b045d8733a6ed,

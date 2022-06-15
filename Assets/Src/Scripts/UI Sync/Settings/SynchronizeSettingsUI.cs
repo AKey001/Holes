@@ -14,6 +14,11 @@ public class SynchronizeSettingsUI : MonoBehaviour
 
     void Awake()
     {
+        Sync();
+    }
+
+    public void Sync()
+    {
         language.SetValueWithoutNotify(PersistenceManager.LoadInt(Keystore.language(), 0));
         musicSlider.SetValueWithoutNotify(PersistenceManager.LoadFloat(Keystore.musicVolume(), 1f));
         sfxSlider.SetValueWithoutNotify(PersistenceManager.LoadFloat(Keystore.sfxVolume(), 1f));

@@ -34,7 +34,14 @@ public class PanelManager : MonoBehaviour
         }
         else 
         {
-            Toast.Show("Für diese Funktion sind Google Play Games Services notwendig.", Toast.LENGTH_SHORT);
+            if (PersistenceManager.LoadInt(Keystore.language(), 0) == 0)
+            {
+                Toast.Show("Fehler: Google Play Games Services funktionieren nicht richtig.", Toast.LENGTH_SHORT);
+            }
+            else
+            {
+                Toast.Show("Error: Google Play Games Services not working.", Toast.LENGTH_SHORT);    
+            }
         }
     }
 

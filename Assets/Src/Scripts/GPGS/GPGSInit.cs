@@ -10,8 +10,18 @@ using UnityEngine.SocialPlatforms;
 
 public class GPGSInit : MonoBehaviour
 {
+    public static GPGSInit instance;
+
     void Awake()
     {
+        if (instance != null)
+        {
+            Destroy(gameObject); 
+            return;
+        } 
+        DontDestroyOnLoad(gameObject); 
+        instance = this;
+        
         PlayGamesPlatform.Instance.Authenticate(ProcessAuthentication);
     }
 

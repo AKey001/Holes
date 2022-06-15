@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -8,11 +7,10 @@ using GooglePlayGames.BasicApi;
 using GooglePlayGames.BasicApi.SavedGame;
 using NativeAndroidElements;
 using UnityEngine;
-using UnityEngine.Localization;
-using UnityEngine.Localization.Settings;
 
 public class SavedGameManager : MonoBehaviour
 {
+    public SettingsManager settingsManager;
     public List<UISavedGame> uiSavedGames;
     public GameObject loadingScreen;
     public GameObject noEntryHint;
@@ -226,5 +224,6 @@ public class SavedGameManager : MonoBehaviour
         PersistenceManager.SaveInt(Keystore.quality(), (int) loadedData[Keystore.quality()]);
         PersistenceManager.SaveInt(Keystore.language(), (int) loadedData[Keystore.language()]);
 
+        StartCoroutine(settingsManager.Start());
     }
 }

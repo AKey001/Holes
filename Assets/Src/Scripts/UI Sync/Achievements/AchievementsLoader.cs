@@ -1,10 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using GooglePlayGames;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
-using UnityEngine.UI;
 
 public class AchievementsLoader : MonoBehaviour
 {
@@ -36,7 +34,6 @@ public class AchievementsLoader : MonoBehaviour
                 foreach (IAchievement achievement in achievements)
                 {
                     achievementsMapping.Add(achievement.id, achievement.completed);
-                    print(achievement.completed);
                     if (achievement.completed)
                     {
                         count++;

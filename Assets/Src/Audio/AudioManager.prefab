@@ -70,14 +70,14 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Theme
-    clip: {fileID: 8300000, guid: fea85c639be8cd312bcc2947bc9b5352, type: 3}
+    clip: {fileID: 8300000, guid: 4dc6e6511ab22a161808001574da22c6, type: 3}
     volume: 0.2
     pitch: 1
     loop: 1
     source: {fileID: 0}
     mixer: {fileID: 2802443341311913769, guid: 62856a773a4e27c4b8de9c12c6bead5c, type: 2}
   - name: ActionTheme
-    clip: {fileID: 8300000, guid: ca32dfca4b8ab05d4bc35195fa90fb04, type: 3}
+    clip: {fileID: 8300000, guid: aab18268525d11af1ad3f79ce58cd53d, type: 3}
     volume: 0.2
     pitch: 1
     loop: 1
@@ -108,7 +108,7 @@ MonoBehaviour:
     mixer: {fileID: -1381272672251868670, guid: 62856a773a4e27c4b8de9c12c6bead5c,
       type: 2}
   - name: Bounce2
-    clip: {fileID: 8300000, guid: eb48d07ff30da14eabeefe2c5ed88c08, type: 3}
+    clip: {fileID: 8300000, guid: 608c43c88854a7933aa14a1066465782, type: 3}
     volume: 1
     pitch: 1
     loop: 0
