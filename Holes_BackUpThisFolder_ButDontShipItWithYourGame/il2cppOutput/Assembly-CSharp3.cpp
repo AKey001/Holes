@@ -672,6 +672,8 @@ struct ShaderPropAnimator_t768B23A41FC3CFB5B3C2501C2411B4DEBA296906;
 struct SimpleScript_t2024C71CEB7376A61970D719F7476FCEB3390DBF;
 // TMPro.Examples.SkewTextExample
 struct SkewTextExample_t23E1D8362105119C600703D984514C02617441D1;
+// SleepTimeout
+struct SleepTimeout_t8511A8DBC3A970F5FF72F37E71E70934EB15E2D9;
 // UnityEngine.UI.Slider
 struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
 // Sound
@@ -5882,6 +5884,13 @@ struct SkewTextExample_t23E1D8362105119C600703D984514C02617441D1  : public MonoB
 	float ___ShearAmount_7;
 };
 
+// SleepTimeout
+struct SleepTimeout_t8511A8DBC3A970F5FF72F37E71E70934EB15E2D9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean SleepTimeout::allowSleepTimeout
+	bool ___allowSleepTimeout_4;
+};
+
 // Star
 struct Star_t36169F82675178814555338B10ADEA5714F66D24  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -8496,6 +8505,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_m5AC8B39C55015059BDD09122E04E47D4BFAB2276_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___lhs0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rhs1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rigidbody::MoveRotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_MoveRotation_m85825C7206E770E39DED9EE6D792702F577A891D (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rot0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Screen_set_sleepTimeout_m82D427509929D2F21494141B9BE5D3E3CE96A22A (int32_t ___value0, const RuntimeMethod* method) ;
 // System.Void ButtonStart/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m7F165402AF9B186F01633B6F12CA0B94DA891389 (U3CU3Ec_t3880514D57E37DF8E06D2E3A5C4F538579EB78E9* __this, const RuntimeMethod* method) ;
 // System.Void Menus.SwipeController::Swipe(System.Int32)
@@ -13330,6 +13341,47 @@ IL_00f3:
 }
 // System.Void PlatformController::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformController__ctor_mD6196A2EA5D97B264E641F7F1F43948123E55A53 (PlatformController_t65707DA30BB5471A618E201A09A04D4B081B305F* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SleepTimeout::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SleepTimeout_Start_m1130E745B701D79CC372EFCEC20A41CF196A3CA7 (SleepTimeout_t8511A8DBC3A970F5FF72F37E71E70934EB15E2D9* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (allowSleepTimeout)
+		bool L_0 = __this->___allowSleepTimeout_4;
+		if (!L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// Screen.sleepTimeout = UnityEngine.SleepTimeout.SystemSetting;
+		Screen_set_sleepTimeout_m82D427509929D2F21494141B9BE5D3E3CE96A22A(((int32_t)-2), NULL);
+		return;
+	}
+
+IL_0010:
+	{
+		// Screen.sleepTimeout = UnityEngine.SleepTimeout.NeverSleep;
+		Screen_set_sleepTimeout_m82D427509929D2F21494141B9BE5D3E3CE96A22A((-1), NULL);
+		// }
+		return;
+	}
+}
+// System.Void SleepTimeout::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SleepTimeout__ctor_mBA5EB54C8B2AF9774323BD6517B2A6080AFBDEC2 (SleepTimeout_t8511A8DBC3A970F5FF72F37E71E70934EB15E2D9* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);

@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
+
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
@@ -72,7 +70,7 @@ public class LevelManager : MonoBehaviour
                 float secondsBefore = Mathf.FloorToInt(timeRemaining % 60);
                 string remainingBefore = string.Format("{0:0}", secondsBefore);
                 
-                timeRemaining -= Time.deltaTime;
+                timeRemaining -= Time.deltaTime; 
                 
                 float seconds = Mathf.FloorToInt(timeRemaining % 60);
                 string remainingNew = string.Format("{0:0}", seconds);
@@ -115,8 +113,6 @@ public class LevelManager : MonoBehaviour
                 watch.text = watchTime = TimeConverter.convertSeconds(time);
 
                 overallMillis = time * 1000;
-
-                // print(string.Format("{0:000}", overallMillis ) + " | " + string.Format("{0:00}:{1:00}:{2:00}", minutes, seconds, milliSeconds));
             }
         }
     }

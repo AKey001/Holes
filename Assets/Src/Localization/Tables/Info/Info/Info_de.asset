@@ -46,6 +46,11 @@ MonoBehaviour:
     m_Localized: Idee, Design, SFX, Entwicklung
     m_Metadata:
       m_Items: []
+  - m_Id: 14041590982209536
+    m_Localized: "\uE602 Anton Kie\xDFling\n\uE602 Hochschulprojekt im Rahmen des
+      Moduls \"Entwicklung von Multimedia-Anwendungen\" an der Hochschule Zittau/G\xF6rlitz"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
