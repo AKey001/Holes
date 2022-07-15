@@ -10,7 +10,6 @@ namespace Menus
         private float scrollPos = 0;
         private float distance;
         private int levelCount;
-        public RectTransform LevelCard;
         private int btnCurrent;
         private bool btnSwipe;
         private void Start()
@@ -24,8 +23,6 @@ namespace Menus
 
             double padding = GetComponent<HorizontalLayoutGroup>().padding.left;
             padding += (additionalWidth / 2.0);
-            
-            //print(standardRatio + " " + currentRatio + " " + currentWidth + " " + additionalWidth + " " + padding);
             
             GetComponent<HorizontalLayoutGroup>().padding = new RectOffset((int) padding, (int) padding, 0, 0);
         }

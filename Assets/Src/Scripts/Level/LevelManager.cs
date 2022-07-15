@@ -195,7 +195,7 @@ public class LevelManager : MonoBehaviour
         // Finish Panel
         timeText.text = watchTime;
         attemptsText.text = attemptsCount.ToString();
-        bestTimeText.text = "";  // Done hrough HighscoreLoader after reporting new score
+        bestTimeText.text = "";  // Done through HighscoreLoader after reporting new score
         star1.SetActive(true);
         star2.SetActive(starsCount > 1);
         star3.SetActive(starsCount > 2);
@@ -215,10 +215,8 @@ public class LevelManager : MonoBehaviour
         {
             PlayGamesPlatform.Instance.UnlockAchievement(GlobalData.LevelCompletedAchievementID(level));
             PlayGamesPlatform.Instance.Events.IncrementEvent(GPGSIds.event_completed_levels, 1);
-            PlayGamesPlatform.Instance.ReportScore((long) overallMillis, GlobalData.LeaderboardID(level), b =>
-            {
-                HighscoreLoader.LoadHighscore(level, bestTimeText);
-            });
+            PlayGamesPlatform.Instance.ReportScore((long)overallMillis, GlobalData.LeaderboardID(level),
+                b => { HighscoreLoader.LoadHighscore(level, bestTimeText); });
 
             if (attemptsCount < 2)
             {

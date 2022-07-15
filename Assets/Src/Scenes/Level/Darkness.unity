@@ -3080,6 +3080,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3803753596238296944, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596238296944, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596238296944, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596238296944, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753596361447202, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -3110,6 +3130,31 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 298530271}
+    - target: {fileID: 3803753596626980145, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596889700862, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596889700862, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596889700862, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803753596889700862, guid: 72fec70757f799ad081bd3f60a883b64,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3803753596938354277, guid: 72fec70757f799ad081bd3f60a883b64,
         type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
