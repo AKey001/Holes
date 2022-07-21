@@ -4346,12 +4346,10 @@ struct SwipeController_tA5353655B322E770163B43DD78E4FF54A75576CC  : public MonoB
 	float ___distance_6;
 	// System.Int32 Menus.SwipeController::levelCount
 	int32_t ___levelCount_7;
-	// UnityEngine.RectTransform Menus.SwipeController::LevelCard
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___LevelCard_8;
 	// System.Int32 Menus.SwipeController::btnCurrent
-	int32_t ___btnCurrent_9;
+	int32_t ___btnCurrent_8;
 	// System.Boolean Menus.SwipeController::btnSwipe
-	bool ___btnSwipe_10;
+	bool ___btnSwipe_9;
 };
 
 // TMPro.Examples.TMPro_InstructionOverlay
@@ -14244,7 +14242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Start_m95A0BA86F4123770F
 	double V_1 = 0.0;
 	{
 		// btnSwipe = false;
-		__this->___btnSwipe_10 = (bool)0;
+		__this->___btnSwipe_9 = (bool)0;
 		// levelCount = transform.childCount;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
@@ -14306,7 +14304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Update_m7AEB2C937C4753AC
 		L_0 = SwipeController_CalcCurrent_m24A0F6F9143DDBF442E0B1FD66AD2DEA315BE9D7(__this, NULL);
 		V_0 = L_0;
 		// if (btnSwipe)
-		bool L_1 = __this->___btnSwipe_10;
+		bool L_1 = __this->___btnSwipe_9;
 		if (!L_1)
 		{
 			goto IL_0028;
@@ -14314,7 +14312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Update_m7AEB2C937C4753AC
 	}
 	{
 		// if (btnCurrent != current)
-		int32_t L_2 = __this->___btnCurrent_9;
+		int32_t L_2 = __this->___btnCurrent_8;
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
@@ -14323,7 +14321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Update_m7AEB2C937C4753AC
 	}
 	{
 		// current = btnCurrent;
-		int32_t L_4 = __this->___btnCurrent_9;
+		int32_t L_4 = __this->___btnCurrent_8;
 		V_0 = L_4;
 		goto IL_0028;
 	}
@@ -14331,7 +14329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Update_m7AEB2C937C4753AC
 IL_0021:
 	{
 		// btnSwipe = false;
-		__this->___btnSwipe_10 = (bool)0;
+		__this->___btnSwipe_9 = (bool)0;
 	}
 
 IL_0028:
@@ -14542,9 +14540,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Swipe_mC8A97A7DF641DE0CB
 		int32_t L_0;
 		L_0 = SwipeController_CalcCurrent_m24A0F6F9143DDBF442E0B1FD66AD2DEA315BE9D7(__this, NULL);
 		int32_t L_1 = ___direction0;
-		__this->___btnCurrent_9 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
+		__this->___btnCurrent_8 = ((int32_t)il2cpp_codegen_add(L_0, L_1));
 		// if (btnCurrent < 0)
-		int32_t L_2 = __this->___btnCurrent_9;
+		int32_t L_2 = __this->___btnCurrent_8;
 		if ((((int32_t)L_2) >= ((int32_t)0)))
 		{
 			goto IL_001e;
@@ -14552,13 +14550,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SwipeController_Swipe_mC8A97A7DF641DE0CB
 	}
 	{
 		// btnCurrent = 0;
-		__this->___btnCurrent_9 = 0;
+		__this->___btnCurrent_8 = 0;
 	}
 
 IL_001e:
 	{
 		// if (btnCurrent > levelCount - 1)
-		int32_t L_3 = __this->___btnCurrent_9;
+		int32_t L_3 = __this->___btnCurrent_8;
 		int32_t L_4 = __this->___levelCount_7;
 		if ((((int32_t)L_3) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_4, 1)))))
 		{
@@ -14568,13 +14566,13 @@ IL_001e:
 	{
 		// btnCurrent = levelCount - 1;
 		int32_t L_5 = __this->___levelCount_7;
-		__this->___btnCurrent_9 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+		__this->___btnCurrent_8 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
 	}
 
 IL_003c:
 	{
 		// btnSwipe = true;
-		__this->___btnSwipe_10 = (bool)1;
+		__this->___btnSwipe_9 = (bool)1;
 		// }
 		return;
 	}

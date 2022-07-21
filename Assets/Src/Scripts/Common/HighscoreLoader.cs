@@ -10,9 +10,7 @@ public static class HighscoreLoader
 {
     
     public static void LoadHighscore(int level, TextMeshProUGUI highscoreGUI)
-    { ;
-        string highscore = "";
-        
+    {
         if (PlayGamesPlatform.Instance.IsAuthenticated())
         {
             PlayGamesPlatform.Instance.LoadScores(GlobalData.LeaderboardID(level), LeaderboardStart.TopScores,
@@ -27,7 +25,6 @@ public static class HighscoreLoader
                     }
                 });
         }
-
     }
 
     public static void LoadHighscore(int level)
